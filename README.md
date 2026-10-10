@@ -4,11 +4,10 @@
 
 ## 文件说明
 
-- `decks/computer.csv`：计算机领域，1800 个词条
+- `decks/computer.csv`：计算机领域，150 个核心专业词条
 - `decks/life.csv`：生活常用，3000 个词条
 - `decks/travel.csv`：旅游场景，1500 个词条
 - `generate_apkg.py`：校验 CSV 并生成 Anki 牌组
-- `build_wordlists.py`：根据 ECDICT 词典筛选词条并生成 CSV，可选使用
 - `output/computer.apkg`：脚本运行后生成
 - `output/life.apkg`：脚本运行后生成
 - `output/travel.apkg`：脚本运行后生成
@@ -21,7 +20,7 @@ CSV 的列固定为：
 
 音标主要来自 [ECDICT](https://github.com/skywind3000/ECDICT) 词典，并使用 `/.../` 格式；固定短语的补充音标采用常见 IPA 标注。
 
-当前词表规模参考常见领域词表调研结果：计算机 1800 词、生活核心词 3000 词、旅游核心词 1500 词。选词优先保留高频原形词，排除冠词、介词等不适合独立语境卡片的虚词。
+计算机牌组优先保证专业性，当前使用人工整理并逐条校对的核心词表；生活与旅游牌组分别保留 3000 和 1500 个高频词条。
 
 请使用 UTF-8 编码保存 CSV。字段中如果包含英文逗号，需要用双引号包裹。
 
@@ -74,12 +73,4 @@ output/travel.apkg
 
 ## 修改词表
 
-直接编辑 `decks/` 中的 CSV 后重新运行脚本即可。每个领域应分别保留 1800、3000、1500 行词条，第一行表头不要修改。脚本会对常见数据问题给出具体行号，修正后再重新生成即可。
-
-如需从 ECDICT 重新筛选词表，先准备 `ecdict.csv`，然后运行：
-
-```bash
-python build_wordlists.py --ecdict /path/to/ecdict.csv
-```
-
-该脚本会按领域命中、ECDICT 词频和 Oxford 核心词标记重新生成三份 CSV；候选不足时用固定短语补齐。
+直接编辑 `decks/` 中的 CSV 后重新运行脚本即可。计算机、生活、旅游三个领域应分别保留 150、3000、1500 行词条，第一行表头不要修改。脚本会对常见数据问题给出具体行号，修正后再重新生成即可。
