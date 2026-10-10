@@ -22,7 +22,7 @@
 日志里的 information 还不够完整，无法判断故障原因。,information,/ˌɪnfərˈmeɪʃən/,信息,日志里的 information 还不够完整，无法判断故障原因。
 团队正在评估新的 technology，希望降低系统维护成本。,technology,/tekˈnɑːlədʒi/,技术,团队正在评估新的 technology，希望降低系统维护成本。
 这个 system 每天要处理数百万次请求，稳定性非常重要。,system,/ˈsɪstəm/,系统,这个 system 每天要处理数百万次请求，稳定性非常重要。
-新设备接入 network 以前，需要先登记 device 的基本信息。,device,/dɪˈvaɪs/,设备,新设备接入 network 以前，需要先登记 device 的基本信息。
+新买的 device 接入服务器以前，需要先登记基本信息。,device,/dɪˈvaɪs/,设备,新买的 device 接入服务器以前，需要先登记基本信息。
 数据库的 storage 快满了，需要清理旧数据或增加容量。,storage,/ˈstɔːrɪdʒ/,存储,数据库的 storage 快满了，需要清理旧数据或增加容量。
 用户提交的 input 需要先校验，不能直接写入数据库。,input,/ˈɪnpʊt/,输入,用户提交的 input 需要先校验，不能直接写入数据库。
 接口的 output 格式发生变化，客户端也需要同步调整。,output,/ˈaʊtpʊt/,输出,接口的 output 格式发生变化，客户端也需要同步调整。
@@ -149,3 +149,123 @@ class 用来描述一类对象，包含属性和相关行为。,class,/klæs/,�
 这个 loop 会一直执行，直到满足退出条件为止。,loop,/luːp/,循环,这个 loop 会一直执行，直到满足退出条件为止。
 处理树形结构时，recursion 往往是最直观的写法。,recursion,/rɪˈkɝːʒən/,递归,处理树形结构时，recursion 往往是最直观的写法。
 新程序的 runtime 比旧版本短，用户等待时间明显减少。,runtime,/ˈrʌnˌtaɪm/,运行时,新程序的 runtime 比旧版本短，用户等待时间明显减少。
+新员工入职后会拿到一个 account，用来访问内部系统。,account,/əˈkaʊnt/,账户,新员工入职后会拿到一个 account，用来访问内部系统。
+这个网站的 accessibility 做得不错，读屏软件也能正常使用。,accessibility,/əkˌsesəˈbɪləti/,可访问性,这个网站的 accessibility 做得不错，读屏软件也能正常使用。
+旧设备使用的是 analog 信号，转换后才能交给数字系统处理。,analog,/ˈænəlɔːɡ/,模拟的,旧设备使用的是 analog 信号，转换后才能交给数字系统处理。
+汇编器 assembler 会把汇编代码转换成机器可以执行的指令。,assembler,/əˈsembler/,汇编器,汇编器 assembler 会把汇编代码转换成机器可以执行的指令。
+系统记录 attacker 的访问地址，方便安全团队继续追踪。,attacker,/əˈtækər/,攻击者,系统记录 attacker 的访问地址，方便安全团队继续追踪。
+提高服务的 availability 以后，用户访问会稳定很多。,availability,/əˌveɪləˈbɪləti/,可用性,提高服务的 availability 以后，用户访问会稳定很多。
+骨干网 backbone 一旦中断，多个地区的网络都会受到影响。,backbone,/ˈbækboʊn/,骨干网,骨干网 backbone 一旦中断，多个地区的网络都会受到影响。
+耗时任务放进 background 执行，前台页面就不会卡住。,background,/ˈbækɡraʊnd/,后台,耗时任务放进 background 执行，前台页面就不会卡住。
+解决迷宫问题时，可以使用 backtracking 逐条尝试路径。,backtracking,/ˈbæktrækɪŋ/,回溯,解决迷宫问题时，可以使用 backtracking 逐条尝试路径。
+仓库通过 barcode 管理货物，扫描以后能快速找到库存信息。,barcode,/ˈbɑːrkoʊd/,条形码,仓库通过 barcode 管理货物，扫描以后能快速找到库存信息。
+笔记本的 battery 只能撑两个小时，外出时要带上充电器。,battery,/ˈbætəri/,电池,笔记本的 battery 只能撑两个小时，外出时要带上充电器。
+浏览器把常用网址加入 bookmark，下次打开会方便很多。,bookmark,/ˈbʊkmɑːrk/,书签,浏览器把常用网址加入 bookmark，下次打开会方便很多。
+多台受感染设备组成 botnet 以后，会集中发起网络攻击。,botnet,/ˈbɑːtnet/,僵尸网络,多台受感染设备组成 botnet 以后，会集中发起网络攻击。
+网桥 bridge 可以连接两个局域网，并转发需要传输的数据。,bridge,/brɪdʒ/,网桥,网桥 bridge 可以连接两个局域网，并转发需要传输的数据。
+夜间模式会降低屏幕 brightness，减少对眼睛的刺激。,brightness,/ˈbraɪtnəs/,亮度,夜间模式会降低屏幕 brightness，减少对眼睛的刺激。
+数据先写入 buffer，等磁盘有空时再统一保存。,buffer,/ˈbʌfər/,缓冲区,数据先写入 buffer，等磁盘有空时再统一保存。
+一个 byte 通常包含八个二进制位，是常见的存储单位。,byte,/baɪt/,字节,一个 byte 通常包含八个二进制位，是常见的存储单位。
+日历 calendar 可以和邮件系统同步，自动提醒重要会议。,calendar,/ˈkælɪndər/,日历,日历 calendar 可以和邮件系统同步，自动提醒重要会议。
+用户输入的 character 需要编码以后，才能安全地保存到文件。,character,/ˈkærəktər/,字符,用户输入的 character 需要编码以后，才能安全地保存到文件。
+这个 charger 支持多种接口，可以给手机和平板充电。,charger,/ˈtʃɑːrdʒər/,充电器,这个 charger 支持多种接口，可以给手机和平板充电。
+网页通过 charset 告诉浏览器应该使用哪种字符编码。,charset,/ˈtʃɑːrset/,字符集,网页通过 charset 告诉浏览器应该使用哪种字符编码。
+主板上的 chipset 负责协调处理器和各类外部设备。,chipset,/ˈtʃɪpset/,芯片组,主板上的 chipset 负责协调处理器和各类外部设备。
+没有密钥的人无法直接读懂 ciphertext，只能看到一串乱码。,ciphertext,/ˈsaɪfərtekst/,密文,没有密钥的人无法直接读懂 ciphertext，只能看到一串乱码。
+系统 clock 出现偏差以后，日志时间顺序也会变得不可靠。,clock,/klɑːk/,时钟,系统 clock 出现偏差以后，日志时间顺序也会变得不可靠。
+两个文件生成相同的哈希值叫作 collision，需要重新选择算法。,collision,/kəˈlɪʒən/,冲突,两个文件生成相同的哈希值叫作 collision，需要重新选择算法。
+负数常用补码 complement 表示，这样加减运算会更加统一。,complement,/ˈkɑːmpləmənt/,补码,负数常用补码 complement 表示，这样加减运算会更加统一。
+这个 computation 的过程很复杂，但结果必须保持准确。,computation,/ˌkɑːmpjuˈteɪʃən/,计算,这个 computation 的过程很复杂，但结果必须保持准确。
+网络 connection 不稳定时，先检查线路和路由配置。,connection,/kəˈnekʃən/,连接,网络 connection 不稳定时，先检查线路和路由配置。
+调整屏幕 contrast 以后，图片的明暗层次会更加清楚。,contrast,/ˈkɑːntræst/,对比度,调整屏幕 contrast 以后，图片的明暗层次会更加清楚。
+处理器的 core 数量越多，可以同时运行的线程通常也越多。,core,/kɔːr/,核心,处理器的 core 数量越多，可以同时运行的线程通常也越多。
+攻击者 cracker 会尝试绕过安全控制，获取未授权的数据。,cracker,/ˈkrækər/,入侵者,攻击者 cracker 会尝试绕过安全控制，获取未授权的数据。
+磁盘按 cylinder 划分存储位置，传统硬盘寻址时会用到。,cylinder,/ˈsɪlɪndər/,柱面,磁盘按 cylinder 划分存储位置，传统硬盘寻址时会用到。
+收到数据以后要先 decode，才能得到原始内容。,decode,/ˌdiːˈkoʊd/,解码,收到数据以后要先 decode，才能得到原始内容。
+解码器 decoder 可以把压缩视频还原成可以播放的画面。,decoder,/ˌdiːˈkoʊdər/,解码器,解码器 decoder 可以把压缩视频还原成可以播放的画面。
+网络 delay 突然增加时，视频通话会出现明显的延迟感。,delay,/dɪˈleɪ/,延迟,网络 delay 突然增加时，视频通话会出现明显的延迟感。
+远程桌面 desktop 可以让员工在家访问公司的电脑。,desktop,/ˈdesktɑːp/,桌面,远程桌面 desktop 可以让员工在家访问公司的电脑。
+输入法字典 dictionary 会记录常用词语，提高打字准确率。,dictionary,/ˈdɪkʃəneri/,字典,输入法字典 dictionary 会记录常用词语，提高打字准确率。
+纸质档案必须 digitize 以后，才能长期保存并快速检索。,digitize,/ˈdɪdʒɪtaɪz/,数字化,纸质档案必须 digitize 以后，才能长期保存并快速检索。
+这个 display 支持触控操作，用户可以直接点击屏幕。,display,/dɪˈspleɪ/,显示,这个 display 支持触控操作，用户可以直接点击屏幕。
+新版本会以 distribution 的形式发布，用户可以选择对应平台下载。,distribution,/ˌdɪstrɪˈbjuːʃən/,发行版,新版本会以 distribution 的形式发布，用户可以选择对应平台下载。
+收到命令以后，程序会 execute 对应逻辑并返回结果。,execute,/ˈeksɪkjuːt/,执行,收到命令以后，程序会 execute 对应逻辑并返回结果。
+企业 extranet 只对合作伙伴开放，不会向所有互联网用户公开。,extranet,/ˈekstrənet/,企业外联网,企业 extranet 只对合作伙伴开放，不会向所有互联网用户公开。
+程序会从数据库 fetch 一批记录，然后交给页面显示。,fetch,/fetʃ/,获取,程序会从数据库 fetch 一批记录，然后交给页面显示。
+机房之间使用 fiber 连接，可以支持更高的数据传输速度。,fiber,/ˈfaɪbər/,光纤,机房之间使用 fiber 连接，可以支持更高的数据传输速度。
+免费软件 freeware 可以自由使用，但不一定允许修改源代码。,freeware,/ˈfriːwer/,免费软件,免费软件 freeware 可以自由使用，但不一定允许修改源代码。
+前端 front 主要负责界面展示，业务数据由服务端提供。,front,/frʌnt/,前端,前端 front 主要负责界面展示，业务数据由服务端提供。
+游戏需要连接 gamepad 时，系统会自动识别按键配置。,gamepad,/ˈɡeɪmpæd/,游戏手柄,游戏需要连接 gamepad 时，系统会自动识别按键配置。
+外部请求先经过 gateway，再根据规则转发给内部服务。,gateway,/ˈɡeɪtweɪ/,网关,外部请求先经过 gateway，再根据规则转发给内部服务。
+千兆网卡的带宽可以达到一 gigabit，适合传输大量数据。,gigabit,/ˈɡɪɡəbɪt/,吉比特,千兆网卡的带宽可以达到一 gigabit，适合传输大量数据。
+处理器主频达到一 gigahertz，表示每秒可以完成十亿次周期。,gigahertz,/ˈɡɪɡəhɜːrts/,吉赫兹,处理器主频达到一 gigahertz，表示每秒可以完成十亿次周期。
+这个硬盘容量是一 gigabyte，大约可以保存一千兆字节数据。,gigabyte,/ˈɡɪɡəbaɪt/,吉字节,这个硬盘容量是一 gigabyte，大约可以保存一千兆字节数据。
+网络中心通过 hub 连接多台电脑，但所有设备会共享带宽。,hub,/hʌb/,集线器,网络中心通过 hub 连接多台电脑，但所有设备会共享带宽。
+校验工具会检查数据 integrity，确认内容没有被篡改。,integrity,/ɪnˈteɡrəti/,完整性,校验工具会检查数据 integrity，确认内容没有被篡改。
+公司使用 intranet 发布内部通知，外部网络无法直接访问。,intranet,/ˈɪntrənet/,企业内网,公司使用 intranet 发布内部通知，外部网络无法直接访问。
+检测到 intrusion 以后，安全系统会立即阻断相关连接。,intrusion,/ɪnˈtruːʒən/,入侵,检测到 intrusion 以后，安全系统会立即阻断相关连接。
+这款应用同时支持 iOS，用户可以从苹果商店下载安装。,iOS,/ˌaɪ oʊ ˈes/,苹果系统,这款应用同时支持 iOS，用户可以从苹果商店下载安装。
+智能家居设备接入 IoT 以后，可以用手机远程控制。,IoT,/ˌaɪ oʊ ˈtiː/,物联网,智能家居设备接入 IoT 以后，可以用手机远程控制。
+上课时可以用 iPad 记录笔记，并随时查看电子教材。,iPad,/ˈaɪpæd/,平板电脑,上课时可以用 iPad 记录笔记，并随时查看电子教材。
+每个 key 都对应一个功能，修改快捷键时要重新检查。,key,/kiː/,按键,每个 key 都对应一个功能，修改快捷键时要重新检查。
+keylogger 会偷偷记录键盘输入，可能窃取账号和密码。,keylogger,/ˈkiːlɔːɡər/,键盘记录器,keylogger 会偷偷记录键盘输入，可能窃取账号和密码。
+一张普通照片通常只有几 kilobyte，不会占用太多空间。,kilobyte,/ˈkɪləbaɪt/,千字节,一张普通照片通常只有几 kilobyte，不会占用太多空间。
+相机 lens 的质量会直接影响照片的清晰度和亮度。,lens,/lenz/,镜头,相机 lens 的质量会直接影响照片的清晰度和亮度。
+环境 light 太弱时，设备可能无法准确识别屏幕上的文字。,light,/laɪt/,光线,环境 light 太弱时，设备可能无法准确识别屏幕上的文字。
+服务器通常安装 Linux，因为它的稳定性和可定制性都很好。,Linux,/ˈlɪnəks/,操作系统,服务器通常安装 Linux，因为它的稳定性和可定制性都很好。
+机器学习 machine learning 可以从大量数据中识别规律。,machine learning,/məˈʃiːn ˌlɜːrnɪŋ/,机器学习,机器学习 machine learning 可以从大量数据中识别规律。
+硬盘中的 magnet 用来记录数据，断电以后信息仍然可以保留。,magnet,/ˈmæɡnət/,磁铁,硬盘中的 magnet 用来记录数据，断电以后信息仍然可以保留。
+系统会把重要通知发送到 mail，提醒用户及时处理。,mail,/meɪl/,邮件,系统会把重要通知发送到 mail，提醒用户及时处理。
+恶意软件 malware 可能窃取数据，也可能破坏系统文件。,malware,/ˈmælwer/,恶意软件,恶意软件 malware 可能窃取数据，也可能破坏系统文件。
+浮点数的 mantissa 表示有效数字部分，会影响计算精度。,mantissa,/mænˈtɪsə/,尾数,浮点数的 mantissa 表示有效数字部分，会影响计算精度。
+子网掩码 mask 用来区分网络地址和主机地址。,mask,/mæsk/,掩码,子网掩码 mask 用来区分网络地址和主机地址。
+下载速度达到一 Mbps，表示每秒传输一百万位数据。,Mbps,/ˌem biː piː ˈes/,兆比特每秒,下载速度达到一 Mbps，表示每秒传输一百万位数据。
+这个视频大约一百 megabyte，上传前需要先压缩。,megabyte,/ˈmeɡəbaɪt/,兆字节,这个视频大约一百 megabyte，上传前需要先压缩。
+微型计算机 microcomputer 结构简单，适合教学和控制设备。,microcomputer,/ˌmaɪkroʊkəmˈpjuːtər/,微型计算机,微型计算机 microcomputer 结构简单，适合教学和控制设备。
+微控制器 microcontroller 常用于家电和汽车电子系统。,microcontroller,/ˌmaɪkroʊkənˈtroʊlər/,微控制器,微控制器 microcontroller 常用于家电和汽车电子系统。
+视频会议时麦克风 microphone 没有声音，先检查输入设备。,microphone,/ˈmaɪkrəfoʊn/,麦克风,视频会议时麦克风 microphone 没有声音，先检查输入设备。
+微处理器 microprocessor 是计算机进行运算和控制的核心部件。,microprocessor,/ˌmaɪkroʊˈprɑːsesər/,微处理器,微处理器 microprocessor 是计算机进行运算和控制的核心部件。
+很多办公电脑都安装了这个 Microsoft 办公软件来写文档。,Microsoft,/ˈmaɪkrəsoʊft/,微软,很多办公电脑都安装了这个 Microsoft 办公软件来写文档。
+微波 microwave 通信适合在特定场景下传输信号。,microwave,/ˈmaɪkrəweɪv/,微波,微波 microwave 通信适合在特定场景下传输信号。
+汇编语言使用 mnemonics 表示机器指令，比二进制更容易阅读。,mnemonics,/nɪˈmɑːnɪks/,助记符,汇编语言使用 mnemonics 表示机器指令，比二进制更容易阅读。
+调制解调器 modem 可以把数字信号转换成电话线可以传输的形式。,modem,/ˈmoʊdəm/,调制解调器,调制解调器 modem 可以把数字信号转换成电话线可以传输的形式。
+把相关功能拆成独立 module 以后，测试和维护都会更方便。,module,/ˈmɑːdʒuːl/,模块,把相关功能拆成独立 module 以后，测试和维护都会更方便。
+视频采用 MPEG-4 压缩以后，文件体积会明显减小。,MPEG-4,/ˌem peɡ ˈfɔːr/,视频编码,视频采用 MPEG-4 压缩以后，文件体积会明显减小。
+多媒体 multimedia 文件同时包含文字、图片和声音。,multimedia,/ˌmʌltiˈmiːdiə/,多媒体,多媒体 multimedia 文件同时包含文字、图片和声音。
+屏幕支持 multi-touch 以后，可以用多根手指缩放图片。,multi-touch,/ˌmʌlti ˈtʌtʃ/,多点触控,屏幕支持 multi-touch 以后，可以用多根手指缩放图片。
+芯片制程已经缩小到几 nanometer，性能提升非常明显。,nanometer,/ˈnænoʊmiːtər/,纳米,芯片制程已经缩小到几 nanometer，性能提升非常明显。
+一次内存访问可能只需几 nanosecond，速度非常快。,nanosecond,/ˈnænoʊsekənd/,纳秒,一次内存访问可能只需几 nanosecond，速度非常快。
+轻便的 netbook 适合浏览网页和处理简单文档。,netbook,/ˈnetbʊk/,上网本,轻便的 netbook 适合浏览网页和处理简单文档。
+客厅里的 nettop 体积很小，平时用来播放视频。,nettop,/ˈnettɑːp/,迷你主机,客厅里的 nettop 体积很小，平时用来播放视频。
+每个 node 都要保持在线，集群才能正常提供服务。,node,/noʊd/,节点,每个 node 都要保持在线，集群才能正常提供服务。
+非商业 noncommercial 项目可以免费使用这个素材，但不能用于售卖。,noncommercial,/ˌnɑːnkəˈmɝːʃəl/,非商业的,非商业 noncommercial 项目可以免费使用这个素材，但不能用于售卖。
+这台 notebook 很轻，适合经常出差的人随身携带。,notebook,/ˈnoʊtbʊk/,笔记本电脑,这台 notebook 很轻，适合经常出差的人随身携带。
+服务保持 online 状态时，用户才能随时访问。,online,/ˌɑːnˈlaɪn/,在线,服务保持 online 状态时，用户才能随时访问。
+处理器根据 opcode 判断需要执行哪种操作。,opcode,/ˈɑːpkoʊd/,操作码,处理器根据 opcode 判断需要执行哪种操作。
+指令中的 operand 表示参与运算的数据或地址。,operand,/ˈɑːpərænd/,操作数,指令中的 operand 表示参与运算的数据或地址。
+绘图时可以用 pad 进行精细操作，比鼠标更自然。,pad,/pæd/,平板,绘图时可以用 pad 进行精细操作，比鼠标更自然。
+系统采用 paging 管理内存，把暂时不用的数据移到磁盘。,paging,/ˈpeɪdʒɪŋ/,分页,系统采用 paging 管理内存，把暂时不用的数据移到磁盘。
+树结构中的 parent 节点可以连接多个子节点。,parent,/ˈperənt/,父节点,树结构中的 parent 节点可以连接多个子节点。
+安装系统前需要先 partition 硬盘，把空间分成多个区域。,partition,/pɑːrˈtɪʃən/,分区,安装系统前需要先 partition 硬盘，把空间分成多个区域。
+Pascal 语言适合教学编程，因为语法比较严谨。,Pascal,/pæˈskæl/,Pascal 语言,Pascal 语言适合教学编程，因为语法比较严谨。
+Pascaline 是早期机械计算器，可以完成加减运算。,Pascaline,/ˌpæskəˈliːn/,机械计算器,Pascaline 是早期机械计算器，可以完成加减运算。
+这个硬盘容量达到一 petabyte，可以存放海量数据。,petabyte,/ˈpetəbaɪt/,拍字节,这个硬盘容量达到一 petabyte，可以存放海量数据。
+钓鱼邮件 phishing 会伪装成可信来源，诱导用户交出密码。,phishing,/ˈfɪʃɪŋ/,网络钓鱼,钓鱼邮件 phishing 会伪装成可信来源，诱导用户交出密码。
+网站上的 picture 需要压缩以后，才能更快加载。,picture,/ˈpɪktʃər/,图片,网站上的 picture 需要压缩以后，才能更快加载。
+明文 plaintext 在传输前必须加密，避免被中途读取。,plaintext,/ˈpleɪntekst/,明文,明文 plaintext 在传输前必须加密，避免被中途读取。
+等离子 plasma 屏幕已经很少见，现在主流是液晶显示。,plasma,/ˈplæzmə/,等离子体,等离子 plasma 屏幕已经很少见，现在主流是液晶显示。
+传统硬盘内部有多张 platter，数据记录在盘片表面。,platter,/ˈplætər/,盘片,传统硬盘内部有多张 platter，数据记录在盘片表面。
+设备采用 polling 定期检查状态，频率太高会浪费资源。,polling,/ˈpoʊlɪŋ/,轮询,设备采用 polling 定期检查状态，频率太高会浪费资源。
+多态 polymorphic 设计允许不同对象响应同一个方法。,polymorphic,/ˌpɑːliˈmɔːrfɪk/,多态,多态 polymorphic 设计允许不同对象响应同一个方法。
+页面出现 pop 窗口时，要先确认来源再点击。,pop,/pɑːp/,弹出,页面出现 pop 窗口时，要先确认来源再点击。
+服务器开放了新的 port，客户端需要更新连接配置。,port,/pɔːrt/,端口,服务器开放了新的 port，客户端需要更新连接配置。
+处理用户数据时必须尊重 privacy，不能随意收集和分享。,privacy,/ˈpraɪvəsi/,隐私,处理用户数据时必须尊重 privacy，不能随意收集和分享。
+编程 programming 不只是写代码，还要考虑测试和维护。,programming,/ˈproʊɡræmɪŋ/,编程,编程 programming 不只是写代码，还要考虑测试和维护。
+会议室的 projector 无法显示画面，先检查连接线。,projector,/prəˈdʒektər/,投影仪,会议室的 projector 无法显示画面，先检查连接线。
+定期备份是 protection 数据安全的重要措施，不能省略。,protection,/prəˈtekʃən/,保护,定期备份是 protection 数据安全的重要措施，不能省略。
+把数据 push 到栈顶以后，读取时会先取出最后写入的内容。,push,/pʊʃ/,入栈,把数据 push 到栈顶以后，读取时会先取出最后写入的内容。
+模型经过 quantization 以后，体积会缩小，但精度可能下降。,quantization,/ˌkwɑːntəˈzeɪʃən/,量化,模型经过 quantization 以后，体积会缩小，但精度可能下降。
+无线 radio 信号容易受到干扰，设备要远离强磁场。,radio,/ˈreɪdioʊ/,无线电,无线 radio 信号容易受到干扰，设备要远离强磁场。
+寄存器 register 的读写速度很快，常用于保存临时数据。,register,/ˈredʒɪstər/,寄存器,寄存器 register 的读写速度很快，常用于保存临时数据。
+搜索结果的相关性 relevance 越高，用户越容易找到目标。,relevance,/ˈreləvəns/,相关性,搜索结果的相关性 relevance 越高，用户越容易找到目标。
+距离太远时可以增加 repeater，用来放大和转发信号。,repeater,/rɪˈpiːtər/,中继器,距离太远时可以增加 repeater，用来放大和转发信号。

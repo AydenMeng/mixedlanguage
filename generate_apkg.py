@@ -42,7 +42,7 @@ DECK_CONFIGS: Tuple[DeckConfig, ...] = (
         key="computer",
         deck_id=1735689601,
         deck_name="mixedlanguage::计算机领域用词",
-        row_count=150,
+        row_count=270,
     ),
     DeckConfig(
         key="life",
