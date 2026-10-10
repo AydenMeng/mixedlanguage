@@ -470,3 +470,8 @@ immutable infrastructure 会重新创建环境，而不是直接修改旧机器�
 event-driven architecture 通过事件连接服务，可以减少同步等待。,event-driven architecture,/ɪˈvent ˈdrɪvən ˈɑːrkɪtektʃər/,事件驱动架构,event-driven architecture 通过事件连接服务，可以减少同步等待。
 zero trust 假设网络内部也不完全可信，每次访问都要验证。,zero trust,/ˈzɪroʊ trʌst/,零信任,zero trust 假设网络内部也不完全可信，每次访问都要验证。
 container image 包含应用和运行环境，可以稳定地重复部署。,container image,/kənˈteɪnər ˈɪmɪdʒ/,容器镜像,container image 包含应用和运行环境，可以稳定地重复部署。
+design pattern 是常见问题的通用解决思路，能提高代码复用性。,design pattern,/dɪˈzaɪn ˈpætərn/,设计模式,design pattern 是常见问题的通用解决思路，能提高代码复用性。
+technical debt 积累太多以后，会拖慢后续开发和维护。,technical debt,/ˈteknɪkəl det/,技术债,technical debt 积累太多以后，会拖慢后续开发和维护。
+出现严重故障时，值班人员会立即创建 incident ticket。,incident ticket,/ˈɪnsɪdənt ˈtɪkɪt/,事故工单,出现严重故障时，值班人员会立即创建 incident ticket。
+server cluster 中某台机器故障时，其他节点可以继续提供服务。,server cluster,/ˈsɜːrvər ˈklʌstər/,服务器集群,server cluster 中某台机器故障时，其他节点可以继续提供服务。
+runtime error 会中断程序执行，需要结合日志定位原因。,runtime error,/ˈrʌntaɪm ˈerər/,运行错误,runtime error 会中断程序执行，需要结合日志定位原因。
