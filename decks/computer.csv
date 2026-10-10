@@ -1,61 +1,1801 @@
 中文句,英文词,音标,中文释义,完整句
-把服务器的 kernel 升级到新版本后，这台机器稳定多了。,kernel,/ˈkɝːnəl/,内核,把服务器的 kernel 升级到新版本后，这台机器稳定多了。
-安装依赖时先确认一下 prefix，否则文件可能会装到错误目录。,prefix,/ˈpriːfɪks/,前缀,安装依赖时先确认一下 prefix，否则文件可能会装到错误目录。
-系统刚刚 panic 了，运维同事正在查是哪块硬件出了问题。,panic,/ˈpænɪk/,崩溃,系统刚刚 panic 了，运维同事正在查是哪块硬件出了问题。
-这个 monolith 越来越大，团队准备把用户模块拆出去。,monolith,/ˈmɑːnəlɪθ/,单体架构,这个 monolith 越来越大，团队准备把用户模块拆出去。
-先把修复登录问题的改动 merge 到主分支，再安排发布。,merge,/mɝːdʒ/,合并,先把修复登录问题的改动 merge 到主分支，再安排发布。
-新版本需要先 deploy 到测试环境，确认没问题再上线。,deploy,/dɪˈplɔɪ/,部署,新版本需要先 deploy 到测试环境，确认没问题再上线。
-这段代码的问题很难复现，我打算加些日志再 debug。,debug,/ˌdiːˈbʌɡ/,调试,这段代码的问题很难复现，我打算加些日志再 debug。
-热点数据放进 cache 以后，接口响应速度快了不少。,cache,/kæʃ/,缓存,热点数据放进 cache 以后，接口响应速度快了不少。
-完成接口重构后先 commit 一次，再交给同事审查。,commit,/kəˈmɪt/,提交,完成接口重构后先 commit 一次，再交给同事审查。
-这个 branch 已经落后很多了，先同步主分支再继续开发。,branch,/bræntʃ/,分支,这个 branch 已经落后很多了，先同步主分支再继续开发。
-线上 server 突然没响应，值班同学赶紧起来排查。,server,/ˈsɝːvər/,服务器,线上 server 突然没响应，值班同学赶紧起来排查。
-公司的 firewall 拦住了一批异常请求，日志里能看到来源。,firewall,/ˈfaɪrˌwɔːl/,防火墙,公司的 firewall 拦住了一批异常请求，日志里能看到来源。
-数据库每天凌晨会自动 backup，不用担心误删数据。,backup,/ˈbækʌp/,备份,数据库每天凌晨会自动 backup，不用担心误删数据。
-这条 query 太慢了，可能需要给订单表加个索引。,query,/ˈkwɪri/,查询,这条 query 太慢了，可能需要给订单表加个索引。
-接口偶尔会 timeout，先检查下游服务是不是卡住了。,timeout,/ˈtaɪmˌaʊt/,超时,接口偶尔会 timeout，先检查下游服务是不是卡住了。
-这段代码要先 compile 成机器码，才能在这台服务器上运行。,compile,/kəmˈpaɪl/,编译,这段代码要先 compile 成机器码，才能在这台服务器上运行。
-这个程序的 runtime 比之前短了很多，优化确实有效果。,runtime,/ˈrʌnˌtaɪm/,运行时,这个程序的 runtime 比之前短了很多，优化确实有效果。
-把应用打包进 container 以后，换台机器部署会省事很多。,container,/kənˈteɪnər/,容器,把应用打包进 container 以后，换台机器部署会省事很多。
-数据库 cluster 昨晚扩容了一次，现在能承受更大的流量。,cluster,/ˈklʌstər/,集群,数据库 cluster 昨晚扩容了一次，现在能承受更大的流量。
-订单 database 突然连不上了，我们正在检查连接池配置。,database,/ˈdeɪtəbeɪs/,数据库,订单 database 突然连不上了，我们正在检查连接池配置。
-给这个字段加上 index 以后，慢查询终于恢复正常了。,index,/ˈɪndeks/,索引,给这个字段加上 index 以后，慢查询终于恢复正常了。
-这次 schema 调整会影响几张表，上线前必须仔细评审。,schema,/ˈskiːmə/,模式,这次 schema 调整会影响几张表，上线前必须仔细评审。
-转账过程必须放在一个 transaction 里，任何一步失败都要回滚。,transaction,/trænˈzækʃən/,事务,转账过程必须放在一个 transaction 里，任何一步失败都要回滚。
-这条 migration 会删除旧字段，执行前记得先备份数据库。,migration,/maɪˈɡreɪʃən/,迁移,这条 migration 会删除旧字段，执行前记得先备份数据库。
-这个 API 返回的数据太多，前端只需要其中的几个字段。,API,/ˌeɪ piː ˈaɪ/,接口,这个 API 返回的数据太多，前端只需要其中的几个字段。
-新的 endpoint 已经上线，客户端可以按文档切换过来。,endpoint,/ˈendpɔɪnt/,端点,新的 endpoint 已经上线，客户端可以按文档切换过来。
-浏览器发出的 request 里少了鉴权头，所以服务端直接拒绝了。,request,/rɪˈkwest/,请求,浏览器发出的 request 里少了鉴权头，所以服务端直接拒绝了。
-接口的 response 格式变了，前端代码也得跟着更新。,response,/rɪˈspɑːns/,响应,接口的 response 格式变了，前端代码也得跟着更新。
-这个 payload 太大了，网关可能会直接拒绝这次请求。,payload,/ˈpeɪloʊd/,载荷,这个 payload 太大了，网关可能会直接拒绝这次请求。
-用户登录后会拿到一个 token，后续请求都要带上它。,token,/ˈtoʊkən/,令牌,用户登录后会拿到一个 token，后续请求都要带上它。
-网站把登录状态存在 cookie 里，清理浏览器数据后就会退出。,cookie,/ˈkʊki/,浏览器数据,网站把登录状态存在 cookie 里，清理浏览器数据后就会退出。
-用户 session 过期了，需要重新登录才能继续操作。,session,/ˈseʃən/,会话,用户 session 过期了，需要重新登录才能继续操作。
-这个服务的 authentication 做得不严，任何人都能拿到管理权限。,authentication,/ɔːˌθentɪˈkeɪʃən/,身份验证,这个服务的 authentication 做得不严，任何人都能拿到管理权限。
-当前账号没有删除数据的 permission，得找管理员开通。,permission,/pərˈmɪʃən/,权限,当前账号没有删除数据的 permission，得找管理员开通。
-给新同事分配只读 role，避免他误改生产环境。,role,/roʊl/,角色,给新同事分配只读 role，避免他误改生产环境。
-新项目已经放到 repository 里了，大家先拉下来再开发。,repository,/rɪˈpɑːzətɔːri/,代码仓库,新项目已经放到 repository 里了，大家先拉下来再开发。
-这个 dependency 版本太旧，升级前要先跑一遍测试。,dependency,/dɪˈpendənsi/,依赖,这个 dependency 版本太旧，升级前要先跑一遍测试。
-我找到一个轻量的 library，可以省很多解析配置文件的代码。,library,/ˈlaɪbreri/,程序库,我找到一个轻量的 library，可以省很多解析配置文件的代码。
-团队决定换一个 framework，原来的代码要逐步迁移。,framework,/ˈfreɪmwɝːk/,框架,团队决定换一个 framework，原来的代码要逐步迁移。
-这个 algorithm 的复杂度太高，数据一多就会变得很慢。,algorithm,/ˈælɡərɪðəm/,算法,这个 algorithm 的复杂度太高，数据一多就会变得很慢。
-全局 variable 很容易被意外修改，最好限制它的作用范围。,variable,/ˈveriəbəl/,变量,全局 variable 很容易被意外修改，最好限制它的作用范围。
-先把这段逻辑抽成一个 function，后面复用会方便很多。,function,/ˈfʌŋkʃən/,函数,先把这段逻辑抽成一个 function，后面复用会方便很多。
-调用这个方法时要传三个 parameter，顺序不能弄错。,parameter,/pəˈræmətər/,参数,调用这个方法时要传三个 parameter，顺序不能弄错。
-程序抛出一个 exception 后没有处理，任务就中途停了。,exception,/ɪkˈsepʃən/,异常,程序抛出一个 exception 后没有处理，任务就中途停了。
-这个 loop 会一直执行，除非满足退出条件。,loop,/luːp/,循环,这个 loop 会一直执行，除非满足退出条件。
-返回结果是一个 array，你可以直接遍历里面的元素。,array,/əˈreɪ/,数组,返回结果是一个 array，你可以直接遍历里面的元素。
-用户输入会被当成 string 处理，计算前要先转换类型。,string,/strɪŋ/,字符串,用户输入会被当成 string 处理，计算前要先转换类型。
-这个配置项是 boolean 类型，不填真就只能填假。,boolean,/ˈbuːliən/,布尔值,这个配置项是 boolean 类型，不填真就只能填假。
-一个 thread 卡住以后，整个任务队列都变慢了。,thread,/θred/,线程,一个 thread 卡住以后，整个任务队列都变慢了。
-这个 process 占用了太多内存，重启服务后终于释放了。,process,/ˈprɑːses/,进程,这个 process 占用了太多内存，重启服务后终于释放了。
-服务器 memory 快用完了，先查一下哪个进程有问题。,memory,/ˈmeməri/,内存,服务器 memory 快用完了，先查一下哪个进程有问题。
-系统 disk 只剩百分之五，赶紧清理旧日志和临时文件。,disk,/dɪsk/,磁盘,系统 disk 只剩百分之五，赶紧清理旧日志和临时文件。
-办公室 network 突然断了，所有在线会议都受到影响。,network,/ˈnetwɝːk/,网络,办公室 network 突然断了，所有在线会议都受到影响。
-抓包工具显示每个 packet 都到达了，但服务端没有回应。,packet,/ˈpækɪt/,数据包,抓包工具显示每个 packet 都到达了，但服务端没有回应。
-跨国访问的 latency 很高，用户会感觉页面特别慢。,latency,/ˈleɪtənsi/,延迟,跨国访问的 latency 很高，用户会感觉页面特别慢。
-高峰期 bandwidth 不够用，视频会议经常变得很卡。,bandwidth,/ˈbændwɪdθ/,带宽,高峰期 bandwidth 不够用，视频会议经常变得很卡。
-敏感数据必须开启 encryption，不能直接明文保存。,encryption,/ɪnˈkrɪpʃən/,加密,敏感数据必须开启 encryption，不能直接明文保存。
-网站的 certificate 过期了，浏览器会提示连接不安全。,certificate,/sərˈtɪfɪkət/,证书,网站的 certificate 过期了，浏览器会提示连接不安全。
-服务出错时先看 log，里面通常会记录具体的异常信息。,log,/lɔːɡ/,日志,服务出错时先看 log，里面通常会记录具体的异常信息。
-安全团队发布了一个 patch，要求所有服务器尽快安装。,patch,/pætʃ/,补丁,安全团队发布了一个 patch，要求所有服务器尽快安装。
+这次系统升级重点处理了 code 相关的问题，团队已经记录在案。,code,/kәud/,代码,这次系统升级重点处理了 code 相关的问题，团队已经记录在案。
+日志里提到了 software，但还需要结合代码进一步分析。,software,/'sɒftwєә/,软件,日志里提到了 software，但还需要结合代码进一步分析。
+这套方案把 network 单独抽了出来，维护起来会更方便。,network,/'netwә:k/,网络,这套方案把 network 单独抽了出来，维护起来会更方便。
+部署之前要确认 memory 的状态，避免影响正常业务。,memory,/'memәri/,记忆,部署之前要确认 memory 的状态，避免影响正常业务。
+培训新同事时，我会专门讲一下 computer 的常见用法。,computer,/kәm'pju:tә/,电脑,培训新同事时，我会专门讲一下 computer 的常见用法。
+这套方案把 program 单独抽了出来，维护起来会更方便。,program,/'prәugræm/,节目,这套方案把 program 单独抽了出来，维护起来会更方便。
+排查线上故障时，我们首先检查 application 的配置是否正确。,application,/.æpli'keiʃәn/,应用,排查线上故障时，我们首先检查 application 的配置是否正确。
+培训新同事时，我会专门讲一下 server 的常见用法。,server,/'sә:vә/,服伺者,培训新同事时，我会专门讲一下 server 的常见用法。
+这次系统升级重点处理了 hardware 相关的问题，团队已经记录在案。,hardware,/'hɑ:dwєә/,硬件,这次系统升级重点处理了 hardware 相关的问题，团队已经记录在案。
+这套方案把 protocol 单独抽了出来，维护起来会更方便。,protocol,/'prәutәkɒl/,草案,这套方案把 protocol 单独抽了出来，维护起来会更方便。
+监控面板显示系统整体比较 electronic，暂时不用处理。,electronic,/.ilek'trɒnik/,电子的,监控面板显示系统整体比较 electronic，暂时不用处理。
+这套方案把 machine 单独抽了出来，维护起来会更方便。,machine,/mә'ʃi:n/,机器,这套方案把 machine 单独抽了出来，维护起来会更方便。
+这次系统升级重点处理了 file 相关的问题，团队已经记录在案。,file,/fail/,档案,这次系统升级重点处理了 file 相关的问题，团队已经记录在案。
+这套方案把 storage 单独抽了出来，维护起来会更方便。,storage,/'stɒ:ridʒ/,存储器,这套方案把 storage 单独抽了出来，维护起来会更方便。
+排查线上故障时，我们首先检查 web 的配置是否正确。,web,/web/,蛛丝,排查线上故障时，我们首先检查 web 的配置是否正确。
+选择工具时要优先考虑 digital 的方案，减少维护成本。,digital,/'didʒitәl/,数字显示的,选择工具时要优先考虑 digital 的方案，减少维护成本。
+部署之前要确认 monitor 的状态，避免影响正常业务。,monitor,/'mɒnitә/,监督器,部署之前要确认 monitor 的状态，避免影响正常业务。
+排查线上故障时，我们首先检查 scanner 的配置是否正确。,scanner,/'skænә/,扫描仪,排查线上故障时，我们首先检查 scanner 的配置是否正确。
+这套方案把 spider 单独抽了出来，维护起来会更方便。,spider,/'spaidә/,蜘蛛,这套方案把 spider 单独抽了出来，维护起来会更方便。
+部署之前要确认 microcomputer 的状态，避免影响正常业务。,microcomputer,/.maikrәu'kɒmpjutә/,微电脑,部署之前要确认 microcomputer 的状态，避免影响正常业务。
+日志里提到了 programme，但还需要结合代码进一步分析。,programme,/'prәugræm/,节目,日志里提到了 programme，但还需要结合代码进一步分析。
+开发流程中如果忽略 basic，后面很容易出现难以定位的问题。,basic,/'beisik/,基本原理,开发流程中如果忽略 basic，后面很容易出现难以定位的问题。
+排查线上故障时，我们首先检查 driver 的配置是否正确。,driver,/'draivә/,驾驶员,排查线上故障时，我们首先检查 driver 的配置是否正确。
+新项目里会用到 sequencer，文档里已经给出了具体说明。,sequencer,/'si:kwәnsә/,程序装置,新项目里会用到 sequencer，文档里已经给出了具体说明。
+新项目里会用到 dongle，文档里已经给出了具体说明。,dongle,/ˈdɒŋgl/,电子狗,新项目里会用到 dongle，文档里已经给出了具体说明。
+这套方案把 export 单独抽了出来，维护起来会更方便。,export,/ik'spɒ:t/,输出品,这套方案把 export 单独抽了出来，维护起来会更方便。
+这次系统升级重点处理了 virus 相关的问题，团队已经记录在案。,virus,/'vaiәrәs/,病毒,这次系统升级重点处理了 virus 相关的问题，团队已经记录在案。
+部署之前要确认 printer 的状态，避免影响正常业务。,printer,/'printә/,印刷工,部署之前要确认 printer 的状态，避免影响正常业务。
+部署之前要确认 interface 的状态，避免影响正常业务。,interface,/'intәfeis/,分界面,部署之前要确认 interface 的状态，避免影响正常业务。
+部署之前要确认 dump 的状态，避免影响正常业务。,dump,/dʌmp/,垃圾场,部署之前要确认 dump 的状态，避免影响正常业务。
+如果部署失败，可以重新 compile 一次，看看错误是否复现。,compile,/kәm'pail/,编译,如果部署失败，可以重新 compile 一次，看看错误是否复现。
+新项目里会用到 buffer，文档里已经给出了具体说明。,buffer,/'bʌfә/,缓冲器,新项目里会用到 buffer，文档里已经给出了具体说明。
+日志里提到了 cache，但还需要结合代码进一步分析。,cache,/kæʃ/,隐藏所,日志里提到了 cache，但还需要结合代码进一步分析。
+这次系统升级重点处理了 spreadsheet 相关的问题，团队已经记录在案。,spreadsheet,/'spredʃi:t/,空白表格程序,这次系统升级重点处理了 spreadsheet 相关的问题，团队已经记录在案。
+这次系统升级重点处理了 cyberpunk 相关的问题，团队已经记录在案。,cyberpunk,/ˈsaɪbəpʌŋk/,计算机科幻小,这次系统升级重点处理了 cyberpunk 相关的问题，团队已经记录在案。
+当系统处于 remote 状态时，后台会触发对应的告警。,remote,/ri'mәut/,遥远的,当系统处于 remote 状态时，后台会触发对应的告警。
+排查线上故障时，我们首先检查 compiler 的配置是否正确。,compiler,/kәm'pailә/,编辑者,排查线上故障时，我们首先检查 compiler 的配置是否正确。
+这套方案把 applet 单独抽了出来，维护起来会更方便。,applet,/'æplәt/,小型程式,这套方案把 applet 单独抽了出来，维护起来会更方便。
+培训新同事时，我会专门讲一下 flowchart 的常见用法。,flowchart,/flәu'tʃɑ:t/,流程图,培训新同事时，我会专门讲一下 flowchart 的常见用法。
+这套方案把 access 单独抽了出来，维护起来会更方便。,access,/'ækses/,通路,这套方案把 access 单独抽了出来，维护起来会更方便。
+培训新同事时，我会专门讲一下 instruction 的常见用法。,instruction,/in'strʌkʃәn/,指令,培训新同事时，我会专门讲一下 instruction 的常见用法。
+这套方案把 register 单独抽了出来，维护起来会更方便。,register,/'redʒistә/,寄存器,这套方案把 register 单独抽了出来，维护起来会更方便。
+开发流程中如果忽略 platform，后面很容易出现难以定位的问题。,platform,/'plætfɒ:m/,站台,开发流程中如果忽略 platform，后面很容易出现难以定位的问题。
+培训新同事时，我会专门讲一下 tube 的常见用法。,tube,/tju:b/,软管,培训新同事时，我会专门讲一下 tube 的常见用法。
+部署之前要确认 import 的状态，避免影响正常业务。,import,/im'pɒ:t/,进口货,部署之前要确认 import 的状态，避免影响正常业务。
+部署之前要确认 mouse 的状态，避免影响正常业务。,mouse,/maus/,老鼠,部署之前要确认 mouse 的状态，避免影响正常业务。
+这次系统升级重点处理了 disc 相关的问题，团队已经记录在案。,disc,/disk/,圆盘,这次系统升级重点处理了 disc 相关的问题，团队已经记录在案。
+部署之前要确认 logic 的状态，避免影响正常业务。,logic,/'lɒdʒik/,逻辑,部署之前要确认 logic 的状态，避免影响正常业务。
+这套方案把 bug 单独抽了出来，维护起来会更方便。,bug,/bʌg/,错误,这套方案把 bug 单独抽了出来，维护起来会更方便。
+开发流程中如果忽略 icon，后面很容易出现难以定位的问题。,icon,/'aikɒn/,画像,开发流程中如果忽略 icon，后面很容易出现难以定位的问题。
+部署之前要确认 worm 的状态，避免影响正常业务。,worm,/wә:m/,蠕虫,部署之前要确认 worm 的状态，避免影响正常业务。
+部署之前要确认 keyboard 的状态，避免影响正常业务。,keyboard,/'ki:bɒ:d/,键盘,部署之前要确认 keyboard 的状态，避免影响正常业务。
+这套方案把 backup 单独抽了出来，维护起来会更方便。,backup,/'bækʌp/,倒车,这套方案把 backup 单独抽了出来，维护起来会更方便。
+这套方案把 partition 单独抽了出来，维护起来会更方便。,partition,/pɑ:'tiʃәn/,分割,这套方案把 partition 单独抽了出来，维护起来会更方便。
+培训新同事时，我会专门讲一下 superhighway 的常见用法。,superhighway,/.sju:pә'haiwei/,超级高速公路,培训新同事时，我会专门讲一下 superhighway 的常见用法。
+新项目里会用到 intranet，文档里已经给出了具体说明。,intranet,/'intrәnet/,内联网,新项目里会用到 intranet，文档里已经给出了具体说明。
+这套方案把 email 单独抽了出来，维护起来会更方便。,email,/'i:'meil/,电子信函,这套方案把 email 单独抽了出来，维护起来会更方便。
+接口返回的数据结构不够 runed，前端处理起来很麻烦。,runed,/ru:nd/,刻有北欧古文,接口返回的数据结构不够 runed，前端处理起来很麻烦。
+培训新同事时，我会专门讲一下 scan 的常见用法。,scan,/skæn/,审视,培训新同事时，我会专门讲一下 scan 的常见用法。
+部署之前要确认 ping 的状态，避免影响正常业务。,ping,/piŋ/,报时的最后一,部署之前要确认 ping 的状态，避免影响正常业务。
+这套方案把 computerization 单独抽了出来，维护起来会更方便。,computerization,/kәm/,装备电子计算,这套方案把 computerization 单独抽了出来，维护起来会更方便。
+这套方案把 act 单独抽了出来，维护起来会更方便。,act,/ækt/,行动,这套方案把 act 单独抽了出来，维护起来会更方便。
+开发流程中如果忽略 source，后面很容易出现难以定位的问题。,source,/sɒ:s/,来源,开发流程中如果忽略 source，后面很容易出现难以定位的问题。
+日志里提到了 interpreter，但还需要结合代码进一步分析。,interpreter,/in'tә:pritә/,直译程序,日志里提到了 interpreter，但还需要结合代码进一步分析。
+开发流程中如果忽略 translator，后面很容易出现难以定位的问题。,translator,/træn'leitә/,翻译者,开发流程中如果忽略 translator，后面很容易出现难以定位的问题。
+排查线上故障时，我们首先检查 programmer 的配置是否正确。,programmer,/'prәugræmә/,程序员,排查线上故障时，我们首先检查 programmer 的配置是否正确。
+培训新同事时，我会专门讲一下 fragmentation 的常见用法。,fragmentation,/.frægmәn'teiʃәn/,分裂,培训新同事时，我会专门讲一下 fragmentation 的常见用法。
+日志里提到了 assembler，但还需要结合代码进一步分析。,assembler,/ә'semblә/,装配工,日志里提到了 assembler，但还需要结合代码进一步分析。
+日志里提到了 minicomputer，但还需要结合代码进一步分析。,minicomputer,/'minikәm/,小型计算机,日志里提到了 minicomputer，但还需要结合代码进一步分析。
+部署之前要确认 webcam 的状态，避免影响正常业务。,webcam,/'webkæm/,网络摄像头,部署之前要确认 webcam 的状态，避免影响正常业务。
+这次系统升级重点处理了 scheduler 相关的问题，团队已经记录在案。,scheduler,/'ʃedju:lә/,制表人,这次系统升级重点处理了 scheduler 相关的问题，团队已经记录在案。
+排查线上故障时，我们首先检查 subroutine 的配置是否正确。,subroutine,/'sʌbru:.ti:n/,子程序,排查线上故障时，我们首先检查 subroutine 的配置是否正确。
+开发流程中如果忽略 subprogram，后面很容易出现难以定位的问题。,subprogram,/'sʌb.prәugræm/,子程序,开发流程中如果忽略 subprogram，后面很容易出现难以定位的问题。
+开发流程中如果忽略 spell-checker，后面很容易出现难以定位的问题。,spell-checker,/'speltʃekə/,拼写检查程序,开发流程中如果忽略 spell-checker，后面很容易出现难以定位的问题。
+排查线上故障时，我们首先检查 word 的配置是否正确。,word,/wә:d/,消息,排查线上故障时，我们首先检查 word 的配置是否正确。
+部署之前要确认 operation 的状态，避免影响正常业务。,operation,/.ɒpә'reiʃәn/,操作,部署之前要确认 operation 的状态，避免影响正常业务。
+这次系统升级重点处理了 list 相关的问题，团队已经记录在案。,list,/list/,目录,这次系统升级重点处理了 list 相关的问题，团队已经记录在案。
+新项目里会用到 argument，文档里已经给出了具体说明。,argument,/'ɑ:gjumәnt/,争论,新项目里会用到 argument，文档里已经给出了具体说明。
+这套方案把 library 单独抽了出来，维护起来会更方便。,library,/'laibrәri/,图书馆,这套方案把 library 单独抽了出来，维护起来会更方便。
+这套方案把 object 单独抽了出来，维护起来会更方便。,object,/'ɒbdʒekt/,物体,这套方案把 object 单独抽了出来，维护起来会更方便。
+排查线上故障时，我们首先检查 address 的配置是否正确。,address,/ә'dres/,住址,排查线上故障时，我们首先检查 address 的配置是否正确。
+日志里提到了 railway，但还需要结合代码进一步分析。,railway,/'reilwei/,铁路,日志里提到了 railway，但还需要结合代码进一步分析。
+培训新同事时，我会专门讲一下 track 的常见用法。,track,/træk/,轨迹,培训新同事时，我会专门讲一下 track 的常见用法。
+排查线上故障时，我们首先检查 link 的配置是否正确。,link,/liŋk/,连结物,排查线上故障时，我们首先检查 link 的配置是否正确。
+这次系统升级重点处理了 cabinet 相关的问题，团队已经记录在案。,cabinet,/'kæbinit/,橱柜,这次系统升级重点处理了 cabinet 相关的问题，团队已经记录在案。
+这次系统升级重点处理了 module 相关的问题，团队已经记录在案。,module,/'mɒdju:l/,组件,这次系统升级重点处理了 module 相关的问题，团队已经记录在案。
+新人先学会怎么 organize，再参与线上问题的处理。,organize,/'ɒ:gәnaiz/,组织,新人先学会怎么 organize，再参与线上问题的处理。
+这次系统升级重点处理了 switch 相关的问题，团队已经记录在案。,switch,/switʃ/,开关,这次系统升级重点处理了 switch 相关的问题，团队已经记录在案。
+培训新同事时，我会专门讲一下 routine 的常见用法。,routine,/ru:'ti:n/,常规,培训新同事时，我会专门讲一下 routine 的常见用法。
+这次系统升级重点处理了 bush 相关的问题，团队已经记录在案。,bush,/buʃ/,矮树丛,这次系统升级重点处理了 bush 相关的问题，团队已经记录在案。
+日志里提到了 crash，但还需要结合代码进一步分析。,crash,/kræʃ/,哗啦声,日志里提到了 crash，但还需要结合代码进一步分析。
+日志里提到了 format，但还需要结合代码进一步分析。,format,/'fɒ:mæt/,开本,日志里提到了 format，但还需要结合代码进一步分析。
+这套方案把 machinery 单独抽了出来，维护起来会更方便。,machinery,/mә'ʃi:nәri/,机器,这套方案把 machinery 单独抽了出来，维护起来会更方便。
+这次系统升级重点处理了 automatic 相关的问题，团队已经记录在案。,automatic,/.ɒ:tә'mætik/,自动手枪,这次系统升级重点处理了 automatic 相关的问题，团队已经记录在案。
+培训新同事时，我会专门讲一下 cookie 的常见用法。,cookie,/'kuki/,饼干,培训新同事时，我会专门讲一下 cookie 的常见用法。
+开发流程中如果忽略 indicator，后面很容易出现难以定位的问题。,indicator,/'indikeitә/,指示器,开发流程中如果忽略 indicator，后面很容易出现难以定位的问题。
+新项目里会用到 directory，文档里已经给出了具体说明。,directory,/di'rektәri/,目录,新项目里会用到 directory，文档里已经给出了具体说明。
+日志里提到了 translation，但还需要结合代码进一步分析。,translation,/træns'leiʃәn/,翻译,日志里提到了 translation，但还需要结合代码进一步分析。
+排查线上故障时，我们首先检查 terminal 的配置是否正确。,terminal,/'tә:minәl/,终端机,排查线上故障时，我们首先检查 terminal 的配置是否正确。
+日志里提到了 modem，但还需要结合代码进一步分析。,modem,/'mәudem/,调制解调器,日志里提到了 modem，但还需要结合代码进一步分析。
+培训新同事时，我会专门讲一下 bracket 的常见用法。,bracket,/'brækit/,支架,培训新同事时，我会专门讲一下 bracket 的常见用法。
+排查线上故障时，我们首先检查 swap 的配置是否正确。,swap,/swɒp/,以货易货,排查线上故障时，我们首先检查 swap 的配置是否正确。
+接口返回的数据结构不够 binary，前端处理起来很麻烦。,binary,/'bainәri/,由两部分组成,接口返回的数据结构不够 binary，前端处理起来很麻烦。
+我发现程序卡住以后，手动 emulate 就能恢复正常。,emulate,/'emjuleit/,效法,我发现程序卡住以后，手动 emulate 就能恢复正常。
+我发现程序卡住以后，手动 console 就能恢复正常。,console,/kәn'sәul/,安慰,我发现程序卡住以后，手动 console 就能恢复正常。
+排查线上故障时，我们首先检查 jig 的配置是否正确。,jig,/dʒig/,吉格快步舞,排查线上故障时，我们首先检查 jig 的配置是否正确。
+这次系统升级重点处理了 spool 相关的问题，团队已经记录在案。,spool,/spu:l/,线轴,这次系统升级重点处理了 spool 相关的问题，团队已经记录在案。
+日志里提到了 readout，但还需要结合代码进一步分析。,readout,/'ri:daut/,宣读,日志里提到了 readout，但还需要结合代码进一步分析。
+培训新同事时，我会专门讲一下 keypad 的常见用法。,keypad,/'ki:pæd/,键区,培训新同事时，我会专门讲一下 keypad 的常见用法。
+这套方案把 throughput 单独抽了出来，维护起来会更方便。,throughput,/'θru:put/,生产量,这套方案把 throughput 单独抽了出来，维护起来会更方便。
+这个脚本会在任务开始前自动 offload，减少人工操作。,offload,/'ɔflәjd/,卸下,这个脚本会在任务开始前自动 offload，减少人工操作。
+当系统处于 asynchronous 状态时，后台会触发对应的告警。,asynchronous,/ei'siŋkrәnәs/,不同时的,当系统处于 asynchronous 状态时，后台会触发对应的告警。
+选择工具时要优先考虑 backdoor 的方案，减少维护成本。,backdoor,/.bæk'dɒ:/,秘密的,选择工具时要优先考虑 backdoor 的方案，减少维护成本。
+新项目里会用到 faceplate，文档里已经给出了具体说明。,faceplate,/'feispleit/,面板,新项目里会用到 faceplate，文档里已经给出了具体说明。
+部署之前要确认 voicemail 的状态，避免影响正常业务。,voicemail,/ˈvɔɪsmeɪl/,语音信箱,部署之前要确认 voicemail 的状态，避免影响正常业务。
+部署之前要确认 diskette 的状态，避免影响正常业务。,diskette,/'diskit/,磁盘,部署之前要确认 diskette 的状态，避免影响正常业务。
+新人先学会怎么 debug，再参与线上问题的处理。,debug,/di:'bʌg/,除错,新人先学会怎么 debug，再参与线上问题的处理。
+排查线上故障时，我们首先检查 bionics 的配置是否正确。,bionics,/bai'ɒniks/,仿生学,排查线上故障时，我们首先检查 bionics 的配置是否正确。
+新项目里会用到 CD-ROM，文档里已经给出了具体说明。,CD-ROM,/si:di:'rɔm/,光盘驱动器,新项目里会用到 CD-ROM，文档里已经给出了具体说明。
+新项目里会用到 emails，文档里已经给出了具体说明。,emails,/'iːmeɪl/,电子信函,新项目里会用到 emails，文档里已经给出了具体说明。
+选择工具时要优先考虑 on-line 的方案，减少维护成本。,on-line,/'ɔ:n/,在线的,选择工具时要优先考虑 on-line 的方案，减少维护成本。
+遇到这个报错时，我们先 uploads 一下，再继续排查系统问题。,uploads,/ˈʌpˌləudz/,上传,遇到这个报错时，我们先 uploads 一下，再继续排查系统问题。
+部署之前要确认 websites 的状态，避免影响正常业务。,websites,/'websɪts/,网站,部署之前要确认 websites 的状态，避免影响正常业务。
+开发流程中如果忽略 microcircuit，后面很容易出现难以定位的问题。,microcircuit,/'maikrәu.sә:kit/,微电路,开发流程中如果忽略 microcircuit，后面很容易出现难以定位的问题。
+新项目里会用到 script，文档里已经给出了具体说明。,script,/skript/,手迹,新项目里会用到 script，文档里已经给出了具体说明。
+部署之前要确认 predictor 的状态，避免影响正常业务。,predictor,/pri'diktә/,预言者,部署之前要确认 predictor 的状态，避免影响正常业务。
+新项目里会用到 browser，文档里已经给出了具体说明。,browser,/'brauzә/,吃嫩叶的动物,新项目里会用到 browser，文档里已经给出了具体说明。
+新项目里会用到 caveat，文档里已经给出了具体说明。,caveat,/'keiviæt/,中止诉讼程序,新项目里会用到 caveat，文档里已经给出了具体说明。
+排查线上故障时，我们首先检查 sap 的配置是否正确。,sap,/sæp/,树液,排查线上故障时，我们首先检查 sap 的配置是否正确。
+日志里提到了 nova，但还需要结合代码进一步分析。,nova,/'nәuvә/,新星,日志里提到了 nova，但还需要结合代码进一步分析。
+日志里提到了 filer，但还需要结合代码进一步分析。,filer,/'failә/,文件编档员,日志里提到了 filer，但还需要结合代码进一步分析。
+这套方案把 topology 单独抽了出来，维护起来会更方便。,topology,/tәu'pɒlәdʒi/,地志学,这套方案把 topology 单独抽了出来，维护起来会更方便。
+新人先学会怎么 computerise，再参与线上问题的处理。,computerise,/kәm'pju:tәraiz/,用计算机处理,新人先学会怎么 computerise，再参与线上问题的处理。
+这次系统升级重点处理了 looker 相关的问题，团队已经记录在案。,looker,/'lukә/,观看的人,这次系统升级重点处理了 looker 相关的问题，团队已经记录在案。
+这套方案把 webmaster 单独抽了出来，维护起来会更方便。,webmaster,/'webmɑ:stә. -mæs-/,网络管理员,这套方案把 webmaster 单独抽了出来，维护起来会更方便。
+我发现程序卡住以后，手动 computerize 就能恢复正常。,computerize,/kәm'pju:tәraiz/,用电脑处理,我发现程序卡住以后，手动 computerize 就能恢复正常。
+开发流程中如果忽略 Accad，后面很容易出现难以定位的问题。,Accad,/'ækæd/,人名,开发流程中如果忽略 Accad，后面很容易出现难以定位的问题。
+日志里提到了 dot-com，但还需要结合代码进一步分析。,dot-com,/ˌdɒtˈkɒm/,网络公司,日志里提到了 dot-com，但还需要结合代码进一步分析。
+排查线上故障时，我们首先检查 webcams 的配置是否正确。,webcams,/ˈwebˌkæmz/,网络摄像机,排查线上故障时，我们首先检查 webcams 的配置是否正确。
+开发流程中如果忽略 racecard，后面很容易出现难以定位的问题。,racecard,/'reiskɑ:d/,比赛程序单,开发流程中如果忽略 racecard，后面很容易出现难以定位的问题。
+为了提升稳定性，服务会定期 cybernate 并清理过期数据。,cybernate,/'saibәneit/,使受电子计算,为了提升稳定性，服务会定期 cybernate 并清理过期数据。
+开发流程中如果忽略 computerese，后面很容易出现难以定位的问题。,computerese,/kәm'pju:tәris/,电脑行话,开发流程中如果忽略 computerese，后面很容易出现难以定位的问题。
+开发流程中如果忽略 totalizator，后面很容易出现难以定位的问题。,totalizator,/'tәutәlaizeitә/,总额计算机,开发流程中如果忽略 totalizator，后面很容易出现难以定位的问题。
+日志里提到了 cyberculture，但还需要结合代码进一步分析。,cyberculture,/'saibә/,电子计算机带,日志里提到了 cyberculture，但还需要结合代码进一步分析。
+部署脚本会 as 检查环境，避免配置遗漏。,as,/æz/,同样地,部署脚本会 as 检查环境，避免配置遗漏。
+这次系统升级重点处理了 work 相关的问题，团队已经记录在案。,work,/wә:k/,工作,这次系统升级重点处理了 work 相关的问题，团队已经记录在案。
+这次系统升级重点处理了 government 相关的问题，团队已经记录在案。,government,/'gʌvәnmәnt/,政府,这次系统升级重点处理了 government 相关的问题，团队已经记录在案。
+这次系统升级重点处理了 home 相关的问题，团队已经记录在案。,home,/hәum/,避难所,这次系统升级重点处理了 home 相关的问题，团队已经记录在案。
+排查线上故障时，我们首先检查 second 的配置是否正确。,second,/'sekәnd/,瞬间,排查线上故障时，我们首先检查 second 的配置是否正确。
+培训新同事时，我会专门讲一下 period 的常见用法。,period,/'piәriәd/,时期,培训新同事时，我会专门讲一下 period 的常见用法。
+测试环境里可以放心 remember，正式环境必须提前审批。,remember,/ri'membә/,记得,测试环境里可以放心 remember，正式环境必须提前审批。
+新项目里会用到 research，文档里已经给出了具体说明。,research,/ri'sә:tʃ/,研究,新项目里会用到 research，文档里已经给出了具体说明。
+这套方案把 main 单独抽了出来，维护起来会更方便。,main,/mein/,主要部分,这套方案把 main 单独抽了出来，维护起来会更方便。
+选择工具时要优先考虑 economic 的方案，减少维护成本。,economic,/.i:kә'nɒmik/,经济上的,选择工具时要优先考虑 economic 的方案，减少维护成本。
+新人先学会怎么 die，再参与线上问题的处理。,die,/dai/,死亡,新人先学会怎么 die，再参与线上问题的处理。
+培训新同事时，我会专门讲一下 table 的常见用法。,table,/'teibl/,桌子,培训新同事时，我会专门讲一下 table 的常见用法。
+部署之前要确认 language 的状态，避免影响正常业务。,language,/'læŋgwidʒ/,语言,部署之前要确认 language 的状态，避免影响正常业务。
+这次系统升级重点处理了 field 相关的问题，团队已经记录在案。,field,/fi:ld/,领域,这次系统升级重点处理了 field 相关的问题，团队已经记录在案。
+日志里提到了 light，但还需要结合代码进一步分析。,light,/lait/,光亮,日志里提到了 light，但还需要结合代码进一步分析。
+开发人员需要在提交代码前 pull，确保改动符合规范。,pull,/pul/,撕开,开发人员需要在提交代码前 pull，确保改动符合规范。
+日志里提到了 drive，但还需要结合代码进一步分析。,drive,/draiv/,驾车,日志里提到了 drive，但还需要结合代码进一步分析。
+部署之前要确认 material 的状态，避免影响正常业务。,material,/mә'tiәriәl/,材料,部署之前要确认 material 的状态，避免影响正常业务。
+开发流程中如果忽略 pick，后面很容易出现难以定位的问题。,pick,/pik/,精选,开发流程中如果忽略 pick，后面很容易出现难以定位的问题。
+这次系统升级重点处理了 method 相关的问题，团队已经记录在案。,method,/'meθәd/,方法,这次系统升级重点处理了 method 相关的问题，团队已经记录在案。
+这套方案把 test 单独抽了出来，维护起来会更方便。,test,/test/,测试,这套方案把 test 单独抽了出来，维护起来会更方便。
+部署之前要确认 technology 的状态，避免影响正常业务。,technology,/tek'nɒlәdʒi/,技术,部署之前要确认 technology 的状态，避免影响正常业务。
+开发流程中如果忽略 scheme，后面很容易出现难以定位的问题。,scheme,/ski:m/,方案,开发流程中如果忽略 scheme，后面很容易出现难以定位的问题。
+新人先学会怎么 seek，再参与线上问题的处理。,seek,/si:k/,寻求,新人先学会怎么 seek，再参与线上问题的处理。
+这次系统升级重点处理了 theory 相关的问题，团队已经记录在案。,theory,/'θiәri/,理论,这次系统升级重点处理了 theory 相关的问题，团队已经记录在案。
+排查线上故障时，我们首先检查 energy 的配置是否正确。,energy,/'enәdʒi/,精力,排查线上故障时，我们首先检查 energy 的配置是否正确。
+这个脚本会在任务开始前自动 fail，减少人工操作。,fail,/feil/,失败,这个脚本会在任务开始前自动 fail，减少人工操作。
+开发流程中如果忽略 economy，后面很容易出现难以定位的问题。,economy,/i'kɒnәmi/,经济,开发流程中如果忽略 economy，后面很容易出现难以定位的问题。
+日志里提到了 standard，但还需要结合代码进一步分析。,standard,/'stændәd/,标准,日志里提到了 standard，但还需要结合代码进一步分析。
+排查线上故障时，我们首先检查 focus 的配置是否正确。,focus,/'fәukәs/,焦点,排查线上故障时，我们首先检查 focus 的配置是否正确。
+部署之前要确认 series 的状态，避免影响正常业务。,series,/'siәri:z/,串联,部署之前要确认 series 的状态，避免影响正常业务。
+日志里提到了 store，但还需要结合代码进一步分析。,store,/stɒ:/,商店,日志里提到了 store，但还需要结合代码进一步分析。
+代码评审时要重点看实现是否 significant，不能只看功能。,significant,/sig'nifikәnt/,重要的,代码评审时要重点看实现是否 significant，不能只看功能。
+新项目里会用到 principle，文档里已经给出了具体说明。,principle,/'prinsipl/,原则,新项目里会用到 principle，文档里已经给出了具体说明。
+开发流程中如果忽略 response，后面很容易出现难以定位的问题。,response,/ri'spɒns/,反应,开发流程中如果忽略 response，后面很容易出现难以定位的问题。
+这次系统升级重点处理了 stock 相关的问题，团队已经记录在案。,stock,/stɒk/,树干,这次系统升级重点处理了 stock 相关的问题，团队已经记录在案。
+培训新同事时，我会专门讲一下 feature 的常见用法。,feature,/'fi:tʃә/,面孔的一部分,培训新同事时，我会专门讲一下 feature 的常见用法。
+这套方案把 association 单独抽了出来，维护起来会更方便。,association,/ә.sәuʃә'eiʃәn/,协会,这套方案把 association 单独抽了出来，维护起来会更方便。
+排查线上故障时，我们首先检查 treatment 的配置是否正确。,treatment,/'tri:tmәnt/,治疗,排查线上故障时，我们首先检查 treatment 的配置是否正确。
+新项目里会用到 cell，文档里已经给出了具体说明。,cell,/sel/,单元,新项目里会用到 cell，文档里已经给出了具体说明。
+培训新同事时，我会专门讲一下 behaviour 的常见用法。,behaviour,/bi'heivjә/,行为,培训新同事时，我会专门讲一下 behaviour 的常见用法。
+开发流程中如果忽略 television，后面很容易出现难以定位的问题。,television,/'teli.viʒәn/,电视,开发流程中如果忽略 television，后面很容易出现难以定位的问题。
+这次系统升级重点处理了 express 相关的问题，团队已经记录在案。,express,/ik'spres/,快车,这次系统升级重点处理了 express 相关的问题，团队已经记录在案。
+日志里提到了 sun，但还需要结合代码进一步分析。,sun,/sʌn/,太阳,日志里提到了 sun，但还需要结合代码进一步分析。
+排查线上故障时，我们首先检查 spring 的配置是否正确。,spring,/spriŋ/,春天,排查线上故障时，我们首先检查 spring 的配置是否正确。
+日志里提到了 radio，但还需要结合代码进一步分析。,radio,/'reidiәu/,无线电,日志里提到了 radio，但还需要结合代码进一步分析。
+这次系统升级重点处理了 sector 相关的问题，团队已经记录在案。,sector,/'sektә/,扇形,这次系统升级重点处理了 sector 相关的问题，团队已经记录在案。
+日志里提到了 peace，但还需要结合代码进一步分析。,peace,/pi:s/,和平,日志里提到了 peace，但还需要结合代码进一步分析。
+部署之前要确认 press 的状态，避免影响正常业务。,press,/pres/,人群,部署之前要确认 press 的状态，避免影响正常业务。
+日志里提到了 mouth，但还需要结合代码进一步分析。,mouth,/mauθ/,口腔,日志里提到了 mouth，但还需要结合代码进一步分析。
+排查线上故障时，我们首先检查 cancer 的配置是否正确。,cancer,/'kænsә/,恶性肿瘤,排查线上故障时，我们首先检查 cancer 的配置是否正确。
+排查线上故障时，我们首先检查 key 的配置是否正确。,key,/ki:/,钥匙,排查线上故障时，我们首先检查 key 的配置是否正确。
+这套方案把 video 单独抽了出来，维护起来会更方便。,video,/'vidiәu/,影像,这套方案把 video 单独抽了出来，维护起来会更方便。
+这次系统升级重点处理了 gain 相关的问题，团队已经记录在案。,gain,/gein/,增益,这次系统升级重点处理了 gain 相关的问题，团队已经记录在案。
+部署之前要确认 release 的状态，避免影响正常业务。,release,/ri'li:s/,释放,部署之前要确认 release 的状态，避免影响正常业务。
+培训新同事时，我会专门讲一下 review 的常见用法。,review,/ri'vju:/,检讨,培训新同事时，我会专门讲一下 review 的常见用法。
+培训新同事时，我会专门讲一下 investigation 的常见用法。,investigation,/in.vesti'geiʃәn/,调查,培训新同事时，我会专门讲一下 investigation 的常见用法。
+排查线上故障时，我们首先检查 brain 的配置是否正确。,brain,/brein/,打碎脑部,排查线上故障时，我们首先检查 brain 的配置是否正确。
+培训新同事时，我会专门讲一下 studio 的常见用法。,studio,/'stju:diәu/,工作室,培训新同事时，我会专门讲一下 studio 的常见用法。
+排查线上故障时，我们首先检查 fan 的配置是否正确。,fan,/fæn/,风扇,排查线上故障时，我们首先检查 fan 的配置是否正确。
+开发流程中如果忽略 spot，后面很容易出现难以定位的问题。,spot,/spɒt/,污点,开发流程中如果忽略 spot，后面很容易出现难以定位的问题。
+这套方案把 exercise 单独抽了出来，维护起来会更方便。,exercise,/'eksәsaiz/,行使,这套方案把 exercise 单独抽了出来，维护起来会更方便。
+这次系统升级重点处理了 screen 相关的问题，团队已经记录在案。,screen,/skri:n/,银幕,这次系统升级重点处理了 screen 相关的问题，团队已经记录在案。
+这次系统升级重点处理了 ride 相关的问题，团队已经记录在案。,ride,/raid/,骑马,这次系统升级重点处理了 ride 相关的问题，团队已经记录在案。
+这套方案把 guard 单独抽了出来，维护起来会更方便。,guard,/gɑ:d/,守卫者,这套方案把 guard 单独抽了出来，维护起来会更方便。
+排查线上故障时，我们首先检查 objective 的配置是否正确。,objective,/әb'dʒektiv/,目的,排查线上故障时，我们首先检查 objective 的配置是否正确。
+这个脚本会在任务开始前自动 arrange，减少人工操作。,arrange,/ә'reindʒ/,安排,这个脚本会在任务开始前自动 arrange，减少人工操作。
+这次系统升级重点处理了 telephone 相关的问题，团队已经记录在案。,telephone,/'telifәun/,电话,这次系统升级重点处理了 telephone 相关的问题，团队已经记录在案。
+这套方案把 lift 单独抽了出来，维护起来会更方便。,lift,/lift/,举起,这套方案把 lift 单独抽了出来，维护起来会更方便。
+部署之前要确认 engine 的状态，避免影响正常业务。,engine,/'endʒin/,引擎,部署之前要确认 engine 的状态，避免影响正常业务。
+这个脚本会在任务开始前自动 threaten，减少人工操作。,threaten,/'θretn/,恐吓,这个脚本会在任务开始前自动 threaten，减少人工操作。
+监控面板显示系统整体比较 afraid，暂时不用处理。,afraid,/ә'freid/,害怕的,监控面板显示系统整体比较 afraid，暂时不用处理。
+我发现程序卡住以后，手动 acquire 就能恢复正常。,acquire,/ә'kwaiә/,获得,我发现程序卡住以后，手动 acquire 就能恢复正常。
+这次系统升级重点处理了 traffic 相关的问题，团队已经记录在案。,traffic,/'træfik/,交通,这次系统升级重点处理了 traffic 相关的问题，团队已经记录在案。
+日志里提到了 discipline，但还需要结合代码进一步分析。,discipline,/'disiplin/,训练,日志里提到了 discipline，但还需要结合代码进一步分析。
+这个脚本会在任务开始前自动 retain，减少人工操作。,retain,/ri'tein/,保持,这个脚本会在任务开始前自动 retain，减少人工操作。
+新项目里会用到 grab，文档里已经给出了具体说明。,grab,/græb/,抓握,新项目里会用到 grab，文档里已经给出了具体说明。
+部署之前要确认 rain 的状态，避免影响正常业务。,rain,/rein/,下雨,部署之前要确认 rain 的状态，避免影响正常业务。
+部署之前要确认 planet 的状态，避免影响正常业务。,planet,/'plænit/,行星,部署之前要确认 planet 的状态，避免影响正常业务。
+这次系统升级重点处理了 transfer 相关的问题，团队已经记录在案。,transfer,/træns'fә:/,迁移,这次系统升级重点处理了 transfer 相关的问题，团队已经记录在案。
+排查线上故障时，我们首先检查 error 的配置是否正确。,error,/'erә/,错误,排查线上故障时，我们首先检查 error 的配置是否正确。
+培训新同事时，我会专门讲一下 weather 的常见用法。,weather,/'weðә/,天气,培训新同事时，我会专门讲一下 weather 的常见用法。
+部署之前要确认 instrument 的状态，避免影响正常业务。,instrument,/'instrumәnt/,工具,部署之前要确认 instrument 的状态，避免影响正常业务。
+我发现程序卡住以后，手动 organise 就能恢复正常。,organise,/'ɒ:gәnaiz/,组织,我发现程序卡住以后，手动 organise 就能恢复正常。
+开发流程中如果忽略 phase，后面很容易出现难以定位的问题。,phase,/feiz/,时期,开发流程中如果忽略 phase，后面很容易出现难以定位的问题。
+这套方案把 gate 单独抽了出来，维护起来会更方便。,gate,/geit/,牌楼,这套方案把 gate 单独抽了出来，维护起来会更方便。
+部署之前要确认 capture 的状态，避免影响正常业务。,capture,/'kæptʃә/,抓取,部署之前要确认 capture 的状态，避免影响正常业务。
+日志里提到了 chest，但还需要结合代码进一步分析。,chest,/tʃest/,胸部,日志里提到了 chest，但还需要结合代码进一步分析。
+排查线上故障时，我们首先检查 mix 的配置是否正确。,mix,/miks/,混合物,排查线上故障时，我们首先检查 mix 的配置是否正确。
+开发流程中如果忽略 snow，后面很容易出现难以定位的问题。,snow,/snәu/,积雪,开发流程中如果忽略 snow，后面很容易出现难以定位的问题。
+这次系统升级重点处理了 slip 相关的问题，团队已经记录在案。,slip,/slip/,滑行,这次系统升级重点处理了 slip 相关的问题，团队已经记录在案。
+开发流程中如果忽略 governor，后面很容易出现难以定位的问题。,governor,/'gʌvәnә/,州长,开发流程中如果忽略 governor，后面很容易出现难以定位的问题。
+这次系统升级重点处理了 characteristic 相关的问题，团队已经记录在案。,characteristic,/.kærәktә'ristik/,特性,这次系统升级重点处理了 characteristic 相关的问题，团队已经记录在案。
+部署之前要确认 frame 的状态，避免影响正常业务。,frame,/freim/,结构,部署之前要确认 frame 的状态，避免影响正常业务。
+这套方案把 producer 单独抽了出来，维护起来会更方便。,producer,/prә'dju:sә/,生产者,这套方案把 producer 单独抽了出来，维护起来会更方便。
+这次系统升级重点处理了 motor 相关的问题，团队已经记录在案。,motor,/'mәutә/,马达,这次系统升级重点处理了 motor 相关的问题，团队已经记录在案。
+培训新同事时，我会专门讲一下 hero 的常见用法。,hero,/'hiәrәu/,英雄,培训新同事时，我会专门讲一下 hero 的常见用法。
+部署之前要确认 signal 的状态，避免影响正常业务。,signal,/'signl/,信号,部署之前要确认 signal 的状态，避免影响正常业务。
+开发流程中如果忽略 mine，后面很容易出现难以定位的问题。,mine,/main/,矿藏,开发流程中如果忽略 mine，后面很容易出现难以定位的问题。
+日志里提到了 bomb，但还需要结合代码进一步分析。,bomb,/bɒm/,炸弹,日志里提到了 bomb，但还需要结合代码进一步分析。
+这套方案把 wheel 单独抽了出来，维护起来会更方便。,wheel,/hwi:l/,轮子,这套方案把 wheel 单独抽了出来，维护起来会更方便。
+部署之前要确认 passenger 的状态，避免影响正常业务。,passenger,/'pæsindʒә/,乘客,部署之前要确认 passenger 的状态，避免影响正常业务。
+这次系统升级重点处理了 inquiry 相关的问题，团队已经记录在案。,inquiry,/in'kwaiәri/,质询,这次系统升级重点处理了 inquiry 相关的问题，团队已经记录在案。
+开发流程中如果忽略 fault，后面很容易出现难以定位的问题。,fault,/fɒ:lt/,过错,开发流程中如果忽略 fault，后面很容易出现难以定位的问题。
+日志里提到了 metre，但还需要结合代码进一步分析。,metre,/'mi:tә/,公尺,日志里提到了 metre，但还需要结合代码进一步分析。
+日志里提到了 convert，但还需要结合代码进一步分析。,convert,/kәn'vә:t/,皈依者,日志里提到了 convert，但还需要结合代码进一步分析。
+新版本在性能上更加 sensitive，用户反馈也明显变好了。,sensitive,/'sensitiv/,敏感的,新版本在性能上更加 sensitive，用户反馈也明显变好了。
+排查线上故障时，我们首先检查 deposit 的配置是否正确。,deposit,/di'pɒzit/,存款,排查线上故障时，我们首先检查 deposit 的配置是否正确。
+这个模块的表现还不够 pure，需要继续调整和测试。,pure,/pjuә/,纯的,这个模块的表现还不够 pure，需要继续调整和测试。
+这个模块的表现还不够 nervous，需要继续调整和测试。,nervous,/'nә:vәs/,神经紧张的,这个模块的表现还不够 nervous，需要继续调整和测试。
+新项目里会用到 smoke，文档里已经给出了具体说明。,smoke,/smәuk/,雾气,新项目里会用到 smoke，文档里已经给出了具体说明。
+培训新同事时，我会专门讲一下 toy 的常见用法。,toy,/tɒi/,玩具,培训新同事时，我会专门讲一下 toy 的常见用法。
+排查线上故障时，我们首先检查 belt 的配置是否正确。,belt,/belt/,带子,排查线上故障时，我们首先检查 belt 的配置是否正确。
+新项目里会用到 flag，文档里已经给出了具体说明。,flag,/flæg/,标志,新项目里会用到 flag，文档里已经给出了具体说明。
+新项目里会用到 swing，文档里已经给出了具体说明。,swing,/swiŋ/,摇摆,新项目里会用到 swing，文档里已经给出了具体说明。
+这套方案把 enquiry 单独抽了出来，维护起来会更方便。,enquiry,/in'kwaiәri/,询问,这套方案把 enquiry 单独抽了出来，维护起来会更方便。
+这次系统升级重点处理了 mail 相关的问题，团队已经记录在案。,mail,/meil/,邮件,这次系统升级重点处理了 mail 相关的问题，团队已经记录在案。
+日志里提到了 curve，但还需要结合代码进一步分析。,curve,/kә:v/,曲线,日志里提到了 curve，但还需要结合代码进一步分析。
+新项目里会用到 concert，文档里已经给出了具体说明。,concert,/'kɒnsәt/,音乐会,新项目里会用到 concert，文档里已经给出了具体说明。
+这次系统升级重点处理了 sink 相关的问题，团队已经记录在案。,sink,/siŋk/,藏垢的场所,这次系统升级重点处理了 sink 相关的问题，团队已经记录在案。
+部署之前要确认 ceiling 的状态，避免影响正常业务。,ceiling,/'si:liŋ/,天花板,部署之前要确认 ceiling 的状态，避免影响正常业务。
+日志里提到了 bell，但还需要结合代码进一步分析。,bell,/bel/,响铃命令,日志里提到了 bell，但还需要结合代码进一步分析。
+日志里提到了 rice，但还需要结合代码进一步分析。,rice,/rais/,米饭,日志里提到了 rice，但还需要结合代码进一步分析。
+日志里提到了 singer，但还需要结合代码进一步分析。,singer,/'siŋә/,歌手,日志里提到了 singer，但还需要结合代码进一步分析。
+部署之前要确认 alarm 的状态，避免影响正常业务。,alarm,/ә'lɑ:m/,惊恐,部署之前要确认 alarm 的状态，避免影响正常业务。
+培训新同事时，我会专门讲一下 patch 的常见用法。,patch,/pætʃ/,补缀,培训新同事时，我会专门讲一下 patch 的常见用法。
+培训新同事时，我会专门讲一下 trick 的常见用法。,trick,/trik/,诡计,培训新同事时，我会专门讲一下 trick 的常见用法。
+这次系统升级重点处理了 tent 相关的问题，团队已经记录在案。,tent,/tent/,帐篷,这次系统升级重点处理了 tent 相关的问题，团队已经记录在案。
+开发流程中如果忽略 menu，后面很容易出现难以定位的问题。,menu,/'menju:/,菜单,开发流程中如果忽略 menu，后面很容易出现难以定位的问题。
+这次系统升级重点处理了 prompt 相关的问题，团队已经记录在案。,prompt,/prɒmpt/,激励,这次系统升级重点处理了 prompt 相关的问题，团队已经记录在案。
+日志里提到了 reverse，但还需要结合代码进一步分析。,reverse,/ri'vә:s/,相反,日志里提到了 reverse，但还需要结合代码进一步分析。
+接口返回的数据结构不够 naked，前端处理起来很麻烦。,naked,/'neikid/,裸体的,接口返回的数据结构不够 naked，前端处理起来很麻烦。
+培训新同事时，我会专门讲一下 battery 的常见用法。,battery,/'bætәri/,电池,培训新同事时，我会专门讲一下 battery 的常见用法。
+排查线上故障时，我们首先检查 flame 的配置是否正确。,flame,/fleim/,火焰,排查线上故障时，我们首先检查 flame 的配置是否正确。
+新项目里会用到 allocation，文档里已经给出了具体说明。,allocation,/.ælәu'keiʃәn/,配置,新项目里会用到 allocation，文档里已经给出了具体说明。
+开发流程中如果忽略 trap，后面很容易出现难以定位的问题。,trap,/træp/,圈套,开发流程中如果忽略 trap，后面很容易出现难以定位的问题。
+这个脚本会在任务开始前自动 interrupt，减少人工操作。,interrupt,/.intә'rʌpt/,中断,这个脚本会在任务开始前自动 interrupt，减少人工操作。
+排查线上故障时，我们首先检查 crystal 的配置是否正确。,crystal,/'kristl/,水晶,排查线上故障时，我们首先检查 crystal 的配置是否正确。
+新版本在性能上更加 mechanical，用户反馈也明显变好了。,mechanical,/mi'kænikәl/,机械的,新版本在性能上更加 mechanical，用户反馈也明显变好了。
+培训新同事时，我会专门讲一下 cupboard 的常见用法。,cupboard,/'kʌpbɒ:d/,食橱,培训新同事时，我会专门讲一下 cupboard 的常见用法。
+排查线上故障时，我们首先检查 signature 的配置是否正确。,signature,/'signәtʃә/,签字,排查线上故障时，我们首先检查 signature 的配置是否正确。
+部署之前要确认 hook 的状态，避免影响正常业务。,hook,/huk/,钩状,部署之前要确认 hook 的状态，避免影响正常业务。
+这次系统升级重点处理了 click 相关的问题，团队已经记录在案。,click,/klik/,咔哒声,这次系统升级重点处理了 click 相关的问题，团队已经记录在案。
+这套方案把 packet 单独抽了出来，维护起来会更方便。,packet,/'pækit/,小包,这套方案把 packet 单独抽了出来，维护起来会更方便。
+开发流程中如果忽略 elevator，后面很容易出现难以定位的问题。,elevator,/'eliveitә/,电梯,开发流程中如果忽略 elevator，后面很容易出现难以定位的问题。
+新项目里会用到 redundancy，文档里已经给出了具体说明。,redundancy,/ri'dʌndәnsi/,过多,新项目里会用到 redundancy，文档里已经给出了具体说明。
+这次系统升级重点处理了 stamp 相关的问题，团队已经记录在案。,stamp,/stæmp/,邮票,这次系统升级重点处理了 stamp 相关的问题，团队已经记录在案。
+这次系统升级重点处理了 seal 相关的问题，团队已经记录在案。,seal,/si:l/,印章,这次系统升级重点处理了 seal 相关的问题，团队已经记录在案。
+这次系统升级重点处理了 parameter 相关的问题，团队已经记录在案。,parameter,/pә'ræmitә/,参变数,这次系统升级重点处理了 parameter 相关的问题，团队已经记录在案。
+当系统处于 stiff 状态时，后台会触发对应的告警。,stiff,/stif/,坚硬的,当系统处于 stiff 状态时，后台会触发对应的告警。
+这次系统升级重点处理了 drum 相关的问题，团队已经记录在案。,drum,/drʌm/,鼓声,这次系统升级重点处理了 drum 相关的问题，团队已经记录在案。
+开发流程中如果忽略 dot，后面很容易出现难以定位的问题。,dot,/dɒt/,圆点,开发流程中如果忽略 dot，后面很容易出现难以定位的问题。
+培训新同事时，我会专门讲一下 loop 的常见用法。,loop,/lu:p/,弯曲部分,培训新同事时，我会专门讲一下 loop 的常见用法。
+这次系统升级重点处理了 workstation 相关的问题，团队已经记录在案。,workstation,/'wә:k.steiʃәn/,工作站,这次系统升级重点处理了 workstation 相关的问题，团队已经记录在案。
+这套架构设计得很 sympathetic，后续扩展会轻松很多。,sympathetic,/.simpә'θetik/,有同情心的,这套架构设计得很 sympathetic，后续扩展会轻松很多。
+新项目里会用到 zero，文档里已经给出了具体说明。,zero,/'ziәrәu/,零点,新项目里会用到 zero，文档里已经给出了具体说明。
+这次系统升级重点处理了 electronics 相关的问题，团队已经记录在案。,electronics,/.ilek'trɒniks/,电子学,这次系统升级重点处理了 electronics 相关的问题，团队已经记录在案。
+日志里提到了 defect，但还需要结合代码进一步分析。,defect,/di'fekt/,缺点,日志里提到了 defect，但还需要结合代码进一步分析。
+这套方案把 anderson 单独抽了出来，维护起来会更方便。,anderson,/'ændәsn/,安德森市,这套方案把 anderson 单独抽了出来，维护起来会更方便。
+开发流程中如果忽略 outlet，后面很容易出现难以定位的问题。,outlet,/'autlet/,出口,开发流程中如果忽略 outlet，后面很容易出现难以定位的问题。
+这套方案把 screw 单独抽了出来，维护起来会更方便。,screw,/skru:/,螺旋,这套方案把 screw 单独抽了出来，维护起来会更方便。
+日志里提到了 invention，但还需要结合代码进一步分析。,invention,/in'venʃәn/,发明,日志里提到了 invention，但还需要结合代码进一步分析。
+开发流程中如果忽略 vocabulary，后面很容易出现难以定位的问题。,vocabulary,/vә'kæbjulәri/,词汇,开发流程中如果忽略 vocabulary，后面很容易出现难以定位的问题。
+新项目里会用到 telecommunication，文档里已经给出了具体说明。,telecommunication,/'telikәmju:ni'keiʃәn/,电讯,新项目里会用到 telecommunication，文档里已经给出了具体说明。
+排查线上故障时，我们首先检查 detector 的配置是否正确。,detector,/di'tektә/,发现者,排查线上故障时，我们首先检查 detector 的配置是否正确。
+这套方案把 mainframe 单独抽了出来，维护起来会更方便。,mainframe,/'meinfreim/,主机,这套方案把 mainframe 单独抽了出来，维护起来会更方便。
+这套方案把 plug 单独抽了出来，维护起来会更方便。,plug,/plʌg/,塞子,这套方案把 plug 单独抽了出来，维护起来会更方便。
+开发流程中如果忽略 simulation，后面很容易出现难以定位的问题。,simulation,/.simju'leiʃәn/,模拟,开发流程中如果忽略 simulation，后面很容易出现难以定位的问题。
+如果部署失败，可以重新 erase 一次，看看错误是否复现。,erase,/i'reis/,抹去,如果部署失败，可以重新 erase 一次，看看错误是否复现。
+这次系统升级重点处理了 generator 相关的问题，团队已经记录在案。,generator,/'dʒenәreitә/,产生器,这次系统升级重点处理了 generator 相关的问题，团队已经记录在案。
+新项目里会用到 upgrade，文档里已经给出了具体说明。,upgrade,/'ʌpgreid/,上坡,新项目里会用到 upgrade，文档里已经给出了具体说明。
+新版本在性能上更加 peripheral，用户反馈也明显变好了。,peripheral,/pә'rifәrәl/,周边的,新版本在性能上更加 peripheral，用户反馈也明显变好了。
+这套方案把 telly 单独抽了出来，维护起来会更方便。,telly,/'teli/,电视,这套方案把 telly 单独抽了出来，维护起来会更方便。
+新项目里会用到 whistle，文档里已经给出了具体说明。,whistle,/'hwisl/,口哨,新项目里会用到 whistle，文档里已经给出了具体说明。
+培训新同事时，我会专门讲一下 bail 的常见用法。,bail,/beil/,保释,培训新同事时，我会专门讲一下 bail 的常见用法。
+新项目里会用到 retrieval，文档里已经给出了具体说明。,retrieval,/ri'tri:vl/,取回,新项目里会用到 retrieval，文档里已经给出了具体说明。
+日志里提到了 cracker，但还需要结合代码进一步分析。,cracker,/'krækә/,饼干,日志里提到了 cracker，但还需要结合代码进一步分析。
+为了提升稳定性，服务会定期 irritate 并清理过期数据。,irritate,/'iriteit/,激怒,为了提升稳定性，服务会定期 irritate 并清理过期数据。
+这次系统升级重点处理了 foreground 相关的问题，团队已经记录在案。,foreground,/'fɒ:graund/,前景,这次系统升级重点处理了 foreground 相关的问题，团队已经记录在案。
+新项目里会用到 calculator，文档里已经给出了具体说明。,calculator,/'kælkjuleitә/,计算者,新项目里会用到 calculator，文档里已经给出了具体说明。
+培训新同事时，我会专门讲一下 willow 的常见用法。,willow,/'wilәu/,柳树,培训新同事时，我会专门讲一下 willow 的常见用法。
+这套方案把 fidelity 单独抽了出来，维护起来会更方便。,fidelity,/fi'deliti/,忠实,这套方案把 fidelity 单独抽了出来，维护起来会更方便。
+培训新同事时，我会专门讲一下 automation 的常见用法。,automation,/.ɒ:tә'meiʃәn/,自动化,培训新同事时，我会专门讲一下 automation 的常见用法。
+日志里提到了 chassis，但还需要结合代码进一步分析。,chassis,/'ʃæsi/,底盘,日志里提到了 chassis，但还需要结合代码进一步分析。
+这套方案把 emulation 单独抽了出来，维护起来会更方便。,emulation,/.emju'leiʃәn/,效法,这套方案把 emulation 单独抽了出来，维护起来会更方便。
+部署之前要确认 filename 的状态，避免影响正常业务。,filename,/fail'neim/,文件名,部署之前要确认 filename 的状态，避免影响正常业务。
+这个脚本会在任务开始前自动 codify，减少人工操作。,codify,/'kәudifai/,编成法典,这个脚本会在任务开始前自动 codify，减少人工操作。
+这次系统升级重点处理了 outage 相关的问题，团队已经记录在案。,outage,/'autidʒ/,断供,这次系统升级重点处理了 outage 相关的问题，团队已经记录在案。
+新版本在性能上更加 alphabetical，用户反馈也明显变好了。,alphabetical,/.ælfә'betikәl/,依字母顺序的,新版本在性能上更加 alphabetical，用户反馈也明显变好了。
+日志里提到了 circuitry，但还需要结合代码进一步分析。,circuitry,/'sә:kitri/,电路学,日志里提到了 circuitry，但还需要结合代码进一步分析。
+这次系统升级重点处理了 pulley 相关的问题，团队已经记录在案。,pulley,/'puli/,滑车,这次系统升级重点处理了 pulley 相关的问题，团队已经记录在案。
+这次系统升级重点处理了 kilogram 相关的问题，团队已经记录在案。,kilogram,/'kilәgræm/,千克,这次系统升级重点处理了 kilogram 相关的问题，团队已经记录在案。
+开发流程中如果忽略 hookup，后面很容易出现难以定位的问题。,hookup,/'hukʌp/,连接,开发流程中如果忽略 hookup，后面很容易出现难以定位的问题。
+新项目里会用到 Java，文档里已经给出了具体说明。,Java,/'dʒɑ:vә/,爪哇,新项目里会用到 Java，文档里已经给出了具体说明。
+部署之前要确认 plotter 的状态，避免影响正常业务。,plotter,/'plɒtә/,密谋者,部署之前要确认 plotter 的状态，避免影响正常业务。
+日志里提到了 snowshoe，但还需要结合代码进一步分析。,snowshoe,/'snәuʃu:/,雪鞋,日志里提到了 snowshoe，但还需要结合代码进一步分析。
+新人先学会怎么 digitize，再参与线上问题的处理。,digitize,/'didʒitaiz/,使成为数字,新人先学会怎么 digitize，再参与线上问题的处理。
+排查线上故障时，我们首先检查 planetarium 的配置是否正确。,planetarium,/.plæni'tєәriәm/,行星仪,排查线上故障时，我们首先检查 planetarium 的配置是否正确。
+这次系统升级重点处理了 downtime 相关的问题，团队已经记录在案。,downtime,/'dauntaim/,停工期,这次系统升级重点处理了 downtime 相关的问题，团队已经记录在案。
+这套方案把 machinist 单独抽了出来，维护起来会更方便。,machinist,/mә'ʃi:nist/,机械师,这套方案把 machinist 单独抽了出来，维护起来会更方便。
+培训新同事时，我会专门讲一下 pacemaker 的常见用法。,pacemaker,/'peis.meikә/,带步人,培训新同事时，我会专门讲一下 pacemaker 的常见用法。
+这次系统升级重点处理了 joystick 相关的问题，团队已经记录在案。,joystick,/'dʒɔi/,操纵杆,这次系统升级重点处理了 joystick 相关的问题，团队已经记录在案。
+测试环境里可以放心 quench，正式环境必须提前审批。,quench,/kwentʃ/,熄灭,测试环境里可以放心 quench，正式环境必须提前审批。
+开发流程中如果忽略 phonograph，后面很容易出现难以定位的问题。,phonograph,/'fәunәgrɑ:f/,留声机,开发流程中如果忽略 phonograph，后面很容易出现难以定位的问题。
+监控面板显示系统整体比较 synchronous，暂时不用处理。,synchronous,/'siŋkrәnәs/,同时的,监控面板显示系统整体比较 synchronous，暂时不用处理。
+开发流程中如果忽略 coder，后面很容易出现难以定位的问题。,coder,/'kәudә/,编码器,开发流程中如果忽略 coder，后面很容易出现难以定位的问题。
+新项目里会用到 roma，文档里已经给出了具体说明。,roma,/'rɔmә. 'rәu-/,罗马,新项目里会用到 roma，文档里已经给出了具体说明。
+部署之前要确认 microfilm 的状态，避免影响正常业务。,microfilm,/'maikrәufilm/,缩影胶卷,部署之前要确认 microfilm 的状态，避免影响正常业务。
+接口返回的数据结构不够 mnemonic，前端处理起来很麻烦。,mnemonic,/ni:'mɒnik/,记忆的,接口返回的数据结构不够 mnemonic，前端处理起来很麻烦。
+日志里提到了 decoder，但还需要结合代码进一步分析。,decoder,/di:'kәudә/,译电员,日志里提到了 decoder，但还需要结合代码进一步分析。
+开发流程中如果忽略 silencer，后面很容易出现难以定位的问题。,silencer,/'sailәnsә/,使沉默的人,开发流程中如果忽略 silencer，后面很容易出现难以定位的问题。
+新项目里会用到 repeater，文档里已经给出了具体说明。,repeater,/ri'pi:tә/,重复做的人,新项目里会用到 repeater，文档里已经给出了具体说明。
+开发流程中如果忽略 cathode，后面很容易出现难以定位的问题。,cathode,/'kæθәud/,阴极,开发流程中如果忽略 cathode，后面很容易出现难以定位的问题。
+新项目里会用到 estimator，文档里已经给出了具体说明。,estimator,/'estimeitә/,估计者,新项目里会用到 estimator，文档里已经给出了具体说明。
+我发现程序卡住以后，手动 resubmit 就能恢复正常。,resubmit,/rɪzəb'mɪt/,重发,我发现程序卡住以后，手动 resubmit 就能恢复正常。
+培训新同事时，我会专门讲一下 videodisc 的常见用法。,videodisc,/'vidiәjdisk/,电视唱片,培训新同事时，我会专门讲一下 videodisc 的常见用法。
+排查线上故障时，我们首先检查 anode 的配置是否正确。,anode,/'ænәud/,阳极,排查线上故障时，我们首先检查 anode 的配置是否正确。
+部署之前要确认 digitizer 的状态，避免影响正常业务。,digitizer,/'didʒitaizә/,数字转换器,部署之前要确认 digitizer 的状态，避免影响正常业务。
+如果部署失败，可以重新 initialize 一次，看看错误是否复现。,initialize,/i'niʃәlaiz/,预置,如果部署失败，可以重新 initialize 一次，看看错误是否复现。
+测试环境里可以放心 interleave，正式环境必须提前审批。,interleave,/.intә'li:v/,插入,测试环境里可以放心 interleave，正式环境必须提前审批。
+这套方案把 tagger 单独抽了出来，维护起来会更方便。,tagger,/'tægә/,垂下物,这套方案把 tagger 单独抽了出来，维护起来会更方便。
+日志里提到了 photostat，但还需要结合代码进一步分析。,photostat,/'fәutәustæt/,直接复印照片,日志里提到了 photostat，但还需要结合代码进一步分析。
+我发现程序卡住以后，手动 digitise 就能恢复正常。,digitise,/'dɪdʒɪtaɪz/,数码化,我发现程序卡住以后，手动 digitise 就能恢复正常。
+排查线上故障时，我们首先检查 cut-in 的配置是否正确。,cut-in,/'kʌtin/,插入字幕,排查线上故障时，我们首先检查 cut-in 的配置是否正确。
+培训新同事时，我会专门讲一下 seeder 的常见用法。,seeder,/'si:dә/,播种者,培训新同事时，我会专门讲一下 seeder 的常见用法。
+培训新同事时，我会专门讲一下 virial 的常见用法。,virial,/'virәl/,维里,培训新同事时，我会专门讲一下 virial 的常见用法。
+培训新同事时，我会专门讲一下 hookups 的常见用法。,hookups,/'hʊkʌp/,连接,培训新同事时，我会专门讲一下 hookups 的常见用法。
+部署之前要确认 MEDLINE 的状态，避免影响正常业务。,MEDLINE,/'med/,联机医学文献,部署之前要确认 MEDLINE 的状态，避免影响正常业务。
+日志里提到了 oracled，但还需要结合代码进一步分析。,oracled,/'ɔrəkl/,电视文本传输,日志里提到了 oracled，但还需要结合代码进一步分析。
+培训新同事时，我会专门讲一下 stamper 的常见用法。,stamper,/'stæmpә/,盖印人,培训新同事时，我会专门讲一下 stamper 的常见用法。
+部署之前要确认 swather 的状态，避免影响正常业务。,swather,/'swɔ:θә/,割谷机,部署之前要确认 swather 的状态，避免影响正常业务。
+这次系统升级重点处理了 take-up 相关的问题，团队已经记录在案。,take-up,/'teik'ʌp/,收缩,这次系统升级重点处理了 take-up 相关的问题，团队已经记录在案。
+排查线上故障时，我们首先检查 megaflop 的配置是否正确。,megaflop,/ˈmegəflɒp/,每秒百万次浮,排查线上故障时，我们首先检查 megaflop 的配置是否正确。
+这次系统升级重点处理了 oracling 相关的问题，团队已经记录在案。,oracling,/'ɔrəkl/,电视文本传输,这次系统升级重点处理了 oracling 相关的问题，团队已经记录在案。
+新项目里会用到 cybercafe，文档里已经给出了具体说明。,cybercafe,/ˈsaɪbəkæfeɪ/,网吧,新项目里会用到 cybercafe，文档里已经给出了具体说明。
+日志里提到了 omnirange，但还需要结合代码进一步分析。,omnirange,/'ɒmnireindʒ/,全向导航系统,日志里提到了 omnirange，但还需要结合代码进一步分析。
+开发流程中如果忽略 tomograph，后面很容易出现难以定位的问题。,tomograph,/'tәumәgrɑ:f/,光断层摄影装,开发流程中如果忽略 tomograph，后面很容易出现难以定位的问题。
+日志里提到了 wheelwork，但还需要结合代码进一步分析。,wheelwork,/'hwi:lw\\\\:k/,齿轮装置,日志里提到了 wheelwork，但还需要结合代码进一步分析。
+如果部署失败，可以重新 digitalize 一次，看看错误是否复现。,digitalize,/'didʒitәlaiz/,以洋地黄治疗,如果部署失败，可以重新 digitalize 一次，看看错误是否复现。
+培训新同事时，我会专门讲一下 e-commerce 的常见用法。,e-commerce,/'i:kɒmɜ:s/,电子商务,培训新同事时，我会专门讲一下 e-commerce 的常见用法。
+培训新同事时，我会专门讲一下 stovepiped 的常见用法。,stovepiped,/'stəʊvpaɪp/,火炉烟囱管,培训新同事时，我会专门讲一下 stovepiped 的常见用法。
+这次系统升级重点处理了 cryptograph 相关的问题，团队已经记录在案。,cryptograph,/'kriptәu/,密码机,这次系统升级重点处理了 cryptograph 相关的问题，团队已经记录在案。
+新人先学会怎么 demagnetize，再参与线上问题的处理。,demagnetize,/di:'mægnitaiz/,消磁,新人先学会怎么 demagnetize，再参与线上问题的处理。
+日志里提到了 rediffusion，但还需要结合代码进一步分析。,rediffusion,/.ri:di'fju:ʒәn/,转播,日志里提到了 rediffusion，但还需要结合代码进一步分析。
+我发现程序卡住以后，手动 transistorize 就能恢复正常。,transistorize,/træn'zistәraiz/,装晶体管于,我发现程序卡住以后，手动 transistorize 就能恢复正常。
+这次系统升级重点处理了 behavior 相关的问题，团队已经记录在案。,behavior,/bi'heivjә/,行为,这次系统升级重点处理了 behavior 相关的问题，团队已经记录在案。
+这套方案把 Chinese 单独抽了出来，维护起来会更方便。,Chinese,/tʃai'ni:z/,中文,这套方案把 Chinese 单独抽了出来，维护起来会更方便。
+培训新同事时，我会专门讲一下 Japan 的常见用法。,Japan,/dʒә'pæn/,日本,培训新同事时，我会专门讲一下 Japan 的常见用法。
+新项目里会用到 democracy，文档里已经给出了具体说明。,democracy,/di'mɒkrәsi/,民主政治,新项目里会用到 democracy，文档里已经给出了具体说明。
+开发流程中如果忽略 assembly，后面很容易出现难以定位的问题。,assembly,/ә'sembli/,与会者,开发流程中如果忽略 assembly，后面很容易出现难以定位的问题。
+日志里提到了 component，但还需要结合代码进一步分析。,component,/kәm'pәunәnt/,元件,日志里提到了 component，但还需要结合代码进一步分析。
+这次系统升级重点处理了 jack 相关的问题，团队已经记录在案。,jack,/dʒæk/,插座,这次系统升级重点处理了 jack 相关的问题，团队已经记录在案。
+这套方案把 analyst 单独抽了出来，维护起来会更方便。,analyst,/'ænәlist/,分析者,这套方案把 analyst 单独抽了出来，维护起来会更方便。
+这套方案把 regime 单独抽了出来，维护起来会更方便。,regime,/rei'ʒi:m/,政权,这套方案把 regime 单独抽了出来，维护起来会更方便。
+日志里提到了 mechanism，但还需要结合代码进一步分析。,mechanism,/'mekәnizm/,机械,日志里提到了 mechanism，但还需要结合代码进一步分析。
+新项目里会用到 resolution，文档里已经给出了具体说明。,resolution,/.rezә'lu:ʃәn/,解析,新项目里会用到 resolution，文档里已经给出了具体说明。
+我发现程序卡住以后，手动 mike 就能恢复正常。,mike,/maik/,偷懒,我发现程序卡住以后，手动 mike 就能恢复正常。
+部署之前要确认 mill 的状态，避免影响正常业务。,mill,/mil/,压榨机,部署之前要确认 mill 的状态，避免影响正常业务。
+开发流程中如果忽略 gene，后面很容易出现难以定位的问题。,gene,/dʒi:n/,基因,开发流程中如果忽略 gene，后面很容易出现难以定位的问题。
+部署之前要确认 holder 的状态，避免影响正常业务。,holder,/'hәuldә/,持有人,部署之前要确认 holder 的状态，避免影响正常业务。
+这套方案把 tale 单独抽了出来，维护起来会更方便。,tale,/teil/,故事,这套方案把 tale 单独抽了出来，维护起来会更方便。
+排查线上故障时，我们首先检查 efficiency 的配置是否正确。,efficiency,/i'fiʃәnsi/,效率,排查线上故障时，我们首先检查 efficiency 的配置是否正确。
+部署之前要确认 viewer 的状态，避免影响正常业务。,viewer,/'vju:ә/,观察者,部署之前要确认 viewer 的状态，避免影响正常业务。
+这次系统升级重点处理了 mortgage 相关的问题，团队已经记录在案。,mortgage,/'mɒ:gidʒ/,抵押,这次系统升级重点处理了 mortgage 相关的问题，团队已经记录在案。
+这个模块的表现还不够 respondent，需要继续调整和测试。,respondent,/ri'spɒndәnt/,回答的,这个模块的表现还不够 respondent，需要继续调整和测试。
+培训新同事时，我会专门讲一下 circuit 的常见用法。,circuit,/'sә:kit/,电路,培训新同事时，我会专门讲一下 circuit 的常见用法。
+新项目里会用到 statistics，文档里已经给出了具体说明。,statistics,/stә'tistiks/,统计学,新项目里会用到 statistics，文档里已经给出了具体说明。
+开发流程中如果忽略 cooperation，后面很容易出现难以定位的问题。,cooperation,/kәu.ɒpә'reiʃәn/,合作,开发流程中如果忽略 cooperation，后面很容易出现难以定位的问题。
+这个模块的表现还不够 constitutional，需要继续调整和测试。,constitutional,/.kɒnsti'tju:ʃәnl/,宪法的,这个模块的表现还不够 constitutional，需要继续调整和测试。
+排查线上故障时，我们首先检查 operator 的配置是否正确。,operator,/'ɒpәreitә/,操作员,排查线上故障时，我们首先检查 operator 的配置是否正确。
+这套架构设计得很 theoretical，后续扩展会轻松很多。,theoretical,/θiә'retikәl/,理论的,这套架构设计得很 theoretical，后续扩展会轻松很多。
+日志里提到了 hong，但还需要结合代码进一步分析。,hong,/hɔŋ/,商行,日志里提到了 hong，但还需要结合代码进一步分析。
+代码评审时要重点看实现是否 structural，不能只看功能。,structural,/'strʌktʃәrәl/,结构的,代码评审时要重点看实现是否 structural，不能只看功能。
+排查线上故障时，我们首先检查 canal 的配置是否正确。,canal,/kә'næl/,运河,排查线上故障时，我们首先检查 canal 的配置是否正确。
+培训新同事时，我会专门讲一下 galaxy 的常见用法。,galaxy,/'gælәksi/,银河,培训新同事时，我会专门讲一下 galaxy 的常见用法。
+培训新同事时，我会专门讲一下 meter 的常见用法。,meter,/'mi:tә/,公尺,培训新同事时，我会专门讲一下 meter 的常见用法。
+这套方案把 Islam 单独抽了出来，维护起来会更方便。,Islam,/'izlɑ:m/,伊斯兰教,这套方案把 Islam 单独抽了出来，维护起来会更方便。
+开发流程中如果忽略 narrative，后面很容易出现难以定位的问题。,narrative,/'nærәtiv/,叙述,开发流程中如果忽略 narrative，后面很容易出现难以定位的问题。
+这套方案把 carriage 单独抽了出来，维护起来会更方便。,carriage,/'kæridʒ/,马车,这套方案把 carriage 单独抽了出来，维护起来会更方便。
+接口返回的数据结构不够 imperial，前端处理起来很麻烦。,imperial,/im'piәriәl/,帝王的,接口返回的数据结构不够 imperial，前端处理起来很麻烦。
+开发流程中如果忽略 jet，后面很容易出现难以定位的问题。,jet,/dʒet/,喷射流,开发流程中如果忽略 jet，后面很容易出现难以定位的问题。
+部署之前要确认 innovation 的状态，避免影响正常业务。,innovation,/.inәu'veiʃәn/,改革,部署之前要确认 innovation 的状态，避免影响正常业务。
+部署之前要确认 transformation 的状态，避免影响正常业务。,transformation,/.trænsfә'meiʃәn/,变质,部署之前要确认 transformation 的状态，避免影响正常业务。
+日志里提到了 fleet，但还需要结合代码进一步分析。,fleet,/fli:t/,舰队,日志里提到了 fleet，但还需要结合代码进一步分析。
+这套方案把 colony 单独抽了出来，维护起来会更方便。,colony,/'kɒlәni/,殖民地,这套方案把 colony 单独抽了出来，维护起来会更方便。
+部署之前要确认 pump 的状态，避免影响正常业务。,pump,/pʌmp/,抽水机,部署之前要确认 pump 的状态，避免影响正常业务。
+开发流程中如果忽略 correlation，后面很容易出现难以定位的问题。,correlation,/.kɒrә'leiʃәn/,相互关系,开发流程中如果忽略 correlation，后面很容易出现难以定位的问题。
+日志里提到了 duck，但还需要结合代码进一步分析。,duck,/dʌk/,鸭子,日志里提到了 duck，但还需要结合代码进一步分析。
+新项目里会用到 harbour，文档里已经给出了具体说明。,harbour,/'hɑ:bә/,避难所,新项目里会用到 harbour，文档里已经给出了具体说明。
+日志里提到了 trunk，但还需要结合代码进一步分析。,trunk,/trʌŋk/,树干,日志里提到了 trunk，但还需要结合代码进一步分析。
+开发流程中如果忽略 lens，后面很容易出现难以定位的问题。,lens,/lenz/,透镜,开发流程中如果忽略 lens，后面很容易出现难以定位的问题。
+部署之前要确认 filter 的状态，避免影响正常业务。,filter,/'filtә/,滤波器,部署之前要确认 filter 的状态，避免影响正常业务。
+培训新同事时，我会专门讲一下 hierarchy 的常见用法。,hierarchy,/'haiәrɑ:ki/,等级制度,培训新同事时，我会专门讲一下 hierarchy 的常见用法。
+部署之前要确认 basement 的状态，避免影响正常业务。,basement,/'beismәnt/,地下室,部署之前要确认 basement 的状态，避免影响正常业务。
+排查线上故障时，我们首先检查 doctrine 的配置是否正确。,doctrine,/'dɒktrin/,教条,排查线上故障时，我们首先检查 doctrine 的配置是否正确。
+这次系统升级重点处理了 infrastructure 相关的问题，团队已经记录在案。,infrastructure,/'infrәstrʌktʃә/,基础结构,这次系统升级重点处理了 infrastructure 相关的问题，团队已经记录在案。
+部署之前要确认 trigger 的状态，避免影响正常业务。,trigger,/'trigә/,触发器,部署之前要确认 trigger 的状态，避免影响正常业务。
+排查线上故障时，我们首先检查 isolation 的配置是否正确。,isolation,/.aisә'leiʃәn/,隔绝,排查线上故障时，我们首先检查 isolation 的配置是否正确。
+开发流程中如果忽略 succession，后面很容易出现难以定位的问题。,succession,/sәk'seʃәn/,连续,开发流程中如果忽略 succession，后面很容易出现难以定位的问题。
+部署之前要确认 chaos 的状态，避免影响正常业务。,chaos,/'keiɒs/,大混乱,部署之前要确认 chaos 的状态，避免影响正常业务。
+新项目里会用到 capitalism，文档里已经给出了具体说明。,capitalism,/'kæpitәlizәm/,资本主义,新项目里会用到 capitalism，文档里已经给出了具体说明。
+排查线上故障时，我们首先检查 Christianity 的配置是否正确。,Christianity,/.kristʃi'æniti/,基督教,排查线上故障时，我们首先检查 Christianity 的配置是否正确。
+新项目里会用到 theology，文档里已经给出了具体说明。,theology,/θi'ɒlәdʒi/,神学,新项目里会用到 theology，文档里已经给出了具体说明。
+开发流程中如果忽略 exploration，后面很容易出现难以定位的问题。,exploration,/.eksplә'reiʃәn/,探险,开发流程中如果忽略 exploration，后面很容易出现难以定位的问题。
+这次系统升级重点处理了 feedback 相关的问题，团队已经记录在案。,feedback,/'fi:dbæk/,反馈,这次系统升级重点处理了 feedback 相关的问题，团队已经记录在案。
+这套方案把 laser 单独抽了出来，维护起来会更方便。,laser,/'leizә/,激光,这套方案把 laser 单独抽了出来，维护起来会更方便。
+这套方案把 organism 单独抽了出来，维护起来会更方便。,organism,/'ɒ:gәnizm/,生物,这套方案把 organism 单独抽了出来，维护起来会更方便。
+新项目里会用到 candle，文档里已经给出了具体说明。,candle,/'kændl/,蜡烛,新项目里会用到 candle，文档里已经给出了具体说明。
+新项目里会用到 execution，文档里已经给出了具体说明。,execution,/.eksi'kju:ʃәn/,实行,新项目里会用到 execution，文档里已经给出了具体说明。
+部署之前要确认 jaw 的状态，避免影响正常业务。,jaw,/dʒɒ:/,闲谈,部署之前要确认 jaw 的状态，避免影响正常业务。
+新项目里会用到 socialism，文档里已经给出了具体说明。,socialism,/'sәuʃәlizm/,社会主义,新项目里会用到 socialism，文档里已经给出了具体说明。
+新项目里会用到 equilibrium，文档里已经给出了具体说明。,equilibrium,/.i:kwi'libriәm/,平衡,新项目里会用到 equilibrium，文档里已经给出了具体说明。
+新项目里会用到 striker，文档里已经给出了具体说明。,striker,/'straikә/,打击者,新项目里会用到 striker，文档里已经给出了具体说明。
+为了提升稳定性，服务会定期 classify 并清理过期数据。,classify,/'klæsifai/,分类,为了提升稳定性，服务会定期 classify 并清理过期数据。
+开发流程中如果忽略 collaboration，后面很容易出现难以定位的问题。,collaboration,/kә.læbә'ræʃәn/,合作,开发流程中如果忽略 collaboration，后面很容易出现难以定位的问题。
+排查线上故障时，我们首先检查 patrol 的配置是否正确。,patrol,/pә'trәul/,巡逻,排查线上故障时，我们首先检查 patrol 的配置是否正确。
+新项目里会用到 collar，文档里已经给出了具体说明。,collar,/'kɒlә/,衣领,新项目里会用到 collar，文档里已经给出了具体说明。
+培训新同事时，我会专门讲一下 documentary 的常见用法。,documentary,/.dɒkju'mentәri/,记录片,培训新同事时，我会专门讲一下 documentary 的常见用法。
+这套方案把 Marshall 单独抽了出来，维护起来会更方便。,Marshall,/'mɑ:ʃәl/,马歇尔,这套方案把 Marshall 单独抽了出来，维护起来会更方便。
+开发流程中如果忽略 mushroom，后面很容易出现难以定位的问题。,mushroom,/'mʌʃrum/,蘑菇形物,开发流程中如果忽略 mushroom，后面很容易出现难以定位的问题。
+排查线上故障时，我们首先检查 mechanic 的配置是否正确。,mechanic,/mi'kænik/,机械工,排查线上故障时，我们首先检查 mechanic 的配置是否正确。
+排查线上故障时，我们首先检查 distress 的配置是否正确。,distress,/di'stres/,苦恼,排查线上故障时，我们首先检查 distress 的配置是否正确。
+排查线上故障时，我们首先检查 restraint 的配置是否正确。,restraint,/ri'streint/,抑制,排查线上故障时，我们首先检查 restraint 的配置是否正确。
+这次系统升级重点处理了 suspension 相关的问题，团队已经记录在案。,suspension,/sә'spenʃәn/,悬挂,这次系统升级重点处理了 suspension 相关的问题，团队已经记录在案。
+排查线上故障时，我们首先检查 regiment 的配置是否正确。,regiment,/'redʒimәnt/,大量,排查线上故障时，我们首先检查 regiment 的配置是否正确。
+开发流程中如果忽略 notebook，后面很容易出现难以定位的问题。,notebook,/'nәutbuk/,笔记本,开发流程中如果忽略 notebook，后面很容易出现难以定位的问题。
+日志里提到了 catalog，但还需要结合代码进一步分析。,catalog,/'kætәlɒg/,目录,日志里提到了 catalog，但还需要结合代码进一步分析。
+新人先学会怎么 circulate，再参与线上问题的处理。,circulate,/'sә:kjuleit/,流通,新人先学会怎么 circulate，再参与线上问题的处理。
+如果部署失败，可以重新 deploy 一次，看看错误是否复现。,deploy,/di'plɒi/,展开,如果部署失败，可以重新 deploy 一次，看看错误是否复现。
+排查线上故障时，我们首先检查 ecosystem 的配置是否正确。,ecosystem,/'i:kәu.sistәm/,生态系统,排查线上故障时，我们首先检查 ecosystem 的配置是否正确。
+这次系统升级重点处理了 lightning 相关的问题，团队已经记录在案。,lightning,/'laitniŋ/,闪电,这次系统升级重点处理了 lightning 相关的问题，团队已经记录在案。
+这套方案把 lawmaker 单独抽了出来，维护起来会更方便。,lawmaker,/lɒ:'meikә/,立法者,这套方案把 lawmaker 单独抽了出来，维护起来会更方便。
+培训新同事时，我会专门讲一下 calendar 的常见用法。,calendar,/'kælindә/,日历,培训新同事时，我会专门讲一下 calendar 的常见用法。
+日志里提到了 grid，但还需要结合代码进一步分析。,grid,/grid/,格子,日志里提到了 grid，但还需要结合代码进一步分析。
+部署之前要确认 regulator 的状态，避免影响正常业务。,regulator,/'regjuleitә/,调整者,部署之前要确认 regulator 的状态，避免影响正常业务。
+排查线上故障时，我们首先检查 exhaust 的配置是否正确。,exhaust,/ig'zɒ:st/,排气,排查线上故障时，我们首先检查 exhaust 的配置是否正确。
+日志里提到了 relaxation，但还需要结合代码进一步分析。,relaxation,/.ri:læk'seiʃәn/,松弛,日志里提到了 relaxation，但还需要结合代码进一步分析。
+开发流程中如果忽略 graduation，后面很容易出现难以定位的问题。,graduation,/.grædʒu'eiʃәn/,毕业,开发流程中如果忽略 graduation，后面很容易出现难以定位的问题。
+开发流程中如果忽略 caravan，后面很容易出现难以定位的问题。,caravan,/'kærәvæn/,旅行队,开发流程中如果忽略 caravan，后面很容易出现难以定位的问题。
+开发流程中如果忽略 lace，后面很容易出现难以定位的问题。,lace,/leis/,饰带,开发流程中如果忽略 lace，后面很容易出现难以定位的问题。
+任务已经 economically 完成，监控指标也恢复了正常。,economically,/i:kә'nɔmikәli/,节约地,任务已经 economically 完成，监控指标也恢复了正常。
+部署之前要确认 node 的状态，避免影响正常业务。,node,/nәud/,结节,部署之前要确认 node 的状态，避免影响正常业务。
+排查线上故障时，我们首先检查 missionary 的配置是否正确。,missionary,/'miʃәnәri/,传教士,排查线上故障时，我们首先检查 missionary 的配置是否正确。
+排查线上故障时，我们首先检查 reactor 的配置是否正确。,reactor,/ri'æktә/,反应者,排查线上故障时，我们首先检查 reactor 的配置是否正确。
+开发流程中如果忽略 fog，后面很容易出现难以定位的问题。,fog,/fɒg/,迷惑,开发流程中如果忽略 fog，后面很容易出现难以定位的问题。
+这次系统升级重点处理了 sensor 相关的问题，团队已经记录在案。,sensor,/'sensә/,传感器,这次系统升级重点处理了 sensor 相关的问题，团队已经记录在案。
+部署之前要确认 anchor 的状态，避免影响正常业务。,anchor,/'æŋkә/,抛锚停泊,部署之前要确认 anchor 的状态，避免影响正常业务。
+排查线上故障时，我们首先检查 telegraph 的配置是否正确。,telegraph,/'teligrɑ:f/,电报,排查线上故障时，我们首先检查 telegraph 的配置是否正确。
+这套方案把 consistency 单独抽了出来，维护起来会更方便。,consistency,/kәn'sistәnsi/,坚硬性,这套方案把 consistency 单独抽了出来，维护起来会更方便。
+排查线上故障时，我们首先检查 tenure 的配置是否正确。,tenure,/'tenjuә/,享有,排查线上故障时，我们首先检查 tenure 的配置是否正确。
+部署之前要确认 spectator 的状态，避免影响正常业务。,spectator,/spek'teitә/,观众,部署之前要确认 spectator 的状态，避免影响正常业务。
+新项目里会用到 controller，文档里已经给出了具体说明。,controller,/kәn'trәulә/,控制器,新项目里会用到 controller，文档里已经给出了具体说明。
+日志里提到了 valve，但还需要结合代码进一步分析。,valve,/vælv/,活瓣,日志里提到了 valve，但还需要结合代码进一步分析。
+当系统处于 compatible 状态时，后台会触发对应的告警。,compatible,/kәm'pætәbl/,能共处的,当系统处于 compatible 状态时，后台会触发对应的告警。
+部署之前要确认 abolition 的状态，避免影响正常业务。,abolition,/.æbәu'liʃәn/,废除,部署之前要确认 abolition 的状态，避免影响正常业务。
+这套方案把 pledge 单独抽了出来，维护起来会更方便。,pledge,/pledʒ/,诺言,这套方案把 pledge 单独抽了出来，维护起来会更方便。
+排查线上故障时，我们首先检查 paradigm 的配置是否正确。,paradigm,/'pærәdaim/,范例,排查线上故障时，我们首先检查 paradigm 的配置是否正确。
+新项目里会用到 condom，文档里已经给出了具体说明。,condom,/'kɒndәm/,避孕套,新项目里会用到 condom，文档里已经给出了具体说明。
+这套方案把 cult 单独抽了出来，维护起来会更方便。,cult,/kʌlt/,膜拜,这套方案把 cult 单独抽了出来，维护起来会更方便。
+部署之前要确认 torture 的状态，避免影响正常业务。,torture,/'tɒ:tʃә/,拷问,部署之前要确认 torture 的状态，避免影响正常业务。
+日志里提到了 loom，但还需要结合代码进一步分析。,loom,/lu:m/,织布机,日志里提到了 loom，但还需要结合代码进一步分析。
+新项目里会用到 repetition，文档里已经给出了具体说明。,repetition,/.repi'tiʃәn/,重复,新项目里会用到 repetition，文档里已经给出了具体说明。
+部署之前要确认 odor 的状态，避免影响正常业务。,odor,/'әudә/,气味,部署之前要确认 odor 的状态，避免影响正常业务。
+日志里提到了 warrant，但还需要结合代码进一步分析。,warrant,/'wɒ:rәnt/,授权,日志里提到了 warrant，但还需要结合代码进一步分析。
+排查线上故障时，我们首先检查 quotation 的配置是否正确。,quotation,/kwәu'teiʃәn/,引用语,排查线上故障时，我们首先检查 quotation 的配置是否正确。
+这次系统升级重点处理了 rebellion 相关的问题，团队已经记录在案。,rebellion,/ri'beljәn/,谋反,这次系统升级重点处理了 rebellion 相关的问题，团队已经记录在案。
+当系统处于 graphic 状态时，后台会触发对应的告警。,graphic,/'græfik/,生动的,当系统处于 graphic 状态时，后台会触发对应的告警。
+这次系统升级重点处理了 subway 相关的问题，团队已经记录在案。,subway,/'sʌbwei/,地铁,这次系统升级重点处理了 subway 相关的问题，团队已经记录在案。
+日志里提到了 rehearsal，但还需要结合代码进一步分析。,rehearsal,/ri'hә:sl/,预演,日志里提到了 rehearsal，但还需要结合代码进一步分析。
+培训新同事时，我会专门讲一下 wardrobe 的常见用法。,wardrobe,/'wɒ:drәub/,衣橱,培训新同事时，我会专门讲一下 wardrobe 的常见用法。
+新项目里会用到 methodology，文档里已经给出了具体说明。,methodology,/.meθә'dɒlәdʒi/,方法学,新项目里会用到 methodology，文档里已经给出了具体说明。
+新项目里会用到 goose，文档里已经给出了具体说明。,goose,/gu:s/,雌鹅,新项目里会用到 goose，文档里已经给出了具体说明。
+选择工具时要优先考虑 eventual 的方案，减少维护成本。,eventual,/i'ventʃuәl/,最后的,选择工具时要优先考虑 eventual 的方案，减少维护成本。
+这套方案把 microphone 单独抽了出来，维护起来会更方便。,microphone,/'maikrәfәun/,扩音器,这套方案把 microphone 单独抽了出来，维护起来会更方便。
+监控面板显示系统整体比较 uneasy，暂时不用处理。,uneasy,/.ʌn'i:zi/,心神不安的,监控面板显示系统整体比较 uneasy，暂时不用处理。
+这套方案把 quantum 单独抽了出来，维护起来会更方便。,quantum,/'kwɒntәm/,量子,这套方案把 quantum 单独抽了出来，维护起来会更方便。
+这次系统升级重点处理了 dash 相关的问题，团队已经记录在案。,dash,/dæʃ/,冲撞,这次系统升级重点处理了 dash 相关的问题，团队已经记录在案。
+这次系统升级重点处理了 harbor 相关的问题，团队已经记录在案。,harbor,/'hɑ:bә/,避难所,这次系统升级重点处理了 harbor 相关的问题，团队已经记录在案。
+这次系统升级重点处理了 FAX 相关的问题，团队已经记录在案。,FAX,/fæks/,传真,这次系统升级重点处理了 FAX 相关的问题，团队已经记录在案。
+培训新同事时，我会专门讲一下 facial 的常见用法。,facial,/'feiʃәl/,美颜,培训新同事时，我会专门讲一下 facial 的常见用法。
+开发流程中如果忽略 socket，后面很容易出现难以定位的问题。,socket,/'sɒkit/,插座,开发流程中如果忽略 socket，后面很容易出现难以定位的问题。
+培训新同事时，我会专门讲一下 microwave 的常见用法。,microwave,/'maikrәuweiv/,微波,培训新同事时，我会专门讲一下 microwave 的常见用法。
+排查线上故障时，我们首先检查 distributor 的配置是否正确。,distributor,/dis'tribjutә/,分发者,排查线上故障时，我们首先检查 distributor 的配置是否正确。
+部署之前要确认 jockey 的状态，避免影响正常业务。,jockey,/'dʒɒki/,赛马骑师,部署之前要确认 jockey 的状态，避免影响正常业务。
+排查线上故障时，我们首先检查 aviation 的配置是否正确。,aviation,/.eivi'eiʃәn/,航空,排查线上故障时，我们首先检查 aviation 的配置是否正确。
+新项目里会用到 conductor，文档里已经给出了具体说明。,conductor,/kәn'dʌktә/,领导者,新项目里会用到 conductor，文档里已经给出了具体说明。
+开发流程中如果忽略 logo，后面很容易出现难以定位的问题。,logo,/'lәugәu/,连合活字,开发流程中如果忽略 logo，后面很容易出现难以定位的问题。
+开发流程中如果忽略 cellar，后面很容易出现难以定位的问题。,cellar,/'selә/,地窖,开发流程中如果忽略 cellar，后面很容易出现难以定位的问题。
+这次系统升级重点处理了 appliance 相关的问题，团队已经记录在案。,appliance,/ә'plaiәns/,器械,这次系统升级重点处理了 appliance 相关的问题，团队已经记录在案。
+部署之前要确认 rationale 的状态，避免影响正常业务。,rationale,/.ræʃә'nɑ:li/,基本原理,部署之前要确认 rationale 的状态，避免影响正常业务。
+开发流程中如果忽略 tract，后面很容易出现难以定位的问题。,tract,/trækt/,大片土地,开发流程中如果忽略 tract，后面很容易出现难以定位的问题。
+如果部署失败，可以重新 consolidate 一次，看看错误是否复现。,consolidate,/kәn'sɒlideit/,巩固,如果部署失败，可以重新 consolidate 一次，看看错误是否复现。
+新项目里会用到 olive，文档里已经给出了具体说明。,olive,/'ɒliv/,橄榄,新项目里会用到 olive，文档里已经给出了具体说明。
+开发流程中如果忽略 odour，后面很容易出现难以定位的问题。,odour,/'әudә/,气味,开发流程中如果忽略 odour，后面很容易出现难以定位的问题。
+部署之前要确认 magnet 的状态，避免影响正常业务。,magnet,/'mægnit/,磁铁,部署之前要确认 magnet 的状态，避免影响正常业务。
+这个模块的表现还不够 quantitative，需要继续调整和测试。,quantitative,/'kwɒntitәtiv/,数量的,这个模块的表现还不够 quantitative，需要继续调整和测试。
+开发流程中如果忽略 amp，后面很容易出现难以定位的问题。,amp,/æmp/,安培,开发流程中如果忽略 amp，后面很容易出现难以定位的问题。
+开发流程中如果忽略 token，后面很容易出现难以定位的问题。,token,/'tәukәn/,表征,开发流程中如果忽略 token，后面很容易出现难以定位的问题。
+这套方案把 embargo 单独抽了出来，维护起来会更方便。,embargo,/im'bɑ:gәu/,封港令,这套方案把 embargo 单独抽了出来，维护起来会更方便。
+开发人员需要在提交代码前 recite，确保改动符合规范。,recite,/ri'sait/,背诵,开发人员需要在提交代码前 recite，确保改动符合规范。
+这次系统升级重点处理了 tractor 相关的问题，团队已经记录在案。,tractor,/'træktә/,牵引器,这次系统升级重点处理了 tractor 相关的问题，团队已经记录在案。
+日志里提到了 synthetic，但还需要结合代码进一步分析。,synthetic,/sin'θetik/,合成物质,日志里提到了 synthetic，但还需要结合代码进一步分析。
+排查线上故障时，我们首先检查 heater 的配置是否正确。,heater,/'hi:tә/,加热器,排查线上故障时，我们首先检查 heater 的配置是否正确。
+排查线上故障时，我们首先检查 interrogation 的配置是否正确。,interrogation,/in.terәu'geiʃәn/,审问,排查线上故障时，我们首先检查 interrogation 的配置是否正确。
+日志里提到了 dictator，但还需要结合代码进一步分析。,dictator,/'dikteitә/,命令者,日志里提到了 dictator，但还需要结合代码进一步分析。
+这次系统升级重点处理了 siren 相关的问题，团队已经记录在案。,siren,/'saiәrin/,女海妖,这次系统升级重点处理了 siren 相关的问题，团队已经记录在案。
+排查线上故障时，我们首先检查 header 的配置是否正确。,header,/'hedә/,收割台,排查线上故障时，我们首先检查 header 的配置是否正确。
+这套方案把 serial 单独抽了出来，维护起来会更方便。,serial,/'siәriәl/,分期连载作品,这套方案把 serial 单独抽了出来，维护起来会更方便。
+培训新同事时，我会专门讲一下 jersey 的常见用法。,jersey,/'dʒә:zi/,运动衫,培训新同事时，我会专门讲一下 jersey 的常见用法。
+这次系统升级重点处理了 lever 相关的问题，团队已经记录在案。,lever,/'levә/,杠杆,这次系统升级重点处理了 lever 相关的问题，团队已经记录在案。
+开发流程中如果忽略 tornado，后面很容易出现难以定位的问题。,tornado,/tɒ:'neidәu/,旋风,开发流程中如果忽略 tornado，后面很容易出现难以定位的问题。
+这个服务 systematically 运行了半年，期间没有发生重大故障。,systematically,/.sisti'mætikli/,有系统地,这个服务 systematically 运行了半年，期间没有发生重大故障。
+日志里提到了 stagger，但还需要结合代码进一步分析。,stagger,/'stægә/,蹒跚,日志里提到了 stagger，但还需要结合代码进一步分析。
+接口返回的数据结构不够 postal，前端处理起来很麻烦。,postal,/'pәustl/,邮政的,接口返回的数据结构不够 postal，前端处理起来很麻烦。
+排查线上故障时，我们首先检查 metro 的配置是否正确。,metro,/'metrәu/,地铁,排查线上故障时，我们首先检查 metro 的配置是否正确。
+培训新同事时，我会专门讲一下 antenna 的常见用法。,antenna,/æn'tenә/,天线,培训新同事时，我会专门讲一下 antenna 的常见用法。
+日志里提到了 ethic，但还需要结合代码进一步分析。,ethic,/'eθik/,道德规范,日志里提到了 ethic，但还需要结合代码进一步分析。
+培训新同事时，我会专门讲一下 terminology 的常见用法。,terminology,/.tә:mi'nɒlәdʒi/,术语,培训新同事时，我会专门讲一下 terminology 的常见用法。
+开发流程中如果忽略 chuck，后面很容易出现难以定位的问题。,chuck,/tʃʌk/,抚弄,开发流程中如果忽略 chuck，后面很容易出现难以定位的问题。
+新项目里会用到 comb，文档里已经给出了具体说明。,comb,/kәum/,头梳,新项目里会用到 comb，文档里已经给出了具体说明。
+日志里提到了 elimination，但还需要结合代码进一步分析。,elimination,/i.limi'neiʃәn/,除去,日志里提到了 elimination，但还需要结合代码进一步分析。
+这套方案把 segregation 单独抽了出来，维护起来会更方便。,segregation,/.segri'geiʃәn/,隔离,这套方案把 segregation 单独抽了出来，维护起来会更方便。
+这套架构设计得很 aerial，后续扩展会轻松很多。,aerial,/'єәriәl/,空中的,这套架构设计得很 aerial，后续扩展会轻松很多。
+这次系统升级重点处理了 morse 相关的问题，团队已经记录在案。,morse,/mɒ:s/,摩尔斯电码,这次系统升级重点处理了 morse 相关的问题，团队已经记录在案。
+培训新同事时，我会专门讲一下 insulin 的常见用法。,insulin,/'insjulin/,胰岛素,培训新同事时，我会专门讲一下 insulin 的常见用法。
+监控面板显示系统整体比较 interstate，暂时不用处理。,interstate,/.intә'steit/,州际的,监控面板显示系统整体比较 interstate，暂时不用处理。
+排查线上故障时，我们首先检查 genocide 的配置是否正确。,genocide,/'dʒenәu/,种族灭绝,排查线上故障时，我们首先检查 genocide 的配置是否正确。
+部署之前要确认 fume 的状态，避免影响正常业务。,fume,/fju:m/,臭气,部署之前要确认 fume 的状态，避免影响正常业务。
+开发流程中如果忽略 vent，后面很容易出现难以定位的问题。,vent,/vent/,排气口,开发流程中如果忽略 vent，后面很容易出现难以定位的问题。
+开发流程中如果忽略 briefcase，后面很容易出现难以定位的问题。,briefcase,/'bri:fkeis/,公事包,开发流程中如果忽略 briefcase，后面很容易出现难以定位的问题。
+开发流程中如果忽略 linkage，后面很容易出现难以定位的问题。,linkage,/'liŋkidʒ/,联合,开发流程中如果忽略 linkage，后面很容易出现难以定位的问题。
+培训新同事时，我会专门讲一下 maze 的常见用法。,maze,/meiz/,迷宫,培训新同事时，我会专门讲一下 maze 的常见用法。
+这次系统升级重点处理了 watershed 相关的问题，团队已经记录在案。,watershed,/'wɒtәʃed/,流域,这次系统升级重点处理了 watershed 相关的问题，团队已经记录在案。
+接口返回的数据结构不够 multinational，前端处理起来很麻烦。,multinational,/.mʌlti'næʃәnl/,多国的,接口返回的数据结构不够 multinational，前端处理起来很麻烦。
+这套架构设计得很 incompatible，后续扩展会轻松很多。,incompatible,/.inkәm'pætәbl/,不相容的,这套架构设计得很 incompatible，后续扩展会轻松很多。
+培训新同事时，我会专门讲一下 loft 的常见用法。,loft,/lɒft/,阁楼,培训新同事时，我会专门讲一下 loft 的常见用法。
+当系统处于 simultaneous 状态时，后台会触发对应的告警。,simultaneous,/.simәl'teinjәs/,同时的,当系统处于 simultaneous 状态时，后台会触发对应的告警。
+排查线上故障时，我们首先检查 yoga 的配置是否正确。,yoga,/'jәugә/,瑜珈,排查线上故障时，我们首先检查 yoga 的配置是否正确。
+开发流程中如果忽略 redemption，后面很容易出现难以定位的问题。,redemption,/ri'dempʃәn/,赎回,开发流程中如果忽略 redemption，后面很容易出现难以定位的问题。
+培训新同事时，我会专门讲一下 cot 的常见用法。,cot,/kɒt/,行军床,培训新同事时，我会专门讲一下 cot 的常见用法。
+这套方案把 alignment 单独抽了出来，维护起来会更方便。,alignment,/ә'lainmәnt/,队列,这套方案把 alignment 单独抽了出来，维护起来会更方便。
+这个模块的表现还不够 roundabout，需要继续调整和测试。,roundabout,/'raundә.baut/,迂回的,这个模块的表现还不够 roundabout，需要继续调整和测试。
+日志里提到了 regimen，但还需要结合代码进一步分析。,regimen,/'redʒimen/,养生法,日志里提到了 regimen，但还需要结合代码进一步分析。
+新项目里会用到 grease，文档里已经给出了具体说明。,grease,/gri:s/,脂肪,新项目里会用到 grease，文档里已经给出了具体说明。
+我发现程序卡住以后，手动 commemorate 就能恢复正常。,commemorate,/kә'memәreit/,纪念,我发现程序卡住以后，手动 commemorate 就能恢复正常。
+这次系统升级重点处理了 resonance 相关的问题，团队已经记录在案。,resonance,/'rezәnәns/,共鸣,这次系统升级重点处理了 resonance 相关的问题，团队已经记录在案。
+测试环境里可以放心 sift，正式环境必须提前审批。,sift,/sift/,过滤,测试环境里可以放心 sift，正式环境必须提前审批。
+部署之前要确认 ventilation 的状态，避免影响正常业务。,ventilation,/.venti'leiʃәn/,通风,部署之前要确认 ventilation 的状态，避免影响正常业务。
+日志里提到了 creed，但还需要结合代码进一步分析。,creed,/kri:d/,宗教信条,日志里提到了 creed，但还需要结合代码进一步分析。
+这套方案把 parachute 单独抽了出来，维护起来会更方便。,parachute,/'pærәʃu:t/,降落伞,这套方案把 parachute 单独抽了出来，维护起来会更方便。
+部署之前要确认 ripple 的状态，避免影响正常业务。,ripple,/'ripl/,涟波,部署之前要确认 ripple 的状态，避免影响正常业务。
+开发流程中如果忽略 broadcaster，后面很容易出现难以定位的问题。,broadcaster,/'brɒ:dkæstә/,播送者,开发流程中如果忽略 broadcaster，后面很容易出现难以定位的问题。
+部署之前要确认 mahogany 的状态，避免影响正常业务。,mahogany,/mә'hɑ:gәni/,桃花心木,部署之前要确认 mahogany 的状态，避免影响正常业务。
+这套方案把 haze 单独抽了出来，维护起来会更方便。,haze,/heiz/,薄雾,这套方案把 haze 单独抽了出来，维护起来会更方便。
+部署之前要确认 compression 的状态，避免影响正常业务。,compression,/kәm'preʃәn/,压缩,部署之前要确认 compression 的状态，避免影响正常业务。
+这套架构设计得很 systemic，后续扩展会轻松很多。,systemic,/si'stemik/,系统的,这套架构设计得很 systemic，后续扩展会轻松很多。
+新项目里会用到 nebula，文档里已经给出了具体说明。,nebula,/'nebjulә/,星云,新项目里会用到 nebula，文档里已经给出了具体说明。
+新项目里会用到 aquatic，文档里已经给出了具体说明。,aquatic,/ә'kwætik/,水生动物,新项目里会用到 aquatic，文档里已经给出了具体说明。
+排查线上故障时，我们首先检查 rig 的配置是否正确。,rig,/rig/,装备,排查线上故障时，我们首先检查 rig 的配置是否正确。
+新项目里会用到 clamp，文档里已经给出了具体说明。,clamp,/klæmp/,夹钳,新项目里会用到 clamp，文档里已经给出了具体说明。
+如果部署失败，可以重新 memorize 一次，看看错误是否复现。,memorize,/'memәraiz/,记住,如果部署失败，可以重新 memorize 一次，看看错误是否复现。
+培训新同事时，我会专门讲一下 syntax 的常见用法。,syntax,/'sintæks/,句法,培训新同事时，我会专门讲一下 syntax 的常见用法。
+如果部署失败，可以重新 encode 一次，看看错误是否复现。,encode,/in'kәud/,译成密码,如果部署失败，可以重新 encode 一次，看看错误是否复现。
+部署之前要确认 notation 的状态，避免影响正常业务。,notation,/nәu'teiʃәn/,记号,部署之前要确认 notation 的状态，避免影响正常业务。
+这套方案把 denomination 单独抽了出来，维护起来会更方便。,denomination,/di.nɒmi'neiʃәn/,名称,这套方案把 denomination 单独抽了出来，维护起来会更方便。
+日志里提到了 digit，但还需要结合代码进一步分析。,digit,/'didʒit/,数字,日志里提到了 digit，但还需要结合代码进一步分析。
+部署之前要确认 helm 的状态，避免影响正常业务。,helm,/helm/,驾驶盘,部署之前要确认 helm 的状态，避免影响正常业务。
+这个模块的表现还不够 rampant，需要继续调整和测试。,rampant,/'ræmpәnt/,猖獗的,这个模块的表现还不够 rampant，需要继续调整和测试。
+开发流程中如果忽略 precipitate，后面很容易出现难以定位的问题。,precipitate,/pri'sipiteit/,沉淀物,开发流程中如果忽略 precipitate，后面很容易出现难以定位的问题。
+这套方案把 recourse 单独抽了出来，维护起来会更方便。,recourse,/ri'kɒ:s/,求援,这套方案把 recourse 单独抽了出来，维护起来会更方便。
+这次系统升级重点处理了 rift 相关的问题，团队已经记录在案。,rift,/rift/,裂口,这次系统升级重点处理了 rift 相关的问题，团队已经记录在案。
+新人先学会怎么 thrash，再参与线上问题的处理。,thrash,/θræʃ/,使逆行,新人先学会怎么 thrash，再参与线上问题的处理。
+部署之前要确认 shutter 的状态，避免影响正常业务。,shutter,/'ʃʌtә/,百叶窗,部署之前要确认 shutter 的状态，避免影响正常业务。
+日志里提到了 racket，但还需要结合代码进一步分析。,racket,/'rækit/,球拍,日志里提到了 racket，但还需要结合代码进一步分析。
+培训新同事时，我会专门讲一下 zip 的常见用法。,zip,/zip/,尖啸声,培训新同事时，我会专门讲一下 zip 的常见用法。
+新项目里会用到 mixer，文档里已经给出了具体说明。,mixer,/'miksә/,混合者,新项目里会用到 mixer，文档里已经给出了具体说明。
+这次系统升级重点处理了 cookery 相关的问题，团队已经记录在案。,cookery,/'kukәri/,烹调法,这次系统升级重点处理了 cookery 相关的问题，团队已经记录在案。
+排查线上故障时，我们首先检查 symbolism 的配置是否正确。,symbolism,/'simbәlizm/,象征主义,排查线上故障时，我们首先检查 symbolism 的配置是否正确。
+开发流程中如果忽略 mann，后面很容易出现难以定位的问题。,mann,/mæn/,曼恩法案,开发流程中如果忽略 mann，后面很容易出现难以定位的问题。
+新项目里会用到 gadget，文档里已经给出了具体说明。,gadget,/'gædʒit/,小配件,新项目里会用到 gadget，文档里已经给出了具体说明。
+监控面板显示系统整体比较 unsafe，暂时不用处理。,unsafe,/.ʌn'seif/,不安全的,监控面板显示系统整体比较 unsafe，暂时不用处理。
+这次系统升级重点处理了 coma 相关的问题，团队已经记录在案。,coma,/'kәumә/,昏迷,这次系统升级重点处理了 coma 相关的问题，团队已经记录在案。
+日志里提到了 amplifier，但还需要结合代码进一步分析。,amplifier,/'æmplifaiә/,扩大的人,日志里提到了 amplifier，但还需要结合代码进一步分析。
+代码评审时要重点看实现是否 judiciary，不能只看功能。,judiciary,/dʒu:'diʃiәri/,司法的,代码评审时要重点看实现是否 judiciary，不能只看功能。
+开发流程中如果忽略 assemblage，后面很容易出现难以定位的问题。,assemblage,/ә'semblidʒ/,集合,开发流程中如果忽略 assemblage，后面很容易出现难以定位的问题。
+这次系统升级重点处理了 platoon 相关的问题，团队已经记录在案。,platoon,/plә'tu:n/,一组,这次系统升级重点处理了 platoon 相关的问题，团队已经记录在案。
+测试环境里可以放心 override，正式环境必须提前审批。,override,/.әuvә'raid/,推翻,测试环境里可以放心 override，正式环境必须提前审批。
+排查线上故障时，我们首先检查 alligator 的配置是否正确。,alligator,/'æligeitә/,短吻鳄,排查线上故障时，我们首先检查 alligator 的配置是否正确。
+新项目里会用到 containment，文档里已经给出了具体说明。,containment,/kәn'teinmәnt/,抑制,新项目里会用到 containment，文档里已经给出了具体说明。
+部署之前要确认 backbone 的状态，避免影响正常业务。,backbone,/'bækbәun/,脊椎,部署之前要确认 backbone 的状态，避免影响正常业务。
+开发流程中如果忽略 seeker，后面很容易出现难以定位的问题。,seeker,/'si:kә/,搜索者,开发流程中如果忽略 seeker，后面很容易出现难以定位的问题。
+这次系统升级重点处理了 terrestrial 相关的问题，团队已经记录在案。,terrestrial,/tә'restriәl/,地球上的人,这次系统升级重点处理了 terrestrial 相关的问题，团队已经记录在案。
+开发流程中如果忽略 treadmill，后面很容易出现难以定位的问题。,treadmill,/'tredmil/,踏车,开发流程中如果忽略 treadmill，后面很容易出现难以定位的问题。
+部署之前要确认 ware 的状态，避免影响正常业务。,ware,/wєә/,物品,部署之前要确认 ware 的状态，避免影响正常业务。
+这套方案把 marrow 单独抽了出来，维护起来会更方便。,marrow,/'mærәu/,骨髓,这套方案把 marrow 单独抽了出来，维护起来会更方便。
+新版本在性能上更加 transnational，用户反馈也明显变好了。,transnational,/træns'næʃәnl/,超越国界的,新版本在性能上更加 transnational，用户反馈也明显变好了。
+新项目里会用到 fuse，文档里已经给出了具体说明。,fuse,/fju:z/,保险丝,新项目里会用到 fuse，文档里已经给出了具体说明。
+接口返回的数据结构不够 involuntary，前端处理起来很麻烦。,involuntary,/in'vɒlәntәri/,自然而然的,接口返回的数据结构不够 involuntary，前端处理起来很麻烦。
+这个模块的表现还不够 dysfunctional，需要继续调整和测试。,dysfunctional,/dɪsˈfʌŋkʃənl/,功能失调的,这个模块的表现还不够 dysfunctional，需要继续调整和测试。
+新项目里会用到 compilation，文档里已经给出了具体说明。,compilation,/.kɒmpi'leiʃәn/,编辑,新项目里会用到 compilation，文档里已经给出了具体说明。
+这套方案把 braille 单独抽了出来，维护起来会更方便。,braille,/breil/,布莱叶点字法,这套方案把 braille 单独抽了出来，维护起来会更方便。
+这次系统升级重点处理了 penguin 相关的问题，团队已经记录在案。,penguin,/'pengwin/,企鹅,这次系统升级重点处理了 penguin 相关的问题，团队已经记录在案。
+这套方案把 contraception 单独抽了出来，维护起来会更方便。,contraception,/.kɒntrә'sepʃәn/,避孕,这套方案把 contraception 单独抽了出来，维护起来会更方便。
+监控面板显示系统整体比较 cloudy，暂时不用处理。,cloudy,/'klaudi/,多云的,监控面板显示系统整体比较 cloudy，暂时不用处理。
+开发人员需要在提交代码前 burke，确保改动符合规范。,burke,/bә:k/,秘密地除去,开发人员需要在提交代码前 burke，确保改动符合规范。
+新人先学会怎么 imprint，再参与线上问题的处理。,imprint,/im'print/,铭刻,新人先学会怎么 imprint，再参与线上问题的处理。
+新项目里会用到 projector，文档里已经给出了具体说明。,projector,/prә'dʒektә/,计划人,新项目里会用到 projector，文档里已经给出了具体说明。
+这套方案把 hospice 单独抽了出来，维护起来会更方便。,hospice,/'hɒspis/,旅客住宿处,这套方案把 hospice 单独抽了出来，维护起来会更方便。
+开发流程中如果忽略 exposition，后面很容易出现难以定位的问题。,exposition,/.ekspә'ziʃәn/,阐述,开发流程中如果忽略 exposition，后面很容易出现难以定位的问题。
+这次系统升级重点处理了 transient 相关的问题，团队已经记录在案。,transient,/'trænziәnt/,短期居留者,这次系统升级重点处理了 transient 相关的问题，团队已经记录在案。
+接口返回的数据结构不够 convertible，前端处理起来很麻烦。,convertible,/kәn'vә:tәbl/,可改变的,接口返回的数据结构不够 convertible，前端处理起来很麻烦。
+新项目里会用到 pixel，文档里已经给出了具体说明。,pixel,/'piksәl/,像素,新项目里会用到 pixel，文档里已经给出了具体说明。
+选择工具时要优先考虑 collateral 的方案，减少维护成本。,collateral,/kә'lætәrәl/,并行的,选择工具时要优先考虑 collateral 的方案，减少维护成本。
+为了提升稳定性，服务会定期 obliterate 并清理过期数据。,obliterate,/ә'blitәreit/,擦去,为了提升稳定性，服务会定期 obliterate 并清理过期数据。
+排查线上故障时，我们首先检查 chatter 的配置是否正确。,chatter,/'tʃætә/,饶舌,排查线上故障时，我们首先检查 chatter 的配置是否正确。
+部署之前要确认 parity 的状态，避免影响正常业务。,parity,/'pærәti/,同等,部署之前要确认 parity 的状态，避免影响正常业务。
+开发流程中如果忽略 scroll，后面很容易出现难以定位的问题。,scroll,/skrәul/,卷轴,开发流程中如果忽略 scroll，后面很容易出现难以定位的问题。
+新项目里会用到 caste，文档里已经给出了具体说明。,caste,/kæst. kɑ:st/,印度的种姓制,新项目里会用到 caste，文档里已经给出了具体说明。
+这套方案把 concurrent 单独抽了出来，维护起来会更方便。,concurrent,/kәn'kʌrәnt/,同时发生的事,这套方案把 concurrent 单独抽了出来，维护起来会更方便。
+监控面板显示系统整体比较 insecure，暂时不用处理。,insecure,/.insi'kjuә/,不安全的,监控面板显示系统整体比较 insecure，暂时不用处理。
+排查线上故障时，我们首先检查 bumper 的配置是否正确。,bumper,/'bʌmpә/,缓冲器,排查线上故障时，我们首先检查 bumper 的配置是否正确。
+这次系统升级重点处理了 swath 相关的问题，团队已经记录在案。,swath,/swɔ:θ/,刈幅,这次系统升级重点处理了 swath 相关的问题，团队已经记录在案。
+新人先学会怎么 generalize，再参与线上问题的处理。,generalize,/'dʒenәrәlaiz/,一般化,新人先学会怎么 generalize，再参与线上问题的处理。
+日志里提到了 transistor，但还需要结合代码进一步分析。,transistor,/træn'zistә/,晶体管,日志里提到了 transistor，但还需要结合代码进一步分析。
+这套方案把 unionism 单独抽了出来，维护起来会更方便。,unionism,/'ju:njәnizm/,工会主义,这套方案把 unionism 单独抽了出来，维护起来会更方便。
+开发流程中如果忽略 rave，后面很容易出现难以定位的问题。,rave,/reiv/,狂吼,开发流程中如果忽略 rave，后面很容易出现难以定位的问题。
+这个脚本会在任务开始前自动 smother，减少人工操作。,smother,/'smʌðә/,使喘不过气,这个脚本会在任务开始前自动 smother，减少人工操作。
+新项目里会用到 microprocessor，文档里已经给出了具体说明。,microprocessor,/.maikrәu'prәusesә/,微处理器,新项目里会用到 microprocessor，文档里已经给出了具体说明。
+这套方案把 mute 单独抽了出来，维护起来会更方便。,mute,/mju:t/,哑子,这套方案把 mute 单独抽了出来，维护起来会更方便。
+培训新同事时，我会专门讲一下 byte 的常见用法。,byte,/bait/,字节,培训新同事时，我会专门讲一下 byte 的常见用法。
+培训新同事时，我会专门讲一下 cursor 的常见用法。,cursor,/'kә:sә/,游标,培训新同事时，我会专门讲一下 cursor 的常见用法。
+如果部署失败，可以重新 overhaul 一次，看看错误是否复现。,overhaul,/.әuvә'hɒ:l/,分解检查,如果部署失败，可以重新 overhaul 一次，看看错误是否复现。
+这套方案把 medicaid 单独抽了出来，维护起来会更方便。,medicaid,/'medikeid/,医疗补助方案,这套方案把 medicaid 单独抽了出来，维护起来会更方便。
+培训新同事时，我会专门讲一下 apex 的常见用法。,apex,/'eipeks/,尖端,培训新同事时，我会专门讲一下 apex 的常见用法。
+排查线上故障时，我们首先检查 culmination 的配置是否正确。,culmination,/.kʌlmi'neiʃәn/,顶点,排查线上故障时，我们首先检查 culmination 的配置是否正确。
+开发流程中如果忽略 espionage，后面很容易出现难以定位的问题。,espionage,/.espiә'nɑ:ʒ/,间谍活动,开发流程中如果忽略 espionage，后面很容易出现难以定位的问题。
+开发流程中如果忽略 tinker，后面很容易出现难以定位的问题。,tinker,/'tiŋkә/,补锅匠,开发流程中如果忽略 tinker，后面很容易出现难以定位的问题。
+这次系统升级重点处理了 cascade 相关的问题，团队已经记录在案。,cascade,/kæ'skeid/,小瀑布,这次系统升级重点处理了 cascade 相关的问题，团队已经记录在案。
+排查线上故障时，我们首先检查 crackle 的配置是否正确。,crackle,/'krækl/,劈啪响,排查线上故障时，我们首先检查 crackle 的配置是否正确。
+这次系统升级重点处理了 disintegration 相关的问题，团队已经记录在案。,disintegration,/dis.inti'greiʃәn/,瓦解,这次系统升级重点处理了 disintegration 相关的问题，团队已经记录在案。
+日志里提到了 bale，但还需要结合代码进一步分析。,bale,/beil/,货物,日志里提到了 bale，但还需要结合代码进一步分析。
+这个服务 sympathetically 运行了半年，期间没有发生重大故障。,sympathetically,/.simpә'θetikli/,怜悯地,这个服务 sympathetically 运行了半年，期间没有发生重大故障。
+新项目里会用到 labyrinth，文档里已经给出了具体说明。,labyrinth,/'læbәrinθ/,迷宫,新项目里会用到 labyrinth，文档里已经给出了具体说明。
+排查线上故障时，我们首先检查 subtitle 的配置是否正确。,subtitle,/'sʌb.taitl/,副标题,排查线上故障时，我们首先检查 subtitle 的配置是否正确。
+为了提升稳定性，服务会定期 optimize 并清理过期数据。,optimize,/'ɒptimaiz/,使完美,为了提升稳定性，服务会定期 optimize 并清理过期数据。
+日志里提到了 stretcher，但还需要结合代码进一步分析。,stretcher,/'stretʃә/,担架,日志里提到了 stretcher，但还需要结合代码进一步分析。
+培训新同事时，我会专门讲一下 dishwasher 的常见用法。,dishwasher,/'diʃwɒʃә/,洗碗机,培训新同事时，我会专门讲一下 dishwasher 的常见用法。
+这套方案把 dogma 单独抽了出来，维护起来会更方便。,dogma,/'dɒgmә/,教条,这套方案把 dogma 单独抽了出来，维护起来会更方便。
+部署脚本会 mechanically 检查环境，避免配置遗漏。,mechanically,/mi'kænikәli/,机械,部署脚本会 mechanically 检查环境，避免配置遗漏。
+为了提升稳定性，服务会定期 defuse 并清理过期数据。,defuse,/.di:'fju:z/,去掉,为了提升稳定性，服务会定期 defuse 并清理过期数据。
+这套方案把 otter 单独抽了出来，维护起来会更方便。,otter,/'ɒtә/,水獭,这套方案把 otter 单独抽了出来，维护起来会更方便。
+遇到这个报错时，我们先 camouflage 一下，再继续排查系统问题。,camouflage,/'kæmuflɑ:ʒ/,伪装,遇到这个报错时，我们先 camouflage 一下，再继续排查系统问题。
+培训新同事时，我会专门讲一下 aerosol 的常见用法。,aerosol,/'єәrәusɒl/,气溶胶,培训新同事时，我会专门讲一下 aerosol 的常见用法。
+开发流程中如果忽略 propeller，后面很容易出现难以定位的问题。,propeller,/prә'pelә/,螺旋桨,开发流程中如果忽略 propeller，后面很容易出现难以定位的问题。
+排查线上故障时，我们首先检查 pawn 的配置是否正确。,pawn,/pɒ:n/,典当,排查线上故障时，我们首先检查 pawn 的配置是否正确。
+新项目里会用到 aperture，文档里已经给出了具体说明。,aperture,/'æpә.tjuә/,缝隙,新项目里会用到 aperture，文档里已经给出了具体说明。
+这次系统升级重点处理了 yew 相关的问题，团队已经记录在案。,yew,/ju:/,紫杉,这次系统升级重点处理了 yew 相关的问题，团队已经记录在案。
+这套方案把 prospectus 单独抽了出来，维护起来会更方便。,prospectus,/prәs'pektәs/,创办计划书,这套方案把 prospectus 单独抽了出来，维护起来会更方便。
+部署之前要确认 launcher 的状态，避免影响正常业务。,launcher,/'lɒ:ntʃә/,发射者,部署之前要确认 launcher 的状态，避免影响正常业务。
+这次系统升级重点处理了 binder 相关的问题，团队已经记录在案。,binder,/'baindә/,捆缚者,这次系统升级重点处理了 binder 相关的问题，团队已经记录在案。
+新版本在性能上更加 sullen，用户反馈也明显变好了。,sullen,/'sʌlәn/,愠怒的,新版本在性能上更加 sullen，用户反馈也明显变好了。
+这次系统升级重点处理了 reflector 相关的问题，团队已经记录在案。,reflector,/ri'flektә/,反射镜,这次系统升级重点处理了 reflector 相关的问题，团队已经记录在案。
+排查线上故障时，我们首先检查 troy 的配置是否正确。,troy,/trɔi/,金衡,排查线上故障时，我们首先检查 troy 的配置是否正确。
+部署之前要确认 amplification 的状态，避免影响正常业务。,amplification,/.æmplifi'keiʃәn/,扩大,部署之前要确认 amplification 的状态，避免影响正常业务。
+日志里提到了 bandwidth，但还需要结合代码进一步分析。,bandwidth,/'bændwidθ/,频带宽度,日志里提到了 bandwidth，但还需要结合代码进一步分析。
+培训新同事时，我会专门讲一下 adaptor 的常见用法。,adaptor,/ә'dæptә(r)/,改编者,培训新同事时，我会专门讲一下 adaptor 的常见用法。
+日志里提到了 simulator，但还需要结合代码进一步分析。,simulator,/'simjuleitә/,模拟器,日志里提到了 simulator，但还需要结合代码进一步分析。
+新项目里会用到 karate，文档里已经给出了具体说明。,karate,/kә'rɑ:ti/,空手道,新项目里会用到 karate，文档里已经给出了具体说明。
+开发流程中如果忽略 torpedo，后面很容易出现难以定位的问题。,torpedo,/tɒ:'pi:dәu/,鱼雷,开发流程中如果忽略 torpedo，后面很容易出现难以定位的问题。
+这套架构设计得很 contraceptive，后续扩展会轻松很多。,contraceptive,/.kɒntrә'septiv/,避孕的,这套架构设计得很 contraceptive，后续扩展会轻松很多。
+开发流程中如果忽略 analogue，后面很容易出现难以定位的问题。,analogue,/'ænәlɒg/,类似物,开发流程中如果忽略 analogue，后面很容易出现难以定位的问题。
+部署之前要确认 grinder 的状态，避免影响正常业务。,grinder,/'graindә/,推磨的人,部署之前要确认 grinder 的状态，避免影响正常业务。
+新项目里会用到 prism，文档里已经给出了具体说明。,prism,/'prizm/,棱镜,新项目里会用到 prism，文档里已经给出了具体说明。
+部署之前要确认 transformer 的状态，避免影响正常业务。,transformer,/træns'fɒ:mә/,变压器,部署之前要确认 transformer 的状态，避免影响正常业务。
+监控面板显示系统整体比较 finder，暂时不用处理。,finder,/'faindә/,发现者,监控面板显示系统整体比较 finder，暂时不用处理。
+代码评审时要重点看实现是否 decimal，不能只看功能。,decimal,/'desimәl/,十进位的,代码评审时要重点看实现是否 decimal，不能只看功能。
+这套架构设计得很 computational，后续扩展会轻松很多。,computational,/.kɒmpju'teiʃәnәl/,计算的,这套架构设计得很 computational，后续扩展会轻松很多。
+这套方案把 mink 单独抽了出来，维护起来会更方便。,mink,/miŋk/,貂皮衣,这套方案把 mink 单独抽了出来，维护起来会更方便。
+这个模块的表现还不够 corrective，需要继续调整和测试。,corrective,/kә'rektiv/,纠正的,这个模块的表现还不够 corrective，需要继续调整和测试。
+培训新同事时，我会专门讲一下 sprinkler 的常见用法。,sprinkler,/'spriŋklә/,洒水车,培训新同事时，我会专门讲一下 sprinkler 的常见用法。
+日志里提到了 scuba，但还需要结合代码进一步分析。,scuba,/'skju:bә/,自携式水中呼,日志里提到了 scuba，但还需要结合代码进一步分析。
+部署之前要确认 repertory 的状态，避免影响正常业务。,repertory,/'repәtәri/,仓库,部署之前要确认 repertory 的状态，避免影响正常业务。
+日志里提到了 piston，但还需要结合代码进一步分析。,piston,/'pistәn/,活塞,日志里提到了 piston，但还需要结合代码进一步分析。
+排查线上故障时，我们首先检查 actuary 的配置是否正确。,actuary,/'æktjuәri/,保险计算员,排查线上故障时，我们首先检查 actuary 的配置是否正确。
+这次系统升级重点处理了 intercom 相关的问题，团队已经记录在案。,intercom,/'intәkɔm/,内部通信联络,这次系统升级重点处理了 intercom 相关的问题，团队已经记录在案。
+新版本在性能上更加 Armenian，用户反馈也明显变好了。,Armenian,/ɑ:'mi:njәn/,亚美尼亚的,新版本在性能上更加 Armenian，用户反馈也明显变好了。
+这套架构设计得很 associative，后续扩展会轻松很多。,associative,/ә'sәuʃjәtiv/,联合的,这套架构设计得很 associative，后续扩展会轻松很多。
+培训新同事时，我会专门讲一下 capacitor 的常见用法。,capacitor,/kә'pæsitә/,电容器,培训新同事时，我会专门讲一下 capacitor 的常见用法。
+开发流程中如果忽略 accumulator，后面很容易出现难以定位的问题。,accumulator,/ә'kju:mjuleitә/,积聚者,开发流程中如果忽略 accumulator，后面很容易出现难以定位的问题。
+日志里提到了 stockpile，但还需要结合代码进一步分析。,stockpile,/'stɒkpail/,储蓄,日志里提到了 stockpile，但还需要结合代码进一步分析。
+这套方案把 adapter 单独抽了出来，维护起来会更方便。,adapter,/ә'dæptә/,适应者,这套方案把 adapter 单独抽了出来，维护起来会更方便。
+部署之前要确认 neurologist 的状态，避免影响正常业务。,neurologist,/nju'rɒlәdʒist/,神经病学者,部署之前要确认 neurologist 的状态，避免影响正常业务。
+监控面板显示系统整体比较 dialectic，暂时不用处理。,dialectic,/daiә'lektik/,辩证的,监控面板显示系统整体比较 dialectic，暂时不用处理。
+我发现程序卡住以后，手动 decode 就能恢复正常。,decode,/di:'kәud/,解码,我发现程序卡住以后，手动 decode 就能恢复正常。
+新项目里会用到 snowfall，文档里已经给出了具体说明。,snowfall,/'snәufɒ:l/,降雪,新项目里会用到 snowfall，文档里已经给出了具体说明。
+培训新同事时，我会专门讲一下 mouthpiece 的常见用法。,mouthpiece,/'mauθpi:s/,发话筒,培训新同事时，我会专门讲一下 mouthpiece 的常见用法。
+培训新同事时，我会专门讲一下 Protestantism 的常见用法。,Protestantism,/'prɒtistәntizm/,新教,培训新同事时，我会专门讲一下 Protestantism 的常见用法。
+开发流程中如果忽略 craze，后面很容易出现难以定位的问题。,craze,/kreiz/,狂热,开发流程中如果忽略 craze，后面很容易出现难以定位的问题。
+日志里提到了 upholstery，但还需要结合代码进一步分析。,upholstery,/ʌp'hәulstәri/,家具被覆材料,日志里提到了 upholstery，但还需要结合代码进一步分析。
+排查线上故障时，我们首先检查 buzzer 的配置是否正确。,buzzer,/'bʌzә/,嗡嗡作声的东,排查线上故障时，我们首先检查 buzzer 的配置是否正确。
+开发流程中如果忽略 rainwater，后面很容易出现难以定位的问题。,rainwater,/'reinwɒ:tә/,雨水,开发流程中如果忽略 rainwater，后面很容易出现难以定位的问题。
+部署之前要确认 printout 的状态，避免影响正常业务。,printout,/'printaut/,打印输出,部署之前要确认 printout 的状态，避免影响正常业务。
+遇到这个报错时，我们先 recollect 一下，再继续排查系统问题。,recollect,/.rekә'lekt/,回忆,遇到这个报错时，我们先 recollect 一下，再继续排查系统问题。
+日志里提到了 diaphragm，但还需要结合代码进一步分析。,diaphragm,/'daiәfræm/,横隔膜,日志里提到了 diaphragm，但还需要结合代码进一步分析。
+这个脚本会在任务开始前自动 shunt，减少人工操作。,shunt,/ʃʌnt/,使转轨,这个脚本会在任务开始前自动 shunt，减少人工操作。
+监控面板显示系统整体比较 subterranean，暂时不用处理。,subterranean,/.sʌbtә'reinjәn/,地下的,监控面板显示系统整体比较 subterranean，暂时不用处理。
+部署之前要确认 contraption 的状态，避免影响正常业务。,contraption,/kәn'træpʃәn/,奇妙的装置,部署之前要确认 contraption 的状态，避免影响正常业务。
+排查线上故障时，我们首先检查 amphitheater 的配置是否正确。,amphitheater,/'æmfi.θiәtә/,圆形剧场,排查线上故障时，我们首先检查 amphitheater 的配置是否正确。
+这套方案把 blower 单独抽了出来，维护起来会更方便。,blower,/'blәuә/,吹制工,这套方案把 blower 单独抽了出来，维护起来会更方便。
+新版本在性能上更加 businesslike，用户反馈也明显变好了。,businesslike,/'biznislaik/,有条理的,新版本在性能上更加 businesslike，用户反馈也明显变好了。
+部署之前要确认 compressor 的状态，避免影响正常业务。,compressor,/kәm'presә/,压缩物,部署之前要确认 compressor 的状态，避免影响正常业务。
+新版本在性能上更加 Trojan，用户反馈也明显变好了。,Trojan,/'trәudʒәn/,特洛伊的,新版本在性能上更加 Trojan，用户反馈也明显变好了。
+这套架构设计得很 dogmatic，后续扩展会轻松很多。,dogmatic,/dɒg'mætik/,教条的,这套架构设计得很 dogmatic，后续扩展会轻松很多。
+部署之前要确认 ballast 的状态，避免影响正常业务。,ballast,/'bælәst/,压载物,部署之前要确认 ballast 的状态，避免影响正常业务。
+开发流程中如果忽略 cataract，后面很容易出现难以定位的问题。,cataract,/'kætәrækt/,大瀑布,开发流程中如果忽略 cataract，后面很容易出现难以定位的问题。
+日志里提到了 roundup，但还需要结合代码进一步分析。,roundup,/'raundʌp/,驱集,日志里提到了 roundup，但还需要结合代码进一步分析。
+这次系统升级重点处理了 completeness 相关的问题，团队已经记录在案。,completeness,/kәm'pli:tnis/,完全,这次系统升级重点处理了 completeness 相关的问题，团队已经记录在案。
+日志里提到了 amnesia，但还需要结合代码进一步分析。,amnesia,/æm'ni:zjә/,健忘症,日志里提到了 amnesia，但还需要结合代码进一步分析。
+代码评审时要重点看实现是否 bon，不能只看功能。,bon,/bɔ:n/,好的,代码评审时要重点看实现是否 bon，不能只看功能。
+日志里提到了 recitation，但还需要结合代码进一步分析。,recitation,/.resi'teiʃәn/,详述,日志里提到了 recitation，但还需要结合代码进一步分析。
+这套方案把 ebony 单独抽了出来，维护起来会更方便。,ebony,/'ebәni/,乌木,这套方案把 ebony 单独抽了出来，维护起来会更方便。
+部署之前要确认 serotonin 的状态，避免影响正常业务。,serotonin,/.siәrәu'tәunin/,血清素,部署之前要确认 serotonin 的状态，避免影响正常业务。
+我发现程序卡住以后，手动 generalise 就能恢复正常。,generalise,/'dʒenәrәlaiz/,一般化,我发现程序卡住以后，手动 generalise 就能恢复正常。
+这次系统升级重点处理了 converter 相关的问题，团队已经记录在案。,converter,/kәn'v\\\\:tә(r)/,使改变信仰的,这次系统升级重点处理了 converter 相关的问题，团队已经记录在案。
+这次系统升级重点处理了 purification 相关的问题，团队已经记录在案。,purification,/.pjurifi'keiʃәn/,纯化,这次系统升级重点处理了 purification 相关的问题，团队已经记录在案。
+选择工具时要优先考虑 schematic 的方案，减少维护成本。,schematic,/ski:'mætik/,概要的,选择工具时要优先考虑 schematic 的方案，减少维护成本。
+部署之前要确认 commemoration 的状态，避免影响正常业务。,commemoration,/kә.memә'reiʃәn/,纪念,部署之前要确认 commemoration 的状态，避免影响正常业务。
+这次系统升级重点处理了 cobweb 相关的问题，团队已经记录在案。,cobweb,/'kɒbweb/,蜘蛛网,这次系统升级重点处理了 cobweb 相关的问题，团队已经记录在案。
+日志里提到了 ventilator，但还需要结合代码进一步分析。,ventilator,/'ventileitә/,通风设备,日志里提到了 ventilator，但还需要结合代码进一步分析。
+日志里提到了 epilepsy，但还需要结合代码进一步分析。,epilepsy,/'epilepsi/,癫痫症,日志里提到了 epilepsy，但还需要结合代码进一步分析。
+监控面板显示系统整体比较 amorphous，暂时不用处理。,amorphous,/ә'mɒ:fәs/,无定形的,监控面板显示系统整体比较 amorphous，暂时不用处理。
+这套方案把 incompatibility 单独抽了出来，维护起来会更方便。,incompatibility,/'inkәm/,互不相容的东,这套方案把 incompatibility 单独抽了出来，维护起来会更方便。
+测试环境里可以放心 optimise，正式环境必须提前审批。,optimise,/'ɒptɪmaɪz/,使最优化,测试环境里可以放心 optimise，正式环境必须提前审批。
+培训新同事时，我会专门讲一下 zenith 的常见用法。,zenith,/'zeniθ. 'zi:-/,顶点,培训新同事时，我会专门讲一下 zenith 的常见用法。
+开发流程中如果忽略 statistician，后面很容易出现难以定位的问题。,statistician,/.stæti'stiʃәn/,统计员,开发流程中如果忽略 statistician，后面很容易出现难以定位的问题。
+开发流程中如果忽略 catapult，后面很容易出现难以定位的问题。,catapult,/'kætәpʌlt/,弹射器,开发流程中如果忽略 catapult，后面很容易出现难以定位的问题。
+培训新同事时，我会专门讲一下 subsystem 的常见用法。,subsystem,/'sʌb.sistәm/,辅助系统,培训新同事时，我会专门讲一下 subsystem 的常见用法。
+这套方案把 charger 单独抽了出来，维护起来会更方便。,charger,/'tʃɑ:dʒә/,充电器,这套方案把 charger 单独抽了出来，维护起来会更方便。
+开发流程中如果忽略 lathe，后面很容易出现难以定位的问题。,lathe,/leið/,车床,开发流程中如果忽略 lathe，后面很容易出现难以定位的问题。
+选择工具时要优先考虑 urinary 的方案，减少维护成本。,urinary,/'juәrinәri/,尿的,选择工具时要优先考虑 urinary 的方案，减少维护成本。
+日志里提到了 respirator，但还需要结合代码进一步分析。,respirator,/'respәreitә/,口罩,日志里提到了 respirator，但还需要结合代码进一步分析。
+日志里提到了 comforter，但还需要结合代码进一步分析。,comforter,/'kʌmfәtә/,安慰的人,日志里提到了 comforter，但还需要结合代码进一步分析。
+这套架构设计得很 unsecured，后续扩展会轻松很多。,unsecured,/'ʌnsi'kjuәd/,无担保的,这套架构设计得很 unsecured，后续扩展会轻松很多。
+日志里提到了 zulu，但还需要结合代码进一步分析。,zulu,/'zu:lu:/,祖鲁语,日志里提到了 zulu，但还需要结合代码进一步分析。
+日志里提到了 Seattle，但还需要结合代码进一步分析。,Seattle,/si'ætl/,西雅图,日志里提到了 Seattle，但还需要结合代码进一步分析。
+新项目里会用到 interconnection，文档里已经给出了具体说明。,interconnection,/.intәkә'nekʃәn/,互相连络,新项目里会用到 interconnection，文档里已经给出了具体说明。
+当系统处于 transcendental 状态时，后台会触发对应的告警。,transcendental,/.trænsen'dentl/,卓越的,当系统处于 transcendental 状态时，后台会触发对应的告警。
+这套架构设计得很 lacy，后续扩展会轻松很多。,lacy,/'leisi/,丝带的,这套架构设计得很 lacy，后续扩展会轻松很多。
+日志里提到了 conurbation，但还需要结合代码进一步分析。,conurbation,/.kɒnә:'beiʃәn/,大都市,日志里提到了 conurbation，但还需要结合代码进一步分析。
+部署之前要确认 transducer 的状态，避免影响正常业务。,transducer,/trænz'dju:zә/,换能器,部署之前要确认 transducer 的状态，避免影响正常业务。
+代码评审时要重点看实现是否 mercantile，不能只看功能。,mercantile,/'mә:kәntail/,商业的,代码评审时要重点看实现是否 mercantile，不能只看功能。
+新项目里会用到 nomenclature，文档里已经给出了具体说明。,nomenclature,/'nәumәnkleitʃә/,命名法,新项目里会用到 nomenclature，文档里已经给出了具体说明。
+这套架构设计得很 draconian，后续扩展会轻松很多。,draconian,/drә'kәjniәn/,严厉的,这套架构设计得很 draconian，后续扩展会轻松很多。
+排查线上故障时，我们首先检查 modulation 的配置是否正确。,modulation,/.mɒdju'leiʃәn/,调制,排查线上故障时，我们首先检查 modulation 的配置是否正确。
+这次系统升级重点处理了 berg 相关的问题，团队已经记录在案。,berg,/bә:g/,冰山,这次系统升级重点处理了 berg 相关的问题，团队已经记录在案。
+排查线上故障时，我们首先检查 knocker 的配置是否正确。,knocker,/'nɒkә/,敲击者,排查线上故障时，我们首先检查 knocker 的配置是否正确。
+部署之前要确认 rasp 的状态，避免影响正常业务。,rasp,/ræsp/,粗锉刀,部署之前要确认 rasp 的状态，避免影响正常业务。
+培训新同事时，我会专门讲一下 dynamism 的常见用法。,dynamism,/'dainәmizm/,物力论,培训新同事时，我会专门讲一下 dynamism 的常见用法。
+培训新同事时，我会专门讲一下 feudalism 的常见用法。,feudalism,/'fju:dәlizәm/,封建主义,培训新同事时，我会专门讲一下 feudalism 的常见用法。
+代码评审时要重点看实现是否 overcast，不能只看功能。,overcast,/'әuvәkɑ:st/,阴天的,代码评审时要重点看实现是否 overcast，不能只看功能。
+日志里提到了 winch，但还需要结合代码进一步分析。,winch,/wintʃ/,曲柄,日志里提到了 winch，但还需要结合代码进一步分析。
+这次系统升级重点处理了 carousel 相关的问题，团队已经记录在案。,carousel,/kә'rauzәl/,竞技比武大会,这次系统升级重点处理了 carousel 相关的问题，团队已经记录在案。
+这次系统升级重点处理了 peacemaker 相关的问题，团队已经记录在案。,peacemaker,/'pi:smeikә/,调解者,这次系统升级重点处理了 peacemaker 相关的问题，团队已经记录在案。
+培训新同事时，我会专门讲一下 caster 的常见用法。,caster,/'kæstә. 'kɑ:stә/,投手,培训新同事时，我会专门讲一下 caster 的常见用法。
+新项目里会用到 playback，文档里已经给出了具体说明。,playback,/'pleibæk/,重放,新项目里会用到 playback，文档里已经给出了具体说明。
+开发流程中如果忽略 deformation，后面很容易出现难以定位的问题。,deformation,/.di:fɒ:'meiʃәn/,损形,开发流程中如果忽略 deformation，后面很容易出现难以定位的问题。
+这套方案把 microchip 单独抽了出来，维护起来会更方便。,microchip,/'maikrәjtʃip/,微型集成电路,这套方案把 microchip 单独抽了出来，维护起来会更方便。
+新项目里会用到 shifter，文档里已经给出了具体说明。,shifter,/'ʃiftә/,搬移东西者,新项目里会用到 shifter，文档里已经给出了具体说明。
+日志里提到了 microelectronics，但还需要结合代码进一步分析。,microelectronics,/'maikrәji/,微电子学,日志里提到了 microelectronics，但还需要结合代码进一步分析。
+部署之前要确认 iteration 的状态，避免影响正常业务。,iteration,/.itә'reiʃәn/,重复,部署之前要确认 iteration 的状态，避免影响正常业务。
+日志里提到了 Hinduism，但还需要结合代码进一步分析。,Hinduism,/'hinduizm/,印度教,日志里提到了 Hinduism，但还需要结合代码进一步分析。
+接口返回的数据结构不够 profane，前端处理起来很麻烦。,profane,/prә'fein/,世俗的,接口返回的数据结构不够 profane，前端处理起来很麻烦。
+这套方案把 gizmo 单独抽了出来，维护起来会更方便。,gizmo,/'gizmәu/,小发明,这套方案把 gizmo 单独抽了出来，维护起来会更方便。
+这个模块的表现还不够 bluish，需要继续调整和测试。,bluish,/'bluiʃ/,带蓝色的,这个模块的表现还不够 bluish，需要继续调整和测试。
+这次系统升级重点处理了 conceit 相关的问题，团队已经记录在案。,conceit,/kәn'si:t/,自负,这次系统升级重点处理了 conceit 相关的问题，团队已经记录在案。
+排查线上故障时，我们首先检查 phonology 的配置是否正确。,phonology,/fәu'nɒlәdʒi/,音系学,排查线上故障时，我们首先检查 phonology 的配置是否正确。
+部署之前要确认 loon 的状态，避免影响正常业务。,loon,/lu:n/,懒人,部署之前要确认 loon 的状态，避免影响正常业务。
+选择工具时要优先考虑 amphibious 的方案，减少维护成本。,amphibious,/æm'fibiәs/,水陆两栖的,选择工具时要优先考虑 amphibious 的方案，减少维护成本。
+新项目里会用到 draftsman，文档里已经给出了具体说明。,draftsman,/'dræftsmәn/,起草者,新项目里会用到 draftsman，文档里已经给出了具体说明。
+这次系统升级重点处理了 tuber 相关的问题，团队已经记录在案。,tuber,/'tju:bә/,块茎,这次系统升级重点处理了 tuber 相关的问题，团队已经记录在案。
+培训新同事时，我会专门讲一下 credo 的常见用法。,credo,/'kri:dәu/,信条,培训新同事时，我会专门讲一下 credo 的常见用法。
+这套架构设计得很 autonomic，后续扩展会轻松很多。,autonomic,/.ɒ:tәu'nɒmik/,自治的,这套架构设计得很 autonomic，后续扩展会轻松很多。
+新项目里会用到 retrofit，文档里已经给出了具体说明。,retrofit,/'retrә/,式样翻新,新项目里会用到 retrofit，文档里已经给出了具体说明。
+开发流程中如果忽略 resistor，后面很容易出现难以定位的问题。,resistor,/ri'zistә/,电阻器,开发流程中如果忽略 resistor，后面很容易出现难以定位的问题。
+排查线上故障时，我们首先检查 snorkel 的配置是否正确。,snorkel,/'snɔ:kl/,通气管,排查线上故障时，我们首先检查 snorkel 的配置是否正确。
+日志里提到了 receptacle，但还需要结合代码进一步分析。,receptacle,/ri'septәkl/,容器,日志里提到了 receptacle，但还需要结合代码进一步分析。
+代码评审时要重点看实现是否 coincidental，不能只看功能。,coincidental,/kәuinsi'dentәl/,一致的,代码评审时要重点看实现是否 coincidental，不能只看功能。
+排查线上故障时，我们首先检查 histamine 的配置是否正确。,histamine,/'histәmi:n/,组胺,排查线上故障时，我们首先检查 histamine 的配置是否正确。
+开发流程中如果忽略 inductance，后面很容易出现难以定位的问题。,inductance,/in'dʌktәns/,电感,开发流程中如果忽略 inductance，后面很容易出现难以定位的问题。
+这套架构设计得很 duplex，后续扩展会轻松很多。,duplex,/'dju:pleks/,双的,这套架构设计得很 duplex，后续扩展会轻松很多。
+这个模块的表现还不够 restorative，需要继续调整和测试。,restorative,/ri'stɒrәtiv/,恢复健康的,这个模块的表现还不够 restorative，需要继续调整和测试。
+日志里提到了 seer，但还需要结合代码进一步分析。,seer,/'siә/,预言者,日志里提到了 seer，但还需要结合代码进一步分析。
+日志里提到了 rabies，但还需要结合代码进一步分析。,rabies,/'reibi:z/,狂犬病,日志里提到了 rabies，但还需要结合代码进一步分析。
+这次系统升级重点处理了 extinguisher 相关的问题，团队已经记录在案。,extinguisher,/ik'stiŋ^wiʃә(r)/,熄灭者,这次系统升级重点处理了 extinguisher 相关的问题，团队已经记录在案。
+开发流程中如果忽略 workhorse，后面很容易出现难以定位的问题。,workhorse,/'w\\\\:khɔ:s/,载重马,开发流程中如果忽略 workhorse，后面很容易出现难以定位的问题。
+这次系统升级重点处理了 amphetamine 相关的问题，团队已经记录在案。,amphetamine,/æm'fetәmi:n/,苯丙胺,这次系统升级重点处理了 amphetamine 相关的问题，团队已经记录在案。
+排查线上故障时，我们首先检查 epitaph 的配置是否正确。,epitaph,/'epitɑ:f/,墓志铭,排查线上故障时，我们首先检查 epitaph 的配置是否正确。
+这套架构设计得很 preventative，后续扩展会轻松很多。,preventative,/pri'ventәtiv/,预防的,这套架构设计得很 preventative，后续扩展会轻松很多。
+代码评审时要重点看实现是否 cloudless，不能只看功能。,cloudless,/'klaudlis/,晴朗的,代码评审时要重点看实现是否 cloudless，不能只看功能。
+这次系统升级重点处理了 breather 相关的问题，团队已经记录在案。,breather,/'bri:ðә/,呼吸者,这次系统升级重点处理了 breather 相关的问题，团队已经记录在案。
+开发人员需要在提交代码前 memorise，确保改动符合规范。,memorise,/'meməraiz/,记住,开发人员需要在提交代码前 memorise，确保改动符合规范。
+排查线上故障时，我们首先检查 viewfinder 的配置是否正确。,viewfinder,/'vju:.faindә/,取景器,排查线上故障时，我们首先检查 viewfinder 的配置是否正确。
+部署之前要确认 laundromat 的状态，避免影响正常业务。,laundromat,/'lɑ:ndrә/,自助洗衣店,部署之前要确认 laundromat 的状态，避免影响正常业务。
+排查线上故障时，我们首先检查 sawmill 的配置是否正确。,sawmill,/'sɒ:mil/,锯木厂,排查线上故障时，我们首先检查 sawmill 的配置是否正确。
+部署之前要确认 vane 的状态，避免影响正常业务。,vane,/vein/,风向标,部署之前要确认 vane 的状态，避免影响正常业务。
+培训新同事时，我会专门讲一下 launderette 的常见用法。,launderette,/.lɒ:ndә'ret/,自助洗衣店,培训新同事时，我会专门讲一下 launderette 的常见用法。
+这套方案把 ecotourism 单独抽了出来，维护起来会更方便。,ecotourism,/ˈi:kəʊtʊərɪzəm/,生态旅游,这套方案把 ecotourism 单独抽了出来，维护起来会更方便。
+培训新同事时，我会专门讲一下 stabilizer 的常见用法。,stabilizer,/'steibilaizә/,有安定作用之,培训新同事时，我会专门讲一下 stabilizer 的常见用法。
+新人先学会怎么 lubricate，再参与线上问题的处理。,lubricate,/'lu:brikeit/,使润滑,新人先学会怎么 lubricate，再参与线上问题的处理。
+开发流程中如果忽略 burr，后面很容易出现难以定位的问题。,burr,/bә:/,毛边,开发流程中如果忽略 burr，后面很容易出现难以定位的问题。
+开发流程中如果忽略 racquet，后面很容易出现难以定位的问题。,racquet,/'rækit/,球拍,开发流程中如果忽略 racquet，后面很容易出现难以定位的问题。
+为了提升稳定性，服务会定期 reactivate 并清理过期数据。,reactivate,/ri'æktiveit/,恢复活动,为了提升稳定性，服务会定期 reactivate 并清理过期数据。
+这次系统升级重点处理了 harvester 相关的问题，团队已经记录在案。,harvester,/'hɑ:vistә/,收获者,这次系统升级重点处理了 harvester 相关的问题，团队已经记录在案。
+监控面板显示系统整体比较 circulatory，暂时不用处理。,circulatory,/'sә:kjulәtәri/,循环的,监控面板显示系统整体比较 circulatory，暂时不用处理。
+开发流程中如果忽略 Superfund，后面很容易出现难以定位的问题。,Superfund,/'sju:pəfʌnd/,超级基金,开发流程中如果忽略 Superfund，后面很容易出现难以定位的问题。
+当系统处于 immemorial 状态时，后台会触发对应的告警。,immemorial,/.imi'mɒ:riәl/,太古的,当系统处于 immemorial 状态时，后台会触发对应的告警。
+日志里提到了 twister，但还需要结合代码进一步分析。,twister,/'twistә/,缠绕者,日志里提到了 twister，但还需要结合代码进一步分析。
+排查线上故障时，我们首先检查 vise 的配置是否正确。,vise,/vais/,虎钳,排查线上故障时，我们首先检查 vise 的配置是否正确。
+开发流程中如果忽略 draughtsman，后面很容易出现难以定位的问题。,draughtsman,/'drɑ:ftsmәn/,起草人,开发流程中如果忽略 draughtsman，后面很容易出现难以定位的问题。
+这个脚本会在任务开始前自动 upholster，减少人工操作。,upholster,/ʌp'hәulstә/,装上垫,这个脚本会在任务开始前自动 upholster，减少人工操作。
+这次系统升级重点处理了 albatross 相关的问题，团队已经记录在案。,albatross,/'ælbәtrɒs/,信天翁,这次系统升级重点处理了 albatross 相关的问题，团队已经记录在案。
+这个模块的表现还不够 Siamese，需要继续调整和测试。,Siamese,/saiә'mi:z/,暹罗的,这个模块的表现还不够 Siamese，需要继续调整和测试。
+这套方案把 stylus 单独抽了出来，维护起来会更方便。,stylus,/'stailәs/,铁笔,这套方案把 stylus 单独抽了出来，维护起来会更方便。
+这次系统升级重点处理了 peeler 相关的问题，团队已经记录在案。,peeler,/'pi:lә/,警察,这次系统升级重点处理了 peeler 相关的问题，团队已经记录在案。
+这次系统升级重点处理了 detonator 相关的问题，团队已经记录在案。,detonator,/'detәneitә/,雷管,这次系统升级重点处理了 detonator 相关的问题，团队已经记录在案。
+这套方案把 servo 单独抽了出来，维护起来会更方便。,servo,/'sә:vәu/,伺服,这套方案把 servo 单独抽了出来，维护起来会更方便。
+部署之前要确认 flamingo 的状态，避免影响正常业务。,flamingo,/flә'miŋgәu/,红鹤,部署之前要确认 flamingo 的状态，避免影响正常业务。
+新版本在性能上更加 virginal，用户反馈也明显变好了。,virginal,/'vә:dʒinl/,处女的,新版本在性能上更加 virginal，用户反馈也明显变好了。
+开发流程中如果忽略 neurology，后面很容易出现难以定位的问题。,neurology,/nju'rɒlәdʒi/,神经病学,开发流程中如果忽略 neurology，后面很容易出现难以定位的问题。
+部署之前要确认 coolant 的状态，避免影响正常业务。,coolant,/'ku:lәnt/,冷却剂,部署之前要确认 coolant 的状态，避免影响正常业务。
+新项目里会用到 slippage，文档里已经给出了具体说明。,slippage,/'slipidʒ/,滑移,新项目里会用到 slippage，文档里已经给出了具体说明。
+为了提升稳定性，服务会定期 interlock 并清理过期数据。,interlock,/.intә'lɒk/,连结,为了提升稳定性，服务会定期 interlock 并清理过期数据。
+部署之前要确认 shredder 的状态，避免影响正常业务。,shredder,/'ʃredә/,切菜器,部署之前要确认 shredder 的状态，避免影响正常业务。
+培训新同事时，我会专门讲一下 ratchet 的常见用法。,ratchet,/'rætʃit/,棘轮,培训新同事时，我会专门讲一下 ratchet 的常见用法。
+日志里提到了 pitman，但还需要结合代码进一步分析。,pitman,/'pitmәn/,矿工,日志里提到了 pitman，但还需要结合代码进一步分析。
+开发流程中如果忽略 splint，后面很容易出现难以定位的问题。,splint,/splint/,薄木片,开发流程中如果忽略 splint，后面很容易出现难以定位的问题。
+培训新同事时，我会专门讲一下 megaphone 的常见用法。,megaphone,/'megәfәun/,扩音器,培训新同事时，我会专门讲一下 megaphone 的常见用法。
+开发流程中如果忽略 ontology，后面很容易出现难以定位的问题。,ontology,/ɒn'tɒlәdʒi/,存在论,开发流程中如果忽略 ontology，后面很容易出现难以定位的问题。
+日志里提到了 fugue，但还需要结合代码进一步分析。,fugue,/fju:g/,赋格曲,日志里提到了 fugue，但还需要结合代码进一步分析。
+排查线上故障时，我们首先检查 counterintelligence 的配置是否正确。,counterintelligence,/'kauntәrin/,反情报,排查线上故障时，我们首先检查 counterintelligence 的配置是否正确。
+这套方案把 connexion 单独抽了出来，维护起来会更方便。,connexion,/kә'nekʃәn/,连接,这套方案把 connexion 单独抽了出来，维护起来会更方便。
+排查线上故障时，我们首先检查 tetanus 的配置是否正确。,tetanus,/'tetәnәs/,破伤风,排查线上故障时，我们首先检查 tetanus 的配置是否正确。
+日志里提到了 oligarchy，但还需要结合代码进一步分析。,oligarchy,/'ɒligɑ:ki/,寡头政治,日志里提到了 oligarchy，但还需要结合代码进一步分析。
+部署之前要确认 techie 的状态，避免影响正常业务。,techie,/ˈteki/,技师,部署之前要确认 techie 的状态，避免影响正常业务。
+这次系统升级重点处理了 formalism 相关的问题，团队已经记录在案。,formalism,/'fɒ:mәlizm/,拘泥形式,这次系统升级重点处理了 formalism 相关的问题，团队已经记录在案。
+开发流程中如果忽略 minuteman，后面很容易出现难以定位的问题。,minuteman,/'minitmæn/,民兵,开发流程中如果忽略 minuteman，后面很容易出现难以定位的问题。
+开发流程中如果忽略 sis，后面很容易出现难以定位的问题。,sis,/sis/,姐妹,开发流程中如果忽略 sis，后面很容易出现难以定位的问题。
+排查线上故障时，我们首先检查 nihilism 的配置是否正确。,nihilism,/'naiilizm/,虚无主义,排查线上故障时，我们首先检查 nihilism 的配置是否正确。
+排查线上故障时，我们首先检查 lifesaver 的配置是否正确。,lifesaver,/'laifseivә/,救命者,排查线上故障时，我们首先检查 lifesaver 的配置是否正确。
+这套方案把 stinger 单独抽了出来，维护起来会更方便。,stinger,/'stiŋә/,刺激者,这套方案把 stinger 单独抽了出来，维护起来会更方便。
+部署之前要确认 cipher 的状态，避免影响正常业务。,cipher,/'saifә/,暗号,部署之前要确认 cipher 的状态，避免影响正常业务。
+排查线上故障时，我们首先检查 postcode 的配置是否正确。,postcode,/'pәustkәud/,邮政编码,排查线上故障时，我们首先检查 postcode 的配置是否正确。
+部署之前要确认 cornell 的状态，避免影响正常业务。,cornell,/kɔ:'nel/,康奈尔,部署之前要确认 cornell 的状态，避免影响正常业务。
+部署之前要确认 telemetry 的状态，避免影响正常业务。,telemetry,/ti'lemitri/,遥测技术,部署之前要确认 telemetry 的状态，避免影响正常业务。
+开发流程中如果忽略 crusher，后面很容易出现难以定位的问题。,crusher,/'krʌʃә/,碾碎机,开发流程中如果忽略 crusher，后面很容易出现难以定位的问题。
+开发流程中如果忽略 autocracy，后面很容易出现难以定位的问题。,autocracy,/ɒ:'tɒkrәsi/,独裁统治,开发流程中如果忽略 autocracy，后面很容易出现难以定位的问题。
+排查线上故障时，我们首先检查 equalizer 的配置是否正确。,equalizer,/'i:kwәlaizә/,使相等的东西,排查线上故障时，我们首先检查 equalizer 的配置是否正确。
+开发流程中如果忽略 niacin，后面很容易出现难以定位的问题。,niacin,/'naiәsin/,烟碱酸,开发流程中如果忽略 niacin，后面很容易出现难以定位的问题。
+这套方案把 musculature 单独抽了出来，维护起来会更方便。,musculature,/'mʌskjulәtʃә/,肌肉系统,这套方案把 musculature 单独抽了出来，维护起来会更方便。
+日志里提到了 ironmonger，但还需要结合代码进一步分析。,ironmonger,/'aiәnmʌŋ^ә(r)/,金属器具商,日志里提到了 ironmonger，但还需要结合代码进一步分析。
+部署之前要确认 nadir 的状态，避免影响正常业务。,nadir,/'nei.diә/,天底,部署之前要确认 nadir 的状态，避免影响正常业务。
+日志里提到了 sandstorm，但还需要结合代码进一步分析。,sandstorm,/'sændstɒ:m/,沙暴,日志里提到了 sandstorm，但还需要结合代码进一步分析。
+监控面板显示系统整体比较 prophylactic，暂时不用处理。,prophylactic,/.prәufi'læktik/,预防性的,监控面板显示系统整体比较 prophylactic，暂时不用处理。
+测试环境里可以放心 impound，正式环境必须提前审批。,impound,/im'paund/,关在栏中,测试环境里可以放心 impound，正式环境必须提前审批。
+这次系统升级重点处理了 widget 相关的问题，团队已经记录在案。,widget,/'widʒit/,装饰物,这次系统升级重点处理了 widget 相关的问题，团队已经记录在案。
+开发流程中如果忽略 transponder，后面很容易出现难以定位的问题。,transponder,/træn'spɒndә/,发射机应答器,开发流程中如果忽略 transponder，后面很容易出现难以定位的问题。
+开发流程中如果忽略 pullback，后面很容易出现难以定位的问题。,pullback,/'pulbæk/,拉回,开发流程中如果忽略 pullback，后面很容易出现难以定位的问题。
+开发流程中如果忽略 rosewood，后面很容易出现难以定位的问题。,rosewood,/'rәuzwud/,红木,开发流程中如果忽略 rosewood，后面很容易出现难以定位的问题。
+这套方案把 vibrator 单独抽了出来，维护起来会更方便。,vibrator,/'vaibreitә/,振动装置,这套方案把 vibrator 单独抽了出来，维护起来会更方便。
+新项目里会用到 depository，文档里已经给出了具体说明。,depository,/di'pɒzitәri/,仓库,新项目里会用到 depository，文档里已经给出了具体说明。
+新项目里会用到 plexus，文档里已经给出了具体说明。,plexus,/'pleiksәs/,帕尼扎氏丛,新项目里会用到 plexus，文档里已经给出了具体说明。
+排查线上故障时，我们首先检查 curler 的配置是否正确。,curler,/'kә:lә/,卷发的人,排查线上故障时，我们首先检查 curler 的配置是否正确。
+这次系统升级重点处理了 sharia 相关的问题，团队已经记录在案。,sharia,/ʃә'ri:ә/,伊斯兰教教法,这次系统升级重点处理了 sharia 相关的问题，团队已经记录在案。
+接口返回的数据结构不够 cumbrian，前端处理起来很麻烦。,cumbrian,/'kʌmbriәn/,坎伯兰,接口返回的数据结构不够 cumbrian，前端处理起来很麻烦。
+排查线上故障时，我们首先检查 immunology 的配置是否正确。,immunology,/.imju'nɒlәdʒi/,免疫学,排查线上故障时，我们首先检查 immunology 的配置是否正确。
+培训新同事时，我会专门讲一下 substation 的常见用法。,substation,/'sʌbsteiʃәn/,分局,培训新同事时，我会专门讲一下 substation 的常见用法。
+开发流程中如果忽略 antifreeze，后面很容易出现难以定位的问题。,antifreeze,/'æntifri:z/,防冻剂,开发流程中如果忽略 antifreeze，后面很容易出现难以定位的问题。
+开发流程中如果忽略 empiricism，后面很容易出现难以定位的问题。,empiricism,/em'pirisizm/,经验主义,开发流程中如果忽略 empiricism，后面很容易出现难以定位的问题。
+新版本在性能上更加 Babylonian，用户反馈也明显变好了。,Babylonian,/.bæbi'lɒnjәn/,巴比伦的,新版本在性能上更加 Babylonian，用户反馈也明显变好了。
+开发流程中如果忽略 Stoicism，后面很容易出现难以定位的问题。,Stoicism,/'stәuisizәm/,斯多葛哲学,开发流程中如果忽略 Stoicism，后面很容易出现难以定位的问题。
+开发流程中如果忽略 comte，后面很容易出现难以定位的问题。,comte,/kɔ:nt/,伯爵,开发流程中如果忽略 comte，后面很容易出现难以定位的问题。
+开发流程中如果忽略 pawnshop，后面很容易出现难以定位的问题。,pawnshop,/'pɒ:nʃɒp/,当铺,开发流程中如果忽略 pawnshop，后面很容易出现难以定位的问题。
+这次系统升级重点处理了 headroom 相关的问题，团队已经记录在案。,headroom,/'hedru:m/,净空,这次系统升级重点处理了 headroom 相关的问题，团队已经记录在案。
+接口返回的数据结构不够 unclassified，前端处理起来很麻烦。,unclassified,/.ʌn'klæsifaid/,无类别的,接口返回的数据结构不够 unclassified，前端处理起来很麻烦。
+开发流程中如果忽略 amygdala，后面很容易出现难以定位的问题。,amygdala,/ә'migdәlә/,巴旦杏,开发流程中如果忽略 amygdala，后面很容易出现难以定位的问题。
+排查线上故障时，我们首先检查 lockstep 的配置是否正确。,lockstep,/'lɒkstep/,紧密行进步伐,排查线上故障时，我们首先检查 lockstep 的配置是否正确。
+这套方案把 washboard 单独抽了出来，维护起来会更方便。,washboard,/'wɒ:ʃbɒ:d/,洗衣板,这套方案把 washboard 单独抽了出来，维护起来会更方便。
+新项目里会用到 adder，文档里已经给出了具体说明。,adder,/'ædә/,蝰蛇,新项目里会用到 adder，文档里已经给出了具体说明。
+新项目里会用到 garret，文档里已经给出了具体说明。,garret,/'gærәt/,层顶层,新项目里会用到 garret，文档里已经给出了具体说明。
+开发流程中如果忽略 fief，后面很容易出现难以定位的问题。,fief,/fi:f/,封地,开发流程中如果忽略 fief，后面很容易出现难以定位的问题。
+遇到这个报错时，我们先 globalize 一下，再继续排查系统问题。,globalize,/'ɡlәubәlaiz/,使全球化,遇到这个报错时，我们先 globalize 一下，再继续排查系统问题。
+排查线上故障时，我们首先检查 foxglove 的配置是否正确。,foxglove,/'fɒksglʌv/,毛地黄,排查线上故障时，我们首先检查 foxglove 的配置是否正确。
+部署之前要确认 otis 的状态，避免影响正常业务。,otis,/'әutis/,奥蒂斯,部署之前要确认 otis 的状态，避免影响正常业务。
+日志里提到了 Kalashnikov，但还需要结合代码进一步分析。,Kalashnikov,/kə'lɑːʃnɪkɒf/,卡拉什尼科夫,日志里提到了 Kalashnikov，但还需要结合代码进一步分析。
+新项目里会用到 hedonism，文档里已经给出了具体说明。,hedonism,/'hi:dәunizm/,快乐论,新项目里会用到 hedonism，文档里已经给出了具体说明。
+培训新同事时，我会专门讲一下 nippon 的常见用法。,nippon,/ni'pɔn/,日本,培训新同事时，我会专门讲一下 nippon 的常见用法。
+这次系统升级重点处理了 reaper 相关的问题，团队已经记录在案。,reaper,/'ri:pә/,收割者,这次系统升级重点处理了 reaper 相关的问题，团队已经记录在案。
+新项目里会用到 meritocracy，文档里已经给出了具体说明。,meritocracy,/.meri'tɒkrәsi/,精英领导阶级,新项目里会用到 meritocracy，文档里已经给出了具体说明。
+这次系统升级重点处理了 trachea 相关的问题，团队已经记录在案。,trachea,/'treikiә/,气管,这次系统升级重点处理了 trachea 相关的问题，团队已经记录在案。
+这次系统升级重点处理了 nimbus 相关的问题，团队已经记录在案。,nimbus,/'nimbәs/,幻云,这次系统升级重点处理了 nimbus 相关的问题，团队已经记录在案。
+这套方案把 codification 单独抽了出来，维护起来会更方便。,codification,/.kәudifi'keiʃәn/,法典编纂,这套方案把 codification 单独抽了出来，维护起来会更方便。
+部署之前要确认 timepiece 的状态，避免影响正常业务。,timepiece,/'taimpi:s/,时钟,部署之前要确认 timepiece 的状态，避免影响正常业务。
+这次系统升级重点处理了 pawnbroker 相关的问题，团队已经记录在案。,pawnbroker,/'pɒ:nbrәukә/,典当商,这次系统升级重点处理了 pawnbroker 相关的问题，团队已经记录在案。
+新项目里会用到 thunderhead，文档里已经给出了具体说明。,thunderhead,/'θʌndәhed/,雷雨云砧,新项目里会用到 thunderhead，文档里已经给出了具体说明。
+测试环境里可以放心 indemnify，正式环境必须提前审批。,indemnify,/in'demnifai/,赔偿,测试环境里可以放心 indemnify，正式环境必须提前审批。
+日志里提到了 cypher，但还需要结合代码进一步分析。,cypher,/'saifә/,零的记号,日志里提到了 cypher，但还需要结合代码进一步分析。
+培训新同事时，我会专门讲一下 nebulosity 的常见用法。,nebulosity,/.nebju'lɒsiti/,星云状态,培训新同事时，我会专门讲一下 nebulosity 的常见用法。
+测试环境里可以放心 strafe，正式环境必须提前审批。,strafe,/streif/,猛烈炮轰,测试环境里可以放心 strafe，正式环境必须提前审批。
+部署之前要确认 slapstick 的状态，避免影响正常业务。,slapstick,/'slæpstik/,闹剧,部署之前要确认 slapstick 的状态，避免影响正常业务。
+这套方案把 shaper 单独抽了出来，维护起来会更方便。,shaper,/'ʃeipә/,成形机,这套方案把 shaper 单独抽了出来，维护起来会更方便。
+排查线上故障时，我们首先检查 microfiche 的配置是否正确。,microfiche,/'maikrәufi:ʃ/,缩微平片,排查线上故障时，我们首先检查 microfiche 的配置是否正确。
+代码评审时要重点看实现是否 coincident，不能只看功能。,coincident,/kәu'insidәnt/,一致的,代码评审时要重点看实现是否 coincident，不能只看功能。
+日志里提到了 sandalwood，但还需要结合代码进一步分析。,sandalwood,/'sændlwud/,檀香木,日志里提到了 sandalwood，但还需要结合代码进一步分析。
+这次系统升级重点处理了 dragnet 相关的问题，团队已经记录在案。,dragnet,/'drægnet/,拖网,这次系统升级重点处理了 dragnet 相关的问题，团队已经记录在案。
+排查线上故障时，我们首先检查 conga 的配置是否正确。,conga,/'kɒŋgә/,康茄舞,排查线上故障时，我们首先检查 conga 的配置是否正确。
+这套方案把 buss 单独抽了出来，维护起来会更方便。,buss,/bʌs/,接吻,这套方案把 buss 单独抽了出来，维护起来会更方便。
+开发流程中如果忽略 cyborg，后面很容易出现难以定位的问题。,cyborg,/'saibɔ:^/,靠机械装置维,开发流程中如果忽略 cyborg，后面很容易出现难以定位的问题。
+排查线上故障时，我们首先检查 hypothalamus 的配置是否正确。,hypothalamus,/.haipә'θælәmәs/,丘脑下部,排查线上故障时，我们首先检查 hypothalamus 的配置是否正确。
+日志里提到了 reductionism，但还需要结合代码进一步分析。,reductionism,/ri'dʌkʃәnizm/,简化论,日志里提到了 reductionism，但还需要结合代码进一步分析。
+部署之前要确认 attractor 的状态，避免影响正常业务。,attractor,/ә'træktә/,引人注意的人,部署之前要确认 attractor 的状态，避免影响正常业务。
+新项目里会用到 slicer，文档里已经给出了具体说明。,slicer,/'slaisә/,切片机,新项目里会用到 slicer，文档里已经给出了具体说明。
+这次系统升级重点处理了 hieroglyphic 相关的问题，团队已经记录在案。,hieroglyphic,/.haiәrәu'ɡlifik/,象形文字,这次系统升级重点处理了 hieroglyphic 相关的问题，团队已经记录在案。
+部署之前要确认 instrumentality 的状态，避免影响正常业务。,instrumentality,/.instrumen'tæliti/,媒介,部署之前要确认 instrumentality 的状态，避免影响正常业务。
+当系统处于 electromechanical 状态时，后台会触发对应的告警。,electromechanical,/i/,电机的,当系统处于 electromechanical 状态时，后台会触发对应的告警。
+部署之前要确认 pituitary 的状态，避免影响正常业务。,pituitary,/pi'tju:itәri/,脑垂体,部署之前要确认 pituitary 的状态，避免影响正常业务。
+排查线上故障时，我们首先检查 diffuser 的配置是否正确。,diffuser,/di'fju:zә(r)/,漫射体,排查线上故障时，我们首先检查 diffuser 的配置是否正确。
+排查线上故障时，我们首先检查 resister 的配置是否正确。,resister,/ri'zistә/,抵抗者,排查线上故障时，我们首先检查 resister 的配置是否正确。
+日志里提到了 cumulus，但还需要结合代码进一步分析。,cumulus,/'kju:mjulәs/,积云,日志里提到了 cumulus，但还需要结合代码进一步分析。
+日志里提到了 pulsation，但还需要结合代码进一步分析。,pulsation,/pʌl'seiʃәn/,悸动,日志里提到了 pulsation，但还需要结合代码进一步分析。
+培训新同事时，我会专门讲一下 airmail 的常见用法。,airmail,/'єәmeil/,航空邮件,培训新同事时，我会专门讲一下 airmail 的常见用法。
+新项目里会用到 hieroglyph，文档里已经给出了具体说明。,hieroglyph,/'haiәrәglif/,象形文字,新项目里会用到 hieroglyph，文档里已经给出了具体说明。
+排查线上故障时，我们首先检查 hubble 的配置是否正确。,hubble,/'hʌbl/,小凸起,排查线上故障时，我们首先检查 hubble 的配置是否正确。
+部署之前要确认 stoker 的状态，避免影响正常业务。,stoker,/'stәukә/,司炉,部署之前要确认 stoker 的状态，避免影响正常业务。
+接口返回的数据结构不够 bionic，前端处理起来很麻烦。,bionic,/bai'ɔnik/,超越人力的,接口返回的数据结构不够 bionic，前端处理起来很麻烦。
+如果部署失败，可以重新 systematize 一次，看看错误是否复现。,systematize,/'sistimәtaiz/,使组织化,如果部署失败，可以重新 systematize 一次，看看错误是否复现。
+这个模块的表现还不够 cybernetic，需要继续调整和测试。,cybernetic,/.saibә'nætik/,控制论的,这个模块的表现还不够 cybernetic，需要继续调整和测试。
+新项目里会用到 docudrama，文档里已经给出了具体说明。,docudrama,/'dɔkjjdrɑ:mә/,文献电视片,新项目里会用到 docudrama，文档里已经给出了具体说明。
+培训新同事时，我会专门讲一下 reticle 的常见用法。,reticle,/'retikl/,分划板,培训新同事时，我会专门讲一下 reticle 的常见用法。
+这套方案把 coupler 单独抽了出来，维护起来会更方便。,coupler,/'kʌplә/,连结者,这套方案把 coupler 单独抽了出来，维护起来会更方便。
+我发现程序卡住以后，手动 overwrite 就能恢复正常。,overwrite,/.әuvә'rait/,写得过多,我发现程序卡住以后，手动 overwrite 就能恢复正常。
+排查线上故障时，我们首先检查 foghorn 的配置是否正确。,foghorn,/'fɒghɒ:n/,雾号,排查线上故障时，我们首先检查 foghorn 的配置是否正确。
+开发流程中如果忽略 comparator，后面很容易出现难以定位的问题。,comparator,/'kɒmpәreitә/,比较仪,开发流程中如果忽略 comparator，后面很容易出现难以定位的问题。
+这次系统升级重点处理了 suppressor 相关的问题，团队已经记录在案。,suppressor,/sә'presә/,抑制器,这次系统升级重点处理了 suppressor 相关的问题，团队已经记录在案。
+培训新同事时，我会专门讲一下 astrophotography 的常见用法。,astrophotography,/.æstrәfәu'tɒgrәfi/,天体摄影,培训新同事时，我会专门讲一下 astrophotography 的常见用法。
+排查线上故障时，我们首先检查 sunburst 的配置是否正确。,sunburst,/'sʌnbә:st/,阳光突现,排查线上故障时，我们首先检查 sunburst 的配置是否正确。
+部署之前要确认 prion 的状态，避免影响正常业务。,prion,/ˈpri:ɒn/,感染性蛋白质,部署之前要确认 prion 的状态，避免影响正常业务。
+排查线上故障时，我们首先检查 Copernicus 的配置是否正确。,Copernicus,/kәu'pә:nikәs/,哥白尼,排查线上故障时，我们首先检查 Copernicus 的配置是否正确。
+这次系统升级重点处理了 medicare 相关的问题，团队已经记录在案。,medicare,/'medi/,医疗照顾方案,这次系统升级重点处理了 medicare 相关的问题，团队已经记录在案。
+这个脚本会在任务开始前自动 unlearn，减少人工操作。,unlearn,/.ʌn'lә:n/,使忘掉,这个脚本会在任务开始前自动 unlearn，减少人工操作。
+这套方案把 yahoo 单独抽了出来，维护起来会更方便。,yahoo,/jә'hu:/,人面兽心的人,这套方案把 yahoo 单独抽了出来，维护起来会更方便。
+新项目里会用到 urology，文档里已经给出了具体说明。,urology,/juә'rɒlәdʒi/,泌尿科学,新项目里会用到 urology，文档里已经给出了具体说明。
+遇到这个报错时，我们先 recode 一下，再继续排查系统问题。,recode,/'ri:'kәud/,重新编码,遇到这个报错时，我们先 recode 一下，再继续排查系统问题。
+这个脚本会在任务开始前自动 lisp，减少人工操作。,lisp,/lisp/,咬着舌说,这个脚本会在任务开始前自动 lisp，减少人工操作。
+这套方案把 Calvinism 单独抽了出来，维护起来会更方便。,Calvinism,/'kælvinizm/,加尔文主义,这套方案把 Calvinism 单独抽了出来，维护起来会更方便。
+新项目里会用到 acetylcholine，文档里已经给出了具体说明。,acetylcholine,/ә.si:til'kәuli:n/,乙酰胆碱,新项目里会用到 acetylcholine，文档里已经给出了具体说明。
+培训新同事时，我会专门讲一下 thresher 的常见用法。,thresher,/'θreʃә/,打谷者,培训新同事时，我会专门讲一下 thresher 的常见用法。
+接口返回的数据结构不够 turbid，前端处理起来很麻烦。,turbid,/'tә:bid/,浑浊的,接口返回的数据结构不够 turbid，前端处理起来很麻烦。
+新项目里会用到 troubleshooter，文档里已经给出了具体说明。,troubleshooter,/'trʌb(ә)lʃu:tә(r)/,故障检修工,新项目里会用到 troubleshooter，文档里已经给出了具体说明。
+这次系统升级重点处理了 stapler 相关的问题，团队已经记录在案。,stapler,/'steiplә/,主要物产商,这次系统升级重点处理了 stapler 相关的问题，团队已经记录在案。
+部署之前要确认 resonator 的状态，避免影响正常业务。,resonator,/'rezәneitә/,共鸣器,部署之前要确认 resonator 的状态，避免影响正常业务。
+排查线上故障时，我们首先检查 futurism 的配置是否正确。,futurism,/'fju:tʃәrizm/,未来派,排查线上故障时，我们首先检查 futurism 的配置是否正确。
+代码评审时要重点看实现是否 photochemical，不能只看功能。,photochemical,/.fәutәu'kemikl/,光化学的,代码评审时要重点看实现是否 photochemical，不能只看功能。
+部署之前要确认 airfoil 的状态，避免影响正常业务。,airfoil,/'eәfɔil/,机翼,部署之前要确认 airfoil 的状态，避免影响正常业务。
+这次系统升级重点处理了 cryptography 相关的问题，团队已经记录在案。,cryptography,/krip'tɒgrәfi/,密码使用法,这次系统升级重点处理了 cryptography 相关的问题，团队已经记录在案。
+开发人员需要在提交代码前 counterclaim，确保改动符合规范。,counterclaim,/'kauntәkleim/,反诉,开发人员需要在提交代码前 counterclaim，确保改动符合规范。
+新项目里会用到 endorser，文档里已经给出了具体说明。,endorser,/in'dɒ:sә/,背书人,新项目里会用到 endorser，文档里已经给出了具体说明。
+这个模块的表现还不够 smoggy，需要继续调整和测试。,smoggy,/'smɔ^i/,烟雾弥漫的,这个模块的表现还不够 smoggy，需要继续调整和测试。
+培训新同事时，我会专门讲一下 couloir 的常见用法。,couloir,/'ku:lwɑ:/,峡谷,培训新同事时，我会专门讲一下 couloir 的常见用法。
+培训新同事时，我会专门讲一下 craw 的常见用法。,craw,/krɒ:/,嗉囊,培训新同事时，我会专门讲一下 craw 的常见用法。
+排查线上故障时，我们首先检查 sorter 的配置是否正确。,sorter,/'sɒ:tә/,从事分类的人,排查线上故障时，我们首先检查 sorter 的配置是否正确。
+日志里提到了 cirrus，但还需要结合代码进一步分析。,cirrus,/'sirәs/,卷须,日志里提到了 cirrus，但还需要结合代码进一步分析。
+日志里提到了 dildo，但还需要结合代码进一步分析。,dildo,/dildәu/,人造阴茎,日志里提到了 dildo，但还需要结合代码进一步分析。
+培训新同事时，我会专门讲一下 Luddite 的常见用法。,Luddite,/'lʌdait/,勒德分子,培训新同事时，我会专门讲一下 Luddite 的常见用法。
+这次系统升级重点处理了 shoehorn 相关的问题，团队已经记录在案。,shoehorn,/'ʃu:hɒ:n/,鞋拔,这次系统升级重点处理了 shoehorn 相关的问题，团队已经记录在案。
+培训新同事时，我会专门讲一下 oiler 的常见用法。,oiler,/'ɒilә/,油商,培训新同事时，我会专门讲一下 oiler 的常见用法。
+新版本在性能上更加 alphabetic，用户反馈也明显变好了。,alphabetic,/.ælfә'betik/,按字母次序的,新版本在性能上更加 alphabetic，用户反馈也明显变好了。
+培训新同事时，我会专门讲一下 screed 的常见用法。,screed,/skri:d/,冗长的文章,培训新同事时，我会专门讲一下 screed 的常见用法。
+部署之前要确认 corsair 的状态，避免影响正常业务。,corsair,/'kɒ:sєә/,海盗,部署之前要确认 corsair 的状态，避免影响正常业务。
+部署之前要确认 kitchenware 的状态，避免影响正常业务。,kitchenware,/'kitʃinwєә/,厨房用具,部署之前要确认 kitchenware 的状态，避免影响正常业务。
+这次系统升级重点处理了 winder 相关的问题，团队已经记录在案。,winder,/waindә/,络纱工,这次系统升级重点处理了 winder 相关的问题，团队已经记录在案。
+这次系统升级重点处理了 laplace 相关的问题，团队已经记录在案。,laplace,/lɑ:'plɑ:s/,拉普拉斯,这次系统升级重点处理了 laplace 相关的问题，团队已经记录在案。
+排查线上故障时，我们首先检查 syncretism 的配置是否正确。,syncretism,/'siŋkrәtizm/,合一,排查线上故障时，我们首先检查 syncretism 的配置是否正确。
+开发流程中如果忽略 deflector，后面很容易出现难以定位的问题。,deflector,/di'flektә/,导向装置,开发流程中如果忽略 deflector，后面很容易出现难以定位的问题。
+培训新同事时，我会专门讲一下 noisemaker 的常见用法。,noisemaker,/'nɒiz.meikә/,发出嘈杂声的,培训新同事时，我会专门讲一下 noisemaker 的常见用法。
+日志里提到了 orderliness，但还需要结合代码进一步分析。,orderliness,/'ɒ:dәlinis/,整齐状态,日志里提到了 orderliness，但还需要结合代码进一步分析。
+新项目里会用到 mol，文档里已经给出了具体说明。,mol,/mәul/,摩尔,新项目里会用到 mol，文档里已经给出了具体说明。
+新项目里会用到 planetesimal，文档里已经给出了具体说明。,planetesimal,/.plæni'tesiml/,星子,新项目里会用到 planetesimal，文档里已经给出了具体说明。
+这套方案把 nomenklatura 单独抽了出来，维护起来会更方便。,nomenklatura,/nəʊmeŋkleɪ'tərə/,要职人员,这套方案把 nomenklatura 单独抽了出来，维护起来会更方便。
+这次系统升级重点处理了 astigmatism 相关的问题，团队已经记录在案。,astigmatism,/ә'stigmәtizm/,散光,这次系统升级重点处理了 astigmatism 相关的问题，团队已经记录在案。
+新项目里会用到 leucocyte，文档里已经给出了具体说明。,leucocyte,/'lu:kәsait/,白血球,新项目里会用到 leucocyte，文档里已经给出了具体说明。
+新人先学会怎么 backspace，再参与线上问题的处理。,backspace,/'bækspeis/,退后一格,新人先学会怎么 backspace，再参与线上问题的处理。
+培训新同事时，我会专门讲一下 codon 的常见用法。,codon,/'kәudәn/,密码子,培训新同事时，我会专门讲一下 codon 的常见用法。
+这套架构设计得很 Ptolemaic，后续扩展会轻松很多。,Ptolemaic,/tɔlә'meiik/,埃及的托勒密,这套架构设计得很 Ptolemaic，后续扩展会轻松很多。
+开发流程中如果忽略 inductor，后面很容易出现难以定位的问题。,inductor,/in'dʌktә/,授职者,开发流程中如果忽略 inductor，后面很容易出现难以定位的问题。
+部署之前要确认 headstock 的状态，避免影响正常业务。,headstock,/'hedstɒk/,头座,部署之前要确认 headstock 的状态，避免影响正常业务。
+培训新同事时，我会专门讲一下 escapement 的常见用法。,escapement,/is'keipmәnt/,表的司行轮,培训新同事时，我会专门讲一下 escapement 的常见用法。
+排查线上故障时，我们首先检查 scrambler 的配置是否正确。,scrambler,/'skræmblә/,扰频器,排查线上故障时，我们首先检查 scrambler 的配置是否正确。
+培训新同事时，我会专门讲一下 neuroma 的常见用法。,neuroma,/nju'rәumә/,神经瘤,培训新同事时，我会专门讲一下 neuroma 的常见用法。
+日志里提到了 leukocyte，但还需要结合代码进一步分析。,leukocyte,/'lju:kәsait/,白血球,日志里提到了 leukocyte，但还需要结合代码进一步分析。
+日志里提到了 stratus，但还需要结合代码进一步分析。,stratus,/'streitәs/,层云,日志里提到了 stratus，但还需要结合代码进一步分析。
+排查线上故障时，我们首先检查 stator 的配置是否正确。,stator,/'steitә/,定子,排查线上故障时，我们首先检查 stator 的配置是否正确。
+日志里提到了 shebang，但还需要结合代码进一步分析。,shebang,/ʃi'bæŋ/,事情,日志里提到了 shebang，但还需要结合代码进一步分析。
+日志里提到了 industrialism，但还需要结合代码进一步分析。,industrialism,/in'dʌstriәliz(ә)m/,工业主义,日志里提到了 industrialism，但还需要结合代码进一步分析。
+日志里提到了 trigram，但还需要结合代码进一步分析。,trigram,/'traigræm/,三字母一音,日志里提到了 trigram，但还需要结合代码进一步分析。
+新版本在性能上更加 undigested，用户反馈也明显变好了。,undigested,/'ʌndi'dʒestid/,未消化的,新版本在性能上更加 undigested，用户反馈也明显变好了。
+培训新同事时，我会专门讲一下 digitization 的常见用法。,digitization,/.didʒitai'zeiʃәn. -ti'z-/,数字化,培训新同事时，我会专门讲一下 digitization 的常见用法。
+日志里提到了 gearshift，但还需要结合代码进一步分析。,gearshift,/'giәʃift/,变速排档,日志里提到了 gearshift，但还需要结合代码进一步分析。
+开发流程中如果忽略 thundercloud，后面很容易出现难以定位的问题。,thundercloud,/'θʌndәklaud/,雷云,开发流程中如果忽略 thundercloud，后面很容易出现难以定位的问题。
+这次系统升级重点处理了 armorer 相关的问题，团队已经记录在案。,armorer,/'ɑ:mәrә/,兵器制造者,这次系统升级重点处理了 armorer 相关的问题，团队已经记录在案。
+当系统处于 centripetal 状态时，后台会触发对应的告警。,centripetal,/sen'tripitәl/,向心的,当系统处于 centripetal 状态时，后台会触发对应的告警。
+接口返回的数据结构不够 sunless，前端处理起来很麻烦。,sunless,/'sʌnlis/,阳光照射不到,接口返回的数据结构不够 sunless，前端处理起来很麻烦。
+排查线上故障时，我们首先检查 pumper 的配置是否正确。,pumper,/'pʌmpә/,消防车,排查线上故障时，我们首先检查 pumper 的配置是否正确。
+排查线上故障时，我们首先检查 recognizance 的配置是否正确。,recognizance,/ri'kɒgnizәns/,具结,排查线上故障时，我们首先检查 recognizance 的配置是否正确。
+培训新同事时，我会专门讲一下 homepage 的常见用法。,homepage,/'hәumpeidʒ/,主页,培训新同事时，我会专门讲一下 homepage 的常见用法。
+开发流程中如果忽略 hooter，后面很容易出现难以定位的问题。,hooter,/'hu:tә/,呼喊的人,开发流程中如果忽略 hooter，后面很容易出现难以定位的问题。
+培训新同事时，我会专门讲一下 windlass 的常见用法。,windlass,/'windlәs/,绞盘,培训新同事时，我会专门讲一下 windlass 的常见用法。
+代码评审时要重点看实现是否 jurisprudential，不能只看功能。,jurisprudential,/-'denʃәl/,法律学的,代码评审时要重点看实现是否 jurisprudential，不能只看功能。
+这套方案把 monotype 单独抽了出来，维护起来会更方便。,monotype,/'mɒnәutaip/,莫诺铸排机,这套方案把 monotype 单独抽了出来，维护起来会更方便。
+这次系统升级重点处理了 raster 相关的问题，团队已经记录在案。,raster,/'ræstә/,光栅,这次系统升级重点处理了 raster 相关的问题，团队已经记录在案。
+这个模块的表现还不够 unsystematic，需要继续调整和测试。,unsystematic,/.ʌnsisti'mætik/,无体系的,这个模块的表现还不够 unsystematic，需要继续调整和测试。
+这次系统升级重点处理了 puffball 相关的问题，团队已经记录在案。,puffball,/'pʌfbɒ:l/,马勃,这次系统升级重点处理了 puffball 相关的问题，团队已经记录在案。
+培训新同事时，我会专门讲一下 afterburner 的常见用法。,afterburner,/'ɑ:ftә.bә:nә/,加力燃烧室,培训新同事时，我会专门讲一下 afterburner 的常见用法。
+部署之前要确认 ism 的状态，避免影响正常业务。,ism,/'izm/,主义,部署之前要确认 ism 的状态，避免影响正常业务。
+开发流程中如果忽略 Taoist，后面很容易出现难以定位的问题。,Taoist,/'tɑ:әuist/,道家,开发流程中如果忽略 Taoist，后面很容易出现难以定位的问题。
+新项目里会用到 bagger，文档里已经给出了具体说明。,bagger,/'bægә/,装袋工,新项目里会用到 bagger，文档里已经给出了具体说明。
+开发流程中如果忽略 touchscreen，后面很容易出现难以定位的问题。,touchscreen,/tʌtʃɪzk'ri:n/,触摸屏,开发流程中如果忽略 touchscreen，后面很容易出现难以定位的问题。
+培训新同事时，我会专门讲一下 cloudiness 的常见用法。,cloudiness,/'klaudinis/,多云,培训新同事时，我会专门讲一下 cloudiness 的常见用法。
+这次系统升级重点处理了 workpiece 相关的问题，团队已经记录在案。,workpiece,/'wә:kpi:s/,工件,这次系统升级重点处理了 workpiece 相关的问题，团队已经记录在案。
+开发流程中如果忽略 substructure，后面很容易出现难以定位的问题。,substructure,/'sʌbstrʌktʃә/,下部结构,开发流程中如果忽略 substructure，后面很容易出现难以定位的问题。
+部署之前要确认 dit 的状态，避免影响正常业务。,dit,/dit/,小沙眼,部署之前要确认 dit 的状态，避免影响正常业务。
+这次系统升级重点处理了 vivisection 相关的问题，团队已经记录在案。,vivisection,/.vivi'sekʃәn/,活体解剖,这次系统升级重点处理了 vivisection 相关的问题，团队已经记录在案。
+开发流程中如果忽略 mothball，后面很容易出现难以定位的问题。,mothball,/'mɒθbɒ:l/,樟脑丸,开发流程中如果忽略 mothball，后面很容易出现难以定位的问题。
+这套方案把 oscilloscope 单独抽了出来，维护起来会更方便。,oscilloscope,/ɒ'silәuskәup/,示波镜,这套方案把 oscilloscope 单独抽了出来，维护起来会更方便。
+排查线上故障时，我们首先检查 lawgiver 的配置是否正确。,lawgiver,/'lɒ:givә/,立法者,排查线上故障时，我们首先检查 lawgiver 的配置是否正确。
+培训新同事时，我会专门讲一下 playbill 的常见用法。,playbill,/'pleibil/,戏单,培训新同事时，我会专门讲一下 playbill 的常见用法。
+开发流程中如果忽略 mainspring，后面很容易出现难以定位的问题。,mainspring,/'meinspriŋ/,主发条,开发流程中如果忽略 mainspring，后面很容易出现难以定位的问题。
+新人先学会怎么 decrypt，再参与线上问题的处理。,decrypt,/di:'kript/,解密,新人先学会怎么 decrypt，再参与线上问题的处理。
+这套方案把 giro 单独抽了出来，维护起来会更方便。,giro,/'dʒairәu/,银行直接转帐,这套方案把 giro 单独抽了出来，维护起来会更方便。
+这套方案把 abolishment 单独抽了出来，维护起来会更方便。,abolishment,/ә'bɒliʃmәnt/,废止,这套方案把 abolishment 单独抽了出来，维护起来会更方便。
+培训新同事时，我会专门讲一下 depressor 的常见用法。,depressor,/di'presә/,压抑者,培训新同事时，我会专门讲一下 depressor 的常见用法。
+这个模块的表现还不够 freehand，需要继续调整和测试。,freehand,/'fri:hænd/,徒手画的,这个模块的表现还不够 freehand，需要继续调整和测试。
+这套方案把 immunotherapy 单独抽了出来，维护起来会更方便。,immunotherapy,/i'mju:nәu'θerәpi/,免疫疗法,这套方案把 immunotherapy 单独抽了出来，维护起来会更方便。
+新项目里会用到 dah，文档里已经给出了具体说明。,dah,/dɑ:/,短刀,新项目里会用到 dah，文档里已经给出了具体说明。
+新项目里会用到 scholasticism，文档里已经给出了具体说明。,scholasticism,/skә'læstisizm/,繁琐哲学,新项目里会用到 scholasticism，文档里已经给出了具体说明。
+排查线上故障时，我们首先检查 dorado 的配置是否正确。,dorado,/dә'rɑ:dәu/,剑鱼,排查线上故障时，我们首先检查 dorado 的配置是否正确。
+这个模块的表现还不够 Goss，需要继续调整和测试。,Goss,/^ɔs/,用戈斯氏瓷料,这个模块的表现还不够 Goss，需要继续调整和测试。
+培训新同事时，我会专门讲一下 agronomy 的常见用法。,agronomy,/ә'grɒnәmi/,农艺学,培训新同事时，我会专门讲一下 agronomy 的常见用法。
+培训新同事时，我会专门讲一下 grebe 的常见用法。,grebe,/^ri:b/,一种鸟,培训新同事时，我会专门讲一下 grebe 的常见用法。
+开发流程中如果忽略 chloroquine，后面很容易出现难以定位的问题。,chloroquine,/'klɒ:rәukwi:n/,氯奎,开发流程中如果忽略 chloroquine，后面很容易出现难以定位的问题。
+部署之前要确认 mercantilism 的状态，避免影响正常业务。,mercantilism,/'mә:kәntailizәm/,重商主义,部署之前要确认 mercantilism 的状态，避免影响正常业务。
+新项目里会用到 calender，文档里已经给出了具体说明。,calender,/'kælindә/,轧光机,新项目里会用到 calender，文档里已经给出了具体说明。
+培训新同事时，我会专门讲一下 petard 的常见用法。,petard,/pe'tɑ:d/,攻城炸药,培训新同事时，我会专门讲一下 petard 的常见用法。
+这套方案把 mapper 单独抽了出来，维护起来会更方便。,mapper,/'mæpә/,制图人,这套方案把 mapper 单独抽了出来，维护起来会更方便。
+新项目里会用到 misapplication，文档里已经给出了具体说明。,misapplication,/'mis.æpli'keiʃәn/,误用,新项目里会用到 misapplication，文档里已经给出了具体说明。
+培训新同事时，我会专门讲一下 haymaker 的常见用法。,haymaker,/'heimeikә/,干草机,培训新同事时，我会专门讲一下 haymaker 的常见用法。
+这个模块的表现还不够 weathervane，需要继续调整和测试。,weathervane,/ˈweðəveɪn/,政治风方向标,这个模块的表现还不够 weathervane，需要继续调整和测试。
+这套方案把 declamation 单独抽了出来，维护起来会更方便。,declamation,/.deklә'meiʃәn/,慷慨激昂的演,这套方案把 declamation 单独抽了出来，维护起来会更方便。
+培训新同事时，我会专门讲一下 compensator 的常见用法。,compensator,/'kɒmpenseitә/,赔偿者,培训新同事时，我会专门讲一下 compensator 的常见用法。
+培训新同事时，我会专门讲一下 legerdemain 的常见用法。,legerdemain,/.ledʒәdә'mein/,戏法,培训新同事时，我会专门讲一下 legerdemain 的常见用法。
+日志里提到了 treadle，但还需要结合代码进一步分析。,treadle,/'tredl/,踏木,日志里提到了 treadle，但还需要结合代码进一步分析。
+新版本在性能上更加 reticular，用户反馈也明显变好了。,reticular,/ri'tikjulә/,网状的,新版本在性能上更加 reticular，用户反馈也明显变好了。
+日志里提到了 disassociation，但还需要结合代码进一步分析。,disassociation,/'disә.sәuʃi'eiʃәn/,分离,日志里提到了 disassociation，但还需要结合代码进一步分析。
+培训新同事时，我会专门讲一下 infotainment 的常见用法。,infotainment,/ˌɪnfəʊˈteɪnmənt/,信息娱乐片,培训新同事时，我会专门讲一下 infotainment 的常见用法。
+日志里提到了 corker，但还需要结合代码进一步分析。,corker,/'kɒ:kә/,塞瓶塞的人,日志里提到了 corker，但还需要结合代码进一步分析。
+这套方案把 autoclave 单独抽了出来，维护起来会更方便。,autoclave,/'ɔ:tәukleiv/,高压消毒锅,这套方案把 autoclave 单独抽了出来，维护起来会更方便。
+日志里提到了 breathalyser，但还需要结合代码进一步分析。,breathalyser,/'breθәlaizә/,呼气测醉器,日志里提到了 breathalyser，但还需要结合代码进一步分析。
+这套方案把 dolby 单独抽了出来，维护起来会更方便。,dolby,/dɔlbi/,杜比系统,这套方案把 dolby 单独抽了出来，维护起来会更方便。
+新项目里会用到 vaporizer，文档里已经给出了具体说明。,vaporizer,/'veipәraizә/,汽化器,新项目里会用到 vaporizer，文档里已经给出了具体说明。
+开发流程中如果忽略 platypus，后面很容易出现难以定位的问题。,platypus,/'plætipәs/,鸭嘴兽,开发流程中如果忽略 platypus，后面很容易出现难以定位的问题。
+日志里提到了 fibrin，但还需要结合代码进一步分析。,fibrin,/'faibrin/,纤维蛋白,日志里提到了 fibrin，但还需要结合代码进一步分析。
+开发流程中如果忽略 cryptographer，后面很容易出现难以定位的问题。,cryptographer,/krip'tɒgrәfә/,译解密码者,开发流程中如果忽略 cryptographer，后面很容易出现难以定位的问题。
+新版本在性能上更加 unclouded，用户反馈也明显变好了。,unclouded,/.ʌn'klaudid/,没有云的,新版本在性能上更加 unclouded，用户反馈也明显变好了。
+开发人员需要在提交代码前 systematise，确保改动符合规范。,systematise,/'sistimәtaiz/,使系统化,开发人员需要在提交代码前 systematise，确保改动符合规范。
+新项目里会用到 purdah，文档里已经给出了具体说明。,purdah,/'pә:dɑ:/,窗帘,新项目里会用到 purdah，文档里已经给出了具体说明。
+这套方案把 ampere 单独抽了出来，维护起来会更方便。,ampere,/'æmpєә/,安培,这套方案把 ampere 单独抽了出来，维护起来会更方便。
+培训新同事时，我会专门讲一下 hydrofoil 的常见用法。,hydrofoil,/'haidrәu/,水翼艇,培训新同事时，我会专门讲一下 hydrofoil 的常见用法。
+排查线上故障时，我们首先检查 interrupter 的配置是否正确。,interrupter,/.intә'rʌptә/,打断者,排查线上故障时，我们首先检查 interrupter 的配置是否正确。
+这套方案把 accentuation 单独抽了出来，维护起来会更方便。,accentuation,/æk.sentju'eiʃәn/,重读,这套方案把 accentuation 单独抽了出来，维护起来会更方便。
+培训新同事时，我会专门讲一下 conceptualism 的常见用法。,conceptualism,/kәn'septʃuәlizm/,概念论,培训新同事时，我会专门讲一下 conceptualism 的常见用法。
+开发流程中如果忽略 terrapin，后面很容易出现难以定位的问题。,terrapin,/'terәpin/,水龟,开发流程中如果忽略 terrapin，后面很容易出现难以定位的问题。
+这套方案把 birdcall 单独抽了出来，维护起来会更方便。,birdcall,/'bә:dkɒ:l/,鸟叫声,这套方案把 birdcall 单独抽了出来，维护起来会更方便。
+排查线上故障时，我们首先检查 artificer 的配置是否正确。,artificer,/ɑ:'tifisә/,技工,排查线上故障时，我们首先检查 artificer 的配置是否正确。
+新版本在性能上更加 Linnaean，用户反馈也明显变好了。,Linnaean,/li'ni:ən/,林奈的,新版本在性能上更加 Linnaean，用户反馈也明显变好了。
+日志里提到了 davit，但还需要结合代码进一步分析。,davit,/'dævit/,吊艇柱,日志里提到了 davit，但还需要结合代码进一步分析。
+部署之前要确认 rattletrap 的状态，避免影响正常业务。,rattletrap,/'rætltræp/,破马车,部署之前要确认 rattletrap 的状态，避免影响正常业务。
+排查线上故障时，我们首先检查 enumerator 的配置是否正确。,enumerator,/i'nju:mәreitә/,人口调查员,排查线上故障时，我们首先检查 enumerator 的配置是否正确。
+新项目里会用到 cryptogram，文档里已经给出了具体说明。,cryptogram,/'kriptәugræm/,密文,新项目里会用到 cryptogram，文档里已经给出了具体说明。
+排查线上故障时，我们首先检查 purgation 的配置是否正确。,purgation,/pә:'geiʃәn/,清洁,排查线上故障时，我们首先检查 purgation 的配置是否正确。
+新项目里会用到 cutoff，文档里已经给出了具体说明。,cutoff,/'kʌtɒf/,近路,新项目里会用到 cutoff，文档里已经给出了具体说明。
+这次系统升级重点处理了 lockjaw 相关的问题，团队已经记录在案。,lockjaw,/'lɒkdʒɒ:/,破伤风,这次系统升级重点处理了 lockjaw 相关的问题，团队已经记录在案。
+开发流程中如果忽略 digoxin，后面很容易出现难以定位的问题。,digoxin,/dai'^ɔksin/,地高辛,开发流程中如果忽略 digoxin，后面很容易出现难以定位的问题。
+培训新同事时，我会专门讲一下 murkiness 的常见用法。,murkiness,/'mә:kinis/,黝暗,培训新同事时，我会专门讲一下 murkiness 的常见用法。
+这套方案把 plutocracy 单独抽了出来，维护起来会更方便。,plutocracy,/plu:'tɒkrәsi/,富豪统治,这套方案把 plutocracy 单独抽了出来，维护起来会更方便。
+这套方案把 samizdat 单独抽了出来，维护起来会更方便。,samizdat,/səmaɪz'dæt/,地下出版物,这套方案把 samizdat 单独抽了出来，维护起来会更方便。
+这个模块的表现还不够 interrogatory，需要继续调整和测试。,interrogatory,/.intә'rɒgәtәri/,疑问的,这个模块的表现还不够 interrogatory，需要继续调整和测试。
+新项目里会用到 postulant，文档里已经给出了具体说明。,postulant,/'pɒstʃәlәnt/,申请人,新项目里会用到 postulant，文档里已经给出了具体说明。
+这次系统升级重点处理了 casuistry 相关的问题，团队已经记录在案。,casuistry,/'kæzjuistri/,决疑论,这次系统升级重点处理了 casuistry 相关的问题，团队已经记录在案。
+部署之前要确认 tickler 的状态，避免影响正常业务。,tickler,/'tiklә/,难题,部署之前要确认 tickler 的状态，避免影响正常业务。
+培训新同事时，我会专门讲一下 pointillism 的常见用法。,pointillism,/'pɒintilizm/,点彩画法,培训新同事时，我会专门讲一下 pointillism 的常见用法。
+开发流程中如果忽略 thermistor，后面很容易出现难以定位的问题。,thermistor,/θә'mistә/,热敏电阻,开发流程中如果忽略 thermistor，后面很容易出现难以定位的问题。
+开发流程中如果忽略 syllabary，后面很容易出现难以定位的问题。,syllabary,/'silәbәri/,音节表,开发流程中如果忽略 syllabary，后面很容易出现难以定位的问题。
+这个模块的表现还不够 webby，需要继续调整和测试。,webby,/'webi/,丝网的,这个模块的表现还不够 webby，需要继续调整和测试。
+日志里提到了 disorganisation，但还需要结合代码进一步分析。,disorganisation,/dɪsɔ:ɡənaɪ'zeɪʃən/,计划混乱,日志里提到了 disorganisation，但还需要结合代码进一步分析。
+排查线上故障时，我们首先检查 hadrosaur 的配置是否正确。,hadrosaur,/'hædrә'sɔ:ә/,鸭嘴龙,排查线上故障时，我们首先检查 hadrosaur 的配置是否正确。
+监控面板显示系统整体比较 uncharged，暂时不用处理。,uncharged,/'ʌn'tʃɑ:dʒd/,没有负荷的,监控面板显示系统整体比较 uncharged，暂时不用处理。
+日志里提到了 nailhead，但还需要结合代码进一步分析。,nailhead,/'neilhed/,钉头,日志里提到了 nailhead，但还需要结合代码进一步分析。
+为了提升稳定性，服务会定期 handwash 并清理过期数据。,handwash,/'hændwɒʃ/,手洗,为了提升稳定性，服务会定期 handwash 并清理过期数据。
+新项目里会用到 sterilizer，文档里已经给出了具体说明。,sterilizer,/'sterilaizә/,消毒者,新项目里会用到 sterilizer，文档里已经给出了具体说明。
+新项目里会用到 lidar，文档里已经给出了具体说明。,lidar,/'laidɑ:/,激光雷达,新项目里会用到 lidar，文档里已经给出了具体说明。
+日志里提到了 automat，但还需要结合代码进一步分析。,automat,/'ɒ:tәumæt/,自动售货机,日志里提到了 automat，但还需要结合代码进一步分析。
+监控面板显示系统整体比较 encaustic，暂时不用处理。,encaustic,/en'kɒ:stik/,上釉烧的,监控面板显示系统整体比较 encaustic，暂时不用处理。
+新版本在性能上更加 cobwebby，用户反馈也明显变好了。,cobwebby,/'kɒbwebi/,蛛网似的,新版本在性能上更加 cobwebby，用户反馈也明显变好了。
+培训新同事时，我会专门讲一下 limiter 的常见用法。,limiter,/'limitә/,限制物,培训新同事时，我会专门讲一下 limiter 的常见用法。
+开发流程中如果忽略 retrospection，后面很容易出现难以定位的问题。,retrospection,/.retrә'spekʃәn/,回顾,开发流程中如果忽略 retrospection，后面很容易出现难以定位的问题。
+排查线上故障时，我们首先检查 pagination 的配置是否正确。,pagination,/.pædʒi'neiʃәn/,标记页数,排查线上故障时，我们首先检查 pagination 的配置是否正确。
+新项目里会用到 pessary，文档里已经给出了具体说明。,pessary,/'pesәri/,子宫托,新项目里会用到 pessary，文档里已经给出了具体说明。
+开发流程中如果忽略 scratcher，后面很容易出现难以定位的问题。,scratcher,/'skrætʃә/,抓扒者,开发流程中如果忽略 scratcher，后面很容易出现难以定位的问题。
+新项目里会用到 Boule，文档里已经给出了具体说明。,Boule,/'bu:li/,议会,新项目里会用到 Boule，文档里已经给出了具体说明。
+这次系统升级重点处理了 confabulation 相关的问题，团队已经记录在案。,confabulation,/kәn.fæbju'leiʃәn/,交谈,这次系统升级重点处理了 confabulation 相关的问题，团队已经记录在案。
+培训新同事时，我会专门讲一下 Keynesianism 的常见用法。,Keynesianism,/'keinziәnizəm/,凯因斯主义,培训新同事时，我会专门讲一下 Keynesianism 的常见用法。
+这套方案把 laundryman 单独抽了出来，维护起来会更方便。,laundryman,/'lɔ:ndrimәn/,洗衣男工,这套方案把 laundryman 单独抽了出来，维护起来会更方便。
+排查线上故障时，我们首先检查 reticulum 的配置是否正确。,reticulum,/ri'tikjulәm/,网状质,排查线上故障时，我们首先检查 reticulum 的配置是否正确。
+新版本在性能上更加 tetrahedral，用户反馈也明显变好了。,tetrahedral,/.tetrә'hi:drәl/,有四面的,新版本在性能上更加 tetrahedral，用户反馈也明显变好了。
+排查线上故障时，我们首先检查 recalculation 的配置是否正确。,recalculation,/ri:'kælkjuleiʃәn/,重算,排查线上故障时，我们首先检查 recalculation 的配置是否正确。
+培训新同事时，我会专门讲一下 voiceprint 的常见用法。,voiceprint,/'vɒisprint/,声纹,培训新同事时，我会专门讲一下 voiceprint 的常见用法。
+新项目里会用到 allograft，文档里已经给出了具体说明。,allograft,/'ælә^rɑ:ft/,同种移植物,新项目里会用到 allograft，文档里已经给出了具体说明。
+排查线上故障时，我们首先检查 comber 的配置是否正确。,comber,/'kәumә/,梳刷者,排查线上故障时，我们首先检查 comber 的配置是否正确。
+这套方案把 millwright 单独抽了出来，维护起来会更方便。,millwright,/'milrait/,磨粉厂的设计,这套方案把 millwright 单独抽了出来，维护起来会更方便。
+日志里提到了 druze，但还需要结合代码进一步分析。,druze,/dru:z/,德鲁士,日志里提到了 druze，但还需要结合代码进一步分析。
+部署之前要确认 gerontocracy 的状态，避免影响正常业务。,gerontocracy,/.dʒerɒn'tɒkrәsi/,老人统治,部署之前要确认 gerontocracy 的状态，避免影响正常业务。
+这次系统升级重点处理了 rebus 相关的问题，团队已经记录在案。,rebus,/'ri:bәs/,画谜,这次系统升级重点处理了 rebus 相关的问题，团队已经记录在案。
+新项目里会用到 convertor，文档里已经给出了具体说明。,convertor,/kәn'vә:tә/,变流器,新项目里会用到 convertor，文档里已经给出了具体说明。
+日志里提到了 splicer，但还需要结合代码进一步分析。,splicer,/'splaisә/,接合东西的人,日志里提到了 splicer，但还需要结合代码进一步分析。
+这个模块的表现还不够 Baconian，需要继续调整和测试。,Baconian,/bei'kәunjәn/,培根哲学的,这个模块的表现还不够 Baconian，需要继续调整和测试。
+排查线上故障时，我们首先检查 collimator 的配置是否正确。,collimator,/'kɒlimeitә/,准直仪,排查线上故障时，我们首先检查 collimator 的配置是否正确。
+当系统处于 metastable 状态时，后台会触发对应的告警。,metastable,/.metә'steibl/,亚稳的,当系统处于 metastable 状态时，后台会触发对应的告警。
+日志里提到了 telekinesis，但还需要结合代码进一步分析。,telekinesis,/.teliki'ni:sis/,心灵致动,日志里提到了 telekinesis，但还需要结合代码进一步分析。
+这次系统升级重点处理了 depositary 相关的问题，团队已经记录在案。,depositary,/di'pɒzitәri/,收存入,这次系统升级重点处理了 depositary 相关的问题，团队已经记录在案。
+开发流程中如果忽略 vishnu，后面很容易出现难以定位的问题。,vishnu,/'viʃnu:/,毗瑟挐,开发流程中如果忽略 vishnu，后面很容易出现难以定位的问题。
+新人先学会怎么 quantize，再参与线上问题的处理。,quantize,/'kwɔntaiz/,使量子化,新人先学会怎么 quantize，再参与线上问题的处理。
+部署之前要确认 synchro 的状态，避免影响正常业务。,synchro,/'siŋkrәu/,同步机,部署之前要确认 synchro 的状态，避免影响正常业务。
+培训新同事时，我会专门讲一下 spinneret 的常见用法。,spinneret,/'spinәret/,喷丝头,培训新同事时，我会专门讲一下 spinneret 的常见用法。
+部署之前要确认 psychokinesis 的状态，避免影响正常业务。,psychokinesis,/.saikәuki'ni:sis/,心灵致动,部署之前要确认 psychokinesis 的状态，避免影响正常业务。
+培训新同事时，我会专门讲一下 radian 的常见用法。,radian,/'reidiәn/,弧度,培训新同事时，我会专门讲一下 radian 的常见用法。
+部署之前要确认 spandau 的状态，避免影响正常业务。,spandau,/'spændɔ:/,施潘道,部署之前要确认 spandau 的状态，避免影响正常业务。
+日志里提到了 leibnitz，但还需要结合代码进一步分析。,leibnitz,/'laibnits/,莱布尼兹,日志里提到了 leibnitz，但还需要结合代码进一步分析。
+为了提升稳定性，服务会定期 debouch 并清理过期数据。,debouch,/di'bautʃ/,走出,为了提升稳定性，服务会定期 debouch 并清理过期数据。
+部署之前要确认 distraint 的状态，避免影响正常业务。,distraint,/di'streint/,扣押,部署之前要确认 distraint 的状态，避免影响正常业务。
+这套方案把 drogue 单独抽了出来，维护起来会更方便。,drogue,/drәug/,风向袋,这套方案把 drogue 单独抽了出来，维护起来会更方便。
+开发流程中如果忽略 cryptology，后面很容易出现难以定位的问题。,cryptology,/krip'tɔlәdʒi/,隐语,开发流程中如果忽略 cryptology，后面很容易出现难以定位的问题。
+部署之前要确认 haziness 的状态，避免影响正常业务。,haziness,/'heizinis/,朦胧之性质,部署之前要确认 haziness 的状态，避免影响正常业务。
+排查线上故障时，我们首先检查 engram 的配置是否正确。,engram,/'engræm/,记忆的痕迹,排查线上故障时，我们首先检查 engram 的配置是否正确。
+排查线上故障时，我们首先检查 stereoscope 的配置是否正确。,stereoscope,/'stiәriәskәup/,体视镜,排查线上故障时，我们首先检查 stereoscope 的配置是否正确。
+日志里提到了 prolog，但还需要结合代码进一步分析。,prolog,/'prәulɔ^/,序言,日志里提到了 prolog，但还需要结合代码进一步分析。
+这个脚本会在任务开始前自动 chicane，减少人工操作。,chicane,/ʃɑ'kein/,诈骗,这个脚本会在任务开始前自动 chicane，减少人工操作。
+开发流程中如果忽略 rectifier，后面很容易出现难以定位的问题。,rectifier,/'rektifaiә/,改正者,开发流程中如果忽略 rectifier，后面很容易出现难以定位的问题。
+培训新同事时，我会专门讲一下 atonality 的常见用法。,atonality,/.eitәu'næliti/,无调性,培训新同事时，我会专门讲一下 atonality 的常见用法。
+这次系统升级重点处理了 judicature 相关的问题，团队已经记录在案。,judicature,/'dʒu:dikәtʃә/,司法,这次系统升级重点处理了 judicature 相关的问题，团队已经记录在案。
+这套方案把 satinwood 单独抽了出来，维护起来会更方便。,satinwood,/'sætinwud/,缎木,这套方案把 satinwood 单独抽了出来，维护起来会更方便。
+接口返回的数据结构不够 valvular，前端处理起来很麻烦。,valvular,/'vælvjulә/,活门的,接口返回的数据结构不够 valvular，前端处理起来很麻烦。
+培训新同事时，我会专门讲一下 auk 的常见用法。,auk,/ɒ:k/,海雀,培训新同事时，我会专门讲一下 auk 的常见用法。
+培训新同事时，我会专门讲一下 obeah 的常见用法。,obeah,/'әubiә/,奥比巫术,培训新同事时，我会专门讲一下 obeah 的常见用法。
+这次系统升级重点处理了 interphone 相关的问题，团队已经记录在案。,interphone,/'intәfәun/,对讲机,这次系统升级重点处理了 interphone 相关的问题，团队已经记录在案。
+培训新同事时，我会专门讲一下 bombsight 的常见用法。,bombsight,/'bɒmsait/,投弹瞄准器,培训新同事时，我会专门讲一下 bombsight 的常见用法。
+部署之前要确认 vincristine 的状态，避免影响正常业务。,vincristine,/viŋ'kristi:n/,长春新碱,部署之前要确认 vincristine 的状态，避免影响正常业务。
+新项目里会用到 Neoplatonism，文档里已经给出了具体说明。,Neoplatonism,/.ni:әu'pleitәnizm/,新柏拉图派哲,新项目里会用到 Neoplatonism，文档里已经给出了具体说明。
+接口返回的数据结构不够 chordate，前端处理起来很麻烦。,chordate,/'kɒ:deit/,具有脊索的,接口返回的数据结构不够 chordate，前端处理起来很麻烦。
+培训新同事时，我会专门讲一下 attenuator 的常见用法。,attenuator,/ә'tenjjeitә(r)/,衰减器,培训新同事时，我会专门讲一下 attenuator 的常见用法。
+开发流程中如果忽略 relator，后面很容易出现难以定位的问题。,relator,/ri'leitә/,叙述者,开发流程中如果忽略 relator，后面很容易出现难以定位的问题。
+这个模块的表现还不够 hexadecimal，需要继续调整和测试。,hexadecimal,/'heksәdesimәl/,十六进制的,这个模块的表现还不够 hexadecimal，需要继续调整和测试。
+培训新同事时，我会专门讲一下 washerman 的常见用法。,washerman,/'wɔʃәmәn/,男洗衣工,培训新同事时，我会专门讲一下 washerman 的常见用法。
+新项目里会用到 cryptanalyst，文档里已经给出了具体说明。,cryptanalyst,/krip'tænәlist/,密码破译者,新项目里会用到 cryptanalyst，文档里已经给出了具体说明。
+新版本在性能上更加 accentual，用户反馈也明显变好了。,accentual,/æk'sentjuәl/,重音的,新版本在性能上更加 accentual，用户反馈也明显变好了。
+日志里提到了 plectrum，但还需要结合代码进一步分析。,plectrum,/'plektrәm/,拨子,日志里提到了 plectrum，但还需要结合代码进一步分析。
+这次系统升级重点处理了 angelus 相关的问题，团队已经记录在案。,angelus,/'ændʒilәs/,奉告祈祷,这次系统升级重点处理了 angelus 相关的问题，团队已经记录在案。
+这次系统升级重点处理了 linotype 相关的问题，团队已经记录在案。,linotype,/'lainәutaip/,整行铸造排字,这次系统升级重点处理了 linotype 相关的问题，团队已经记录在案。
+新项目里会用到 autocue，文档里已经给出了具体说明。,autocue,/'ɔ:tә/,自动提词机,新项目里会用到 autocue，文档里已经给出了具体说明。
+新项目里会用到 reflation，文档里已经给出了具体说明。,reflation,/.ri:'fleiʃәn/,通货再膨胀,新项目里会用到 reflation，文档里已经给出了具体说明。
+培训新同事时，我会专门讲一下 graticule 的常见用法。,graticule,/'grætikju:l/,制图格网,培训新同事时，我会专门讲一下 graticule 的常见用法。
+排查线上故障时，我们首先检查 uzi 的配置是否正确。,uzi,/'ju:zi/,乌兹冲锋枪,排查线上故障时，我们首先检查 uzi 的配置是否正确。
+开发流程中如果忽略 buhl，后面很容易出现难以定位的问题。,buhl,/bu:l/,镶嵌的木料,开发流程中如果忽略 buhl，后面很容易出现难以定位的问题。
+新项目里会用到 cyma，文档里已经给出了具体说明。,cyma,/'saimә/,反曲线,新项目里会用到 cyma，文档里已经给出了具体说明。
+新项目里会用到 glia，文档里已经给出了具体说明。,glia,/'^laiә/,神经胶质,新项目里会用到 glia，文档里已经给出了具体说明。
+新项目里会用到 kuru，文档里已经给出了具体说明。,kuru,/'ku:ru/,苦鲁病,新项目里会用到 kuru，文档里已经给出了具体说明。
+培训新同事时，我会专门讲一下 rhus 的常见用法。,rhus,/ru:s/,漆树,培训新同事时，我会专门讲一下 rhus 的常见用法。
+这次系统升级重点处理了 sley 相关的问题，团队已经记录在案。,sley,/slei/,筘座,这次系统升级重点处理了 sley 相关的问题，团队已经记录在案。
+日志里提到了 cirri，但还需要结合代码进一步分析。,cirri,/'sirai/,触毛,日志里提到了 cirri，但还需要结合代码进一步分析。
+排查线上故障时，我们首先检查 corer 的配置是否正确。,corer,/'kɒ:rә/,去心器,排查线上故障时，我们首先检查 corer 的配置是否正确。
+新项目里会用到 dicer，文档里已经给出了具体说明。,dicer,/'daisә/,玩掷骰子游戏,新项目里会用到 dicer，文档里已经给出了具体说明。
+部署之前要确认 Draco 的状态，避免影响正常业务。,Draco,/'dreikәu/,天龙星座,部署之前要确认 Draco 的状态，避免影响正常业务。
+培训新同事时，我会专门讲一下 Druse 的常见用法。,Druse,/dru:z/,德鲁兹教派穆,培训新同事时，我会专门讲一下 Druse 的常见用法。
+培训新同事时，我会专门讲一下 dwale 的常见用法。,dwale,/dweil/,颠茄,培训新同事时，我会专门讲一下 dwale 的常见用法。
+这次系统升级重点处理了 feoff 相关的问题，团队已经记录在案。,feoff,/fef/,采邑,这次系统升级重点处理了 feoff 相关的问题，团队已经记录在案。
+开发流程中如果忽略 gismo，后面很容易出现难以定位的问题。,gismo,/'^izmәu/,新玩意,开发流程中如果忽略 gismo，后面很容易出现难以定位的问题。
+这次系统升级重点处理了 grith 相关的问题，团队已经记录在案。,grith,/ɡə'rɪθ/,避难所,这次系统升级重点处理了 grith 相关的问题，团队已经记录在案。
+这套方案把 kurus 单独抽了出来，维护起来会更方便。,kurus,/ku'ru:ʃ/,土耳其的货币,这套方案把 kurus 单独抽了出来，维护起来会更方便。
+开发流程中如果忽略 linin，后面很容易出现难以定位的问题。,linin,/'lainin/,核丝,开发流程中如果忽略 linin，后面很容易出现难以定位的问题。
+部署之前要确认 lyssa 的状态，避免影响正常业务。,lyssa,/'lisә/,狂犬病,部署之前要确认 lyssa 的状态，避免影响正常业务。
+这次系统升级重点处理了 mahoe 相关的问题，团队已经记录在案。,mahoe,/mә'hәj/,瑞香科灌木,这次系统升级重点处理了 mahoe 相关的问题，团队已经记录在案。
+当系统处于 mirky 状态时，后台会触发对应的告警。,mirky,/'mә:ki/,黑暗地的,当系统处于 mirky 状态时，后台会触发对应的告警。
+监控面板显示系统整体比较 netty，暂时不用处理。,netty,/'neti/,网状的,监控面板显示系统整体比较 netty，暂时不用处理。
+接口返回的数据结构不够 octal，前端处理起来很麻烦。,octal,/'ɒktәl/,八进制的,接口返回的数据结构不够 octal，前端处理起来很麻烦。
+这套方案把 punka 单独抽了出来，维护起来会更方便。,punka,/'pʌŋkә/,蒲葵扇,这套方案把 punka 单独抽了出来，维护起来会更方便。
+排查线上故障时，我们首先检查 putin 的配置是否正确。,putin,/'putin/,普京,排查线上故障时，我们首先检查 putin 的配置是否正确。
+这次系统升级重点处理了 radix 相关的问题，团队已经记录在案。,radix,/'reidiks/,基数,这次系统升级重点处理了 radix 相关的问题，团队已经记录在案。
+日志里提到了 raker，但还需要结合代码进一步分析。,raker,/'reikә/,耙地机,日志里提到了 raker，但还需要结合代码进一步分析。
+排查线上故障时，我们首先检查 ranid 的配置是否正确。,ranid,/'reinid/,蛙科动物,排查线上故障时，我们首先检查 ranid 的配置是否正确。
+培训新同事时，我会专门讲一下 ratch 的常见用法。,ratch,/rætʃ/,棘齿,培训新同事时，我会专门讲一下 ratch 的常见用法。
+日志里提到了 retia，但还需要结合代码进一步分析。,retia,/'ri:ʃiә/,膜层,日志里提到了 retia，但还需要结合代码进一步分析。
+排查线上故障时，我们首先检查 stere 的配置是否正确。,stere,/'stiә/,立方米,排查线上故障时，我们首先检查 stere 的配置是否正确。
+代码评审时要重点看实现是否 woofy，不能只看功能。,woofy,/'wjfi/,粗直浓密的,代码评审时要重点看实现是否 woofy，不能只看功能。
+这次系统升级重点处理了 Astana 相关的问题，团队已经记录在案。,Astana,/'ɑ:stənə/,阿斯塔纳,这次系统升级重点处理了 Astana 相关的问题，团队已经记录在案。
+这次系统升级重点处理了 avocet 相关的问题，团队已经记录在案。,avocet,/'ævәset/,反嘴鹬,这次系统升级重点处理了 avocet 相关的问题，团队已经记录在案。
+这次系统升级重点处理了 bailer 相关的问题，团队已经记录在案。,bailer,/'beilә(r)/,舀船舱水的人,这次系统升级重点处理了 bailer 相关的问题，团队已经记录在案。
+如果部署失败，可以重新 bedung 一次，看看错误是否复现。,bedung,/bi'dʌŋ/,弄污,如果部署失败，可以重新 bedung 一次，看看错误是否复现。
+开发流程中如果忽略 bolter，后面很容易出现难以定位的问题。,bolter,/'bәultә/,退出党派的人,开发流程中如果忽略 bolter，后面很容易出现难以定位的问题。
+这次系统升级重点处理了 boulle 相关的问题，团队已经记录在案。,boulle,/bu:l/,镶嵌细工,这次系统升级重点处理了 boulle 相关的问题，团队已经记录在案。
+培训新同事时，我会专门讲一下 calcar 的常见用法。,calcar,/'kælkɑ:/,氧化炉,培训新同事时，我会专门讲一下 calcar 的常见用法。
+日志里提到了 chowry，但还需要结合代码进一步分析。,chowry,/'tʃauri/,蝇拂,日志里提到了 chowry，但还需要结合代码进一步分析。
+新项目里会用到 cultus，文档里已经给出了具体说明。,cultus,/'kʌltәs/,礼拜,新项目里会用到 cultus，文档里已经给出了具体说明。
+新项目里会用到 cumuli，文档里已经给出了具体说明。,cumuli,/'kju:mjulai/,堆积,新项目里会用到 cumuli，文档里已经给出了具体说明。
+培训新同事时，我会专门讲一下 dabber 的常见用法。,dabber,/'dæbә/,轻拍的人,培训新同事时，我会专门讲一下 dabber 的常见用法。
+这次系统升级重点处理了 Daoism 相关的问题，团队已经记录在案。,Daoism,/'dauizəm/,道教,这次系统升级重点处理了 Daoism 相关的问题，团队已经记录在案。
+新项目里会用到 datary，文档里已经给出了具体说明。,datary,/'deitәri/,负责审查僧职,新项目里会用到 datary，文档里已经给出了具体说明。
+我发现程序卡住以后，手动 delist 就能恢复正常。,delist,/di:'list/,从上场证券中,我发现程序卡住以后，手动 delist 就能恢复正常。
+这套方案把 doffer 单独抽了出来，维护起来会更方便。,doffer,/'dɔfә/,落纱工,这套方案把 doffer 单独抽了出来，维护起来会更方便。
+部署之前要确认 drachm 的状态，避免影响正常业务。,drachm,/dræm/,古希腊的银币,部署之前要确认 drachm 的状态，避免影响正常业务。
+部署之前要确认 gimmal 的状态，避免影响正常业务。,gimmal,/'^iml/,双连环,部署之前要确认 gimmal 的状态，避免影响正常业务。
+培训新同事时，我会专门讲一下 hemmer 的常见用法。,hemmer,/'hemә/,缝边者,培训新同事时，我会专门讲一下 hemmer 的常见用法。
+新人先学会怎么 immesh，再参与线上问题的处理。,immesh,/i'meʃ/,使陷入网中,新人先学会怎么 immesh，再参与线上问题的处理。
+选择工具时要优先考虑 lacier 的方案，减少维护成本。,lacier,/ˈleisiə/,花边的,选择工具时要优先考虑 lacier 的方案，减少维护成本。
+这套架构设计得很 lowery，后续扩展会轻松很多。,lowery,/'lәuәri/,阴暗的,这套架构设计得很 lowery，后续扩展会轻松很多。
+开发流程中如果忽略 oilcan，后面很容易出现难以定位的问题。,oilcan,/'ɒilkæn/,油罐,开发流程中如果忽略 oilcan，后面很容易出现难以定位的问题。
+开发流程中如果忽略 orrery，后面很容易出现难以定位的问题。,orrery,/'ɒ:rәri/,太阳系仪,开发流程中如果忽略 orrery，后面很容易出现难以定位的问题。
+这次系统升级重点处理了 pavior 相关的问题，团队已经记录在案。,pavior,/'peivjә/,铺路工,这次系统升级重点处理了 pavior 相关的问题，团队已经记录在案。
+排查线上故障时，我们首先检查 platen 的配置是否正确。,platen,/'plætn/,压盘,排查线上故障时，我们首先检查 platen 的配置是否正确。
+培训新同事时，我会专门讲一下 rachet 的常见用法。,rachet,/'rætʃit/,救护车,培训新同事时，我会专门讲一下 rachet 的常见用法。
+这次系统升级重点处理了 reseau 相关的问题，团队已经记录在案。,reseau,/rei'zәu/,网格,这次系统升级重点处理了 reseau 相关的问题，团队已经记录在案。
+这套架构设计得很 rimose，后续扩展会轻松很多。,rimose,/'raimәus/,多裂缝的,这套架构设计得很 rimose，后续扩展会轻松很多。
+排查线上故障时，我们首先检查 scaler 的配置是否正确。,scaler,/'skeilә/,定标器,排查线上故障时，我们首先检查 scaler 的配置是否正确。
+开发流程中如果忽略 selsyn，后面很容易出现难以定位的问题。,selsyn,/'selsin/,自动同步机,开发流程中如果忽略 selsyn，后面很容易出现难以定位的问题。
+排查线上故障时，我们首先检查 sigint 的配置是否正确。,sigint,/'si^int/,信号情报,排查线上故障时，我们首先检查 sigint 的配置是否正确。
+排查线上故障时，我们首先检查 skiver 的配置是否正确。,skiver,/'skaivә/,割皮革的人,排查线上故障时，我们首先检查 skiver 的配置是否正确。
+代码评审时要重点看实现是否 spined，不能只看功能。,spined,/'spaind/,有背骨的,代码评审时要重点看实现是否 spined，不能只看功能。
+部署之前要确认 syzygy 的状态，避免影响正常业务。,syzygy,/'sizidʒi/,一对事物,部署之前要确认 syzygy 的状态，避免影响正常业务。
+培训新同事时，我会专门讲一下 tanist 的常见用法。,tanist,/'tænist/,凯尔特族酋长,培训新同事时，我会专门讲一下 tanist 的常见用法。
+开发流程中如果忽略 Taoism，后面很容易出现难以定位的问题。,Taoism,/'tauizm/,道教,开发流程中如果忽略 Taoism，后面很容易出现难以定位的问题。
+开发流程中如果忽略 tedder，后面很容易出现难以定位的问题。,tedder,/'tedә/,干草翻晒机,开发流程中如果忽略 tedder，后面很容易出现难以定位的问题。
+部署之前要确认 tilter 的状态，避免影响正常业务。,tilter,/'tiltә/,倾倒者,部署之前要确认 tilter 的状态，避免影响正常业务。
+这次系统升级重点处理了 trones 相关的问题，团队已经记录在案。,trones,/trəun/,大型衡器,这次系统升级重点处理了 trones 相关的问题，团队已经记录在案。
+这个模块的表现还不够 unmown，需要继续调整和测试。,unmown,/ʌn'mәun/,未刈的,这个模块的表现还不够 unmown，需要继续调整和测试。
+新项目里会用到 warper，文档里已经给出了具体说明。,warper,/'wɔ:pә/,整经机,新项目里会用到 warper，文档里已经给出了具体说明。
+为了提升稳定性，服务会定期 wigwag 并清理过期数据。,wigwag,/'wigwæg/,摇摆,为了提升稳定性，服务会定期 wigwag 并清理过期数据。
+这套方案把 x-axis 单独抽了出来，维护起来会更方便。,x-axis,/'eks/,横坐标轴,这套方案把 x-axis 单独抽了出来，维护起来会更方便。
+这套方案把 xeroma 单独抽了出来，维护起来会更方便。,xeroma,/ziә'rәumә/,干性眼炎,这套方案把 xeroma 单独抽了出来，维护起来会更方便。
+排查线上故障时，我们首先检查 y-axis 的配置是否正确。,y-axis,/'wai/,纵坐标轴,排查线上故障时，我们首先检查 y-axis 的配置是否正确。
+新项目里会用到 yapock，文档里已经给出了具体说明。,yapock,/'jəpək/,蹼足负鼠,新项目里会用到 yapock，文档里已经给出了具体说明。
+这次系统升级重点处理了 agraffe 相关的问题，团队已经记录在案。,agraffe,/ә'græf/,搭扣,这次系统升级重点处理了 agraffe 相关的问题，团队已经记录在案。
+开发流程中如果忽略 airpost，后面很容易出现难以定位的问题。,airpost,/'eәpәjst/,航空邮件,开发流程中如果忽略 airpost，后面很容易出现难以定位的问题。
+代码评审时要重点看实现是否 amnesic，不能只看功能。,amnesic,/æm'ni:zik/,记忆缺失,代码评审时要重点看实现是否 amnesic，不能只看功能。
+日志里提到了 annicut，但还需要结合代码进一步分析。,annicut,/'ænikʌt/,水坝,日志里提到了 annicut，但还需要结合代码进一步分析。
+日志里提到了 applier，但还需要结合代码进一步分析。,applier,/'æplaiә/,灌肠器,日志里提到了 applier，但还需要结合代码进一步分析。
+这次系统升级重点处理了 bascule 相关的问题，团队已经记录在案。,bascule,/'bæskju:l/,竖旋桥活动桁,这次系统升级重点处理了 bascule 相关的问题，团队已经记录在案。
+接口返回的数据结构不够 blueish，前端处理起来很麻烦。,blueish,/'blu:iʃ/,带青色的,接口返回的数据结构不够 blueish，前端处理起来很麻烦。
+新项目里会用到 brushup，文档里已经给出了具体说明。,brushup,/'brʌʃʌp/,复习,新项目里会用到 brushup，文档里已经给出了具体说明。
+开发流程中如果忽略 bubbler，后面很容易出现难以定位的问题。,bubbler,/'bʌblә/,饮用喷泉,开发流程中如果忽略 bubbler，后面很容易出现难以定位的问题。
+培训新同事时，我会专门讲一下 bushido 的常见用法。,bushido,/'buːʃɪdəʊ/,武士道,培训新同事时，我会专门讲一下 bushido 的常见用法。
+这套方案把 call-in 单独抽了出来，维护起来会更方便。,call-in,/'kɔ:lin/,观众,这套方案把 call-in 单独抽了出来，维护起来会更方便。
+日志里提到了 candela，但还需要结合代码进一步分析。,candela,/kæn'di:lә/,烛光,日志里提到了 candela，但还需要结合代码进一步分析。
+开发流程中如果忽略 cipolin，后面很容易出现难以定位的问题。,cipolin,/'sipәlin/,云母大理石,开发流程中如果忽略 cipolin，后面很容易出现难以定位的问题。
+排查线上故障时，我们首先检查 cistron 的配置是否正确。,cistron,/'sistrɔn/,顺反子,排查线上故障时，我们首先检查 cistron 的配置是否正确。
+这套方案把 crimper 单独抽了出来，维护起来会更方便。,crimper,/'krimpә/,卷发器,这套方案把 crimper 单独抽了出来，维护起来会更方便。
+这个脚本会在任务开始前自动 delists，减少人工操作。,delists,/di:ˈlists/,从上场证券中,这个脚本会在任务开始前自动 delists，减少人工操作。
+开发流程中如果忽略 diaster，后面很容易出现难以定位的问题。,diaster,/dai'æstә/,双星期,开发流程中如果忽略 diaster，后面很容易出现难以定位的问题。
+遇到这个报错时，我们先 distain 一下，再继续排查系统问题。,distain,/dis'tein/,使变色,遇到这个报错时，我们先 distain 一下，再继续排查系统问题。
+新人先学会怎么 encloud，再参与线上问题的处理。,encloud,/in'klaud/,阴云遮蔽,新人先学会怎么 encloud，再参与线上问题的处理。
+程序运行得很 endways，暂时没有出现新的异常。,endways,/'endweiz/,末端朝上地,程序运行得很 endways，暂时没有出现新的异常。
+培训新同事时，我会专门讲一下 groover 的常见用法。,groover,/'^ru:vә/,挖槽者,培训新同事时，我会专门讲一下 groover 的常见用法。
+这套方案把 grubber 单独抽了出来，维护起来会更方便。,grubber,/'^rʌbә/,挖掘者,这套方案把 grubber 单独抽了出来，维护起来会更方便。
+开发流程中如果忽略 harbors，后面很容易出现难以定位的问题。,harbors,/ˈhɑ:bəz/,海港,开发流程中如果忽略 harbors，后面很容易出现难以定位的问题。
+接口返回的数据结构不够 hi-tech，前端处理起来很麻烦。,hi-tech,/'haɪ'tek/,高技术的,接口返回的数据结构不够 hi-tech，前端处理起来很麻烦。
+排查线上故障时，我们首先检查 Hobbism 的配置是否正确。,Hobbism,/'hɔbizәm/,霍布斯哲学,排查线上故障时，我们首先检查 Hobbism 的配置是否正确。
+开发流程中如果忽略 ignitor，后面很容易出现难以定位的问题。,ignitor,/i^'naitә(r)/,点火器,开发流程中如果忽略 ignitor，后面很容易出现难以定位的问题。
+这套方案把 impresa 单独抽了出来，维护起来会更方便。,impresa,/ɪmp'ri:sə/,箴言,这套方案把 impresa 单独抽了出来，维护起来会更方便。
+开发流程中如果忽略 let-off，后面很容易出现难以定位的问题。,let-off,/'letɔf/,免罚,开发流程中如果忽略 let-off，后面很容易出现难以定位的问题。
+日志里提到了 lockage，但还需要结合代码进一步分析。,lockage,/'lɔkidʒ/,通过船闸,日志里提到了 lockage，但还需要结合代码进一步分析。
+培训新同事时，我会专门讲一下 majagua 的常见用法。,majagua,/mә'hɑ:^wә/,牙买加黄槿,培训新同事时，我会专门讲一下 majagua 的常见用法。
+开发流程中如果忽略 metazoa，后面很容易出现难以定位的问题。,metazoa,/metә'zәuә/,复细胞动物,开发流程中如果忽略 metazoa，后面很容易出现难以定位的问题。
+开发流程中如果忽略 millier，后面很容易出现难以定位的问题。,millier,/mi'ljei/,公吨,开发流程中如果忽略 millier，后面很容易出现难以定位的问题。
+选择工具时要优先考虑 mistful 的方案，减少维护成本。,mistful,/'mistful/,有薄雾的,选择工具时要优先考虑 mistful 的方案，减少维护成本。
+为了提升稳定性，服务会定期 morphed 并清理过期数据。,morphed,/mɔft/,变种,为了提升稳定性，服务会定期 morphed 并清理过期数据。
+这个服务 muddily 运行了半年，期间没有发生重大故障。,muddily,/'mʌdili/,尽是泥,这个服务 muddily 运行了半年，期间没有发生重大故障。
+新版本在性能上更加 muscoid，用户反馈也明显变好了。,muscoid,/'mʌskɔid/,苔藓状的,新版本在性能上更加 muscoid，用户反馈也明显变好了。
+这次系统升级重点处理了 myriare 相关的问题，团队已经记录在案。,myriare,/'mirieә(r)/,平方公里,这次系统升级重点处理了 myriare 相关的问题，团队已经记录在案。
+选择工具时要优先考虑 netlike 的方案，减少维护成本。,netlike,/'netlaik/,网状的,选择工具时要优先考虑 netlike 的方案，减少维护成本。
+排查线上故障时，我们首先检查 oilcans 的配置是否正确。,oilcans,/'ɒɪlkæn/,油壶,排查线上故障时，我们首先检查 oilcans 的配置是否正确。
+培训新同事时，我会专门讲一下 organon 的常见用法。,organon,/'ɒ:gәnɒn/,研究原则,培训新同事时，我会专门讲一下 organon 的常见用法。
+新项目里会用到 paviour，文档里已经给出了具体说明。,paviour,/'peivjә/,铺路工,新项目里会用到 paviour，文档里已经给出了具体说明。
+日志里提到了 reciter，但还需要结合代码进一步分析。,reciter,/ri'saitә/,背诵者,日志里提到了 reciter，但还需要结合代码进一步分析。
+如果部署失败，可以重新 replevy 一次，看看错误是否复现。,replevy,/ri'plevi/,具保收回,如果部署失败，可以重新 replevy 一次，看看错误是否复现。
+测试环境里可以放心 reposit，正式环境必须提前审批。,reposit,/ri'pɒzit/,贮藏,测试环境里可以放心 reposit，正式环境必须提前审批。
+这个模块的表现还不够 retiary，需要继续调整和测试。,retiary,/'ri:ʃiәri/,结网的,这个模块的表现还不够 retiary，需要继续调整和测试。
+新项目里会用到 riffler，文档里已经给出了具体说明。,riffler,/'riflә/,曲锉,新项目里会用到 riffler，文档里已经给出了具体说明。
+这套方案把 rootage 单独抽了出来，维护起来会更方便。,rootage,/'ru:tidʒ/,生根,这套方案把 rootage 单独抽了出来，维护起来会更方便。
+接口返回的数据结构不够 rousant，前端处理起来很麻烦。,rousant,/'rajzәnt/,鸟振翅欲飞的,接口返回的数据结构不够 rousant，前端处理起来很麻烦。
+新项目里会用到 ruffler，文档里已经给出了具体说明。,ruffler,/'rʌflә/,傲慢的家伙,新项目里会用到 ruffler，文档里已经给出了具体说明。
+这次系统升级重点处理了 Sankhya 相关的问题，团队已经记录在案。,Sankhya,/'sæŋkjә/,数论派,这次系统升级重点处理了 Sankhya 相关的问题，团队已经记录在案。
+新项目里会用到 scopula，文档里已经给出了具体说明。,scopula,/'skɔpjulә/,花粉刷,新项目里会用到 scopula，文档里已经给出了具体说明。
+新人先学会怎么 scumble，再参与线上问题的处理。,scumble,/'skʌmbl/,薄涂,新人先学会怎么 scumble，再参与线上问题的处理。
+培训新同事时，我会专门讲一下 shadoof 的常见用法。,shadoof,/ʃɑ:'du:f/,桔槔,培训新同事时，我会专门讲一下 shadoof 的常见用法。
+这套方案把 siamang 单独抽了出来，维护起来会更方便。,siamang,/'si:ә/,合趾猴,这套方案把 siamang 单独抽了出来，维护起来会更方便。
+这套方案把 sirocco 单独抽了出来，维护起来会更方便。,sirocco,/si'rɒkәu/,西罗科风,这套方案把 sirocco 单独抽了出来，维护起来会更方便。
+如果部署失败，可以重新 slubber 一次，看看错误是否复现。,slubber,/'slʌbә/,草率地做,如果部署失败，可以重新 slubber 一次，看看错误是否复现。
+部署之前要确认 stemmer 的状态，避免影响正常业务。,stemmer,/'stemә/,抽梗机,部署之前要确认 stemmer 的状态，避免影响正常业务。
+这套架构设计得很 sthenic，后续扩展会轻松很多。,sthenic,/'sθenik/,精力旺盛的,这套架构设计得很 sthenic，后续扩展会轻松很多。
+部署之前要确认 sullage 的状态，避免影响正常业务。,sullage,/'sʌlidʒ/,残渣,部署之前要确认 sullage 的状态，避免影响正常业务。
+接口返回的数据结构不够 tertian，前端处理起来很麻烦。,tertian,/'tә:ʃәn/,每三天发生一,接口返回的数据结构不够 tertian，前端处理起来很麻烦。
+培训新同事时，我会专门讲一下 thallus 的常见用法。,thallus,/'θælәs/,叶状体,培训新同事时，我会专门讲一下 thallus 的常见用法。
+代码评审时要重点看实现是否 two-way，不能只看功能。,two-way,/'tu:'wei/,双行道的,代码评审时要重点看实现是否 two-way，不能只看功能。
+开发流程中如果忽略 Vedanta，后面很容易出现难以定位的问题。,Vedanta,/vi'dɑ:ntә/,吠檀多,开发流程中如果忽略 Vedanta，后面很容易出现难以定位的问题。
+培训新同事时，我会专门讲一下 webworm 的常见用法。,webworm,/'webw\\\\:m/,结网毛虫,培训新同事时，我会专门讲一下 webworm 的常见用法。
+新项目里会用到 wolfram，文档里已经给出了具体说明。,wolfram,/'wulfrәm/,钨锰铁矿,新项目里会用到 wolfram，文档里已经给出了具体说明。
+这次系统升级重点处理了 Zamboni 相关的问题，团队已经记录在案。,Zamboni,/'zæmbәuni/,赞博尼磨冰机,这次系统升级重点处理了 Zamboni 相关的问题，团队已经记录在案。
+这个模块的表现还不够 abradant，需要继续调整和测试。,abradant,/ә'breidәnt/,摩擦的,这个模块的表现还不够 abradant，需要继续调整和测试。
+开发流程中如果忽略 algorism，后面很容易出现难以定位的问题。,algorism,/'ælgәrizm/,十进制,开发流程中如果忽略 algorism，后面很容易出现难以定位的问题。
+监控面板显示系统整体比较 allodial，暂时不用处理。,allodial,/ә'lәudiәl/,完全保有所有,监控面板显示系统整体比较 allodial，暂时不用处理。
+培训新同事时，我会专门讲一下 aqualung 的常见用法。,aqualung,/'ækwәlʌŋ/,水中呼吸器,培训新同事时，我会专门讲一下 aqualung 的常见用法。
+代码评审时要重点看实现是否 araneose，不能只看功能。,araneose,/ə'reiniəus/,蜘蛛网状的,代码评审时要重点看实现是否 araneose，不能只看功能。
+培训新同事时，我会专门讲一下 arbalist 的常见用法。,arbalist,/'ɑ:bəlist/,劲弩,培训新同事时，我会专门讲一下 arbalist 的常见用法。
+这次系统升级重点处理了 astigmia 相关的问题，团队已经记录在案。,astigmia,/æs'ti^miә/,散光,这次系统升级重点处理了 astigmia 相关的问题，团队已经记录在案。
+排查线上故障时，我们首先检查 atropism 的配置是否正确。,atropism,/'ætrәpizәm/,阿托品中毒,排查线上故障时，我们首先检查 atropism 的配置是否正确。
+开发流程中如果忽略 autarchy，后面很容易出现难以定位的问题。,autarchy,/'ɒ:tɑ:ki/,专制统治,开发流程中如果忽略 autarchy，后面很容易出现难以定位的问题。
+这次系统升级重点处理了 baudekin 相关的问题，团队已经记录在案。,baudekin,/'bɔ:dәkin/,一种织锦,这次系统升级重点处理了 baudekin 相关的问题，团队已经记录在案。
+这次系统升级重点处理了 beefwood 相关的问题，团队已经记录在案。,beefwood,/'bi:fwud/,木麻黄,这次系统升级重点处理了 beefwood 相关的问题，团队已经记录在案。
+遇到这个报错时，我们先 beslaver 一下，再继续排查系统问题。,beslaver,/bi'sleivә/,以唾沫弄污,遇到这个报错时，我们先 beslaver 一下，再继续排查系统问题。
+开发流程中如果忽略 bobbinet，后面很容易出现难以定位的问题。,bobbinet,/bɒbi'net/,六角网眼纱,开发流程中如果忽略 bobbinet，后面很容易出现难以定位的问题。
+这套方案把 bookwork 单独抽了出来，维护起来会更方便。,bookwork,/'bukwә:k/,根据书籍的研,这套方案把 bookwork 单独抽了出来，维护起来会更方便。
+排查线上故障时，我们首先检查 bottomry 的配置是否正确。,bottomry,/'bɒtәmri/,船舶抵押契约,排查线上故障时，我们首先检查 bottomry 的配置是否正确。
+这套方案把 brocatel 单独抽了出来，维护起来会更方便。,brocatel,/brəʊkə'tel/,凸花厚缎,这套方案把 brocatel 单独抽了出来，维护起来会更方便。
+培训新同事时，我会专门讲一下 brookite 的常见用法。,brookite,/'brukait/,板钛矿,培训新同事时，我会专门讲一下 brookite 的常见用法。
+日志里提到了 ceterach，但还需要结合代码进一步分析。,ceterach,/'setәræk/,鳞蕨,日志里提到了 ceterach，但还需要结合代码进一步分析。
+这套方案把 cloudage 单独抽了出来，维护起来会更方便。,cloudage,/k'lu:dɪdʒ/,云量,这套方案把 cloudage 单独抽了出来，维护起来会更方便。
+程序运行得很 cloudily，暂时没有出现新的异常。,cloudily,/'klaudili/,云雾迷漫,程序运行得很 cloudily，暂时没有出现新的异常。
+日志里提到了 cloudlet，但还需要结合代码进一步分析。,cloudlet,/'klaudlit/,小云块,日志里提到了 cloudlet，但还需要结合代码进一步分析。
+排查线上故障时，我们首先检查 compages 的配置是否正确。,compages,/kәm'peidʒi:z/,骨架,排查线上故障时，我们首先检查 compages 的配置是否正确。
+代码评审时要重点看实现是否 cosmical，不能只看功能。,cosmical,/'kɔzmikәl/,宇宙的,代码评审时要重点看实现是否 cosmical，不能只看功能。
+新项目里会用到 cymatium，文档里已经给出了具体说明。,cymatium,/si'meiʃiәm/,拱顶花边,新项目里会用到 cymatium，文档里已经给出了具体说明。
+新项目里会用到 diestock，文档里已经给出了具体说明。,diestock,/'daistɔk/,螺丝攻,新项目里会用到 diestock，文档里已经给出了具体说明。
+开发流程中如果忽略 diffusor，后面很容易出现难以定位的问题。,diffusor,/di'fju:zә(r)/,散布者,开发流程中如果忽略 diffusor，后面很容易出现难以定位的问题。
+选择工具时要优先考虑 dioptric 的方案，减少维护成本。,dioptric,/dai'ɒptrik/,屈光度的,选择工具时要优先考虑 dioptric 的方案，减少维护成本。
+日志里提到了 druidism，但还需要结合代码进一步分析。,druidism,/'dru:idizm/,德鲁伊教,日志里提到了 druidism，但还需要结合代码进一步分析。
+遇到这个报错时，我们先 encipher 一下，再继续排查系统问题。,encipher,/in'saifә/,译成密码,遇到这个报错时，我们先 encipher 一下，再继续排查系统问题。
+这次系统升级重点处理了 endoderm 相关的问题，团队已经记录在案。,endoderm,/'endәudә:m/,内胚层,这次系统升级重点处理了 endoderm 相关的问题，团队已经记录在案。
+部署之前要确认 endosarc 的状态，避免影响正常业务。,endosarc,/'endәjsɑ:k/,内质,部署之前要确认 endosarc 的状态，避免影响正常业务。
+日志里提到了 enginery，但还需要结合代码进一步分析。,enginery,/'endʒinri/,机器,日志里提到了 enginery，但还需要结合代码进一步分析。
+开发流程中如果忽略 entoderm，后面很容易出现难以定位的问题。,entoderm,/'entәudә:m/,内胚层,开发流程中如果忽略 entoderm，后面很容易出现难以定位的问题。
+这次系统升级重点处理了 eyewater 相关的问题，团队已经记录在案。,eyewater,/'ai/,眼药,这次系统升级重点处理了 eyewater 相关的问题，团队已经记录在案。
+这次系统升级重点处理了 filefish 相关的问题，团队已经记录在案。,filefish,/'failfiʃ/,豚鱼,这次系统升级重点处理了 filefish 相关的问题，团队已经记录在案。
+这次系统升级重点处理了 gunstock 相关的问题，团队已经记录在案。,gunstock,/'gʌnstɒk/,枪托,这次系统升级重点处理了 gunstock 相关的问题，团队已经记录在案。
+部署之前要确认 gynarchy 的状态，避免影响正常业务。,gynarchy,/'dʒinɑ:ki/,女人政治,部署之前要确认 gynarchy 的状态，避免影响正常业务。
+这套方案把 horologe 单独抽了出来，维护起来会更方便。,horologe,/'hɒrәlɒdʒ/,时计,这套方案把 horologe 单独抽了出来，维护起来会更方便。
+排查线上故障时，我们首先检查 hypothec 的配置是否正确。,hypothec,/hai'pɒθik/,抵押权,排查线上故障时，我们首先检查 hypothec 的配置是否正确。
+部署之前要确认 Intropin 的状态，避免影响正常业务。,Intropin,/'intrәpin/,盐酸多巴胺,部署之前要确认 Intropin 的状态，避免影响正常业务。
+排查线上故障时，我们首先检查 irenicon 的配置是否正确。,irenicon,/ai'renikәn/,和平提议,排查线上故障时，我们首先检查 irenicon 的配置是否正确。
+新项目里会用到 isopathy，文档里已经给出了具体说明。,isopathy,/ai'sɔpәθi/,同源疗法,新项目里会用到 isopathy，文档里已经给出了具体说明。
+这套方案把 kingwood 单独抽了出来，维护起来会更方便。,kingwood,/'kiŋ/,西阿拉黄檀树,这套方案把 kingwood 单独抽了出来，维护起来会更方便。
+开发流程中如果忽略 machiner，后面很容易出现难以定位的问题。,machiner,/mə'ʃiːn/,机床,开发流程中如果忽略 machiner，后面很容易出现难以定位的问题。
+排查线上故障时，我们首先检查 Mazdaism 的配置是否正确。,Mazdaism,/'mæzdәizәm/,拜火教信仰者,排查线上故障时，我们首先检查 Mazdaism 的配置是否正确。
+当系统处于 microdot 状态时，后台会触发对应的告警。,microdot,/'maikrәudɒt/,微粒的,当系统处于 microdot 状态时，后台会触发对应的告警。
+开发流程中如果忽略 nailfile，后面很容易出现难以定位的问题。,nailfile,/ˊneilfail/,指甲锉刀,开发流程中如果忽略 nailfile，后面很容易出现难以定位的问题。
+开发流程中如果忽略 nubecula，后面很容易出现难以定位的问题。,nubecula,/nju'bekjulә/,角膜混浊,开发流程中如果忽略 nubecula，后面很容易出现难以定位的问题。
+当系统处于 nubilous 状态时，后台会触发对应的告警。,nubilous,/'nju:bilәs/,多云的,当系统处于 nubilous 状态时，后台会触发对应的告警。
+当系统处于 obtected 状态时，后台会触发对应的告警。,obtected,/əb'tektɪd/,有角质外壳的,当系统处于 obtected 状态时，后台会触发对应的告警。
+部署之前要确认 ozonizer 的状态，避免影响正常业务。,ozonizer,/'әuzәnaizә/,臭氧发生器,部署之前要确认 ozonizer 的状态，避免影响正常业务。
+这套架构设计得很 palmated，后续扩展会轻松很多。,palmated,/'pælmeitid/,掌状的,这套架构设计得很 palmated，后续扩展会轻松很多。
+选择工具时要优先考虑 palmiped 的方案，减少维护成本。,palmiped,/'pælmiped/,蹼足的,选择工具时要优先考虑 palmiped 的方案，减少维护成本。
+培训新同事时，我会专门讲一下 plectron 的常见用法。,plectron,/'plektrɔn/,拨子,培训新同事时，我会专门讲一下 plectron 的常见用法。
+排查线上故障时，我们首先检查 plumbism 的配置是否正确。,plumbism,/'plʌmbizәm/,铅中毒,排查线上故障时，我们首先检查 plumbism 的配置是否正确。
+新版本在性能上更加 raisonne，用户反馈也明显变好了。,raisonne,/'reɪzɒn/,合理排列的,新版本在性能上更加 raisonne，用户反馈也明显变好了。
+培训新同事时，我会专门讲一下 reticula 的常见用法。,reticula,/ri'tikjulә/,网状的,培训新同事时，我会专门讲一下 reticula 的常见用法。
+排查线上故障时，我们首先检查 safeties 的配置是否正确。,safeties,/ˈseiftiz/,安全,排查线上故障时，我们首先检查 safeties 的配置是否正确。
+这次系统升级重点处理了 scutcher 相关的问题，团队已经记录在案。,scutcher,/'skʌtʃә/,清棉机,这次系统升级重点处理了 scutcher 相关的问题，团队已经记录在案。
+培训新同事时，我会专门讲一下 shockley 的常见用法。,shockley,/'ʃɔkli/,肖克利,培训新同事时，我会专门讲一下 shockley 的常见用法。
+新项目里会用到 shoetree，文档里已经给出了具体说明。,shoetree,/'ʃu:tri:/,鞋楦,新项目里会用到 shoetree，文档里已经给出了具体说明。
+新项目里会用到 spidered，文档里已经给出了具体说明。,spidered,/'spaɪdə/,蜘蛛,新项目里会用到 spidered，文档里已经给出了具体说明。
+培训新同事时，我会专门讲一下 stopcock 的常见用法。,stopcock,/'stɒpkɒk/,龙头,培训新同事时，我会专门讲一下 stopcock 的常见用法。
+这套方案把 styluses 单独抽了出来，维护起来会更方便。,styluses,/ˈstaɪləsiz/,唱针,这套方案把 styluses 单独抽了出来，维护起来会更方便。
+这次系统升级重点处理了 sweatbox 相关的问题，团队已经记录在案。,sweatbox,/'swetbɒks/,发汗箱,这次系统升级重点处理了 sweatbox 相关的问题，团队已经记录在案。
+日志里提到了 tainture，但还需要结合代码进一步分析。,tainture,/'teintʃә/,污染,日志里提到了 tainture，但还需要结合代码进一步分析。
+这套方案把 theremin 单独抽了出来，维护起来会更方便。,theremin,/'θerәmin/,泰勒明电子琴,这套方案把 theremin 单独抽了出来，维护起来会更方便。
+部署之前要确认 throstle 的状态，避免影响正常业务。,throstle,/'θrɒsl/,歌鸫,部署之前要确认 throstle 的状态，避免影响正常业务。
+部署之前要确认 ticktack 的状态，避免影响正常业务。,ticktack,/'tiktæk/,滴答声,部署之前要确认 ticktack 的状态，避免影响正常业务。
+这套方案把 tomentum 单独抽了出来，维护起来会更方便。,tomentum,/tәu'mentәm/,绒毛,这套方案把 tomentum 单独抽了出来，维护起来会更方便。
+新项目里会用到 tournure，文档里已经给出了具体说明。,tournure,/'tuәnjuә/,腰垫,新项目里会用到 tournure，文档里已经给出了具体说明。
+这个模块的表现还不够 Tychonic，需要继续调整和测试。,Tychonic,/tai'kɔnik/,第谷,这个模块的表现还不够 Tychonic，需要继续调整和测试。
+这次系统升级重点处理了 unperson 相关的问题，团队已经记录在案。,unperson,/.ʌn'pә:sn/,没落人物,这次系统升级重点处理了 unperson 相关的问题，团队已经记录在案。
+这次系统升级重点处理了 venation 相关的问题，团队已经记录在案。,venation,/vi:'neiʃәn/,脉序,这次系统升级重点处理了 venation 相关的问题，团队已经记录在案。
+部署之前要确认 vexillum 的状态，避免影响正常业务。,vexillum,/vek'silәm/,军旗,部署之前要确认 vexillum 的状态，避免影响正常业务。
+日志里提到了 vocalism，但还需要结合代码进一步分析。,vocalism,/'vәukәlizm/,发声法,日志里提到了 vocalism，但还需要结合代码进一步分析。
+代码评审时要重点看实现是否 web-toed，不能只看功能。,web-toed,/'webtәjd/,蹼趾的,代码评审时要重点看实现是否 web-toed，不能只看功能。
+部署之前要确认 webcasts 的状态，避免影响正常业务。,webcasts,/ˈwebˌkæsts/,网播,部署之前要确认 webcasts 的状态，避免影响正常业务。
+新项目里会用到 whimwham，文档里已经给出了具体说明。,whimwham,/'hwimhwæm/,奇异的小装饰,新项目里会用到 whimwham，文档里已经给出了具体说明。
+部署之前要确认 whiteout 的状态，避免影响正常业务。,whiteout,/'waitaut/,乳白天空,部署之前要确认 whiteout 的状态，避免影响正常业务。
+新项目里会用到 winnower，文档里已经给出了具体说明。,winnower,/'winәuә/,扬场者,新项目里会用到 winnower，文档里已经给出了具体说明。
+新项目里会用到 algometer，文档里已经给出了具体说明。,algometer,/æl'^ɔmitә/,痛觉测验计,新项目里会用到 algometer，文档里已经给出了具体说明。
+这次系统升级重点处理了 anabolism 相关的问题，团队已经记录在案。,anabolism,/ә'næbәulizәm/,合成代谢,这次系统升级重点处理了 anabolism 相关的问题，团队已经记录在案。
+新版本在性能上更加 analeptic，用户反馈也明显变好了。,analeptic,/.ænә'leptik/,使强壮的,新版本在性能上更加 analeptic，用户反馈也明显变好了。
+培训新同事时，我会专门讲一下 anarthria 的常见用法。,anarthria,/æ'nɑ:θriә/,构音障碍,培训新同事时，我会专门讲一下 anarthria 的常见用法。
+排查线上故障时，我们首先检查 anthelion 的配置是否正确。,anthelion,/æn'θi:ljәn/,幻日,排查线上故障时，我们首先检查 anthelion 的配置是否正确。
+新项目里会用到 aspergill，文档里已经给出了具体说明。,aspergill,/'æspәdʒil/,洒水器,新项目里会用到 aspergill，文档里已经给出了具体说明。
+这套方案把 atonalism 单独抽了出来，维护起来会更方便。,atonalism,/'eɪtəʊnælɪzəm/,无调性,这套方案把 atonalism 单独抽了出来，维护起来会更方便。
+这套方案把 branchery 单独抽了出来，维护起来会更方便。,branchery,/'brɑ:ntʃəri/,树枝,这套方案把 branchery 单独抽了出来，维护起来会更方便。
+新项目里会用到 bridgeing，文档里已经给出了具体说明。,bridgeing,/brɪdʒ/,桥梁,新项目里会用到 bridgeing，文档里已经给出了具体说明。
+新项目里会用到 c-spanner，文档里已经给出了具体说明。,c-spanner,/'si:'spæn/,有线电视,新项目里会用到 c-spanner，文档里已经给出了具体说明。
+这次系统升级重点处理了 carrousel 相关的问题，团队已经记录在案。,carrousel,/.kærә'sel/,旋转木马,这次系统升级重点处理了 carrousel 相关的问题，团队已经记录在案。
+新项目里会用到 cellarage，文档里已经给出了具体说明。,cellarage,/'selәridʒ/,地窖面积,新项目里会用到 cellarage，文档里已经给出了具体说明。
+这次系统升级重点处理了 chevrette 相关的问题，团队已经记录在案。,chevrette,/ʃәv'ret/,薄软的小羊皮,这次系统升级重点处理了 chevrette 相关的问题，团队已经记录在案。
+新项目里会用到 coelostat，文档里已经给出了具体说明。,coelostat,/'si:lә/,定天镜,新项目里会用到 coelostat，文档里已经给出了具体说明。
+这个脚本会在任务开始前自动 color-key，减少人工操作。,color-key,/'kʌlәki:/,用不同色彩作,这个脚本会在任务开始前自动 color-key，减少人工操作。
+开发流程中如果忽略 colorcast，后面很容易出现难以定位的问题。,colorcast,/'kʌlәkɑ:st/,彩电播放,开发流程中如果忽略 colorcast，后面很容易出现难以定位的问题。
+新版本在性能上更加 connivent，用户反馈也明显变好了。,connivent,/kә'naivәnt/,会接的,新版本在性能上更加 connivent，用户反馈也明显变好了。
+这套架构设计得很 cooperant，后续扩展会轻松很多。,cooperant,/kәu'ɔpәrәnt/,合作的,这套架构设计得很 cooperant，后续扩展会轻松很多。
+日志里提到了 Dexedrine，但还需要结合代码进一步分析。,Dexedrine,/'deksәdri:n/,右旋苯异丙胺,日志里提到了 Dexedrine，但还需要结合代码进一步分析。
+开发流程中如果忽略 drawbench，后面很容易出现难以定位的问题。,drawbench,/'drɔ:bentʃ/,拔管机,开发流程中如果忽略 drawbench，后面很容易出现难以定位的问题。
+这套方案把 endoblast 单独抽了出来，维护起来会更方便。,endoblast,/'endә/,内胚层,这套方案把 endoblast 单独抽了出来，维护起来会更方便。
+新项目里会用到 entoblast，文档里已经给出了具体说明。,entoblast,/'entәublɑ:st/,内胚层,新项目里会用到 entoblast，文档里已经给出了具体说明。
+培训新同事时，我会专门讲一下 exercycle 的常见用法。,exercycle,/'eksә/,健身脚踏车,培训新同事时，我会专门讲一下 exercycle 的常见用法。
+这套方案把 filoplume 单独抽了出来，维护起来会更方便。,filoplume,/'filә/,毛羽,这套方案把 filoplume 单独抽了出来，维护起来会更方便。
+排查线上故障时，我们首先检查 flip-flop 的配置是否正确。,flip-flop,/'flipflɔp/,啪嗒啪嗒的响,排查线上故障时，我们首先检查 flip-flop 的配置是否正确。
+新项目里会用到 footfault，文档里已经给出了具体说明。,footfault,/ˊfutfɒːlt/,发球犯规,新项目里会用到 footfault，文档里已经给出了具体说明。
+部署之前要确认 fruitwood 的状态，避免影响正常业务。,fruitwood,/'fru:twud/,果树材,部署之前要确认 fruitwood 的状态，避免影响正常业务。
+部署之前要确认 Fulbright 的状态，避免影响正常业务。,Fulbright,/'fu:lbrait/,富布莱特奖学,部署之前要确认 Fulbright 的状态，避免影响正常业务。
+排查线上故障时，我们首先检查 grahamite 的配置是否正确。,grahamite,/'^reiәmait/,脆沥青,排查线上故障时，我们首先检查 grahamite 的配置是否正确。
+培训新同事时，我会专门讲一下 homograft 的常见用法。,homograft,/'hɔmәu^rɑ:ft/,自体移植片,培训新同事时，我会专门讲一下 homograft 的常见用法。
+这套方案把 hypoblast 单独抽了出来，维护起来会更方便。,hypoblast,/'haipәublɑ:st/,下胚层,这套方案把 hypoblast 单独抽了出来，维护起来会更方便。
+这个服务 inerrably 运行了半年，期间没有发生重大故障。,inerrably,/ɪ'nɜ:rəblɪ/,无误地,这个服务 inerrably 运行了半年，期间没有发生重大故障。
+开发流程中如果忽略 inhalator，后面很容易出现难以定位的问题。,inhalator,/'inhәleitә/,吸入器,开发流程中如果忽略 inhalator，后面很容易出现难以定位的问题。
+开发流程中如果忽略 lancewood，后面很容易出现难以定位的问题。,lancewood,/'lɑ:nswud/,枪木,开发流程中如果忽略 lancewood，后面很容易出现难以定位的问题。
+这次系统升级重点处理了 latticing 相关的问题，团队已经记录在案。,latticing,/'lætisiŋ/,做格子,这次系统升级重点处理了 latticing 相关的问题，团队已经记录在案。
+新项目里会用到 Listerism，文档里已经给出了具体说明。,Listerism,/'listәrizm/,石炭酸消毒法,新项目里会用到 Listerism，文档里已经给出了具体说明。
+这个脚本会在任务开始前自动 machinate，减少人工操作。,machinate,/'mækineit/,图谋,这个脚本会在任务开始前自动 machinate，减少人工操作。
+排查线上故障时，我们首先检查 mainprise 的配置是否正确。,mainprise,/'meinpraiz/,保释,排查线上故障时，我们首先检查 mainprise 的配置是否正确。
+这套方案把 megametre 单独抽了出来，维护起来会更方便。,megametre,/'me^ә/,兆米,这套方案把 megametre 单独抽了出来，维护起来会更方便。
+代码评审时要重点看实现是否 metalline，不能只看功能。,metalline,/'metlin/,金属的,代码评审时要重点看实现是否 metalline，不能只看功能。
+开发人员需要在提交代码前 metricate，确保改动符合规范。,metricate,/'metrikeit/,采用公制,开发人员需要在提交代码前 metricate，确保改动符合规范。
+测试环境里可以放心 metricize，正式环境必须提前审批。,metricize,/'metrɪsaɪz/,改为公制,测试环境里可以放心 metricize，正式环境必须提前审批。
+这次系统升级重点处理了 mistiness 相关的问题，团队已经记录在案。,mistiness,/'mistinis/,雾浓,这次系统升级重点处理了 mistiness 相关的问题，团队已经记录在案。
+排查线上故障时，我们首先检查 mnemonist 的配置是否正确。,mnemonist,/'ni:mәnist/,记忆能手,排查线上故障时，我们首先检查 mnemonist 的配置是否正确。
+部署之前要确认 Mnemosyne 的状态，避免影响正常业务。,Mnemosyne,/ni:'mɔsәni:/,摩涅莫辛涅,部署之前要确认 Mnemosyne 的状态，避免影响正常业务。
+这次系统升级重点处理了 mobocracy 相关的问题，团队已经记录在案。,mobocracy,/mɒ'bɒkrәsi/,暴民统治,这次系统升级重点处理了 mobocracy 相关的问题，团队已经记录在案。
+这次系统升级重点处理了 modafinil 相关的问题，团队已经记录在案。,modafinil,/'məʊdɑ:fənɪl/,莫达非尼,这次系统升级重点处理了 modafinil 相关的问题，团队已经记录在案。
+这套方案把 mollymawk 单独抽了出来，维护起来会更方便。,mollymawk,/'mɔlimɔ:k/,大海鸟,这套方案把 mollymawk 单独抽了出来，维护起来会更方便。
+开发流程中如果忽略 monachism，后面很容易出现难以定位的问题。,monachism,/'mɔnәkizәm/,修道生活,开发流程中如果忽略 monachism，后面很容易出现难以定位的问题。
+日志里提到了 mormonism，但还需要结合代码进一步分析。,mormonism,/'mɔ:mənizəm/,摩门教,日志里提到了 mormonism，但还需要结合代码进一步分析。
+日志里提到了 muddiness，但还需要结合代码进一步分析。,muddiness,/'mʌdinis/,沾满污泥,日志里提到了 muddiness，但还需要结合代码进一步分析。
+这套架构设计得很 nebulated，后续扩展会轻松很多。,nebulated,/'nebjjleitid/,朦胧的,这套架构设计得很 nebulated，后续扩展会轻松很多。
+排查线上故障时，我们首先检查 nephology 的配置是否正确。,nephology,/ne'fɒlәdʒi/,云学,排查线上故障时，我们首先检查 nephology 的配置是否正确。
+这次系统升级重点处理了 nephrosis 相关的问题，团队已经记录在案。,nephrosis,/ne'frәusis/,肾变病,这次系统升级重点处理了 nephrosis 相关的问题，团队已经记录在案。
+开发流程中如果忽略 neuroglia，后面很容易出现难以定位的问题。,neuroglia,/nju'rɔ^liә/,神经胶质,开发流程中如果忽略 neuroglia，后面很容易出现难以定位的问题。
+这次系统升级重点处理了 neuromata 相关的问题，团队已经记录在案。,neuromata,/njjә'rәjmәtә/,神经瘤,这次系统升级重点处理了 neuromata 相关的问题，团队已经记录在案。
+排查线上故障时，我们首先检查 neurotomy 的配置是否正确。,neurotomy,/nju'rɔtәmi/,神经切除,排查线上故障时，我们首先检查 neurotomy 的配置是否正确。
+选择工具时要优先考虑 nightlong 的方案，减少维护成本。,nightlong,/'naitlɒŋ/,通宵的,选择工具时要优先考虑 nightlong 的方案，减少维护成本。
+这套方案把 nomocracy 单独抽了出来，维护起来会更方便。,nomocracy,/nәu'mɔkrәsi/,依法成立的政,这套方案把 nomocracy 单独抽了出来，维护起来会更方便。
+新项目里会用到 nonperson，文档里已经给出了具体说明。,nonperson,/'nɔn'p\\\\:sәn/,被排除在考虑,新项目里会用到 nonperson，文档里已经给出了具体说明。
+测试环境里可以放心 obumbrate，正式环境必须提前审批。,obumbrate,/ɔ'bʌmbreit/,使变暗,测试环境里可以放心 obumbrate，正式环境必须提前审批。
+部署之前要确认 octachord 的状态，避免影响正常业务。,octachord,/'ɒktәkɒ:d/,八弦琴,部署之前要确认 octachord 的状态，避免影响正常业务。
+如果部署失败，可以重新 overcasts 一次，看看错误是否复现。,overcasts,/ˈəʊvəˌkæsts/,天阴的,如果部署失败，可以重新 overcasts 一次，看看错误是否复现。
+测试环境里可以放心 overcloud，正式环境必须提前审批。,overcloud,/.әuvә'klaud/,使阴暗,测试环境里可以放心 overcloud，正式环境必须提前审批。
+开发流程中如果忽略 pantology，后面很容易出现难以定位的问题。,pantology,/pæn'tɔlәdʒ i/,百科全论,开发流程中如果忽略 pantology，后面很容易出现难以定位的问题。
+部署之前要确认 phonemics 的状态，避免影响正常业务。,phonemics,/fәu'ni:miks/,音位学,部署之前要确认 phonemics 的状态，避免影响正常业务。
+监控面板显示系统整体比较 plexiform，暂时不用处理。,plexiform,/'pleksifɔ:m/,丛状的,监控面板显示系统整体比较 plexiform，暂时不用处理。
+当系统处于 polyphase 状态时，后台会触发对应的告警。,polyphase,/'pɒlifeiz/,多相的,当系统处于 polyphase 状态时，后台会触发对应的告警。
+部署之前要确认 profilist 的状态，避免影响正常业务。,profilist,/'prәjfilist/,侧面像画家,部署之前要确认 profilist 的状态，避免影响正常业务。
+开发流程中如果忽略 prompters，后面很容易出现难以定位的问题。,prompters,/'prɒm(p)tə/,敦促者,开发流程中如果忽略 prompters，后面很容易出现难以定位的问题。
+培训新同事时，我会专门讲一下 ritualism 的常见用法。,ritualism,/'rɪtʃʊəlɪzəm/,仪式主义,培训新同事时，我会专门讲一下 ritualism 的常见用法。
+排查线上故障时，我们首先检查 saturnism 的配置是否正确。,saturnism,/'sætә(:)nizәm/,铅中毒,排查线上故障时，我们首先检查 saturnism 的配置是否正确。
+部署之前要确认 shoehorns 的状态，避免影响正常业务。,shoehorns,/ˈʃu:hɔ:nz/,鞋拔,部署之前要确认 shoehorns 的状态，避免影响正常业务。
+新项目里会用到 shoetrees，文档里已经给出了具体说明。,shoetrees,/'ʃu:tri:/,鞋楦,新项目里会用到 shoetrees，文档里已经给出了具体说明。
+新项目里会用到 slipstick，文档里已经给出了具体说明。,slipstick,/'slipstik/,计算尺,新项目里会用到 slipstick，文档里已经给出了具体说明。
+开发流程中如果忽略 sunrising，后面很容易出现难以定位的问题。,sunrising,/'sʌnraɪz/,日出,开发流程中如果忽略 sunrising，后面很容易出现难以定位的问题。
+开发流程中如果忽略 telemeter，后面很容易出现难以定位的问题。,telemeter,/'telimi:tә/,测距仪,开发流程中如果忽略 telemeter，后面很容易出现难以定位的问题。
+这套方案把 telferage 单独抽了出来，维护起来会更方便。,telferage,/'telfәridʒ/,空中电动缆车,这套方案把 telferage 单独抽了出来，维护起来会更方便。
+这次系统升级重点处理了 tetragram 相关的问题，团队已经记录在案。,tetragram,/'tetrә^ræm/,四个字母组成,这次系统升级重点处理了 tetragram 相关的问题，团队已经记录在案。
+排查线上故障时，我们首先检查 theosophy 的配置是否正确。,theosophy,/θi'ɒsәfi/,神智学,排查线上故障时，我们首先检查 theosophy 的配置是否正确。
+培训新同事时，我会专门讲一下 totalizer 的常见用法。,totalizer,/'tәutәlaizә/,加法计算器,培训新同事时，我会专门讲一下 totalizer 的常见用法。
+新版本在性能上更加 treadless，用户反馈也明显变好了。,treadless,/'tredlis/,无花纹的,新版本在性能上更加 treadless，用户反馈也明显变好了。
+这次系统升级重点处理了 zebrawood 相关的问题，团队已经记录在案。,zebrawood,/'zi:brәwud/,条纹木材,这次系统升级重点处理了 zebrawood 相关的问题，团队已经记录在案。
+部署之前要确认 acrylamide 的状态，避免影响正常业务。,acrylamide,/ə'krɪləmaɪd/,丙烯酰胺,部署之前要确认 acrylamide 的状态，避免影响正常业务。
+选择工具时要优先考虑 air-to-air 的方案，减少维护成本。,air-to-air,/'eәtә'eә(r)/,空对空的,选择工具时要优先考虑 air-to-air 的方案，减少维护成本。
+这套方案把 airmanship 单独抽了出来，维护起来会更方便。,airmanship,/'eәmænʃip/,飞行技术,这套方案把 airmanship 单独抽了出来，维护起来会更方便。
+代码评审时要重点看实现是否 anamnestic，不能只看功能。,anamnestic,/.ænæm'ni:stik/,记忆的,代码评审时要重点看实现是否 anamnestic，不能只看功能。
+这套方案把 anastigmat 单独抽了出来，维护起来会更方便。,anastigmat,/ә'næstigmæt/,消像散透镜,这套方案把 anastigmat 单独抽了出来，维护起来会更方便。
+这套方案把 astriction 单独抽了出来，维护起来会更方便。,astriction,/ә'strikʃәn/,包扎,这套方案把 astriction 单独抽了出来，维护起来会更方便。
+排查线上故障时，我们首先检查 autarchies 的配置是否正确。,autarchies,/ˈɔ:tɑ:kiz/,独裁,排查线上故障时，我们首先检查 autarchies 的配置是否正确。
+这个模块的表现还不够 Berkeleian，需要继续调整和测试。,Berkeleian,/bɑ: 'kli:әn/,贝克莱的,这个模块的表现还不够 Berkeleian，需要继续调整和测试。
+接口返回的数据结构不够 bimetallic，前端处理起来很麻烦。,bimetallic,/.baimә'tælik/,双金属的,接口返回的数据结构不够 bimetallic，前端处理起来很麻烦。
+排查线上故障时，我们首先检查 Brahmanism 的配置是否正确。,Brahmanism,/'brɑ:mәnizm/,婆罗门教,排查线上故障时，我们首先检查 Brahmanism 的配置是否正确。
+这次系统升级重点处理了 Brahminism 相关的问题，团队已经记录在案。,Brahminism,/'brɑ:minizәm/,婆罗门教,这次系统升级重点处理了 Brahminism 相关的问题，团队已经记录在案。
+这次系统升级重点处理了 charactery 相关的问题，团队已经记录在案。,charactery,/'kærәktәri/,字符,这次系统升级重点处理了 charactery 相关的问题，团队已经记录在案。
+排查线上故障时，我们首先检查 cholagogue 的配置是否正确。,cholagogue,/'kәulә^ɔ^/,利胆剂,排查线上故障时，我们首先检查 cholagogue 的配置是否正确。
+这次系统升级重点处理了 coadjutant 相关的问题，团队已经记录在案。,coadjutant,/kәu'ædʒutәnt/,协助者,这次系统升级重点处理了 coadjutant 相关的问题，团队已经记录在案。
+日志里提到了 colourcast，但还需要结合代码进一步分析。,colourcast,/ˊkʌlәkaːst/,彩色电视,日志里提到了 colourcast，但还需要结合代码进一步分析。
+部署之前要确认 contexture 的状态，避免影响正常业务。,contexture,/kәn'tekstʃә/,组织,部署之前要确认 contexture 的状态，避免影响正常业务。
+培训新同事时，我会专门讲一下 copyholder 的常见用法。,copyholder,/'kɒpihәuldә/,校对助手,培训新同事时，我会专门讲一下 copyholder 的常见用法。
+选择工具时要优先考虑 cumuliform 的方案，减少维护成本。,cumuliform,/'kju:mjuli/,积云状的,选择工具时要优先考虑 cumuliform 的方案，减少维护成本。
+开发流程中如果忽略 decagramme，后面很容易出现难以定位的问题。,decagramme,/'dekә^ræm/,十克,开发流程中如果忽略 decagramme，后面很容易出现难以定位的问题。
+我发现程序卡住以后，手动 decimalise 就能恢复正常。,decimalise,/'desimәlaiz/,使成为十进制,我发现程序卡住以后，手动 decimalise 就能恢复正常。
+这套方案把 decimalism 单独抽了出来，维护起来会更方便。,decimalism,/'desimәlizəm/,十进法,这套方案把 decimalism 单独抽了出来，维护起来会更方便。
+新人先学会怎么 decimalize，再参与线上问题的处理。,decimalize,/'desimәlaiz/,使改为十进制,新人先学会怎么 decimalize，再参与线上问题的处理。
+这次系统升级重点处理了 delineator 相关的问题，团队已经记录在案。,delineator,/di'linieitә/,描写的人,这次系统升级重点处理了 delineator 相关的问题，团队已经记录在案。
+开发流程中如果忽略 discutient，后面很容易出现难以定位的问题。,discutient,/dis'ku:ʃәnt/,消散药,开发流程中如果忽略 discutient，后面很容易出现难以定位的问题。
+培训新同事时，我会专门讲一下 encephalon 的常见用法。,encephalon,/en'sefәlɒn/,脑髓,培训新同事时，我会专门讲一下 encephalon 的常见用法。
+选择工具时要优先考虑 epispastic 的方案，减少维护成本。,epispastic,/.epi'spæstik/,发疱的,选择工具时要优先考虑 epispastic 的方案，减少维护成本。
+部署之前要确认 equalizers 的状态，避免影响正常业务。,equalizers,/'i:kwəlaɪzəz/,追平比分的得,部署之前要确认 equalizers 的状态，避免影响正常业务。
+这套方案把 eudemonism 单独抽了出来，维护起来会更方便。,eudemonism,/ju:'di:mәnizəm/,幸福说,这套方案把 eudemonism 单独抽了出来，维护起来会更方便。
+部署之前要确认 Fourierism 的状态，避免影响正常业务。,Fourierism,/'furiәrizәm/,傅立叶主义,部署之前要确认 Fourierism 的状态，避免影响正常业务。
+当系统处于 freehanded 状态时，后台会触发对应的告警。,freehanded,/'fri:hændid/,不拘束的,当系统处于 freehanded 状态时，后台会触发对应的告警。
+监控面板显示系统整体比较 gangliated，暂时不用处理。,gangliated,/'^æŋ^li/,有神经节的,监控面板显示系统整体比较 gangliated，暂时不用处理。
+日志里提到了 gearshifts，但还需要结合代码进一步分析。,gearshifts,/ˈgɪəˌʃɪfts/,变速排档,日志里提到了 gearshifts，但还需要结合代码进一步分析。
+监控面板显示系统整体比较 geodetical，暂时不用处理。,geodetical,/dʒi':əʊdtɪkəl/,大地测量学的,监控面板显示系统整体比较 geodetical，暂时不用处理。
+这套方案把 globalizes 单独抽了出来，维护起来会更方便。,globalizes,/ˈɡləubəlaiziz/,全球化,这套方案把 globalizes 单独抽了出来，维护起来会更方便。
+日志里提到了 heptachord，但还需要结合代码进一步分析。,heptachord,/'heptәkɒ:d/,七弦琴,日志里提到了 heptachord，但还需要结合代码进一步分析。
+当系统处于 hermetical 状态时，后台会触发对应的告警。,hermetical,/hә:'metikәl/,奥妙的,当系统处于 hermetical 状态时，后台会触发对应的告警。
+这次系统升级重点处理了 hop-picker 相关的问题，团队已经记录在案。,hop-picker,/'hɒpp'ɪkər/,啤酒花采摘工,这次系统升级重点处理了 hop-picker 相关的问题，团队已经记录在案。
+这套方案把 hydrotrope 单独抽了出来，维护起来会更方便。,hydrotrope,/'haidrә/,助水溶物,这套方案把 hydrotrope 单独抽了出来，维护起来会更方便。
+新项目里会用到 hypophysis，文档里已经给出了具体说明。,hypophysis,/hai'pɒfisis/,脑下垂体,新项目里会用到 hypophysis，文档里已经给出了具体说明。
+新版本在性能上更加 inviolated，用户反馈也明显变好了。,inviolated,/in'vaiələt/,不受侵犯的,新版本在性能上更加 inviolated，用户反馈也明显变好了。
+新版本在性能上更加 judicatory，用户反馈也明显变好了。,judicatory,/'dʒu:dikәtәri/,判决的,新版本在性能上更加 judicatory，用户反馈也明显变好了。
+开发流程中如果忽略 kicksorter，后面很容易出现难以定位的问题。,kicksorter,/'kik/,脉冲振幅分析,开发流程中如果忽略 kicksorter，后面很容易出现难以定位的问题。
+排查线上故障时，我们首先检查 lockstitch 的配置是否正确。,lockstitch,/'lɒkstitʃ/,双线连锁缝法,排查线上故障时，我们首先检查 lockstitch 的配置是否正确。
+代码评审时要重点看实现是否 long-dated，不能只看功能。,long-dated,/'lɔŋ/,远期的,代码评审时要重点看实现是否 long-dated，不能只看功能。
+部署之前要确认 lustration 的状态，避免影响正常业务。,lustration,/lʌs'treiʃәn/,清净,部署之前要确认 lustration 的状态，避免影响正常业务。
+日志里提到了 lymphokine，但还需要结合代码进一步分析。,lymphokine,/'limfәjkain/,淋巴因子,日志里提到了 lymphokine，但还需要结合代码进一步分析。
+新项目里会用到 malacoderm，文档里已经给出了具体说明。,malacoderm,/'mælәkәdәm/,软皮动物,新项目里会用到 malacoderm，文档里已经给出了具体说明。
+这次系统升级重点处理了 Manicheism 相关的问题，团队已经记录在案。,Manicheism,/'mæniki:izәm/,摩尼教,这次系统升级重点处理了 Manicheism 相关的问题，团队已经记录在案。
+日志里提到了 masticator，但还需要结合代码进一步分析。,masticator,/'mæstikeitә/,咀嚼物,日志里提到了 masticator，但还需要结合代码进一步分析。
+日志里提到了 Methedrine，但还需要结合代码进一步分析。,Methedrine,/'meθidri:n/,梅太德林,日志里提到了 Methedrine，但还需要结合代码进一步分析。
+这套架构设计得很 mnemonical，后续扩展会轻松很多。,mnemonical,/ni:'mɔnikәl/,帮助记忆的,这套架构设计得很 mnemonical，后续扩展会轻松很多。
+日志里提到了 monarchism，但还需要结合代码进一步分析。,monarchism,/'mɒnәkizm/,君主主义,日志里提到了 monarchism，但还需要结合代码进一步分析。
+这套架构设计得很 multiphase，后续扩展会轻松很多。,multiphase,/'mʌltifeiz/,多方面的,这套架构设计得很 multiphase，后续扩展会轻松很多。
+部署之前要确认 nephoscope 的状态，避免影响正常业务。,nephoscope,/'nefәskәup/,云观测器,部署之前要确认 nephoscope 的状态，避免影响正常业务。
+这套方案把 nipplewort 单独抽了出来，维护起来会更方便。,nipplewort,/nɪpl'wɜ:t/,稻槎菜,这套方案把 nipplewort 单独抽了出来，维护起来会更方便。
+遇到这个报错时，我们先 obnubilate 一下，再继续排查系统问题。,obnubilate,/əb'nʌbɪleɪt/,以云遮暗,遇到这个报错时，我们先 obnubilate 一下，再继续排查系统问题。
+培训新同事时，我会专门讲一下 obstructor 的常见用法。,obstructor,/әb'strʌktә/,妨害者,培训新同事时，我会专门讲一下 obstructor 的常见用法。
+开发流程中如果忽略 ochlocracy，后面很容易出现难以定位的问题。,ochlocracy,/ɒk'lɒkrәsi/,暴民政治,开发流程中如果忽略 ochlocracy，后面很容易出现难以定位的问题。
+接口返回的数据结构不够 one-on-one，前端处理起来很麻烦。,one-on-one,/wʌn ɔn wʌn/,面对面的,接口返回的数据结构不够 one-on-one，前端处理起来很麻烦。
+培训新同事时，我会专门讲一下 pantograph 的常见用法。,pantograph,/'pæntә^rɑ:f/,比例画图仪器,培训新同事时，我会专门讲一下 pantograph 的常见用法。
+部署之前要确认 parapraxis 的状态，避免影响正常业务。,parapraxis,/.pærә'præksis/,动作倒错,部署之前要确认 parapraxis 的状态，避免影响正常业务。
+培训新同事时，我会专门讲一下 pedagogism 的常见用法。,pedagogism,/'pedә/,卖弄学问,培训新同事时，我会专门讲一下 pedagogism 的常见用法。
+新项目里会用到 pentachord，文档里已经给出了具体说明。,pentachord,/'pentәkɒ:d/,五弦琴,新项目里会用到 pentachord，文档里已经给出了具体说明。
+排查线上故障时，我们首先检查 physiocrat 的配置是否正确。,physiocrat,/'fiziәkræt/,重农主义者,排查线上故障时，我们首先检查 physiocrat 的配置是否正确。
+当系统处于 presentive 状态时，后台会触发对应的告警。,presentive,/pri'zentiv/,直接表达概念,当系统处于 presentive 状态时，后台会触发对应的告警。
+新项目里会用到 pulsometer，文档里已经给出了具体说明。,pulsometer,/pʌl'sɒmitә/,蒸汽抽水机,新项目里会用到 pulsometer，文档里已经给出了具体说明。
+监控面板显示系统整体比较 reticulate，暂时不用处理。,reticulate,/ri'tikjulit/,网状的,监控面板显示系统整体比较 reticulate，暂时不用处理。
+代码评审时要重点看实现是否 reticulose，不能只看功能。,reticulose,/ri'tikjulәus/,网状的,代码评审时要重点看实现是否 reticulose，不能只看功能。
+部署之前要确认 schematism 的状态，避免影响正常业务。,schematism,/'ski:mәtizm/,系统性组合,部署之前要确认 schematism 的状态，避免影响正常业务。
+培训新同事时，我会专门讲一下 sclerotium 的常见用法。,sclerotium,/skli'rәuʃiәm/,菌核,培训新同事时，我会专门讲一下 sclerotium 的常见用法。
+这个模块的表现还不够 space-time，需要继续调整和测试。,space-time,/'speis'taim/,时空,这个模块的表现还不够 space-time，需要继续调整和测试。
+部署之前要确认 stenograph 的状态，避免影响正常业务。,stenograph,/'stenәgrɑ:f/,速记文字,部署之前要确认 stenograph 的状态，避免影响正常业务。
+新项目里会用到 stigmatism，文档里已经给出了具体说明。,stigmatism,/'sti^mәtizm/,有小斑,新项目里会用到 stigmatism，文档里已经给出了具体说明。
+部署之前要确认 subtracter 的状态，避免影响正常业务。,subtracter,/sәb'træktә/,减去者,部署之前要确认 subtracter 的状态，避免影响正常业务。
+新项目里会用到 suppresser，文档里已经给出了具体说明。,suppresser,/sә'presә(r)/,镇压者,新项目里会用到 suppresser，文档里已经给出了具体说明。
+排查线上故障时，我们首先检查 syndactyly 的配置是否正确。,syndactyly,/sin'dæktili/,并指,排查线上故障时，我们首先检查 syndactyly 的配置是否正确。
+监控面板显示系统整体比较 systemless，暂时不用处理。,systemless,/'sistәmlis/,无系统的,监控面板显示系统整体比较 systemless，暂时不用处理。
+部署之前要确认 telpherage 的状态，避免影响正常业务。,telpherage,/'telfәridʒ/,架空电缆运输,部署之前要确认 telpherage 的状态，避免影响正常业务。
+这个模块的表现还不够 unpatented，需要继续调整和测试。,unpatented,/'ʌn'peitәntid/,未获专利权的,这个模块的表现还不够 unpatented，需要继续调整和测试。
+这个模块的表现还不够 urogenital，需要继续调整和测试。,urogenital,/.juәrәu'dʒenitl/,泌尿生殖器的,这个模块的表现还不够 urogenital，需要继续调整和测试。
+选择工具时要优先考虑 virtueless 的方案，减少维护成本。,virtueless,/'v\\\\:tju:lis/,没有道德的,选择工具时要优先考虑 virtueless 的方案，减少维护成本。
+新版本在性能上更加 year-round，用户反馈也明显变好了。,year-round,/'j\\\\:'rajnd/,一年到头的,新版本在性能上更加 year-round，用户反馈也明显变好了。
+排查线上故障时，我们首先检查 alligatored 的配置是否正确。,alligatored,/'ælɪgeɪtə/,短吻鳄,排查线上故障时，我们首先检查 alligatored 的配置是否正确。
+部署之前要确认 altocumulus 的状态，避免影响正常业务。,altocumulus,/.æltәu'kju:mjulәs/,高积云,部署之前要确认 altocumulus 的状态，避免影响正常业务。
+部署之前要确认 altostratus 的状态，避免影响正常业务。,altostratus,/.æltәu'streitәs/,高层云,部署之前要确认 altostratus 的状态，避免影响正常业务。
+这次系统升级重点处理了 anchor-hold 相关的问题，团队已经记录在案。,anchor-hold,/'æŋkәhәjld/,锚抓地,这次系统升级重点处理了 anchor-hold 相关的问题，团队已经记录在案。
+这套架构设计得很 antalkaline，后续扩展会轻松很多。,antalkaline,/ænt'ælkәlain/,解碱的,这套架构设计得很 antalkaline，后续扩展会轻松很多。
+培训新同事时，我会专门讲一下 asphyxiator 的常见用法。,asphyxiator,/æs'fiksieitә/,窒息剂,培训新同事时，我会专门讲一下 asphyxiator 的常见用法。
+这套方案把 avant-garde 单独抽了出来，维护起来会更方便。,avant-garde,/.ævɔŋ'ɡɑ:d/,先锋派,这套方案把 avant-garde 单独抽了出来，维护起来会更方便。
+培训新同事时，我会专门讲一下 avoirdupois 的常见用法。,avoirdupois,/.ævәdә'pɒiz/,常衡,培训新同事时，我会专门讲一下 avoirdupois 的常见用法。
+开发流程中如果忽略 chromatrope，后面很容易出现难以定位的问题。,chromatrope,/'krәumәtrәup/,双层旋转彩色,开发流程中如果忽略 chromatrope，后面很容易出现难以定位的问题。
+为了提升稳定性，服务会定期 confabulate 并清理过期数据。,confabulate,/kәn'fæbjuleit/,交谈,为了提升稳定性，服务会定期 confabulate 并清理过期数据。
+这次系统升级重点处理了 countermark 相关的问题，团队已经记录在案。,countermark,/'kauntәmɑ:k/,戳记,这次系统升级重点处理了 countermark 相关的问题，团队已经记录在案。
+部署之前要确认 crackleware 的状态，避免影响正常业务。,crackleware,/'kræklwєә/,有裂纹花饰的,部署之前要确认 crackleware 的状态，避免影响正常业务。
+这套方案把 cybernation 单独抽了出来，维护起来会更方便。,cybernation,/.saibә'neiʃәn/,自动控制,这套方案把 cybernation 单独抽了出来，维护起来会更方便。
+这个模块的表现还不够 desiccative，需要继续调整和测试。,desiccative,/de'sikәtiv/,使干燥的,这个模块的表现还不够 desiccative，需要继续调整和测试。
+这套方案把 doorknocker 单独抽了出来，维护起来会更方便。,doorknocker,/'dɔ:/,挨家挨户募捐,这套方案把 doorknocker 单独抽了出来，维护起来会更方便。
+开发流程中如果忽略 enfeoffment，后面很容易出现难以定位的问题。,enfeoffment,/in'fefmәnt/,领地授与,开发流程中如果忽略 enfeoffment，后面很容易出现难以定位的问题。
+新项目里会用到 eudaemonism，文档里已经给出了具体说明。,eudaemonism,/ju:'di:mәnizəm/,幸福说,新项目里会用到 eudaemonism，文档里已经给出了具体说明。
+日志里提到了 fluoroscope，但还需要结合代码进一步分析。,fluoroscope,/'fluәrәskәup/,荧光镜,日志里提到了 fluoroscope，但还需要结合代码进一步分析。
+日志里提到了 fomentation，但还需要结合代码进一步分析。,fomentation,/.fәumen'teiʃәn/,热敷,日志里提到了 fomentation，但还需要结合代码进一步分析。
+新项目里会用到 gynecocracy，文档里已经给出了具体说明。,gynecocracy,/.gaini'kɒkrәsi/,妇女当政,新项目里会用到 gynecocracy，文档里已经给出了具体说明。
+开发流程中如果忽略 hardwareman，后面很容易出现难以定位的问题。,hardwareman,/'hɑ:d/,五金工人,开发流程中如果忽略 hardwareman，后面很容易出现难以定位的问题。
+日志里提到了 hardwaremen，但还需要结合代码进一步分析。,hardwaremen,/'hɑ:d/,五金商人,日志里提到了 hardwaremen，但还需要结合代码进一步分析。
+监控面板显示系统整体比较 intemerated，暂时不用处理。,intemerated,/in'temərit/,未经侵犯的,监控面板显示系统整体比较 intemerated，暂时不用处理。
+监控面板显示系统整体比较 irretentive，暂时不用处理。,irretentive,/.iri'tentiv/,不能保持的,监控面板显示系统整体比较 irretentive，暂时不用处理。
+新项目里会用到 kinetoscope，文档里已经给出了具体说明。,kinetoscope,/kai'ni:tәskәup/,活动电影放映,新项目里会用到 kinetoscope，文档里已经给出了具体说明。
+当系统处于 low-tension 状态时，后台会触发对应的告警。,low-tension,/'lәj'tenʃәn/,低压的,当系统处于 low-tension 状态时，后台会触发对应的告警。
+这套架构设计得很 machinelike，后续扩展会轻松很多。,machinelike,/mә'ʃi:nlaik/,机器般的,这套架构设计得很 machinelike，后续扩展会轻松很多。
+这套方案把 mechanician 单独抽了出来，维护起来会更方便。,mechanician,/.mekә'niʃәn/,机械技师,这套方案把 mechanician 单独抽了出来，维护起来会更方便。
+部署之前要确认 meningocele 的状态，避免影响正常业务。,meningocele,/mә'niŋ^әsi:l/,膜突出,部署之前要确认 meningocele 的状态，避免影响正常业务。
+培训新同事时，我会专门讲一下 milligramme 的常见用法。,milligramme,/'miligræm/,毫克,培训新同事时，我会专门讲一下 milligramme 的常见用法。
+排查线上故障时，我们首先检查 moravianism 的配置是否正确。,moravianism,/mə'reiviənizəm/,莫拉维亚教会,排查线上故障时，我们首先检查 moravianism 的配置是否正确。
+这次系统升级重点处理了 officialism 相关的问题，团队已经记录在案。,officialism,/ә'fiʃәlizm/,机关制度,这次系统升级重点处理了 officialism 相关的问题，团队已经记录在案。
+日志里提到了 phonography，但还需要结合代码进一步分析。,phonography,/fәu'nɒgrәfi/,表音法,日志里提到了 phonography，但还需要结合代码进一步分析。
+排查线上故障时，我们首先检查 photostated 的配置是否正确。,photostated,/'fəutəstæt/,直接复印机,排查线上故障时，我们首先检查 photostated 的配置是否正确。
+日志里提到了 phytography，但还需要结合代码进一步分析。,phytography,/fai'tɔ^rәfi/,记述植物学,日志里提到了 phytography，但还需要结合代码进一步分析。
+这套方案把 polarimeter 单独抽了出来，维护起来会更方便。,polarimeter,/.pәulә'rimitә/,偏振计,这套方案把 polarimeter 单独抽了出来，维护起来会更方便。
+排查线上故障时，我们首先检查 polariscope 的配置是否正确。,polariscope,/pәu'læriskәup/,偏光仪,排查线上故障时，我们首先检查 polariscope 的配置是否正确。
+排查线上故障时，我们首先检查 probabilism 的配置是否正确。,probabilism,/'prɒbәbilizm/,盖然论,排查线上故障时，我们首先检查 probabilism 的配置是否正确。
+日志里提到了 quadraphony，但还需要结合代码进一步分析。,quadraphony,/kwɔ'dræfәni/,四声道立体声,日志里提到了 quadraphony，但还需要结合代码进一步分析。
+部署之前要确认 quislingism 的状态，避免影响正常业务。,quislingism,/'kwizliŋiz(ә)m/,卖国,部署之前要确认 quislingism 的状态，避免影响正常业务。
+这套方案把 regenerator 单独抽了出来，维护起来会更方便。,regenerator,/ri'dʒenәreitә/,更生者,这套方案把 regenerator 单独抽了出来，维护起来会更方便。
+这套架构设计得很 rubefacient，后续扩展会轻松很多。,rubefacient,/.ru:bi'feiʃәnt/,使发红的,这套架构设计得很 rubefacient，后续扩展会轻松很多。
+日志里提到了 self-feeder，但还需要结合代码进一步分析。,self-feeder,/'self'fi:dә/,自动给料器,日志里提到了 self-feeder，但还需要结合代码进一步分析。
+日志里提到了 shinplaster，但还需要结合代码进一步分析。,shinplaster,/'ʃinplæstә/,敷贴胫上的膏,日志里提到了 shinplaster，但还需要结合代码进一步分析。
+部署之前要确认 spectrology 的状态，避免影响正常业务。,spectrology,/spek'trɒlәdʒi/,光谱分析,部署之前要确认 spectrology 的状态，避免影响正常业务。
+部署之前要确认 sphygmogram 的状态，避免影响正常业务。,sphygmogram,/'sfi^mә/,脉搏描记,部署之前要确认 sphygmogram 的状态，避免影响正常业务。
+排查线上故障时，我们首先检查 stand-alone 的配置是否正确。,stand-alone,/'stændә/,独立,排查线上故障时，我们首先检查 stand-alone 的配置是否正确。
+新项目里会用到 stereometry，文档里已经给出了具体说明。,stereometry,/.stiәri'ɒmitri/,体积测定,新项目里会用到 stereometry，文档里已经给出了具体说明。
+这套方案把 synchromesh 单独抽了出来，维护起来会更方便。,synchromesh,/'siŋkrәmeʃ/,同步啮合,这套方案把 synchromesh 单独抽了出来，维护起来会更方便。
+排查线上故障时，我们首先检查 systematism 的配置是否正确。,systematism,/'sistimәtizm/,制度化,排查线上故障时，我们首先检查 systematism 的配置是否正确。
+日志里提到了 thaumaturgy，但还需要结合代码进一步分析。,thaumaturgy,/'θɔ:mәtә:dʒi/,奇术,日志里提到了 thaumaturgy，但还需要结合代码进一步分析。
+排查线上故障时，我们首先检查 thermionics 的配置是否正确。,thermionics,/.θә:mi'ɒniks/,热离子学,排查线上故障时，我们首先检查 thermionics 的配置是否正确。
+新项目里会用到 totalisator，文档里已经给出了具体说明。,totalisator,/'tәutәlaizeitә/,总额计算器,新项目里会用到 totalisator，文档里已经给出了具体说明。
+接口返回的数据结构不够 totipalmate，前端处理起来很麻烦。,totipalmate,/tәuti'pælmeit/,全蹼的,接口返回的数据结构不够 totipalmate，前端处理起来很麻烦。
+开发流程中如果忽略 trochometer，后面很容易出现难以定位的问题。,trochometer,/trәu'kɒmitә/,里程计,开发流程中如果忽略 trochometer，后面很容易出现难以定位的问题。
+这套架构设计得很 unretentive，后续扩展会轻松很多。,unretentive,/'ʌnri'tentiv/,无保持,这套架构设计得很 unretentive，后续扩展会轻松很多。
+排查线上故障时，我们首先检查 aeroembolism 的配置是否正确。,aeroembolism,/.єәrәu'embәlizm/,气泡栓塞症,排查线上故障时，我们首先检查 aeroembolism 的配置是否正确。
+排查线上故障时，我们首先检查 amygdalotomy 的配置是否正确。,amygdalotomy,/ә/,扁桃体部分切,排查线上故障时，我们首先检查 amygdalotomy 的配置是否正确。
+新版本在性能上更加 analphabetic，用户反馈也明显变好了。,analphabetic,/.ænælfә'betik/,文盲的,新版本在性能上更加 analphabetic，用户反馈也明显变好了。
+这套架构设计得很 anastigmatic，后续扩展会轻松很多。,anastigmatic,/ә.næstig'mætik/,消像散的,这套架构设计得很 anastigmatic，后续扩展会轻松很多。
+新项目里会用到 ballottement，文档里已经给出了具体说明。,ballottement,/bә'lɒtmәnt/,冲击触诊法,新项目里会用到 ballottement，文档里已经给出了具体说明。
+新项目里会用到 cirrocumulus，文档里已经给出了具体说明。,cirrocumulus,/.sirәu'kju:mjulәs/,卷积云,新项目里会用到 cirrocumulus，文档里已经给出了具体说明。
+新项目里会用到 cirrostratus，文档里已经给出了具体说明。,cirrostratus,/sirәu'strɑ:tәs/,卷层云,新项目里会用到 cirrostratus，文档里已经给出了具体说明。
+排查线上故障时，我们首先检查 coenesthesis 的配置是否正确。,coenesthesis,/kəʊɪ'nesθesɪs/,普通感觉,排查线上故障时，我们首先检查 coenesthesis 的配置是否正确。
+日志里提到了 corespondent，但还需要结合代码进一步分析。,corespondent,/.kәuri'spɒndәnt/,共同被告,日志里提到了 corespondent，但还需要结合代码进一步分析。
+排查线上故障时，我们首先检查 countershaft 的配置是否正确。,countershaft,/'kauntәʃæft/,对轴,排查线上故障时，我们首先检查 countershaft 的配置是否正确。
+日志里提到了 cumulonimbus，但还需要结合代码进一步分析。,cumulonimbus,/.kju:mjulә'nimbәs/,积雨云,日志里提到了 cumulonimbus，但还需要结合代码进一步分析。
+开发流程中如果忽略 decipherment，后面很容易出现难以定位的问题。,decipherment,/di'saifәmәnt/,译解,开发流程中如果忽略 decipherment，后面很容易出现难以定位的问题。
+这套方案把 decorticator 单独抽了出来，维护起来会更方便。,decorticator,/di'kɔ:tikeitә/,剥皮器,这套方案把 decorticator 单独抽了出来，维护起来会更方便。
+部署之前要确认 demodulation 的状态，避免影响正常业务。,demodulation,/di:'mɒdju'leiʃәn/,解调,部署之前要确认 demodulation 的状态，避免影响正常业务。
+这套方案把 dispensatory 单独抽了出来，维护起来会更方便。,dispensatory,/dis'pensәtәri/,药房,这套方案把 dispensatory 单独抽了出来，维护起来会更方便。
+开发流程中如果忽略 electrograph，后面很容易出现难以定位的问题。,electrograph,/i'lektrәgræf/,电位记录器,开发流程中如果忽略 electrograph，后面很容易出现难以定位的问题。
+日志里提到了 electromotor，但还需要结合代码进一步分析。,electromotor,/i.lektrә'mәutә/,发电机,日志里提到了 electromotor，但还需要结合代码进一步分析。
+开发流程中如果忽略 etherization，后面很容易出现难以定位的问题。,etherization,/.i:θәrai'zeiʃәn/,醚麻醉,开发流程中如果忽略 etherization，后面很容易出现难以定位的问题。
+日志里提到了 flocculation，但还需要结合代码进一步分析。,flocculation,/flɔkju'leiʃən/,絮凝,日志里提到了 flocculation，但还需要结合代码进一步分析。
+这套方案把 four-o'clock 单独抽了出来，维护起来会更方便。,four-o'clock,/'fɔ:rә/,紫茉莉,这套方案把 four-o'clock 单独抽了出来，维护起来会更方便。
+如果部署失败，可以重新 handstitched 一次，看看错误是否复现。,handstitched,/'hændstitʃ/,手工缝制,如果部署失败，可以重新 handstitched 一次，看看错误是否复现。
+选择工具时要优先考虑 high-voltage 的方案，减少维护成本。,high-voltage,/'hai'vəultidʒ/,高电压的,选择工具时要优先考虑 high-voltage 的方案，减少维护成本。
+培训新同事时，我会专门讲一下 hydrophobias 的常见用法。,hydrophobias,/haidrәˊfoubjәs/,不沾水性,培训新同事时，我会专门讲一下 hydrophobias 的常见用法。
+接口返回的数据结构不够 immethodical，前端处理起来很麻烦。,immethodical,/.imi'θɒdikәl/,无章法的,接口返回的数据结构不够 immethodical，前端处理起来很麻烦。
+接口返回的数据结构不够 infelicitous，前端处理起来很麻烦。,infelicitous,/.infi'lisitәs/,不幸的,接口返回的数据结构不够 infelicitous，前端处理起来很麻烦。
+开发流程中如果忽略 liquefacient，后面很容易出现难以定位的问题。,liquefacient,/.likwi'feiʃәnt/,液化剂,开发流程中如果忽略 liquefacient，后面很容易出现难以定位的问题。
+选择工具时要优先考虑 machine-made 的方案，减少维护成本。,machine-made,/mә'ʃi:nmeid/,机器制的,选择工具时要优先考虑 machine-made 的方案，减少维护成本。
+日志里提到了 multiversity，但还需要结合代码进一步分析。,multiversity,/.mʌlti'vә:sәti/,综合大学,日志里提到了 multiversity，但还需要结合代码进一步分析。
+部署之前要确认 nephelometer 的状态，避免影响正常业务。,nephelometer,/.nefi'lɒmitә/,能见度测定表,部署之前要确认 nephelometer 的状态，避免影响正常业务。
+开发流程中如果忽略 oscillograph，后面很容易出现难以定位的问题。,oscillograph,/ɒ'silәugrɑ:f/,示波器,开发流程中如果忽略 oscillograph，后面很容易出现难以定位的问题。
+开发流程中如果忽略 paperhanging，后面很容易出现难以定位的问题。,paperhanging,/'peipә.hæŋiŋ/,裱糊,开发流程中如果忽略 paperhanging，后面很容易出现难以定位的问题。
+开发流程中如果忽略 parkinsonism，后面很容易出现难以定位的问题。,parkinsonism,/'pɑ:kinsәnizm/,震颤,开发流程中如果忽略 parkinsonism，后面很容易出现难以定位的问题。
+日志里提到了 photostating，但还需要结合代码进一步分析。,photostating,/'fəutəstæt/,直接复印机,日志里提到了 photostating，但还需要结合代码进一步分析。
+日志里提到了 plutocracies，但还需要结合代码进一步分析。,plutocracies,/plu:ˈtɔkrəsi:z/,富豪统治,日志里提到了 plutocracies，但还需要结合代码进一步分析。
+排查线上故障时，我们首先检查 rangefinders 的配置是否正确。,rangefinders,/ˈreindʒˌfaindəz/,测距仪,排查线上故障时，我们首先检查 rangefinders 的配置是否正确。
+这次系统升级重点处理了 recognisance 相关的问题，团队已经记录在案。,recognisance,/rɪ'kɒgnɪzəns/,具结,这次系统升级重点处理了 recognisance 相关的问题，团队已经记录在案。
+这次系统升级重点处理了 reticulation 相关的问题，团队已经记录在案。,reticulation,/ri.tikju'leiʃәn/,网眼,这次系统升级重点处理了 reticulation 相关的问题，团队已经记录在案。
+部署之前要确认 reticulocyte 的状态，避免影响正常业务。,reticulocyte,/ri'tikjulәu/,网状细胞,部署之前要确认 reticulocyte 的状态，避免影响正常业务。
+当系统处于 self-sealing 状态时，后台会触发对应的告警。,self-sealing,/'self'si:liŋ/,自动密封的,当系统处于 self-sealing 状态时，后台会触发对应的告警。
+代码评审时要重点看实现是否 semipalmated，不能只看功能。,semipalmated,/semɪ'pælmɪtɪd/,具半蹼的,代码评审时要重点看实现是否 semipalmated，不能只看功能。
+排查线上故障时，我们首先检查 spongioblast 的配置是否正确。,spongioblast,/'spʌndʒiә/,成胶质细胞,排查线上故障时，我们首先检查 spongioblast 的配置是否正确。
+开发流程中如果忽略 steganopodes，后面很容易出现难以定位的问题。,steganopodes,/'steɡənə/,蹼足目,开发流程中如果忽略 steganopodes，后面很容易出现难以定位的问题。
+开发流程中如果忽略 subdirectory，后面很容易出现难以定位的问题。,subdirectory,/sʌb'direktәri/,子目录,开发流程中如果忽略 subdirectory，后面很容易出现难以定位的问题。
+当系统处于 supramundane 状态时，后台会触发对应的告警。,supramundane,/'sju:prә'mʌndein/,远离俗世的,当系统处于 supramundane 状态时，后台会触发对应的告警。
+当系统处于 synchroflash 状态时，后台会触发对应的告警。,synchroflash,/'siŋkrәflæʃ/,同步闪光的,当系统处于 synchroflash 状态时，后台会触发对应的告警。
+培训新同事时，我会专门讲一下 syndactylism 的常见用法。,syndactylism,/sin'dæktilizəm/,并指,培训新同事时，我会专门讲一下 syndactylism 的常见用法。
+新版本在性能上更加 syndactylous，用户反馈也明显变好了。,syndactylous,/sin'dæktilәs/,并指的,新版本在性能上更加 syndactylous，用户反馈也明显变好了。
+我发现程序卡住以后，手动 systematizes 就能恢复正常。,systematizes,/ˈsistimətaiziz/,使系统化,我发现程序卡住以后，手动 systematizes 就能恢复正常。
+新项目里会用到 therapeutist，文档里已经给出了具体说明。,therapeutist,/.θerә'pju:tist/,治疗专家,新项目里会用到 therapeutist，文档里已经给出了具体说明。
+开发流程中如果忽略 tracheophyte，后面很容易出现难以定位的问题。,tracheophyte,/'treikiәu/,导管植物,开发流程中如果忽略 tracheophyte，后面很容易出现难以定位的问题。
+监控面板显示系统整体比较 ultramundane，暂时不用处理。,ultramundane,/'ʌltrә'mʌndein/,世界之外的,监控面板显示系统整体比较 ultramundane，暂时不用处理。
+排查线上故障时，我们首先检查 voluntaryism 的配置是否正确。,voluntaryism,/'vɒlәntәriizm/,自愿捐助维持,排查线上故障时，我们首先检查 voluntaryism 的配置是否正确。
+监控面板显示系统整体比较 web-fingered，暂时不用处理。,web-fingered,/'web/,蹼指的,监控面板显示系统整体比较 web-fingered，暂时不用处理。
+培训新同事时，我会专门讲一下 year-rounder 的常见用法。,year-rounder,/'j\\\\:'rajndә(r)/,整年定居于一,培训新同事时，我会专门讲一下 year-rounder 的常见用法。
+代码评审时要重点看实现是否 air-to-ground，不能只看功能。,air-to-ground,/'eәtә'^rajnd/,空对地的,代码评审时要重点看实现是否 air-to-ground，不能只看功能。
+部署之前要确认 bacterioscopy 的状态，避免影响正常业务。,bacterioscopy,/bæk.tiәri'ɒskәpi/,细菌镜检,部署之前要确认 bacterioscopy 的状态，避免影响正常业务。
+这次系统升级重点处理了 Breathalyzers 相关的问题，团队已经记录在案。,Breathalyzers,/'breθəlaizə/,呼气测醉器,这次系统升级重点处理了 Breathalyzers 相关的问题，团队已经记录在案。
+日志里提到了 cirro-cumulus，但还需要结合代码进一步分析。,cirro-cumulus,/'sirәu'kju:mjulәs/,卷积云,日志里提到了 cirro-cumulus，但还需要结合代码进一步分析。
+当系统处于 coin-operated 状态时，后台会触发对应的告警。,coin-operated,/'kɔin/,投入硬币即发,当系统处于 coin-operated 状态时，后台会触发对应的告警。
+日志里提到了 cryptanalysis，但还需要结合代码进一步分析。,cryptanalysis,/.kriptә'nælәsis/,密码破译法,日志里提到了 cryptanalysis，但还需要结合代码进一步分析。
+开发流程中如果忽略 cumulostratus，后面很容易出现难以定位的问题。,cumulostratus,/'kju:mjulәu'streitәs/,层积云,开发流程中如果忽略 cumulostratus，后面很容易出现难以定位的问题。
+新项目里会用到 disintegrator，文档里已经给出了具体说明。,disintegrator,/dis'intigreitә/,分解者,新项目里会用到 disintegrator，文档里已经给出了具体说明。
+这个模块的表现还不够 double-acting，需要继续调整和测试。,double-acting,/'dʌbl'æktiŋ/,双动的,这个模块的表现还不够 double-acting，需要继续调整和测试。
+日志里提到了 hortus siccus，但还需要结合代码进一步分析。,hortus siccus,/'hɔ:tәs'sikәs/,压干植物标本,日志里提到了 hortus siccus，但还需要结合代码进一步分析。
+这套方案把 immaterialism 单独抽了出来，维护起来会更方便。,immaterialism,/.imә'tiәriәlizm/,非物质论,这套方案把 immaterialism 单独抽了出来，维护起来会更方便。
+日志里提到了 inapplication，但还需要结合代码进一步分析。,inapplication,/ɪnæplɪ'keɪʃn/,疏忽,日志里提到了 inapplication，但还需要结合代码进一步分析。
+部署之前要确认 laissez faire 的状态，避免影响正常业务。,laissez faire,/lei'sei'feәr/,放任,部署之前要确认 laissez faire 的状态，避免影响正常业务。
+排查线上故障时，我们首先检查 occasionalism 的配置是否正确。,occasionalism,/ә'keiʒәnәlizәm/,偶因论,排查线上故障时，我们首先检查 occasionalism 的配置是否正确。
+日志里提到了 prosthodontia，但还需要结合代码进一步分析。,prosthodontia,/.prɒsθә'dɒnʃiә/,假牙修复学,日志里提到了 prosthodontia，但还需要结合代码进一步分析。
+排查线上故障时，我们首先检查 refrigeratory 的配置是否正确。,refrigeratory,/ri'fridʒәreitәri/,制冰室,排查线上故障时，我们首先检查 refrigeratory 的配置是否正确。
+部署之前要确认 self-analysis 的状态，避免影响正常业务。,self-analysis,/'selfә'nælisis/,自我心理分析,部署之前要确认 self-analysis 的状态，避免影响正常业务。
+当系统处于 unconsecrated 状态时，后台会触发对应的告警。,unconsecrated,/ʌn'kɒnsɪkreɪtɪd/,不神圣的,当系统处于 unconsecrated 状态时，后台会触发对应的告警。
+部署之前要确认 xerophthalmia 的状态，避免影响正常业务。,xerophthalmia,/.ziәrɒf'θælmiә/,眼干燥,部署之前要确认 xerophthalmia 的状态，避免影响正常业务。
+接口返回的数据结构不够 air-to-surface，前端处理起来很麻烦。,air-to-surface,/'eәtә's\\\\:fis/,空对面的,接口返回的数据结构不够 air-to-surface，前端处理起来很麻烦。
+排查线上故障时，我们首先检查 alcoholization 的配置是否正确。,alcoholization,/'ælkә/,酒精饱和,排查线上故障时，我们首先检查 alcoholization 的配置是否正确。
+日志里提到了 autosuggestion，但还需要结合代码进一步分析。,autosuggestion,/.ɒ:tәusә'dʒestʃәn/,自我暗示,日志里提到了 autosuggestion，但还需要结合代码进一步分析。
+排查线上故障时，我们首先检查 decimalization 的配置是否正确。,decimalization,/.desimәlai'zeiʃәn/,采用十进制,排查线上故障时，我们首先检查 decimalization 的配置是否正确。
+日志里提到了 electrosurgery，但还需要结合代码进一步分析。,electrosurgery,/i/,电外科学,日志里提到了 electrosurgery，但还需要结合代码进一步分析。
+部署之前要确认 electrotherapy 的状态，避免影响正常业务。,electrotherapy,/i.lektrәu'θerәpi/,电疗法,部署之前要确认 electrotherapy 的状态，避免影响正常业务。
+日志里提到了 indifferentism，但还需要结合代码进一步分析。,indifferentism,/in'difәrәntizm/,冷淡主义,日志里提到了 indifferentism，但还需要结合代码进一步分析。
+开发流程中如果忽略 roentgenoscope，后面很容易出现难以定位的问题。,roentgenoscope,/'rɔnt^әnɔskәup/,荧光镜,开发流程中如果忽略 roentgenoscope，后面很容易出现难以定位的问题。
+这个模块的表现还不够 self-adjusting，需要继续调整和测试。,self-adjusting,/'selfә'dʒʌstiŋ/,自动调节的,这个模块的表现还不够 self-adjusting，需要继续调整和测试。
+开发流程中如果忽略 servomechanism，后面很容易出现难以定位的问题。,servomechanism,/.sә:vәu'mekәnizm/,伺服机构,开发流程中如果忽略 servomechanism，后面很容易出现难以定位的问题。
+代码评审时要重点看实现是否 surface-to-air，不能只看功能。,surface-to-air,/'s\\\\:fistә'eә(r)/,地对空的,代码评审时要重点看实现是否 surface-to-air，不能只看功能。
+部署之前要确认 trisoctahedron 的状态，避免影响正常业务。,trisoctahedron,/tris/,三八面体,部署之前要确认 trisoctahedron 的状态，避免影响正常业务。
+接口返回的数据结构不够 unappropriated，前端处理起来很麻烦。,unappropriated,/'ʌnә'prәuprieitid/,未被占用的,接口返回的数据结构不够 unappropriated，前端处理起来很麻烦。
+开发人员需要在提交代码前 machine-gunning，确保改动符合规范。,machine-gunning,/məˈʃi:n ˈɡʌniŋ/,用机关枪射击,开发人员需要在提交代码前 machine-gunning，确保改动符合规范。
+这套架构设计得很 neuroanatomical，后续扩展会轻松很多。,neuroanatomical,/'njjәrәj/,神经解剖学的,这套架构设计得很 neuroanatomical，后续扩展会轻松很多。
+排查线上故障时，我们首先检查 radiotelegraphy 的配置是否正确。,radiotelegraphy,/'reidiәutә'le^rәfi/,无线电报,排查线上故障时，我们首先检查 radiotelegraphy 的配置是否正确。
+培训新同事时，我会专门讲一下 self-suggestion 的常见用法。,self-suggestion,/'selfsә'dʒestʃәn/,自我暗示,培训新同事时，我会专门讲一下 self-suggestion 的常见用法。
+这次系统升级重点处理了 anaesthetization 相关的问题，团队已经记录在案。,anaesthetization,/æ/,麻醉,这次系统升级重点处理了 anaesthetization 相关的问题，团队已经记录在案。
+开发流程中如果忽略 collaborationism，后面很容易出现难以定位的问题。,collaborationism,/kә/,鼓吹与敌人合,开发流程中如果忽略 collaborationism，后面很容易出现难以定位的问题。
+开发流程中如果忽略 hydrometeorology，后面很容易出现难以定位的问题。,hydrometeorology,/-'rɔlәdʒi/,水文气象学,开发流程中如果忽略 hydrometeorology，后面很容易出现难以定位的问题。
+排查线上故障时，我们首先检查 congregationalism 的配置是否正确。,congregationalism,/kɔŋ^re'^eiʃәnәliz(ә)m/,教派自治主义,排查线上故障时，我们首先检查 congregationalism 的配置是否正确。
+日志里提到了 depersonalisation，但还需要结合代码进一步分析。,depersonalisation,/diːpәːsnәlaiˊzeiʃәn/,失性,日志里提到了 depersonalisation，但还需要结合代码进一步分析。
+选择工具时要优先考虑 hydrometeorological 的方案，减少维护成本。,hydrometeorological,/'haidrәj/,水文气象学的,选择工具时要优先考虑 hydrometeorological 的方案，减少维护成本。
+新项目里会用到 polytetrafluoroethylene，文档里已经给出了具体说明。,polytetrafluoroethylene,/'pɔli/,聚四氟乙烯,新项目里会用到 polytetrafluoroethylene，文档里已经给出了具体说明。
+部署之前要确认 command line 的状态，避免影响正常业务。,command line,/kəˈmænd laɪn/,命令行,部署之前要确认 command line 的状态，避免影响正常业务。
+开发流程中如果忽略 operating system，后面很容易出现难以定位的问题。,operating system,/ˈɑːpəreɪtɪŋ ˌsɪstəm/,操作系统,开发流程中如果忽略 operating system，后面很容易出现难以定位的问题。
+部署之前要确认 source code 的状态，避免影响正常业务。,source code,/sɔːrs koʊd/,源代码,部署之前要确认 source code 的状态，避免影响正常业务。
+新项目里会用到 machine learning，文档里已经给出了具体说明。,machine learning,/məˈʃiːn ˌlɝːnɪŋ/,机器学习,新项目里会用到 machine learning，文档里已经给出了具体说明。
+部署之前要确认 artificial intelligence 的状态，避免影响正常业务。,artificial intelligence,/ˌɑːrtɪˈfɪʃəl ɪnˈtelɪdʒəns/,人工智能,部署之前要确认 artificial intelligence 的状态，避免影响正常业务。
+排查线上故障时，我们首先检查 data structure 的配置是否正确。,data structure,/ˈdeɪtə ˌstrʌktʃər/,数据结构,排查线上故障时，我们首先检查 data structure 的配置是否正确。
+这套方案把 network security 单独抽了出来，维护起来会更方便。,network security,/ˈnetwɝːk sɪˈkjʊrəti/,网络安全,这套方案把 network security 单独抽了出来，维护起来会更方便。
+新项目里会用到 access control，文档里已经给出了具体说明。,access control,/ˈækses kənˈtroʊl/,访问控制,新项目里会用到 access control，文档里已经给出了具体说明。
+这套方案把 user interface 单独抽了出来，维护起来会更方便。,user interface,/ˈjuːzər ˈɪntərfeɪs/,用户界面,这套方案把 user interface 单独抽了出来，维护起来会更方便。
+培训新同事时，我会专门讲一下 computer network 的常见用法。,computer network,/kəmˈpjuːtər ˈnetwɝːk/,计算机网络,培训新同事时，我会专门讲一下 computer network 的常见用法。
+新项目里会用到 computer science，文档里已经给出了具体说明。,computer science,/kəmˈpjuːtər ˈsaɪəns/,计算机科学,新项目里会用到 computer science，文档里已经给出了具体说明。
+培训新同事时，我会专门讲一下 computer program 的常见用法。,computer program,/kəmˈpjuːtər ˈproʊɡræm/,计算机程序,培训新同事时，我会专门讲一下 computer program 的常见用法。
+排查线上故障时，我们首先检查 information technology 的配置是否正确。,information technology,/ˌɪnfərˈmeɪʃən tekˈnɑːlədʒi/,信息技术,排查线上故障时，我们首先检查 information technology 的配置是否正确。
+日志里提到了 cloud computing，但还需要结合代码进一步分析。,cloud computing,/klaʊd kəmˈpjuːtɪŋ/,云计算,日志里提到了 cloud computing，但还需要结合代码进一步分析。
+这次系统升级重点处理了 big data 相关的问题，团队已经记录在案。,big data,/bɪɡ ˈdeɪtə/,大数据,这次系统升级重点处理了 big data 相关的问题，团队已经记录在案。
+这套方案把 open source 单独抽了出来，维护起来会更方便。,open source,/ˈoʊpən sɔːrs/,开源,这套方案把 open source 单独抽了出来，维护起来会更方便。
+开发流程中如果忽略 pull request，后面很容易出现难以定位的问题。,pull request,/pʊl rɪˈkwest/,拉取请求,开发流程中如果忽略 pull request，后面很容易出现难以定位的问题。
+开发流程中如果忽略 version control，后面很容易出现难以定位的问题。,version control,/ˈvɝːʒən kənˈtroʊl/,版本控制,开发流程中如果忽略 version control，后面很容易出现难以定位的问题。
+日志里提到了 load balancer，但还需要结合代码进一步分析。,load balancer,/loʊd ˈbælənsər/,负载均衡器,日志里提到了 load balancer，但还需要结合代码进一步分析。
+日志里提到了 virtual machine，但还需要结合代码进一步分析。,virtual machine,/ˈvɝːtʃuəl məˈʃiːn/,虚拟机,日志里提到了 virtual machine，但还需要结合代码进一步分析。
+培训新同事时，我会专门讲一下 file system 的常见用法。,file system,/faɪl ˈsɪstəm/,文件系统,培训新同事时，我会专门讲一下 file system 的常见用法。
+开发流程中如果忽略 application programming interface，后面很容易出现难以定位的问题。,application programming interface,/ˌæplɪˈkeɪʃən ˈproʊɡræmɪŋ ˈɪntərfeɪs/,应用接口,开发流程中如果忽略 application programming interface，后面很容易出现难以定位的问题。
+这次系统升级重点处理了 random access memory 相关的问题，团队已经记录在案。,random access memory,/ˈrændəm ˈækses ˈmeməri/,随机存储器,这次系统升级重点处理了 random access memory 相关的问题，团队已经记录在案。
+这套方案把 read only memory 单独抽了出来，维护起来会更方便。,read only memory,/riːd ˈoʊnli ˈmeməri/,只读存储器,这套方案把 read only memory 单独抽了出来，维护起来会更方便。
+培训新同事时，我会专门讲一下 central processing unit 的常见用法。,central processing unit,/ˈsentrəl ˈprɑːsesɪŋ ˈjuːnɪt/,中央处理器,培训新同事时，我会专门讲一下 central processing unit 的常见用法。
+日志里提到了 graphical user interface，但还需要结合代码进一步分析。,graphical user interface,/ˈɡræfɪkəl ˈjuːzər ˈɪntərfeɪs/,图形界面,日志里提到了 graphical user interface，但还需要结合代码进一步分析。
+排查线上故障时，我们首先检查 local area network 的配置是否正确。,local area network,/ˈloʊkəl ˈeriə ˈnetwɝːk/,局域网,排查线上故障时，我们首先检查 local area network 的配置是否正确。
+日志里提到了 wide area network，但还需要结合代码进一步分析。,wide area network,/waɪd ˈeriə ˈnetwɝːk/,广域网,日志里提到了 wide area network，但还需要结合代码进一步分析。
+培训新同事时，我会专门讲一下 internet protocol 的常见用法。,internet protocol,/ˈɪntərnet ˈproʊtəkɔːl/,互联网协议,培训新同事时，我会专门讲一下 internet protocol 的常见用法。
+日志里提到了 domain name，但还需要结合代码进一步分析。,domain name,/doʊˈmeɪn neɪm/,域名,日志里提到了 domain name，但还需要结合代码进一步分析。
+开发流程中如果忽略 web server，后面很容易出现难以定位的问题。,web server,/web ˈsɝːvər/,网络服务器,开发流程中如果忽略 web server，后面很容易出现难以定位的问题。
+这套方案把 database server 单独抽了出来，维护起来会更方便。,database server,/ˈdeɪtəbeɪs ˈsɝːvər/,数据库服务器,这套方案把 database server 单独抽了出来，维护起来会更方便。
+部署之前要确认 storage device 的状态，避免影响正常业务。,storage device,/ˈstɔːrɪdʒ dɪˈvaɪs/,存储设备,部署之前要确认 storage device 的状态，避免影响正常业务。
+排查线上故障时，我们首先检查 input device 的配置是否正确。,input device,/ˈɪnpʊt dɪˈvaɪs/,输入设备,排查线上故障时，我们首先检查 input device 的配置是否正确。

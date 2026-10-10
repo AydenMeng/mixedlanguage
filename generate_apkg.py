@@ -24,7 +24,6 @@ DECKS_DIR = ROOT_DIR / "decks"
 OUTPUT_DIR = ROOT_DIR / "output"
 
 EXPECTED_HEADER = ["中文句", "英文词", "音标", "中文释义", "完整句"]
-EXPECTED_ROW_COUNT = 60
 
 # These IDs must stay fixed so Anki can update the same decks and notes.
 MODEL_ID = 1735689700
@@ -35,6 +34,7 @@ class DeckConfig:
     key: str
     deck_id: int
     deck_name: str
+    row_count: int
 
 
 DECK_CONFIGS: Tuple[DeckConfig, ...] = (
@@ -42,16 +42,19 @@ DECK_CONFIGS: Tuple[DeckConfig, ...] = (
         key="computer",
         deck_id=1735689601,
         deck_name="mixedlanguage::计算机领域用词",
+        row_count=1800,
     ),
     DeckConfig(
         key="life",
         deck_id=1735689602,
         deck_name="mixedlanguage::生活常用词",
+        row_count=3000,
     ),
     DeckConfig(
         key="travel",
         deck_id=1735689603,
         deck_name="mixedlanguage::旅游常用词",
+        row_count=1500,
     ),
 )
 
@@ -240,10 +243,10 @@ def read_deck_csv(config: DeckConfig) -> List[Dict[str, str]]:
         rows = list(reader)
 
     errors: List[str] = []
-    if len(rows) != EXPECTED_ROW_COUNT:
+    if len(rows) != config.row_count:
         errors.append(
             "{} 应有 {} 行词条，实际为 {} 行".format(
-                csv_path.name, EXPECTED_ROW_COUNT, len(rows)
+                csv_path.name, config.row_count, len(rows)
             )
         )
 
