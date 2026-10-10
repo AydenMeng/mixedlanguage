@@ -42,19 +42,19 @@ DECK_CONFIGS: Tuple[DeckConfig, ...] = (
         key="computer",
         deck_id=1735689601,
         deck_name="mixedlanguage::计算机领域用词",
-        row_count=392,
+        row_count=461,
     ),
     DeckConfig(
         key="life",
         deck_id=1735689602,
         deck_name="mixedlanguage::生活常用词",
-        row_count=187,
+        row_count=226,
     ),
     DeckConfig(
         key="travel",
         deck_id=1735689603,
         deck_name="mixedlanguage::旅游常用词",
-        row_count=100,
+        row_count=130,
     ),
 )
 

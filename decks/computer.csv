@@ -391,3 +391,72 @@ YouTube 提供大量公开视频，也支持创作者上传内容。,YouTube,/ˈ
 蓝绿部署 blue green deployment 会保留两套环境，方便快速切换版本。,blue green deployment,/bluː ɡriːn dɪˈplɔɪmənt/,蓝绿部署,蓝绿部署 blue green deployment 会保留两套环境，方便快速切换版本。
 金丝雀发布 canary release 会先让少部分用户试用新版本。,canary release,/kəˈneri rɪˈliːs/,金丝雀发布,金丝雀发布 canary release 会先让少部分用户试用新版本。
 密钥管理 secret management 可以安全保存数据库密码和访问密钥。,secret management,/ˈsiːkrət ˈmænɪdʒmənt/,密钥管理,密钥管理 secret management 可以安全保存数据库密码和访问密钥。
+active directory 可以集中管理公司内部用户和设备的权限。,active directory,/ˈæktɪv dəˈrektəri/,目录服务,active directory 可以集中管理公司内部用户和设备的权限。
+所有外部请求都先进入 API gateway，再按照规则转发到内部服务。,API gateway,/ˌeɪ piː ˈaɪ ˈɡeɪtweɪ/,接口网关,所有外部请求都先进入 API gateway，再按照规则转发到内部服务。
+application server 负责运行后端程序，并处理来自客户端的请求。,application server,/ˌæplɪˈkeɪʃən ˈsɜːrvər/,应用服务器,application server 负责运行后端程序，并处理来自客户端的请求。
+assembly language 比机器码更容易阅读，但仍然需要汇编器转换。,assembly language,/əˈsembli ˈlæŋɡwɪdʒ/,汇编语言,assembly language 比机器码更容易阅读，但仍然需要汇编器转换。
+安全团队通过 audit log 追踪谁修改了关键配置。,audit log,/ˈɔːdɪt lɔːɡ/,审计日志,安全团队通过 audit log 追踪谁修改了关键配置。
+backup server 会在主服务故障时接管数据恢复任务。,backup server,/ˈbækʌp ˈsɜːrvər/,备份服务器,backup server 会在主服务故障时接管数据恢复任务。
+网络 bit rate 表示每秒可以传输多少位数据。,bit rate,/bɪt reɪt/,比特率,网络 bit rate 表示每秒可以传输多少位数据。
+boot loader 会先加载系统内核，再把控制权交给操作系统。,boot loader,/buːt ˈloʊdər/,启动加载器,boot loader 会先加载系统内核，再把控制权交给操作系统。
+程序出现 buffer overflow 时，可能导致崩溃甚至安全漏洞。,buffer overflow,/ˈbʌfər ˈoʊvərfloʊ/,缓冲区溢出,程序出现 buffer overflow 时，可能导致崩溃甚至安全漏洞。
+程序会先编译成 bytecode，再由虚拟机负责执行。,bytecode,/ˈbaɪtkoʊd/,字节码,程序会先编译成 bytecode，再由虚拟机负责执行。
+团队把照片和备份文件放到了 cloud storage，随时都能访问。,cloud storage,/klaʊd ˈstɔːrɪdʒ/,云存储,团队把照片和备份文件放到了 cloud storage，随时都能访问。
+code generation 可以根据模板自动生成重复的业务代码。,code generation,/koʊd ˌdʒenəˈreɪʃən/,代码生成,code generation 可以根据模板自动生成重复的业务代码。
+command shell 可以执行脚本，也能直接调用系统命令。,command shell,/kəˈmænd ʃel/,命令外壳,command shell 可以执行脚本，也能直接调用系统命令。
+修改 configuration file 以后，需要重新启动服务才能生效。,configuration file,/kənˌfɪɡjəˈreɪʃən faɪl/,配置文件,修改 configuration file 以后，需要重新启动服务才能生效。
+数据库连接很慢时，可以检查 connection pool 是否已经耗尽。,connection pool,/kəˈnekʃən puːl/,连接池,数据库连接很慢时，可以检查 connection pool 是否已经耗尽。
+content delivery network 会把内容缓存到离用户更近的位置。,content delivery network,/ˈkɑːntent dɪˈlɪvəri ˈnetwɝːk/,内容分发网络,content delivery network 会把内容缓存到离用户更近的位置。
+热点数据进入 CPU cache 以后，处理器读取速度会更快。,CPU cache,/ˌsiː piː ˈjuː kæʃ/,处理器缓存,热点数据进入 CPU cache 以后，处理器读取速度会更快。
+data warehouse 用来集中保存历史数据，方便后续分析和报表。,data warehouse,/ˈdeɪtə ˈwerhaʊs/,数据仓库,data warehouse 用来集中保存历史数据，方便后续分析和报表。
+消息处理失败后会进入 dead letter queue，等待人工检查。,dead letter queue,/ded ˈletər kjuː/,死信队列,消息处理失败后会进入 dead letter queue，等待人工检查。
+dependency injection 可以降低模块之间的直接耦合，也方便测试。,dependency injection,/dɪˈpendənsi ɪnˈdʒekʃən/,依赖注入,dependency injection 可以降低模块之间的直接耦合，也方便测试。
+device driver 负责让操作系统与硬件设备正确通信。,device driver,/dɪˈvaɪs ˈdraɪvər/,设备驱动,device driver 负责让操作系统与硬件设备正确通信。
+数字签名 digital signature 可以验证文件来源和内容完整性。,digital signature,/ˈdɪdʒɪtəl ˈsɪɡnətʃər/,数字签名,数字签名 digital signature 可以验证文件来源和内容完整性。
+安装系统前要先规划 disk partition，避免数据被意外覆盖。,disk partition,/dɪsk pɑːrˈtɪʃən/,磁盘分区,安装系统前要先规划 disk partition，避免数据被意外覆盖。
+distributed database 会把数据分布在多台服务器，提升整体容量。,distributed database,/dɪˈstrɪbjətɪd ˈdeɪtəbeɪs/,分布式数据库,distributed database 会把数据分布在多台服务器，提升整体容量。
+domain controller 负责统一验证内部网络的用户身份。,domain controller,/doʊˈmeɪn kənˈtroʊlər/,域控制器,domain controller 负责统一验证内部网络的用户身份。
+edge computing 把计算任务放到靠近设备的位置，减少响应延迟。,edge computing,/edʒ kəmˈpjuːtɪŋ/,边缘计算,edge computing 把计算任务放到靠近设备的位置，减少响应延迟。
+embedded system 通常隐藏在设备内部，专门完成固定功能。,embedded system,/ɪmˈbedɪd ˈsɪstəm/,嵌入式系统,embedded system 通常隐藏在设备内部，专门完成固定功能。
+event loop 会不断检查任务队列，并依次处理已经就绪的事件。,event loop,/ɪˈvent luːp/,事件循环,event loop 会不断检查任务队列，并依次处理已经就绪的事件。
+测试环境会使用 fault injection 模拟服务故障，验证系统恢复能力。,fault injection,/fɔːlt ɪnˈdʒekʃən/,故障注入,测试环境会使用 fault injection 模拟服务故障，验证系统恢复能力。
+feature engineering 会从原始数据中提取更有用的特征。,feature engineering,/ˈfiːtʃər ˌendʒɪˈnɪrɪŋ/,特征工程,feature engineering 会从原始数据中提取更有用的特征。
+file permission 设置正确以后，普通用户无法修改系统文件。,file permission,/faɪl pərˈmɪʃən/,文件权限,file permission 设置正确以后，普通用户无法修改系统文件。
+垃圾回收 garbage collection 会自动释放不再使用的内存。,garbage collection,/ˈɡɑːrbɪdʒ kəˈlekʃən/,垃圾回收,垃圾回收 garbage collection 会自动释放不再使用的内存。
+hash function 可以把任意长度的数据映射成固定长度的结果。,hash function,/hæʃ ˈfʌŋkʃən/,哈希函数,hash function 可以把任意长度的数据映射成固定长度的结果。
+instruction set 决定处理器能够识别和执行哪些基本指令。,instruction set,/ɪnˈstrʌkʃən set/,指令集,instruction set 决定处理器能够识别和执行哪些基本指令。
+每台联网设备都需要唯一的 IP address，才能找到正确的通信路径。,IP address,/ˌaɪ ˈpiː əˈdres/,IP地址,每台联网设备都需要唯一的 IP address，才能找到正确的通信路径。
+key-value store 使用键快速查找对应的值，适合缓存简单数据。,key-value store,/kiː ˈvæljuː stɔːr/,键值存储,key-value store 使用键快速查找对应的值，适合缓存简单数据。
+上线前会执行 load test，观察系统在高峰请求下的表现。,load test,/loʊd test/,负载测试,上线前会执行 load test，观察系统在高峰请求下的表现。
+源代码最终会被转换成 machine code，交给处理器执行。,machine code,/məˈʃiːn koʊd/,机器码,源代码最终会被转换成 machine code，交给处理器执行。
+长期运行的服务出现 memory leak，内存占用会越来越高。,memory leak,/ˈmeməri liːk/,内存泄漏,长期运行的服务出现 memory leak，内存占用会越来越高。
+message broker 负责接收、保存并转发不同服务之间的消息。,message broker,/ˈmesɪdʒ ˈbroʊkər/,消息代理,message broker 负责接收、保存并转发不同服务之间的消息。
+network gateway 用来连接不同网络，并负责地址转换和转发。,network gateway,/ˈnetwɝːk ˈɡeɪtweɪ/,网络网关,network gateway 用来连接不同网络，并负责地址转换和转发。
+object storage 适合保存图片、视频和备份等非结构化数据。,object storage,/ˈɑːbdʒekt ˈstɔːrɪdʒ/,对象存储,object storage 适合保存图片、视频和备份等非结构化数据。
+operating environment 包含应用运行所需的系统、依赖和配置。,operating environment,/ˈɑːpəreɪtɪŋ ɪnˈvaɪrənmənt/,运行环境,operating environment 包含应用运行所需的系统、依赖和配置。
+package manager 可以统一安装、升级和删除软件依赖。,package manager,/ˈpækɪdʒ ˈmænɪdʒər/,包管理器,package manager 可以统一安装、升级和删除软件依赖。
+private network 只允许授权设备访问，因此安全性更高。,private network,/ˈpraɪvət ˈnetwɝːk/,专用网络,private network 只允许授权设备访问，因此安全性更高。
+public network 上的通信必须加密，不能直接传输敏感数据。,public network,/ˈpʌblɪk ˈnetwɝːk/,公共网络,public network 上的通信必须加密，不能直接传输敏感数据。
+接口增加 rate limiting 以后，异常流量不会瞬间压垮服务。,rate limiting,/reɪt ˈlɪmɪtɪŋ/,限流,接口增加 rate limiting 以后，异常流量不会瞬间压垮服务。
+read-write lock 允许多个读取任务同时进行，但写入时必须独占。,read-write lock,/riːd raɪt lɑːk/,读写锁,read-write lock 允许多个读取任务同时进行，但写入时必须独占。
+regular expression 可以用来匹配和提取规则明确的文本。,regular expression,/ˈreɡjələr ɪkˈspreʃən/,正则表达式,regular expression 可以用来匹配和提取规则明确的文本。
+remote desktop 允许员工从家里连接公司的电脑，处理紧急任务。,remote desktop,/rɪˈmoʊt ˈdesktɑːp/,远程桌面,remote desktop 允许员工从家里连接公司的电脑，处理紧急任务。
+resource manager 会统一分配处理器、内存和存储资源。,resource manager,/rɪˈsɔːrs ˈmænɪdʒər/,资源管理器,resource manager 会统一分配处理器、内存和存储资源。
+reverse proxy 会接收外部请求，再转发给内部应用服务器。,reverse proxy,/rɪˈvɝːs ˈprɑːksi/,反向代理,reverse proxy 会接收外部请求，再转发给内部应用服务器。
+发布前要准备 rollback plan，出现严重问题时可以快速恢复。,rollback plan,/ˈroʊlbæk plæn/,回滚方案,发布前要准备 rollback plan，出现严重问题时可以快速恢复。
+系统文件通常放在 root directory，普通用户不能随便修改。,root directory,/ruːt dəˈrektəri/,根目录,系统文件通常放在 root directory，普通用户不能随便修改。
+runtime environment 提供程序执行所需的库和基础组件。,runtime environment,/ˈrʌntaɪm ɪnˈvaɪrənmənt/,运行环境,runtime environment 提供程序执行所需的库和基础组件。
+search index 可以加快全文检索，避免每次扫描所有文档。,search index,/sɝːtʃ ˈɪndeks/,搜索索引,search index 可以加快全文检索，避免每次扫描所有文档。
+security audit 会检查权限、漏洞和异常访问记录，及时发现风险。,security audit,/sɪˈkjʊrəti ˈɔːdɪt/,安全审计,security audit 会检查权限、漏洞和异常访问记录，及时发现风险。
+service discovery 可以让服务自动找到彼此的地址和端口。,service discovery,/ˈsɜːrvɪs dɪˈskʌvəri/,服务发现,service discovery 可以让服务自动找到彼此的地址和端口。
+source control 会记录每次代码修改，方便比较和回退。,source control,/sɔːrs kənˈtroʊl/,版本控制,source control 会记录每次代码修改，方便比较和回退。
+static analysis 能在代码运行前发现潜在的语法和逻辑问题。,static analysis,/ˈstætɪk əˈnæləsɪs/,静态分析,static analysis 能在代码运行前发现潜在的语法和逻辑问题。
+system call 是应用程序请求操作系统提供服务的入口。,system call,/ˈsɪstəm kɔːl/,系统调用,system call 是应用程序请求操作系统提供服务的入口。
+task queue 会把耗时工作交给后台线程依次处理。,task queue,/tæsk kjuː/,任务队列,task queue 会把耗时工作交给后台线程依次处理。
+thread pool 可以复用已有线程，减少频繁创建线程的开销。,thread pool,/θred puːl/,线程池,thread pool 可以复用已有线程，减少频繁创建线程的开销。
+time complexity 用来描述算法运行时间随数据规模增长的变化。,time complexity,/taɪm kəmˈpleksəti/,时间复杂度,time complexity 用来描述算法运行时间随数据规模增长的变化。
+unit testing 会在代码提交前验证每个最小功能是否正常。,unit testing,/ˈjuːnɪt ˈtestɪŋ/,单元测试,unit testing 会在代码提交前验证每个最小功能是否正常。
+virtual network 可以隔离不同业务环境，避免流量互相干扰。,virtual network,/ˈvɝːtʃuəl ˈnetwɝːk/,虚拟网络,virtual network 可以隔离不同业务环境，避免流量互相干扰。
+web application 通过浏览器访问，不需要用户安装客户端。,web application,/web ˌæplɪˈkeɪʃən/,网络应用,web application 通过浏览器访问，不需要用户安装客户端。
+web framework 提供常用组件，能减少开发网页应用的重复工作。,web framework,/web ˈfreɪmwɝːk/,网络框架,web framework 提供常用组件，能减少开发网页应用的重复工作。
+采用 zero downtime 发布方式以后，升级过程不会中断用户访问。,zero downtime,/ˈzɪroʊ ˈdaʊntaɪm/,零停机,采用 zero downtime 发布方式以后，升级过程不会中断用户访问。
