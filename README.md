@@ -4,9 +4,9 @@
 
 ## 文件说明
 
-- `decks/computer.csv`：计算机领域，476 个核心专业词条
-- `decks/life.csv`：生活常用，241 个核心词条
-- `decks/travel.csv`：旅游场景，145 个核心词条
+- `decks/computer.csv`：计算机领域，479 个核心专业词条
+- `decks/life.csv`：生活常用，244 个核心词条
+- `decks/travel.csv`：旅游场景，148 个核心词条
 - `generate_apkg.py`：校验 CSV 并生成 Anki 牌组
 - `output/computer.apkg`：脚本运行后生成
 - `output/life.apkg`：脚本运行后生成
@@ -73,4 +73,4 @@ output/travel.apkg
 
 ## 修改词表
 
-直接编辑 `decks/` 中的 CSV 后重新运行脚本即可。计算机、生活、旅游三个领域应分别保留 476、241、145 行词条，第一行表头不要修改。脚本会对常见数据问题给出具体行号，修正后再重新生成即可。
+直接编辑 `decks/` 中的 CSV 后重新运行脚本即可。计算机、生活、旅游三个领域应分别保留 479、244、148 行词条，第一行表头不要修改。脚本会对常见数据问题给出具体行号，修正后再重新生成即可。

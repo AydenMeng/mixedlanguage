@@ -475,3 +475,6 @@ technical debt 积累太多以后，会拖慢后续开发和维护。,technical 
 出现严重故障时，值班人员会立即创建 incident ticket。,incident ticket,/ˈɪnsɪdənt ˈtɪkɪt/,事故工单,出现严重故障时，值班人员会立即创建 incident ticket。
 server cluster 中某台机器故障时，其他节点可以继续提供服务。,server cluster,/ˈsɜːrvər ˈklʌstər/,服务器集群,server cluster 中某台机器故障时，其他节点可以继续提供服务。
 runtime error 会中断程序执行，需要结合日志定位原因。,runtime error,/ˈrʌntaɪm ˈerər/,运行错误,runtime error 会中断程序执行，需要结合日志定位原因。
+多个服务同时操作共享资源时，需要使用 distributed lock 防止冲突。,distributed lock,/dɪˈstrɪbjətɪd lɑːk/,分布式锁,多个服务同时操作共享资源时，需要使用 distributed lock 防止冲突。
+负载均衡器会通过 health check 判断服务器是否还能正常接收请求。,health check,/helθ tʃek/,健康检查,负载均衡器会通过 health check 判断服务器是否还能正常接收请求。
+请求超过 request timeout 以后，客户端会收到超时提示。,request timeout,/rɪˈkwest ˈtaɪmaʊt/,请求超时,请求超过 request timeout 以后，客户端会收到超时提示。
