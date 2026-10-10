@@ -48,7 +48,7 @@ DECK_CONFIGS: Tuple[DeckConfig, ...] = (
         key="life",
         deck_id=1735689602,
         deck_name="mixedlanguage::生活常用词",
-        row_count=344,
+        row_count=1200,
     ),
     DeckConfig(
         key="travel",
