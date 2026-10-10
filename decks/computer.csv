@@ -460,3 +460,13 @@ virtual network 可以隔离不同业务环境，避免流量互相干扰。,vir
 web application 通过浏览器访问，不需要用户安装客户端。,web application,/web ˌæplɪˈkeɪʃən/,网络应用,web application 通过浏览器访问，不需要用户安装客户端。
 web framework 提供常用组件，能减少开发网页应用的重复工作。,web framework,/web ˈfreɪmwɝːk/,网络框架,web framework 提供常用组件，能减少开发网页应用的重复工作。
 采用 zero downtime 发布方式以后，升级过程不会中断用户访问。,zero downtime,/ˈzɪroʊ ˈdaʊntaɪm/,零停机,采用 zero downtime 发布方式以后，升级过程不会中断用户访问。
+cloud native 应用从设计时就考虑容器和弹性扩容。,cloud native,/klaʊd ˈneɪtɪv/,云原生,cloud native 应用从设计时就考虑容器和弹性扩容。
+sidecar 可以随主服务一起部署，负责日志和网络代理等功能。,sidecar,/ˈsaɪdkɑːr/,边车容器,sidecar 可以随主服务一起部署，负责日志和网络代理等功能。
+distributed tracing 可以追踪一次请求经过的所有服务。,distributed tracing,/dɪˈstrɪbjətɪd ˈtreɪsɪŋ/,分布式追踪,distributed tracing 可以追踪一次请求经过的所有服务。
+service level objective 用来明确服务稳定性和响应时间目标。,service level objective,/ˈsɜːrvɪs ˈlevəl əbˈdʒektɪv/,服务目标,service level objective 用来明确服务稳定性和响应时间目标。
+code coverage 可以反映测试用例覆盖了多少源代码。,code coverage,/koʊd ˈkʌvərɪdʒ/,代码覆盖率,code coverage 可以反映测试用例覆盖了多少源代码。
+dependency graph 可以直观看到模块之间的依赖关系。,dependency graph,/dɪˈpendənsi ɡræf/,依赖图,dependency graph 可以直观看到模块之间的依赖关系。
+immutable infrastructure 会重新创建环境，而不是直接修改旧机器。,immutable infrastructure,/ɪˈmjuːtəbəl ˈɪnfrəstrʌktʃər/,不可变设施,immutable infrastructure 会重新创建环境，而不是直接修改旧机器。
+event-driven architecture 通过事件连接服务，可以减少同步等待。,event-driven architecture,/ɪˈvent ˈdrɪvən ˈɑːrkɪtektʃər/,事件驱动架构,event-driven architecture 通过事件连接服务，可以减少同步等待。
+zero trust 假设网络内部也不完全可信，每次访问都要验证。,zero trust,/ˈzɪroʊ trʌst/,零信任,zero trust 假设网络内部也不完全可信，每次访问都要验证。
+container image 包含应用和运行环境，可以稳定地重复部署。,container image,/kənˈteɪnər ˈɪmɪdʒ/,容器镜像,container image 包含应用和运行环境，可以稳定地重复部署。
