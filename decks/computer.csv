@@ -478,3 +478,524 @@ runtime error 会中断程序执行，需要结合日志定位原因。,runtime 
 多个服务同时操作共享资源时，需要使用 distributed lock 防止冲突。,distributed lock,/dɪˈstrɪbjətɪd lɑːk/,分布式锁,多个服务同时操作共享资源时，需要使用 distributed lock 防止冲突。
 负载均衡器会通过 health check 判断服务器是否还能正常接收请求。,health check,/helθ tʃek/,健康检查,负载均衡器会通过 health check 判断服务器是否还能正常接收请求。
 请求超过 request timeout 以后，客户端会收到超时提示。,request timeout,/rɪˈkwest ˈtaɪmaʊt/,请求超时,请求超过 request timeout 以后，客户端会收到超时提示。
+programming language 的语法决定了源代码如何被编译器解析。,programming language,/ˈproʊɡræmɪŋ ˈlæŋɡwɪdʒ/,编程语言,programming language 的语法决定了源代码如何被编译器解析。
+只记住语法还不够，理解 semantics 才能写出行为正确的程序。,semantics,/səˈmæntɪks/,语义,只记住语法还不够，理解 semantics 才能写出行为正确的程序。
+variable scope 决定变量在哪些代码范围内可以被访问。,variable scope,/ˈveriəbəl skoʊp/,变量作用域,variable scope 决定变量在哪些代码范围内可以被访问。
+选择 data type 时要考虑取值范围和内存占用。,data type,/ˈdeɪtə taɪp/,数据类型,选择 data type 时要考虑取值范围和内存占用。
+primitive type 通常表示整数、浮点数或布尔值等基础数据。,primitive type,/ˈprɪmətɪv taɪp/,基本类型,primitive type 通常表示整数、浮点数或布尔值等基础数据。
+程序中的 constant 一旦定义，就不应该在运行时随意修改。,constant,/ˈkɑːnstənt/,常量,程序中的 constant 一旦定义，就不应该在运行时随意修改。
+字面量 literal 直接写出数值或字符串，阅读起来比较直观。,literal,/ˈlɪtərəl/,字面量,字面量 literal 直接写出数值或字符串，阅读起来比较直观。
+operator 用来执行加法、比较或逻辑运算等操作。,operator,/ˈɑːpəreɪtər/,运算符,operator 用来执行加法、比较或逻辑运算等操作。
+这个 expression 会先计算括号里的内容，再处理外层运算。,expression,/ɪkˈspreʃən/,表达式,这个 expression 会先计算括号里的内容，再处理外层运算。
+每个 statement 都以分号结尾，程序才能正确解析。,statement,/ˈsteɪtmənt/,语句,每个 statement 都以分号结尾，程序才能正确解析。
+把相关代码放在同一个 block 中，可以减少变量污染。,block,/blɑːk/,代码块,把相关代码放在同一个 block 中，可以减少变量污染。
+conditional 根据条件真假选择不同的执行路径。,conditional,/kənˈdɪʃənəl/,条件语句,conditional 根据条件真假选择不同的执行路径。
+处理多个固定分支时，switch statement 往往比连续判断更清晰。,switch statement,/swɪtʃ ˈsteɪtmənt/,分支语句,处理多个固定分支时，switch statement 往往比连续判断更清晰。
+while loop 会在条件为真时反复执行同一段代码。,while loop,/waɪl luːp/,循环语句,while loop 会在条件为真时反复执行同一段代码。
+遍历数组时使用 for loop，可以清楚控制每次迭代。,for loop,/fɔːr luːp/,循环语句,遍历数组时使用 for loop，可以清楚控制每次迭代。
+iteration 次数过多会影响性能，因此要检查循环边界。,iteration,/ˌɪtəˈreɪʃən/,迭代,iteration 次数过多会影响性能，因此要检查循环边界。
+iterator 可以逐个访问集合元素，而不暴露内部结构。,iterator,/ɪˈtəreɪtər/,迭代器,iterator 可以逐个访问集合元素，而不暴露内部结构。
+generator 按需产生值，适合处理很大的数据序列。,generator,/ˈdʒenəreɪtər/,生成器,generator 按需产生值，适合处理很大的数据序列。
+lambda expression 很适合表示简短的匿名函数，代码也更紧凑。,lambda expression,/ˈlæmdə ɪkˈspreʃən/,匿名函数,lambda expression 很适合表示简短的匿名函数，代码也更紧凑。
+closure 会记住定义它时的外部变量环境，因此状态不会丢失。,closure,/ˈkloʊʒər/,闭包,closure 会记住定义它时的外部变量环境，因此状态不会丢失。
+异步任务完成后，可以调用 callback 通知调用方。,callback,/ˈkɔːlbæk/,回调函数,异步任务完成后，可以调用 callback 通知调用方。
+asynchronous function 发起耗时操作以后，不会一直阻塞主线程。,asynchronous function,/eɪˈsɪŋkrənəs ˈfʌŋkʃən/,异步函数,asynchronous function 发起耗时操作以后，不会一直阻塞主线程。
+promise 表示一个尚未完成但最终会有结果的异步操作。,promise,/ˈprɑːmɪs/,承诺对象,promise 表示一个尚未完成但最终会有结果的异步操作。
+使用 async await 可以让异步代码读起来更接近同步流程。,async await,/əˈsɪŋk əˈweɪt/,异步等待,使用 async await 可以让异步代码读起来更接近同步流程。
+coroutine 可以在执行过程中暂停，并在需要时继续运行。,coroutine,/ˌkoʊruːˈtiːn/,协程,coroutine 可以在执行过程中暂停，并在需要时继续运行。
+event handler 负责响应用户点击或系统消息等事件。,event handler,/ɪˈvent ˈhændlər/,事件处理器,event handler 负责响应用户点击或系统消息等事件。
+exception handling 让程序在出错以后仍有机会恢复或清理资源。,exception handling,/ɪkˈsepʃən ˈhændlɪŋ/,异常处理,exception handling 让程序在出错以后仍有机会恢复或清理资源。
+用 try catch 包住可能失败的代码，可以避免程序直接崩溃。,try catch,/traɪ kætʃ/,异常捕获,用 try catch 包住可能失败的代码，可以避免程序直接崩溃。
+发现问题时应明确 throw error，让上层代码知道失败原因。,throw error,/θroʊ ˈerər/,抛出错误,发现问题时应明确 throw error，让上层代码知道失败原因。
+stack trace 会显示错误发生时的调用路径和行号。,stack trace,/stæk treɪs/,堆栈跟踪,stack trace 会显示错误发生时的调用路径和行号。
+在可疑位置设置 breakpoint，可以暂停程序并检查变量值。,breakpoint,/ˈbreɪkpɔɪnt/,断点,在可疑位置设置 breakpoint，可以暂停程序并检查变量值。
+通过 stepping 逐行执行代码，更容易找到逻辑错误。,stepping,/ˈstepɪŋ/,单步执行,通过 stepping 逐行执行代码，更容易找到逻辑错误。
+debugger 能查看运行时状态，是排查复杂问题的常用工具。,debugger,/diˈbʌɡər/,调试器,debugger 能查看运行时状态，是排查复杂问题的常用工具。
+unit test 用来验证一个函数或小模块的行为是否符合预期。,unit test,/ˈjuːnɪt test/,单元测试,unit test 用来验证一个函数或小模块的行为是否符合预期。
+integration test 会检查多个模块组合以后是否能正常协作。,integration test,/ˌɪntɪˈɡreɪʃən test/,集成测试,integration test 会检查多个模块组合以后是否能正常协作。
+修复缺陷以后要补充 regression test，防止问题再次出现。,regression test,/rɪˈɡreʃən test/,回归测试,修复缺陷以后要补充 regression test，防止问题再次出现。
+每个 test case 都应描述输入、操作和预期结果。,test case,/test keɪs/,测试用例,每个 test case 都应描述输入、操作和预期结果。
+test suite 把相关测试组织在一起，方便持续执行。,test suite,/test swiːt/,测试套件,test suite 把相关测试组织在一起，方便持续执行。
+assertion 失败时，测试框架会立即报告预期与实际不一致。,assertion,/əˈsɜːrʃən/,断言,assertion 失败时，测试框架会立即报告预期与实际不一致。
+mock object 可以模拟外部依赖，让测试更加稳定可控。,mock object,/mɑːk ˈɑːbdʒekt/,模拟对象,mock object 可以模拟外部依赖，让测试更加稳定可控。
+stub 返回预设结果，适合隔离暂时无法访问的服务。,stub,/stʌb/,桩对象,stub 返回预设结果，适合隔离暂时无法访问的服务。
+test fixture 负责准备测试数据并清理运行环境。,test fixture,/test ˈfɪkstʃər/,测试夹具,test fixture 负责准备测试数据并清理运行环境。
+code review 能发现逻辑问题，也能让团队成员互相学习。,code review,/koʊd rɪˈvjuː/,代码审查,code review 能发现逻辑问题，也能让团队成员互相学习。
+merge request 合并以前，应确认测试通过并解决所有评论。,merge request,/mɜːrdʒ rɪˈkwest/,合并请求,merge request 合并以前，应确认测试通过并解决所有评论。
+branch 让开发者可以在独立环境中完成新功能。,branch,/bræntʃ/,分支,branch 让开发者可以在独立环境中完成新功能。
+每次 commit 都应尽量包含一个清晰、完整的改动。,commit,/kəˈmɪt/,提交,每次 commit 都应尽量包含一个清晰、完整的改动。
+repository 保存了完整代码历史，也记录了每次变更的作者。,repository,/rɪˈpɑːzətɔːri/,代码仓库,repository 保存了完整代码历史，也记录了每次变更的作者。
+version control 让团队可以追踪修改、比较版本并安全回退。,version control,/ˈvɜːrʒən kənˈtroʊl/,版本控制,version control 让团队可以追踪修改、比较版本并安全回退。
+发生 merge conflict 时，要理解双方改动以后再手动解决。,merge conflict,/mɜːrdʒ ˈkɑːnflɪkt/,合并冲突,发生 merge conflict 时，要理解双方改动以后再手动解决。
+rebase 可以整理提交历史，但不适合随意修改公共分支。,rebase,/ˌriːˈbeɪs/,变基,rebase 可以整理提交历史，但不适合随意修改公共分支。
+cherry pick 会把某个提交复制到当前分支，操作时要确认依赖。,cherry pick,/ˈtʃeri pɪk/,择优移植,cherry pick 会把某个提交复制到当前分支，操作时要确认依赖。
+发布重要版本前通常会创建一个 tag，方便以后快速定位。,tag,/tæɡ/,版本标签,发布重要版本前通常会创建一个 tag，方便以后快速定位。
+release branch 用于稳定发布，不应随意加入高风险改动。,release branch,/rɪˈliːs bræntʃ/,发布分支,release branch 用于稳定发布，不应随意加入高风险改动。
+清晰的 commit message 能让人快速理解这次改动的目的。,commit message,/kəˈmɪt ˈmesɪdʒ/,提交说明,清晰的 commit message 能让人快速理解这次改动的目的。
+changelog 汇总每个版本的变化，方便用户了解升级内容。,changelog,/ˈtʃeɪndʒlɔːɡ/,变更日志,changelog 汇总每个版本的变化，方便用户了解升级内容。
+semantic versioning 通过主版本、次版本和补丁号表达兼容性。,semantic versioning,/sɪˈmæntɪk ˈvɜːrʒənɪŋ/,语义版本,semantic versioning 通过主版本、次版本和补丁号表达兼容性。
+dependency 版本不一致时，构建过程可能直接失败。,dependency,/dɪˈpendənsi/,依赖,dependency 版本不一致时，构建过程可能直接失败。
+成熟的 library 能减少重复开发，但也要关注安全和维护状态。,library,/ˈlaɪbreri/,程序库,成熟的 library 能减少重复开发，但也要关注安全和维护状态。
+framework 规定了项目结构，也提供很多现成的通用能力。,framework,/ˈfreɪmwɜːrk/,开发框架,framework 规定了项目结构，也提供很多现成的通用能力。
+package 通常包含代码、元数据和依赖声明，方便安装和复用。,package,/ˈpækɪdʒ/,软件包,package 通常包含代码、元数据和依赖声明，方便安装和复用。
+module system 可以帮助代码拆分和隔离作用范围。,module system,/ˈmɑːdʒuːl ˈsɪstəm/,模块系统,module system 可以帮助代码拆分和隔离作用范围。
+namespace 用来避免不同模块之间出现名称冲突。,namespace,/ˈneɪmspeɪs/,命名空间,namespace 用来避免不同模块之间出现名称冲突。
+import statement 把其他模块的能力引入当前文件，减少重复实现。,import statement,/ɪmˈpɔːrt ˈsteɪtmənt/,导入语句,import statement 把其他模块的能力引入当前文件，减少重复实现。
+export statement 决定模块向外部提供哪些接口，调用方才能使用。,export statement,/ɪkˈspɔːrt ˈsteɪtmənt/,导出语句,export statement 决定模块向外部提供哪些接口，调用方才能使用。
+build tool 负责编译、打包和生成最终产物，让发布更稳定。,build tool,/bɪld tuːl/,构建工具,build tool 负责编译、打包和生成最终产物，让发布更稳定。
+task runner 可以自动执行测试、检查和部署等重复任务。,task runner,/tæsk ˈrʌnər/,任务运行器,task runner 可以自动执行测试、检查和部署等重复任务。
+linter 会检查潜在错误和风格问题，帮助团队保持代码一致。,linter,/ˈlɪntər/,代码检查器,linter 会检查潜在错误和风格问题，帮助团队保持代码一致。
+formatter 自动调整缩进和空格，减少无意义的格式争论。,formatter,/ˈfɔːrmætər/,格式化器,formatter 自动调整缩进和空格，减少无意义的格式争论。
+transpiler 把一种语言的代码转换成另一种语言的等价代码。,transpiler,/trænsˈpaɪlər/,转译器,transpiler 把一种语言的代码转换成另一种语言的等价代码。
+bundler 会把多个模块合并成浏览器可加载的文件。,bundler,/ˈbʌndlər/,打包器,bundler 会把多个模块合并成浏览器可加载的文件。
+minification 会删除空格和注释，从而减小文件体积。,minification,/ˌmɪnɪfɪˈkeɪʃən/,代码压缩,minification 会删除空格和注释，从而减小文件体积。
+source map 把压缩代码映射回原始文件，方便定位错误。,source map,/sɔːrs mæp/,源码映射,source map 把压缩代码映射回原始文件，方便定位错误。
+environment variable 用于区分开发、测试和生产环境配置。,environment variable,/ɪnˈvaɪrənmənt ˈveriəbəl/,环境变量,environment variable 用于区分开发、测试和生产环境配置。
+configuration management 让不同环境的设置保持可追踪和可复用。,configuration management,/kənˌfɪɡjəˈreɪʃən ˈmænɪdʒmənt/,配置管理,configuration management 让不同环境的设置保持可追踪和可复用。
+feature branch 适合独立开发新功能，完成后再合并回主分支。,feature branch,/ˈfiːtʃər bræntʃ/,功能分支,feature branch 适合独立开发新功能，完成后再合并回主分支。
+线上故障需要紧急修复时，通常会创建 hotfix 分支。,hotfix,/ˈhɑːtfɪks/,紧急修复,线上故障需要紧急修复时，通常会创建 hotfix 分支。
+patch 用来修复小范围问题，不应该顺带加入无关改动。,patch,/pætʃ/,补丁,patch 用来修复小范围问题，不应该顺带加入无关改动。
+refactor 会改善内部结构，但不应该改变外部行为。,refactor,/ˌriːˈfæktər/,重构,refactor 会改善内部结构，但不应该改变外部行为。
+performance profiling 能找出最耗时的函数和调用路径，指导优化。,performance profiling,/pərˈfɔːrməns ˈproʊfaɪlɪŋ/,性能分析,performance profiling 能找出最耗时的函数和调用路径，指导优化。
+code smell 往往暗示设计有问题，但需要结合上下文判断。,code smell,/koʊd smel/,代码异味,code smell 往往暗示设计有问题，但需要结合上下文判断。
+static typing 在编译阶段检查类型，可以提前发现一部分错误。,static typing,/ˈstætɪk ˈtaɪpɪŋ/,静态类型,static typing 在编译阶段检查类型，可以提前发现一部分错误。
+dynamic typing 更灵活，但要求测试覆盖更多运行时场景。,dynamic typing,/daɪˈnæmɪk ˈtaɪpɪŋ/,动态类型,dynamic typing 更灵活，但要求测试覆盖更多运行时场景。
+type inference 能根据上下文推断类型，减少重复声明。,type inference,/taɪp ˈɪnfərəns/,类型推断,type inference 能根据上下文推断类型，减少重复声明。
+generic type 让同一套代码可以处理多种数据类型。,generic type,/dʒəˈnerɪk taɪp/,泛型,generic type 让同一套代码可以处理多种数据类型。
+reflection 允许程序在运行时检查类和方法的信息。,reflection,/rɪˈflekʃən/,反射,reflection 允许程序在运行时检查类和方法的信息。
+annotation 可以为代码添加元数据，供框架或编译器读取。,annotation,/ˌænəˈteɪʃən/,注解,annotation 可以为代码添加元数据，供框架或编译器读取。
+decorator 在不修改原函数的情况下增加额外行为。,decorator,/ˈdekəreɪtər/,装饰器,decorator 在不修改原函数的情况下增加额外行为。
+继承 inheritance 让子类复用父类的属性和方法。,inheritance,/ɪnˈherɪtəns/,继承,继承 inheritance 让子类复用父类的属性和方法。
+polymorphism 允许不同对象对同一个操作做出不同响应。,polymorphism,/ˌpɑːlɪˈmɔːrfɪzəm/,多态,polymorphism 允许不同对象对同一个操作做出不同响应。
+thread 可以在同一进程内并发执行，并共享大部分内存。,thread,/θred/,线程,thread 可以在同一进程内并发执行，并共享大部分内存。
+多个线程同时修改共享数据时，mutex 可以保证互斥访问。,mutex,/ˈmjuːteks/,互斥锁,多个线程同时修改共享数据时，mutex 可以保证互斥访问。
+semaphore 用计数器控制并发数量，常用于限流和资源池。,semaphore,/ˈseməfɔːr/,信号量,semaphore 用计数器控制并发数量，常用于限流和资源池。
+两个线程互相等待对方释放锁时，就可能发生 deadlock。,deadlock,/ˈdedlɑːk/,死锁,两个线程互相等待对方释放锁时，就可能发生 deadlock。
+livelock 中的线程仍在活动，却因为不断退让无法继续推进。,livelock,/ˈlaɪvlɑːk/,活锁,livelock 中的线程仍在活动，却因为不断退让无法继续推进。
+race condition 会导致结果依赖线程执行顺序，难以复现。,race condition,/reɪs kənˈdɪʃən/,竞态条件,race condition 会导致结果依赖线程执行顺序，难以复现。
+critical section 是必须串行访问共享资源的那段代码。,critical section,/ˈkrɪtɪkəl ˈsekʃən/,临界区,critical section 是必须串行访问共享资源的那段代码。
+atomic operation 要么全部完成，要么完全不发生，不会被中途打断。,atomic operation,/əˈtɑːmɪk ˌɑːpəˈreɪʃən/,原子操作,atomic operation 要么全部完成，要么完全不发生，不会被中途打断。
+lock-free 数据结构可以减少阻塞，但设计难度通常更高。,lock-free,/lɑːk friː/,无锁结构,lock-free 数据结构可以减少阻塞，但设计难度通常更高。
+编写多线程代码时，thread safety 是必须优先考虑的属性。,thread safety,/θred ˈseɪfti/,线程安全,编写多线程代码时，thread safety 是必须优先考虑的属性。
+context switch 会保存旧线程状态，再恢复另一个线程的运行环境。,context switch,/ˈkɑːntekst swɪtʃ/,上下文切换,context switch 会保存旧线程状态，再恢复另一个线程的运行环境。
+scheduler 决定哪个线程或进程下一步可以获得处理器时间。,scheduler,/ˈskedʒuːlər/,调度器,scheduler 决定哪个线程或进程下一步可以获得处理器时间。
+操作系统通过 time slice 给多个任务轮流分配执行机会。,time slice,/taɪm slaɪs/,时间片,操作系统通过 time slice 给多个任务轮流分配执行机会。
+每个运行中的进程都有一个唯一的 process id。,process id,/ˈprɑːses aɪ ˈdiː/,进程号,每个运行中的进程都有一个唯一的 process id。
+daemon 在后台长期运行，通常为其他程序提供系统服务。,daemon,/ˈdiːmən/,守护进程,daemon 在后台长期运行，通常为其他程序提供系统服务。
+system process 负责管理资源和设备，普通用户通常不能直接结束它。,system process,/ˈsɪstəm ˈprɑːses/,系统进程,system process 负责管理资源和设备，普通用户通常不能直接结束它。
+zombie process 已经结束运行，但父进程还没有回收它的状态信息。,zombie process,/ˈzɑːmbi ˈprɑːses/,僵尸进程,zombie process 已经结束运行，但父进程还没有回收它的状态信息。
+signal 用于向进程传递中断、终止或自定义事件。,signal,/ˈsɪɡnəl/,信号,signal 用于向进程传递中断、终止或自定义事件。
+pipe 可以让两个进程通过单向数据流进行通信。,pipe,/paɪp/,管道,pipe 可以让两个进程通过单向数据流进行通信。
+socket 是网络通信的端点，连接建立后双方可以发送数据。,socket,/ˈsɑːkɪt/,套接字,socket 是网络通信的端点，连接建立后双方可以发送数据。
+操作系统用 file descriptor 表示打开的文件、管道或网络连接。,file descriptor,/faɪl dɪˈskrɪptər/,文件描述符,操作系统用 file descriptor 表示打开的文件、管道或网络连接。
+程序的标准输入通常连接 stdin，可以接收用户或上游数据。,stdin,/ˌes tiː ˈdɪn/,标准输入,程序的标准输入通常连接 stdin，可以接收用户或上游数据。
+正常结果通常写入 stdout，错误信息则写入 stderr。,stdout,/ˌes tiː ˈdaʊt/,标准输出,正常结果通常写入 stdout，错误信息则写入 stderr。
+stderr 适合输出诊断信息，不会和正常业务数据混在一起。,stderr,/ˌes tiː ˈdiː ər/,标准错误,stderr 适合输出诊断信息，不会和正常业务数据混在一起。
+environment 保存进程可访问的配置和变量集合。,environment,/ɪnˈvaɪrənmənt/,运行环境,environment 保存进程可访问的配置和变量集合。
+shell script 可以把多条系统命令组合起来自动执行。,shell script,/ʃel skrɪpt/,脚本文件,shell script 可以把多条系统命令组合起来自动执行。
+command line 允许用户通过文本直接调用程序和管理系统。,command line,/kəˈmænd laɪn/,命令行,command line 允许用户通过文本直接调用程序和管理系统。
+terminal emulator 提供图形窗口，让用户输入命令并查看输出。,terminal emulator,/ˈtɜːrmɪnəl ˈemjəleɪtər/,终端模拟器,terminal emulator 提供图形窗口，让用户输入命令并查看输出。
+virtual memory 让程序以为自己拥有连续且足够大的内存空间。,virtual memory,/ˈvɜːrtʃuəl ˈmeməri/,虚拟内存,virtual memory 让程序以为自己拥有连续且足够大的内存空间。
+访问尚未载入的内存页时，page fault 会触发系统加载数据。,page fault,/peɪdʒ fɔːlt/,缺页异常,访问尚未载入的内存页时，page fault 会触发系统加载数据。
+内存不足时，操作系统可能通过 swapping 把部分页面写到磁盘。,swapping,/ˈswɑːpɪŋ/,交换内存,内存不足时，操作系统可能通过 swapping 把部分页面写到磁盘。
+segmentation 把内存划分为不同用途的段，便于保护和寻址。,segmentation,/ˌseɡmənˈteɪʃən/,内存分段,segmentation 把内存划分为不同用途的段，便于保护和寻址。
+heap 用于动态分配对象，大小可以在程序运行时变化。,heap,/hiːp/,堆内存,heap 用于动态分配对象，大小可以在程序运行时变化。
+call stack 记录函数调用关系，并在返回时恢复执行位置。,call stack,/kɔːl stæk/,调用栈,call stack 记录函数调用关系，并在返回时恢复执行位置。
+stack frame 保存一次函数调用的局部变量和返回地址。,stack frame,/stæk freɪm/,栈帧,stack frame 保存一次函数调用的局部变量和返回地址。
+instruction 描述处理器需要执行的一次基本操作。,instruction,/ɪnˈstrʌkʃən/,指令,instruction 描述处理器需要执行的一次基本操作。
+assembly code 使用助记符表示机器指令，比二进制更容易阅读。,assembly code,/əˈsembli koʊd/,汇编代码,assembly code 使用助记符表示机器指令，比二进制更容易阅读。
+machine instruction 由处理器直接解码并执行，是程序最底层的形式。,machine instruction,/məˈʃiːn ɪnˈstrʌkʃən/,机器指令,machine instruction 由处理器直接解码并执行，是程序最底层的形式。
+byte order 决定多字节数据在内存中的排列顺序。,byte order,/baɪt ˈɔːrdər/,字节序,byte order 决定多字节数据在内存中的排列顺序。
+endianness 不一致时，不同系统传输二进制数据可能解析错误。,endianness,/ˈendiənnəs/,端序,endianness 不一致时，不同系统传输二进制数据可能解析错误。
+address space 是进程可以合法访问的内存地址范围。,address space,/ˈædres speɪs/,地址空间,address space 是进程可以合法访问的内存地址范围。
+pointer 保存另一个变量或对象在内存中的地址。,pointer,/ˈpɔɪntər/,指针,pointer 保存另一个变量或对象在内存中的地址。
+reference 提供访问对象的入口，但通常不会暴露底层地址。,reference,/ˈrefərəns/,引用,reference 提供访问对象的入口，但通常不会暴露底层地址。
+garbage collector 会自动回收不再使用的对象，减少手动释放压力。,garbage collector,/ˈɡɑːrbɪdʒ kəˈlektər/,垃圾回收器,garbage collector 会自动回收不再使用的对象，减少手动释放压力。
+频繁 memory allocation 会增加碎片，也可能拖慢程序运行。,memory allocation,/ˈmeməri ˌæləˈkeɪʃən/,内存分配,频繁 memory allocation 会增加碎片，也可能拖慢程序运行。
+memory pool 预先申请一批内存，适合高频创建和销毁对象。,memory pool,/ˈmeməri puːl/,内存池,memory pool 预先申请一批内存，适合高频创建和销毁对象。
+starvation 指某个任务长期得不到执行机会，通常与调度有关。,starvation,/stɑːrˈveɪʃən/,饥饿现象,starvation 指某个任务长期得不到执行机会，通常与调度有关。
+priority inversion 会让高优先级任务被低优先级任务间接阻塞。,priority inversion,/praɪˈɔːrəti ɪnˈvɜːrʒən/,优先级反转,priority inversion 会让高优先级任务被低优先级任务间接阻塞。
+synchronization 确保多个并发任务按正确顺序访问共享状态。,synchronization,/ˌsɪŋkrənaɪˈzeɪʃən/,同步,synchronization 确保多个并发任务按正确顺序访问共享状态。
+barrier 让一组线程都到达指定位置以后，再一起继续执行。,barrier,/ˈbæriər/,屏障,barrier 让一组线程都到达指定位置以后，再一起继续执行。
+condition variable 让线程在条件满足以前休眠，避免无效轮询。,condition variable,/kənˈdɪʃən ˈveriəbəl/,条件变量,condition variable 让线程在条件满足以前休眠，避免无效轮询。
+event queue 按顺序保存待处理事件，消费者再逐个取出执行。,event queue,/ɪˈvent kjuː/,事件队列,event queue 按顺序保存待处理事件，消费者再逐个取出执行。
+message passing 通过显式消息交换状态，可以减少共享内存竞争。,message passing,/ˈmesɪdʒ ˈpæsɪŋ/,消息传递,message passing 通过显式消息交换状态，可以减少共享内存竞争。
+shared memory 访问速度快，但多个进程必须谨慎同步读写的时机。,shared memory,/ʃerd ˈmeməri/,共享内存,shared memory 访问速度快，但多个进程必须谨慎同步读写的时机。
+worker thread 从队列领取任务，并独立完成后台处理。,worker thread,/ˈwɜːrkər θred/,工作线程,worker thread 从队列领取任务，并独立完成后台处理。
+main thread 通常负责界面事件和整体流程协调。,main thread,/meɪn θred/,主线程,main thread 通常负责界面事件和整体流程协调。
+background thread 执行耗时任务，避免阻塞用户界面和交互。,background thread,/ˈbækɡraʊnd θred/,后台线程,background thread 执行耗时任务，避免阻塞用户界面和交互。
+thread local storage 为每个线程保存独立副本，互不干扰。,thread local storage,/θred ˈloʊkəl ˈstɔːrɪdʒ/,线程局部存储,thread local storage 为每个线程保存独立副本，互不干扰。
+task scheduler 根据优先级和资源情况决定任务何时运行。,task scheduler,/tæsk ˈskedʒuːlər/,任务调度器,task scheduler 根据优先级和资源情况决定任务何时运行。
+cron job 按固定时间周期执行脚本，常用于定时维护。,cron job,/krɑːn dʒɑːb/,定时任务,cron job 按固定时间周期执行脚本，常用于定时维护。
+job queue 暂存待执行任务，并允许工作节点异步领取。,job queue,/dʒɑːb kjuː/,作业队列,job queue 暂存待执行任务，并允许工作节点异步领取。
+batch job 一次性处理大量数据，完成后统一输出结果。,batch job,/bætʃ dʒɑːb/,批处理任务,batch job 一次性处理大量数据，完成后统一输出结果。
+long polling 会保持连接等待新消息，适合实时性要求不高的场景。,long polling,/lɔːŋ ˈpoʊlɪŋ/,长轮询,long polling 会保持连接等待新消息，适合实时性要求不高的场景。
+websocket 建立以后可以双向通信，不需要客户端反复请求。,websocket,/ˈwebsɑːkɪt/,双向连接,websocket 建立以后可以双向通信，不需要客户端反复请求。
+server-sent event 允许服务器持续向浏览器推送文本消息。,server-sent event,/ˈsɜːrvər sent ɪˈvent/,服务端推送,server-sent event 允许服务器持续向浏览器推送文本消息。
+socket connection 建立时会先完成握手，再开始传输业务数据。,socket connection,/ˈsɑːkɪt kəˈnekʃən/,套接字连接,socket connection 建立时会先完成握手，再开始传输业务数据。
+TCP handshake 通过三次交换确认双方都能收发数据。,TCP handshake,/ˌtiː siː ˈpiː ˈhændʃeɪk/,三次握手,TCP handshake 通过三次交换确认双方都能收发数据。
+UDP packet 传输速度快，但不保证到达顺序和可靠性。,UDP packet,/ˌjuː diː ˈpiː ˈpækɪt/,用户数据包,UDP packet 传输速度快，但不保证到达顺序和可靠性。
+checksum 用于检测数据在传输过程中是否发生损坏。,checksum,/ˈtʃeksʌm/,校验和,checksum 用于检测数据在传输过程中是否发生损坏。
+subnet mask 用来区分网络地址和主机地址，配置时必须准确。,subnet mask,/ˈsʌbnet mæsk/,子网掩码,subnet mask 用来区分网络地址和主机地址，配置时必须准确。
+CIDR 使用斜杠和位数表示网络前缀，可以更灵活地划分地址。,CIDR,/ˈsaɪdər/,无类别路由,CIDR 使用斜杠和位数表示网络前缀，可以更灵活地划分地址。
+NAT 让多台内网设备共享一个公网地址访问互联网。,NAT,/en eɪ ˈtiː/,网络地址转换,NAT 让多台内网设备共享一个公网地址访问互联网。
+DHCP 会自动为设备分配地址、网关和域名服务器。,DHCP,/ˌdiː eɪtʃ siː ˈpiː/,动态主机配置,DHCP 会自动为设备分配地址、网关和域名服务器。
+DNS record 告诉解析器某个域名对应哪些地址或服务。,DNS record,/ˌdiː en ˈes ˈrekərd/,域名记录,DNS record 告诉解析器某个域名对应哪些地址或服务。
+TTL 决定缓存记录可以保留多久，过期以后需要重新查询。,TTL,/ˌtiː tiː ˈel/,生存时间,TTL 决定缓存记录可以保留多久，过期以后需要重新查询。
+jitter 表示网络延迟波动，会直接影响实时语音和视频质量。,jitter,/ˈdʒɪtər/,抖动,jitter 表示网络延迟波动，会直接影响实时语音和视频质量。
+throughput 描述单位时间内实际传输的数据量，不等同于带宽。,throughput,/ˈθruːpʊt/,吞吐量,throughput 描述单位时间内实际传输的数据量，不等同于带宽。
+packet loss 会导致重传，严重时让连接变得非常卡顿。,packet loss,/ˈpækɪt lɔːs/,丢包,packet loss 会导致重传，严重时让连接变得非常卡顿。
+proxy server 代表客户端访问外部资源，也可以缓存和过滤内容。,proxy server,/ˈprɑːksi ˈsɜːrvər/,代理服务器,proxy server 代表客户端访问外部资源，也可以缓存和过滤内容。
+API endpoint 是客户端调用具体业务能力的网络入口。,API endpoint,/ˌeɪ piː ˈaɪ ˈendpɔɪnt/,接口端点,API endpoint 是客户端调用具体业务能力的网络入口。
+REST API 使用资源路径和标准方法描述接口操作。,REST API,/rest ˌeɪ piː ˈaɪ/,表述性接口,REST API 使用资源路径和标准方法描述接口操作。
+GraphQL 允许客户端一次请求所需字段，减少多余数据传输。,GraphQL,/ɡræf kjuː ˈel/,查询语言,GraphQL 允许客户端一次请求所需字段，减少多余数据传输。
+SOAP 依赖严格的消息格式和契约，常见于传统企业系统。,SOAP,/soʊp/,简单对象协议,SOAP 依赖严格的消息格式和契约，常见于传统企业系统。
+JSON 结构轻量且易读，是 Web 接口最常见的格式。,JSON,/ˈdʒeɪsən/,数据格式,JSON 结构轻量且易读，是 Web 接口最常见的格式。
+XML 通过标签描述层级结构，适合复杂文档交换。,XML,/ˌeks em ˈel/,标记语言,XML 通过标签描述层级结构，适合复杂文档交换。
+YAML 可读性好，常用于配置文件而不是大规模数据传输。,YAML,/ˈjæməl/,配置格式,YAML 可读性好，常用于配置文件而不是大规模数据传输。
+CSV 用逗号分隔表格数据，适合导入导出简单数据集。,CSV,/ˌsiː es ˈviː/,逗号分隔值,CSV 用逗号分隔表格数据，适合导入导出简单数据集。
+serialization 把对象转换成可存储或传输的格式。,serialization,/ˌsɪriələˈzeɪʃən/,序列化,serialization 把对象转换成可存储或传输的格式。
+deserialization 把字节或文本还原成程序可以使用的对象。,deserialization,/ˌdiːˌsɪriələˈzeɪʃən/,反序列化,deserialization 把字节或文本还原成程序可以使用的对象。
+schema validation 会检查数据结构是否符合约定，避免脏数据进入系统。,schema validation,/ˈskiːmə ˌvælɪˈdeɪʃən/,结构校验,schema validation 会检查数据结构是否符合约定，避免脏数据进入系统。
+OAuth 允许第三方应用在用户授权下访问资源，无需获取密码。,OAuth,/ˈoʊ ɔːθ/,开放授权,OAuth 允许第三方应用在用户授权下访问资源，无需获取密码。
+JWT 用签名令牌携带身份声明，服务端可以校验是否被篡改。,JWT,/ˌdʒeɪ dʌbəljuː ˈtiː/,令牌格式,JWT 用签名令牌携带身份声明，服务端可以校验是否被篡改。
+SSO 让用户一次登录以后访问多个互信系统。,SSO,/ˌes es ˈoʊ/,单点登录,SSO 让用户一次登录以后访问多个互信系统。
+MFA 在密码以外增加验证因素，明显提高账号安全性。,MFA,/ˌem ef ˈeɪ/,多因素认证,MFA 在密码以外增加验证因素，明显提高账号安全性。
+CAPTCHA 用于区分真人和自动化脚本，降低恶意注册风险。,CAPTCHA,/ˈkæptʃə/,人机验证,CAPTCHA 用于区分真人和自动化脚本，降低恶意注册风险。
+salt 会为每个密码增加随机数据，使彩虹表攻击更难奏效。,salt,/sɔːlt/,密码盐值,salt 会为每个密码增加随机数据，使彩虹表攻击更难奏效。
+symmetric encryption 使用同一把密钥完成加密和解密，速度通常更快。,symmetric encryption,/sɪˈmetrɪk ɪnˈkrɪpʃən/,对称加密,symmetric encryption 使用同一把密钥完成加密和解密，速度通常更快。
+asymmetric encryption 使用公钥加密、私钥解密或反向签名。,asymmetric encryption,/ˌeɪsɪˈmetrɪk ɪnˈkrɪpʃən/,非对称加密,asymmetric encryption 使用公钥加密、私钥解密或反向签名。
+public key 可以公开分发给通信对象，用于加密或验证签名。,public key,/ˈpʌblɪk kiː/,公钥,public key 可以公开分发给通信对象，用于加密或验证签名。
+private key 必须严格保密，泄露以后相关身份信任也会失效。,private key,/ˈpraɪvət kiː/,私钥,private key 必须严格保密，泄露以后相关身份信任也会失效。
+certificate authority 负责签发和验证数字证书，是信任链的重要一环。,certificate authority,/sərˈtɪfɪkət əˈθɔːrəti/,证书机构,certificate authority 负责签发和验证数字证书，是信任链的重要一环。
+TLS handshake 会协商加密算法，并验证服务器身份。,TLS handshake,/ˌtiː el ˈes ˈhændʃeɪk/,安全握手,TLS handshake 会协商加密算法，并验证服务器身份。
+VPN 通过加密隧道把远程设备接入内部网络。,VPN,/ˌviː piː ˈen/,虚拟专用网,VPN 通过加密隧道把远程设备接入内部网络。
+SSH 提供加密的远程登录和命令执行通道。,SSH,/ˌes es ˈeɪtʃ/,安全外壳,SSH 提供加密的远程登录和命令执行通道。
+SFTP 在加密连接上传输文件，比传统 FTP 更安全。,SFTP,/ˌes ef tiː ˈpiː/,安全文件传输,SFTP 在加密连接上传输文件，比传统 FTP 更安全。
+FTP 用于在网络主机之间上传和下载文件。,FTP,/ˌef tiː ˈpiː/,文件传输协议,FTP 用于在网络主机之间上传和下载文件。
+SMTP 负责发送邮件，把消息从一个服务器传递到另一个服务器。,SMTP,/ˌes em tiː ˈpiː/,邮件发送协议,SMTP 负责发送邮件，把消息从一个服务器传递到另一个服务器。
+IMAP 让多个客户端同步查看服务器上的邮件和文件夹。,IMAP,/ˈaɪmæp/,邮件访问协议,IMAP 让多个客户端同步查看服务器上的邮件和文件夹。
+POP3 通常把邮件下载到本地，服务器上的副本处理方式取决于配置。,POP3,/ˌpiː oʊ piː ˈθriː/,邮局协议,POP3 通常把邮件下载到本地，服务器上的副本处理方式取决于配置。
+WebDAV 扩展了 HTTP，使客户端可以像文件系统一样管理远程资源。,WebDAV,/ˈweb dæv/,网络文件协议,WebDAV 扩展了 HTTP，使客户端可以像文件系统一样管理远程资源。
+column 表示数据表中的一列，通常对应某种明确的数据类型。,column,/ˈkɑːləm/,数据列,column 表示数据表中的一列，通常对应某种明确的数据类型。
+row 表示数据表中的一条横向记录，包含各个字段的值。,row,/roʊ/,数据行,row 表示数据表中的一条横向记录，包含各个字段的值。
+table join 根据关联条件组合多张表的数据，是查询分析的核心操作。,table join,/ˈteɪbəl dʒɔɪn/,表连接,table join 根据关联条件组合多张表的数据，是查询分析的核心操作。
+inner join 只保留两张表中关联条件能够匹配的记录。,inner join,/ˈɪnər dʒɔɪn/,内连接,inner join 只保留两张表中关联条件能够匹配的记录。
+outer join 会保留至少一侧没有匹配的数据行。,outer join,/ˈaʊtər dʒɔɪn/,外连接,outer join 会保留至少一侧没有匹配的数据行。
+left join 保留左表全部记录，右表缺失时用空值补齐。,left join,/left dʒɔɪn/,左连接,left join 保留左表全部记录，右表缺失时用空值补齐。
+right join 保留右表全部记录，左表没有匹配时显示空值。,right join,/raɪt dʒɔɪn/,右连接,right join 保留右表全部记录，左表没有匹配时显示空值。
+transaction log 记录数据库修改过程，可用于恢复和复制。,transaction log,/trænˈzækʃən lɔːɡ/,事务日志,transaction log 记录数据库修改过程，可用于恢复和复制。
+发生错误时可以执行 rollback，把事务恢复到开始前的状态。,rollback,/ˈroʊlbæk/,回滚,发生错误时可以执行 rollback，把事务恢复到开始前的状态。
+isolation level 决定并发事务之间能看到多少未提交数据。,isolation level,/ˌaɪsəˈleɪʃən ˈlevəl/,隔离级别,isolation level 决定并发事务之间能看到多少未提交数据。
+ACID 用来描述事务的原子性、一致性、隔离性和持久性。,ACID,/ˈæsɪd/,事务特性,ACID 用来描述事务的原子性、一致性、隔离性和持久性。
+normalization 通过拆分表减少重复数据，提高一致性。,normalization,/ˌnɔːrmələˈzeɪʃən/,规范化,normalization 通过拆分表减少重复数据，提高一致性。
+denormalization 会适当保留冗余字段，用空间换取查询速度。,denormalization,/ˌdiːˌnɔːrmələˈzeɪʃən/,反规范化,denormalization 会适当保留冗余字段，用空间换取查询速度。
+stored procedure 把数据库逻辑保存在服务端，可以减少网络往返。,stored procedure,/stɔːrd prəˈsiːdʒər/,存储过程,stored procedure 把数据库逻辑保存在服务端，可以减少网络往返。
+trigger 会在插入、更新或删除数据时自动执行指定逻辑。,trigger,/ˈtrɪɡər/,触发器,trigger 会在插入、更新或删除数据时自动执行指定逻辑。
+view 是对查询结果的虚拟表，可以让复杂逻辑更容易复用。,view,/vjuː/,视图,view 是对查询结果的虚拟表，可以让复杂逻辑更容易复用。
+materialized view 会保存查询结果，因此读取更快但需要定期刷新。,materialized view,/məˈtɪriəlaɪzd vjuː/,物化视图,materialized view 会保存查询结果，因此读取更快但需要定期刷新。
+cursor 允许程序逐行处理查询结果，但性能通常不如集合操作。,cursor,/ˈkɜːrsər/,游标,cursor 允许程序逐行处理查询结果，但性能通常不如集合操作。
+connection string 包含数据库地址、账号和参数等连接信息。,connection string,/kəˈnekʃən strɪŋ/,连接字符串,connection string 包含数据库地址、账号和参数等连接信息。
+seed data 用于初始化开发环境，让功能启动后就能看到样例。,seed data,/siːd ˈdeɪtə/,种子数据,seed data 用于初始化开发环境，让功能启动后就能看到样例。
+replication lag 表示从库数据落后主库的时间或事务数量。,replication lag,/ˌreplɪˈkeɪʃən læɡ/,复制延迟,replication lag 表示从库数据落后主库的时间或事务数量。
+sharding 把大数据集拆到多个数据库节点，以提高容量和吞吐。,sharding,/ˈʃɑːrdɪŋ/,分片,sharding 把大数据集拆到多个数据库节点，以提高容量和吞吐。
+partition key 决定数据被分配到哪个分片或分区。,partition key,/pɑːrˈtɪʃən kiː/,分区键,partition key 决定数据被分配到哪个分片或分区。
+composite key 由多个字段共同组成，用来唯一标识一条记录。,composite key,/kəmˈpɑːzɪt kiː/,复合键,composite key 由多个字段共同组成，用来唯一标识一条记录。
+unique key 保证字段组合不重复，但通常允许出现空值。,unique key,/juˈniːk kiː/,唯一键,unique key 保证字段组合不重复，但通常允许出现空值。
+constraint 限制字段取值范围或表间关系，防止写入非法数据。,constraint,/kənˈstreɪnt/,约束,constraint 限制字段取值范围或表间关系，防止写入非法数据。
+referential integrity 确保外键引用的记录真实存在，避免孤立数据。,referential integrity,/ˌrefəˈrenʃəl ɪnˈteɡrəti/,引用完整性,referential integrity 确保外键引用的记录真实存在，避免孤立数据。
+query optimizer 会评估多种执行方案，并选择成本较低的一种。,query optimizer,/ˈkwɪri ˈɑːptəmaɪzər/,查询优化器,query optimizer 会评估多种执行方案，并选择成本较低的一种。
+execution plan 展示查询将如何扫描、连接和排序数据。,execution plan,/ˌeksəˈkjuːʃən plæn/,执行计划,execution plan 展示查询将如何扫描、连接和排序数据。
+full table scan 会读取整张表，数据量大时通常需要优化。,full table scan,/fʊl ˈteɪbəl skæn/,全表扫描,full table scan 会读取整张表，数据量大时通常需要优化。
+covering index 包含查询所需字段，可以直接返回结果而少读原表。,covering index,/ˈkʌvərɪŋ ˈɪndeks/,覆盖索引,covering index 包含查询所需字段，可以直接返回结果而少读原表。
+lock wait 表示事务正在等待其他事务释放锁，时间过长会影响响应。,lock wait,/lɑːk weɪt/,锁等待,lock wait 表示事务正在等待其他事务释放锁，时间过长会影响响应。
+optimistic locking 通过版本号检测冲突，适合并发冲突较少的场景。,optimistic locking,/ˌɑːptɪˈmɪstɪk ˈlɑːkɪŋ/,乐观锁,optimistic locking 通过版本号检测冲突，适合并发冲突较少的场景。
+pessimistic locking 会先锁住记录再修改，能减少冲突但可能降低并发。,pessimistic locking,/ˌpesɪˈmɪstɪk ˈlɑːkɪŋ/,悲观锁,pessimistic locking 会先锁住记录再修改，能减少冲突但可能降低并发。
+eventual consistency 表示系统最终会一致，但短时间内允许副本不同步。,eventual consistency,/ɪˈventʃuəl kənˈsɪstənsi/,最终一致,eventual consistency 表示系统最终会一致，但短时间内允许副本不同步。
+strong consistency 要求读取永远看到最新写入，但通常代价更高。,strong consistency,/strɔːŋ kənˈsɪstənsi/,强一致,strong consistency 要求读取永远看到最新写入，但通常代价更高。
+CAP theorem 说明一致性、可用性和分区容忍无法同时完全满足。,CAP theorem,/ˌsiː eɪ ˈpiː ˈθɪərəm/,CAP 定理,CAP theorem 说明一致性、可用性和分区容忍无法同时完全满足。
+leader election 会在主节点失效时选出新的负责人。,leader election,/ˈliːdər ɪˈlekʃən/,领导者选举,leader election 会在主节点失效时选出新的负责人。
+consensus algorithm 帮助多个节点对同一个状态达成一致。,consensus algorithm,/kənˈsensəs ˈælɡərɪðəm/,共识算法,consensus algorithm 帮助多个节点对同一个状态达成一致。
+quorum 要求超过一定比例的节点同意，才能确认写入或选举结果。,quorum,/ˈkwɔːrəm/,法定人数,quorum 要求超过一定比例的节点同意，才能确认写入或选举结果。
+Raft 是一种容易理解的共识算法，常用于分布式协调。,Raft,/ræft/,共识协议,Raft 是一种容易理解的共识算法，常用于分布式协调。
+Paxos 是经典的分布式共识算法，但实现和理解都比较复杂。,Paxos,/ˈpæksɑːs/,共识协议,Paxos 是经典的分布式共识算法，但实现和理解都比较复杂。
+gossip protocol 通过节点间随机传播消息，最终同步集群状态。,gossip protocol,/ˈɡɑːsɪp ˈproʊtəkoʊl/,流言协议,gossip protocol 通过节点间随机传播消息，最终同步集群状态。
+vector database 针对向量相似度检索做了专门优化。,vector database,/ˈvektər ˈdeɪtəbeɪs/,向量数据库,vector database 针对向量相似度检索做了专门优化。
+time series database 适合保存带时间戳的监控指标和传感器数据。,time series database,/taɪm ˈsɪriːz ˈdeɪtəbeɪs/,时序数据库,time series database 适合保存带时间戳的监控指标和传感器数据。
+graph database 用节点和关系表达复杂连接，适合社交和推荐场景。,graph database,/ɡræf ˈdeɪtəbeɪs/,图数据库,graph database 用节点和关系表达复杂连接，适合社交和推荐场景。
+document database 以文档为单位保存半结构化数据，模式比较灵活。,document database,/ˈdɑːkjəmənt ˈdeɪtəbeɪs/,文档数据库,document database 以文档为单位保存半结构化数据，模式比较灵活。
+columnar database 按列存储数据，分析查询时通常扫描更少内容。,columnar database,/kəˈlʌmnər ˈdeɪtəbeɪs/,列式数据库,columnar database 按列存储数据，分析查询时通常扫描更少内容。
+in-memory database 把数据主要放在内存中，因此读写延迟很低。,in-memory database,/ɪn ˈmeməri ˈdeɪtəbeɪs/,内存数据库,in-memory database 把数据主要放在内存中，因此读写延迟很低。
+data lake 保存原始和多样化的数据，适合后续探索与分析。,data lake,/ˈdeɪtə leɪk/,数据湖,data lake 保存原始和多样化的数据，适合后续探索与分析。
+data lakehouse 结合数据湖的灵活性和数仓的查询治理能力。,data lakehouse,/ˈdeɪtə ˈleɪkhaʊs/,湖仓一体,data lakehouse 结合数据湖的灵活性和数仓的查询治理能力。
+ETL 先抽取、转换再加载数据，适合转换逻辑较重的流程。,ETL,/ˌiː tiː ˈel/,抽取转换加载,ETL 先抽取、转换再加载数据，适合转换逻辑较重的流程。
+ELT 先把原始数据加载到目标平台，再在平台内部完成转换。,ELT,/ˌiː el ˈtiː/,加载后转换,ELT 先把原始数据加载到目标平台，再在平台内部完成转换。
+data lineage 记录数据从来源到结果的流转路径，方便审计排查。,data lineage,/ˈdeɪtə ˈlɪniɪdʒ/,数据血缘,data lineage 记录数据从来源到结果的流转路径，方便审计排查。
+data catalog 集中描述数据资产、字段含义和负责人信息。,data catalog,/ˈdeɪtə ˈkætəlɔːɡ/,数据目录,data catalog 集中描述数据资产、字段含义和负责人信息。
+data governance 定义数据质量、权限和合规责任，必须长期执行。,data governance,/ˈdeɪtə ˈɡʌvərnəns/,数据治理,data governance 定义数据质量、权限和合规责任，必须长期执行。
+data quality 涉及准确性、完整性、及时性和一致性等维度。,data quality,/ˈdeɪtə ˈkwɑːləti/,数据质量,data quality 涉及准确性、完整性、及时性和一致性等维度。
+data mart 面向某个部门或主题，提供更聚焦的分析数据。,data mart,/ˈdeɪtə mɑːrt/,数据集市,data mart 面向某个部门或主题，提供更聚焦的分析数据。
+OLTP 系统处理大量短事务，强调并发和快速响应。,OLTP,/ˌoʊ el tiː ˈpiː/,联机事务处理,OLTP 系统处理大量短事务，强调并发和快速响应。
+OLAP 系统面向复杂分析，通常会扫描大量历史数据。,OLAP,/ˈoʊlæp/,联机分析处理,OLAP 系统面向复杂分析，通常会扫描大量历史数据。
+data modeling 通过实体和关系设计数据结构，为后续查询打基础。,data modeling,/ˈdeɪtə ˈmɑːdəlɪŋ/,数据建模,data modeling 通过实体和关系设计数据结构，为后续查询打基础。
+star schema 以事实表为中心，周围连接多个维度表。,star schema,/stɑːr ˈskiːmə/,星型模型,star schema 以事实表为中心，周围连接多个维度表。
+snowflake schema 会进一步规范化维度表，结构更复杂但冗余更少。,snowflake schema,/ˈsnoʊfleɪk ˈskiːmə/,雪花模型,snowflake schema 会进一步规范化维度表，结构更复杂但冗余更少。
+fact table 保存业务事件和可度量的数值指标。,fact table,/fækt ˈteɪbəl/,事实表,fact table 保存业务事件和可度量的数值指标。
+dimension table 描述分析对象的属性，例如时间、地区或产品。,dimension table,/dɪˈmenʃən ˈteɪbəl/,维度表,dimension table 描述分析对象的属性，例如时间、地区或产品。
+slowly changing dimension 用于跟踪维度属性随时间发生的变化。,slowly changing dimension,/ˈsloʊli ˈtʃeɪndʒɪŋ dɪˈmenʃən/,渐变维度,slowly changing dimension 用于跟踪维度属性随时间发生的变化。
+business intelligence 把数据转成报表和洞察，帮助管理者决策。,business intelligence,/ˈbɪznəs ɪnˈtelɪdʒəns/,商业智能,business intelligence 把数据转成报表和洞察，帮助管理者决策。
+dashboard 把关键指标集中展示，方便团队快速了解业务状态。,dashboard,/ˈdæʃbɔːrd/,数据看板,dashboard 把关键指标集中展示，方便团队快速了解业务状态。
+metric 是能够被持续测量的数值，例如转化率或响应时间。,metric,/ˈmetrɪk/,指标,metric 是能够被持续测量的数值，例如转化率或响应时间。
+KPI 用来衡量目标完成情况，应该与业务目标直接相关。,KPI,/ˌkeɪ piː ˈaɪ/,关键指标,KPI 用来衡量目标完成情况，应该与业务目标直接相关。
+anomaly detection 会识别偏离正常模式的数据点或事件。,anomaly detection,/əˈnɑːməli dɪˈtekʃən/,异常检测,anomaly detection 会识别偏离正常模式的数据点或事件。
+forecasting 根据历史数据预测未来趋势，常用于库存和需求规划。,forecasting,/ˈfɔːrkæstɪŋ/,预测,forecasting 根据历史数据预测未来趋势，常用于库存和需求规划。
+recommendation system 根据用户行为和相似度推荐可能感兴趣的内容。,recommendation system,/ˌrekəmenˈdeɪʃən ˈsɪstəm/,推荐系统,recommendation system 根据用户行为和相似度推荐可能感兴趣的内容。
+feature store 集中管理训练和推理使用的特征，减少重复加工。,feature store,/ˈfiːtʃər stɔːr/,特征平台,feature store 集中管理训练和推理使用的特征，减少重复加工。
+model training 使用历史样本调整参数，让模型学会预测规律。,model training,/ˈmɑːdəl ˈtreɪnɪŋ/,模型训练,model training 使用历史样本调整参数，让模型学会预测规律。
+inference 是模型接收新输入并输出预测结果的过程。,inference,/ˈɪnfərəns/,推理,inference 是模型接收新输入并输出预测结果的过程。
+model deployment 把训练好的模型发布到线上环境供业务调用。,model deployment,/ˈmɑːdəl dɪˈplɔɪmənt/,模型部署,model deployment 把训练好的模型发布到线上环境供业务调用。
+model registry 保存模型版本、指标和发布状态，方便追踪。,model registry,/ˈmɑːdəl ˈredʒɪstri/,模型仓库,model registry 保存模型版本、指标和发布状态，方便追踪。
+hyperparameter tuning 通过多组实验寻找更优的训练配置。,hyperparameter tuning,/ˌhaɪpərpəˈræmətər ˈtuːnɪŋ/,超参数调优,hyperparameter tuning 通过多组实验寻找更优的训练配置。
+cross validation 把数据分成多份轮流验证，评估模型是否稳定。,cross validation,/krɔːs ˌvælɪˈdeɪʃən/,交叉验证,cross validation 把数据分成多份轮流验证，评估模型是否稳定。
+confusion matrix 汇总分类结果中的正确和错误数量。,confusion matrix,/kənˈfjuːʒən ˈmeɪtrɪks/,混淆矩阵,confusion matrix 汇总分类结果中的正确和错误数量。
+precision 表示预测为正的样本中，实际为正的比例。,precision,/prɪˈsɪʒən/,精确率,precision 表示预测为正的样本中，实际为正的比例。
+recall 表示实际为正的样本中，被成功找出的比例。,recall,/rɪˈkɔːl/,召回率,recall 表示实际为正的样本中，被成功找出的比例。
+F1 score 综合考虑精确率和召回率，适合类别不平衡场景。,F1 score,/ˌef wʌn skɔːr/,综合评分,F1 score 综合考虑精确率和召回率，适合类别不平衡场景。
+ROC curve 展示不同阈值下分类器的真阳率和假阳率。,ROC curve,/ˌɑːr oʊ ˈsiː kɜːrv/,受试者曲线,ROC curve 展示不同阈值下分类器的真阳率和假阳率。
+bias 会让模型系统性偏离真实规律，即使数据很多也难以修正。,bias,/ˈbaɪəs/,偏差,bias 会让模型系统性偏离真实规律，即使数据很多也难以修正。
+variance 反映模型对训练数据波动是否过于敏感。,variance,/ˈveriəns/,方差,variance 反映模型对训练数据波动是否过于敏感。
+overfitting 会让模型记住训练噪声，却难以泛化到新数据。,overfitting,/ˌoʊvərˈfɪtɪŋ/,过拟合,overfitting 会让模型记住训练噪声，却难以泛化到新数据。
+underfitting 表示模型太简单，连训练数据中的规律也没有学到。,underfitting,/ˌʌndərˈfɪtɪŋ/,欠拟合,underfitting 表示模型太简单，连训练数据中的规律也没有学到。
+regularization 通过惩罚复杂模型来降低过拟合风险。,regularization,/ˌreɡjələrəˈzeɪʃən/,正则化,regularization 通过惩罚复杂模型来降低过拟合风险。
+gradient descent 沿损失下降方向更新参数，逐步逼近较优解。,gradient descent,/ˈɡreɪdiənt dɪˈsent/,梯度下降,gradient descent 沿损失下降方向更新参数，逐步逼近较优解。
+backpropagation 根据误差反向传播梯度，是神经网络训练的核心。,backpropagation,/ˌbækprɑːpəˈɡeɪʃən/,反向传播,backpropagation 根据误差反向传播梯度，是神经网络训练的核心。
+neural network 由多层节点组成，可以学习复杂的非线性关系。,neural network,/ˈnʊrəl ˈnetwɜːrk/,神经网络,neural network 由多层节点组成，可以学习复杂的非线性关系。
+deep learning 使用多层神经网络处理图像、语音和文本等任务。,deep learning,/diːp ˈlɜːrnɪŋ/,深度学习,deep learning 使用多层神经网络处理图像、语音和文本等任务。
+transformer 通过注意力机制处理序列，是现代大模型的重要结构。,transformer,/trænsˈfɔːrmər/,变换器,transformer 通过注意力机制处理序列，是现代大模型的重要结构。
+attention mechanism 让模型关注输入中更相关的部分，提高表达效果。,attention mechanism,/əˈtenʃən ˈmekənɪzəm/,注意力机制,attention mechanism 让模型关注输入中更相关的部分，提高表达效果。
+embedding 把词语或对象映射成向量，便于计算相似度。,embedding,/ɪmˈbedɪŋ/,嵌入向量,embedding 把词语或对象映射成向量，便于计算相似度。
+tokenization 把文本切分成模型能够处理的基本单元。,tokenization,/ˌtoʊkənaɪˈzeɪʃən/,分词,tokenization 把文本切分成模型能够处理的基本单元。
+prompt engineering 通过设计输入提示，引导模型产生更符合要求的结果。,prompt engineering,/prɑːmpt ˌendʒɪˈnɪrɪŋ/,提示工程,prompt engineering 通过设计输入提示，引导模型产生更符合要求的结果。
+fine tuning 在预训练模型上继续训练，以适应特定领域或任务。,fine tuning,/faɪn ˈtuːnɪŋ/,微调,fine tuning 在预训练模型上继续训练，以适应特定领域或任务。
+retrieval augmented generation 先检索资料再生成答案，可以减少凭空回答。,retrieval augmented generation,/rɪˈtriːvəl ɔːɡˈmentɪd ˌdʒenəˈreɪʃən/,检索增强生成,retrieval augmented generation 先检索资料再生成答案，可以减少凭空回答。
+vector search 通过向量距离寻找语义相近的内容。,vector search,/ˈvektər sɜːrtʃ/,向量检索,vector search 通过向量距离寻找语义相近的内容。
+semantic search 不只看关键词，还会理解查询和文档的含义。,semantic search,/sɪˈmæntɪk sɜːrtʃ/,语义搜索,semantic search 不只看关键词，还会理解查询和文档的含义。
+knowledge graph 用实体和关系组织知识，支持推理和关联查询。,knowledge graph,/ˈnɑːlɪdʒ ɡræf/,知识图谱,knowledge graph 用实体和关系组织知识，支持推理和关联查询。
+ontology 定义领域中的概念、关系和约束，是知识建模的基础。,ontology,/ɑːnˈtɑːlədʒi/,本体,ontology 定义领域中的概念、关系和约束，是知识建模的基础。
+NLP 研究计算机如何理解和生成自然语言。,NLP,/ˌen el ˈpiː/,自然语言处理,NLP 研究计算机如何理解和生成自然语言。
+computer vision 让机器从图像和视频中提取信息并作出判断。,computer vision,/kəmˈpjuːtər ˈvɪʒən/,计算机视觉,computer vision 让机器从图像和视频中提取信息并作出判断。
+OCR 把图片或扫描件中的文字转换成可编辑文本。,OCR,/ˌoʊ siː ˈɑːr/,光学字符识别,OCR 把图片或扫描件中的文字转换成可编辑文本。
+speech recognition 把语音转换成文字，常用于语音助手和会议记录。,speech recognition,/spiːtʃ ˌrekəɡˈnɪʃən/,语音识别,speech recognition 把语音转换成文字，常用于语音助手和会议记录。
+text to speech 把文字合成为自然语音，方便听读和语音交互。,text to speech,/tekst tə spiːtʃ/,语音合成,text to speech 把文字合成为自然语音，方便听读和语音交互。
+reinforcement learning 通过奖励和惩罚训练智能体选择行动。,reinforcement learning,/ˌriːɪnˈfɔːrsmənt ˈlɜːrnɪŋ/,强化学习,reinforcement learning 通过奖励和惩罚训练智能体选择行动。
+supervised learning 使用带标签样本训练模型预测目标值。,supervised learning,/ˈsuːpərvaɪzd ˈlɜːrnɪŋ/,监督学习,supervised learning 使用带标签样本训练模型预测目标值。
+unsupervised learning 从无标签数据中发现结构、群体或异常。,unsupervised learning,/ˌʌnˈsuːpərvaɪzd ˈlɜːrnɪŋ/,无监督学习,unsupervised learning 从无标签数据中发现结构、群体或异常。
+semi-supervised learning 同时利用少量标签和大量无标签数据。,semi-supervised learning,/ˌsemi ˈsuːpərvaɪzd ˈlɜːrnɪŋ/,半监督学习,semi-supervised learning 同时利用少量标签和大量无标签数据。
+clustering 把相似样本分到一组，常用于客户分群和图像分割。,clustering,/ˈklʌstərɪŋ/,聚类,clustering 把相似样本分到一组，常用于客户分群和图像分割。
+classification 预测样本属于哪个离散类别，例如垃圾邮件识别。,classification,/ˌklæsɪfɪˈkeɪʃən/,分类,classification 预测样本属于哪个离散类别，例如垃圾邮件识别。
+regression 预测连续数值，例如房价、销量或温度。,regression,/rɪˈɡreʃən/,回归,regression 预测连续数值，例如房价、销量或温度。
+batch inference 一次处理大量样本，适合离线评分和报表任务。,batch inference,/bætʃ ˈɪnfərəns/,批量推理,batch inference 一次处理大量样本，适合离线评分和报表任务。
+online inference 在用户请求到达时立即计算预测，延迟要求很高。,online inference,/ˈɑːnlaɪn ˈɪnfərəns/,在线推理,online inference 在用户请求到达时立即计算预测，延迟要求很高。
+model drift 表示线上数据变化以后，模型效果逐渐下降。,model drift,/ˈmɑːdəl drɪft/,模型漂移,model drift 表示线上数据变化以后，模型效果逐渐下降。
+data drift 表示输入数据分布发生变化，可能与训练阶段不同。,data drift,/ˈdeɪtə drɪft/,数据漂移,data drift 表示输入数据分布发生变化，可能与训练阶段不同。
+MLOps 把机器学习开发、部署和监控纳入工程流程。,MLOps,/ˌem el ˈɑːps/,机器学习运维,MLOps 把机器学习开发、部署和监控纳入工程流程。
+experiment tracking 记录每次训练的参数、指标和产物，方便复现。,experiment tracking,/ɪkˈsperəmənt ˈtrækɪŋ/,实验跟踪,experiment tracking 记录每次训练的参数、指标和产物，方便复现。
+model monitoring 持续观察线上模型效果、延迟和数据分布。,model monitoring,/ˈmɑːdəl ˈmɑːnɪtərɪŋ/,模型监控,model monitoring 持续观察线上模型效果、延迟和数据分布。
+virtual private cloud 在公有云中隔离出一块独立网络，资源不会直接暴露。,virtual private cloud,/ˈvɜːrtʃuəl ˈpraɪvət klaʊd/,虚拟私有云,virtual private cloud 在公有云中隔离出一块独立网络，资源不会直接暴露。
+cloud provider 提供计算、存储和网络等按需服务，企业可以快速扩容。,cloud provider,/klaʊd prəˈvaɪdər/,云服务商,cloud provider 提供计算、存储和网络等按需服务，企业可以快速扩容。
+region 表示云服务所在的地理区域，选择时要考虑延迟和合规要求。,region,/ˈriːdʒən/,云区域,region 表示云服务所在的地理区域，选择时要考虑延迟和合规要求。
+availability zone 是区域内相互隔离的数据中心，用于提高容灾能力。,availability zone,/əˌveɪləˈbɪləti zoʊn/,可用区,availability zone 是区域内相互隔离的数据中心，用于提高容灾能力。
+edge location 靠近用户部署缓存和加速节点，可以减少访问延迟。,edge location,/edʒ loʊˈkeɪʃən/,边缘节点,edge location 靠近用户部署缓存和加速节点，可以减少访问延迟。
+managed service 由云厂商负责维护底层平台，团队可以专注业务开发。,managed service,/ˈmænɪdʒd ˈsɜːrvɪs/,托管服务,managed service 由云厂商负责维护底层平台，团队可以专注业务开发。
+serverless 让开发者无需管理服务器，只为实际使用的资源付费。,serverless,/ˈsɜːrvərləs/,无服务器,serverless 让开发者无需管理服务器，只为实际使用的资源付费。
+function as a service 按事件触发短小函数，适合处理和自动化任务。,function as a service,/ˈfʌŋkʃən æz ə ˈsɜːrvɪs/,函数即服务,function as a service 按事件触发短小函数，适合处理和自动化任务。
+platform as a service 提供运行环境和中间件，开发者只需部署应用代码。,platform as a service,/ˈplætfɔːrm æz ə ˈsɜːrvɪs/,平台即服务,platform as a service 提供运行环境和中间件，开发者只需部署应用代码。
+infrastructure as a service 提供虚拟机、网络和存储等基础资源。,infrastructure as a service,/ˈɪnfrəstrʌktʃər æz ə ˈsɜːrvɪs/,基础设施服务,infrastructure as a service 提供虚拟机、网络和存储等基础资源。
+software as a service 通过浏览器直接提供软件，用户无需本地安装维护。,software as a service,/ˈsɔːftwer æz ə ˈsɜːrvɪs/,软件即服务,software as a service 通过浏览器直接提供软件，用户无需本地安装维护。
+resource quota 限制团队可以使用的计算、存储或网络资源上限。,resource quota,/rɪˈsɔːrs ˈkwoʊtə/,资源配额,resource quota 限制团队可以使用的计算、存储或网络资源上限。
+autoscaling 根据负载自动增加或减少实例数量，兼顾性能和成本。,autoscaling,/ˌɔːtoʊˈskeɪlɪŋ/,自动扩缩容,autoscaling 根据负载自动增加或减少实例数量，兼顾性能和成本。
+horizontal scaling 通过增加机器数量分担流量，适合无状态服务。,horizontal scaling,/ˌhɔːrɪˈzɑːntəl ˈskeɪlɪŋ/,横向扩容,horizontal scaling 通过增加机器数量分担流量，适合无状态服务。
+vertical scaling 通过提升单机配置增加能力，但很快会遇到硬件上限。,vertical scaling,/ˈvɜːrtɪkəl ˈskeɪlɪŋ/,纵向扩容,vertical scaling 通过提升单机配置增加能力，但很快会遇到硬件上限。
+scale up 会提高单台机器的 CPU 和内存配置，操作简单但有上限。,scale up,/skeɪl ʌp/,纵向扩容,scale up 会提高单台机器的 CPU 和内存配置，操作简单但有上限。
+scale down 会降低资源规格，适合夜间或低峰时段节约成本。,scale down,/skeɪl daʊn/,纵向缩容,scale down 会降低资源规格，适合夜间或低峰时段节约成本。
+scale out 会增加更多实例，让系统通过并行处理提高吞吐量。,scale out,/skeɪl aʊt/,横向扩容,scale out 会增加更多实例，让系统通过并行处理提高吞吐量。
+scale in 会减少多余实例，但要先确认剩余节点能承接全部流量。,scale in,/skeɪl ɪn/,横向缩容,scale in 会减少多余实例，但要先确认剩余节点能承接全部流量。
+load balancing 把请求分配到多个后端，避免单台服务器过载。,load balancing,/loʊd ˈbælənsɪŋ/,负载均衡,load balancing 把请求分配到多个后端，避免单台服务器过载。
+sticky session 会把同一用户请求固定到同一后端，减少会话丢失。,sticky session,/ˈstɪki ˈseʃən/,会话保持,sticky session 会把同一用户请求固定到同一后端，减少会话丢失。
+session affinity 让请求尽量回到原节点，但可能造成负载不均。,session affinity,/ˈseʃən əˈfɪnəti/,会话亲和,session affinity 让请求尽量回到原节点，但可能造成负载不均。
+health probe 定期检查服务状态，异常节点会被暂时移出流量池。,health probe,/helθ proʊb/,健康探针,health probe 定期检查服务状态，异常节点会被暂时移出流量池。
+readiness probe 判断实例是否可以接收请求，未就绪时不会进入负载均衡。,readiness probe,/ˈredinəs proʊb/,就绪探针,readiness probe 判断实例是否可以接收请求，未就绪时不会进入负载均衡。
+liveness probe 判断进程是否仍然存活，失败以后通常会重启容器。,liveness probe,/ˈlaɪvnəs proʊb/,存活探针,liveness probe 判断进程是否仍然存活，失败以后通常会重启容器。
+rolling update 逐个替换实例，发布过程中服务通常不会中断。,rolling update,/ˈroʊlɪŋ ˈʌpdeɪt/,滚动更新,rolling update 逐个替换实例，发布过程中服务通常不会中断。
+rolling restart 会依次重启所有实例，常用于加载新配置。,rolling restart,/ˈroʊlɪŋ ˌriːˈstɑːrt/,滚动重启,rolling restart 会依次重启所有实例，常用于加载新配置。
+deployment pipeline 把构建、测试和发布串成自动流程，减少人工失误。,deployment pipeline,/dɪˈplɔɪmənt ˈpaɪplaɪn/,部署流水线,deployment pipeline 把构建、测试和发布串成自动流程，减少人工失误。
+release pipeline 管理版本从测试环境进入生产环境的步骤。,release pipeline,/rɪˈliːs ˈpaɪplaɪn/,发布流水线,release pipeline 管理版本从测试环境进入生产环境的步骤。
+artifact repository 集中保存构建产物，方便版本追踪和重复部署。,artifact repository,/ˈɑːrtɪfækt rɪˈpɑːzətɔːri/,制品仓库,artifact repository 集中保存构建产物，方便版本追踪和重复部署。
+image registry 保存容器镜像，部署节点可以从这里拉取指定版本。,image registry,/ˈɪmɪdʒ ˈredʒɪstri/,镜像仓库,image registry 保存容器镜像，部署节点可以从这里拉取指定版本。
+build artifact 是构建流程生成的文件，应带有唯一版本标识。,build artifact,/bɪld ˈɑːrtɪfækt/,构建产物,build artifact 是构建流程生成的文件，应带有唯一版本标识。
+environment promotion 把同一版本从开发逐步提升到测试和生产。,environment promotion,/ɪnˈvaɪrənmənt prəˈmoʊʃən/,环境晋级,environment promotion 把同一版本从开发逐步提升到测试和生产。
+blue environment 是当前稳定版本，green environment 则用于验证新版本。,blue environment,/bluː ɪnˈvaɪrənmənt/,蓝色环境,blue environment 是当前稳定版本，green environment 则用于验证新版本。
+green environment 准备好以后，可以通过切流快速完成发布。,green environment,/ɡriːn ɪnˈvaɪrənmənt/,绿色环境,green environment 准备好以后，可以通过切流快速完成发布。
+canary deployment 先让少量用户使用新版本，观察指标后再扩大流量。,canary deployment,/kəˈneri dɪˈplɔɪmənt/,金丝雀发布,canary deployment 先让少量用户使用新版本，观察指标后再扩大流量。
+shadow deployment 会把真实流量复制到新版本，但不影响用户结果。,shadow deployment,/ˈʃædoʊ dɪˈplɔɪmənt/,影子部署,shadow deployment 会把真实流量复制到新版本，但不影响用户结果。
+dark launch 可以提前运行新功能，但暂时不向普通用户展示。,dark launch,/dɑːrk lɔːntʃ/,暗发布,dark launch 可以提前运行新功能，但暂时不向普通用户展示。
+traffic mirroring 把请求副本发送到测试服务，用于对比新旧行为。,traffic mirroring,/ˈtræfɪk ˈmɪrərɪŋ/,流量镜像,traffic mirroring 把请求副本发送到测试服务，用于对比新旧行为。
+feature toggle 允许在不重新部署的情况下开启或关闭功能。,feature toggle,/ˈfiːtʃər ˈtɑːɡəl/,功能开关,feature toggle 允许在不重新部署的情况下开启或关闭功能。
+configuration drift 指环境实际配置逐渐偏离期望状态。,configuration drift,/kənˌfɪɡjəˈreɪʃən drɪft/,配置漂移,configuration drift 指环境实际配置逐渐偏离期望状态。
+desired state 描述系统最终应该达到的状态，控制器会持续修正差异。,desired state,/dɪˈzaɪərd steɪt/,期望状态,desired state 描述系统最终应该达到的状态，控制器会持续修正差异。
+reconciliation loop 反复检查实际状态，并采取动作靠近期望状态。,reconciliation loop,/ˌrekənsɪliˈeɪʃən luːp/,调谐循环,reconciliation loop 反复检查实际状态，并采取动作靠近期望状态。
+Helm chart 把一组 Kubernetes 资源打包，便于参数化安装和升级。,Helm chart,/helm tʃɑːrt/,包管理模板,Helm chart 把一组 Kubernetes 资源打包，便于参数化安装和升级。
+Kubernetes 用于编排容器，可以自动调度、扩容和恢复应用。,Kubernetes,/ˌkuːbərˈnetɪs/,容器编排平台,Kubernetes 用于编排容器，可以自动调度、扩容和恢复应用。
+pod 是 Kubernetes 中最小的调度单元，可以包含一个或多个容器。,pod,/pɑːd/,容器组,pod 是 Kubernetes 中最小的调度单元，可以包含一个或多个容器。
+service account 为工作负载提供访问集群资源的身份。,service account,/ˈsɜːrvɪs əˈkaʊnt/,服务账号,service account 为工作负载提供访问集群资源的身份。
+role binding 把权限角色绑定到用户或服务账号。,role binding,/roʊl ˈbaɪndɪŋ/,角色绑定,role binding 把权限角色绑定到用户或服务账号。
+cluster role 定义集群级权限，可以跨命名空间使用。,cluster role,/ˈklʌstər roʊl/,集群角色,cluster role 定义集群级权限，可以跨命名空间使用。
+ingress controller 负责接收外部流量，并按规则转发到内部服务。,ingress controller,/ˈɪnɡres kənˈtroʊlər/,入口控制器,ingress controller 负责接收外部流量，并按规则转发到内部服务。
+init container 在主容器启动前运行，通常用于准备配置和检查依赖。,init container,/ˈɪnɪt kənˈteɪnər/,初始化容器,init container 在主容器启动前运行，通常用于准备配置和检查依赖。
+persistent volume 提供可持久保存的数据卷，不随容器重启而丢失。,persistent volume,/pərˈsɪstənt ˈvɑːljuːm/,持久卷,persistent volume 提供可持久保存的数据卷，不随容器重启而丢失。
+persistent volume claim 是工作负载申请持久存储资源的声明。,persistent volume claim,/pərˈsɪstənt ˈvɑːljuːm kleɪm/,持久卷声明,persistent volume claim 是工作负载申请持久存储资源的声明。
+config map 保存普通配置，应用可以挂载为文件或环境变量。,config map,/kənˈfɪɡ mæp/,配置映射,config map 保存普通配置，应用可以挂载为文件或环境变量。
+secret 保存密码、令牌和证书等敏感信息，并限制访问权限。,secret,/ˈsiːkrət/,密钥对象,secret 保存密码、令牌和证书等敏感信息，并限制访问权限。
+stateful set 适合需要稳定网络标识和持久存储的有状态应用。,stateful set,/ˈsteɪtfəl set/,有状态副本集,stateful set 适合需要稳定网络标识和持久存储的有状态应用。
+daemon set 会在每个节点运行一个副本，常用于日志和监控代理。,daemon set,/ˈdiːmən set/,守护副本集,daemon set 会在每个节点运行一个副本，常用于日志和监控代理。
+replica set 确保指定数量的 Pod 副本始终处于运行状态。,replica set,/ˈreplɪkə set/,副本集合,replica set 确保指定数量的 Pod 副本始终处于运行状态。
+deployment object 管理无状态应用版本，并支持滚动更新和回滚。,deployment object,/dɪˈplɔɪmənt ˈɑːbdʒekt/,部署对象,deployment object 管理无状态应用版本，并支持滚动更新和回滚。
+Kubernetes service 为一组 Pod 提供稳定的虚拟地址和负载均衡。,Kubernetes service,/ˌkuːbərˈnetɪs ˈsɜːrvɪs/,集群服务,Kubernetes service 为一组 Pod 提供稳定的虚拟地址和负载均衡。
+node pool 是配置相同的一组工作节点，可以独立扩缩容。,node pool,/noʊd puːl/,节点池,node pool 是配置相同的一组工作节点，可以独立扩缩容。
+resource request 告诉调度器容器至少需要多少 CPU 和内存。,resource request,/rɪˈsɔːrs rɪˈkwest/,资源请求,resource request 告诉调度器容器至少需要多少 CPU 和内存。
+resource limit 限制容器最多能使用的资源，避免影响其他服务。,resource limit,/rɪˈsɔːrs ˈlɪmɪt/,资源上限,resource limit 限制容器最多能使用的资源，避免影响其他服务。
+pod disruption budget 控制维护期间可以同时不可用的副本数量。,pod disruption budget,/pɑːd dɪsˈrʌpʃən ˈbʌdʒɪt/,中断预算,pod disruption budget 控制维护期间可以同时不可用的副本数量。
+affinity rule 根据标签把 Pod 倾向调度到某些节点或避开某些节点。,affinity rule,/əˈfɪnəti ruːl/,亲和规则,affinity rule 根据标签把 Pod 倾向调度到某些节点或避开某些节点。
+taint 给节点标记限制，只有能够容忍它的 Pod 才能调度过去。,taint,/teɪnt/,节点污点,taint 给节点标记限制，只有能够容忍它的 Pod 才能调度过去。
+toleration 允许 Pod 忽略节点上的特定 taint，从而完成调度。,toleration,/ˌtɑːləˈreɪʃən/,容忍规则,toleration 允许 Pod 忽略节点上的特定 taint，从而完成调度。
+control plane 负责集群决策和状态管理，不容易直接承载业务流量。,control plane,/kənˈtroʊl pleɪn/,控制平面,control plane 负责集群决策和状态管理，不容易直接承载业务流量。
+data plane 负责实际转发请求和处理数据，是性能优化的重点。,data plane,/ˈdeɪtə pleɪn/,数据平面,data plane 负责实际转发请求和处理数据，是性能优化的重点。
+worker node 运行应用 Pod，并向控制平面汇报健康状况。,worker node,/ˈwɜːrkər noʊd/,工作节点,worker node 运行应用 Pod，并向控制平面汇报健康状况。
+master node 保存集群控制组件，生产环境通常需要多副本。,master node,/ˈmæstər noʊd/,主节点,master node 保存集群控制组件，生产环境通常需要多副本。
+etcd 保存 Kubernetes 集群状态，是控制平面的关键数据存储。,etcd,/ˈet siː diː/,键值存储,etcd 保存 Kubernetes 集群状态，是控制平面的关键数据存储。
+Envoy proxy 常用于服务网格数据面，处理流量路由和指标采集。,Envoy proxy,/ˈenvɔɪ ˈprɑːksi/,代理软件,Envoy proxy 常用于服务网格数据面，处理流量路由和指标采集。
+retry policy 规定失败请求是否重试以及最多重试几次。,retry policy,/rɪˈtraɪ ˈpɑːləsi/,重试策略,retry policy 规定失败请求是否重试以及最多重试几次。
+backoff strategy 会在重试之间逐渐增加等待时间，避免压垮服务。,backoff strategy,/ˈbækɔːf ˈstrætədʒi/,退避策略,backoff strategy 会在重试之间逐渐增加等待时间，避免压垮服务。
+timeout budget 限制一次请求链路最多可以等待多久。,timeout budget,/ˈtaɪmaʊt ˈbʌdʒɪt/,超时预算,timeout budget 限制一次请求链路最多可以等待多久。
+bulkhead pattern 隔离不同资源池，避免一个故障拖垮整个系统。,bulkhead pattern,/ˈbʌlkhed ˈpætərn/,舱壁模式,bulkhead pattern 隔离不同资源池，避免一个故障拖垮整个系统。
+chaos engineering 主动注入故障，验证系统在异常条件下是否可靠。,chaos engineering,/ˈkeɪɑːs ˌendʒɪˈnɪrɪŋ/,混沌工程,chaos engineering 主动注入故障，验证系统在异常条件下是否可靠。
+telemetry 收集日志、指标和追踪数据，用于理解系统运行状态。,telemetry,/təˈlemətri/,遥测数据,telemetry 收集日志、指标和追踪数据，用于理解系统运行状态。
+trace span 表示一次调用链中的单个操作，包含耗时和上下文。,trace span,/treɪs spæn/,追踪片段,trace span 表示一次调用链中的单个操作，包含耗时和上下文。
+trace id 用来串联同一次请求经过的多个服务。,trace id,/treɪs aɪ ˈdiː/,追踪编号,trace id 用来串联同一次请求经过的多个服务。
+metric aggregation 把大量原始指标按时间或标签汇总。,metric aggregation,/ˈmetrɪk ˌæɡrɪˈɡeɪʃən/,指标聚合,metric aggregation 把大量原始指标按时间或标签汇总。
+alert rule 定义触发告警的条件，避免异常长时间无人发现。,alert rule,/əˈlɜːrt ruːl/,告警规则,alert rule 定义触发告警的条件，避免异常长时间无人发现。
+incident response 是故障发生后的沟通、定位和恢复流程。,incident response,/ˈɪnsɪdənt rɪˈspɑːns/,事故响应,incident response 是故障发生后的沟通、定位和恢复流程。
+postmortem 在事故结束后复盘原因，并形成可执行的改进项。,postmortem,/poʊstˈmɔːrtəm/,事故复盘,postmortem 在事故结束后复盘原因，并形成可执行的改进项。
+runbook 记录常见故障的处理步骤，让值班人员快速执行。,runbook,/ˈrʌnbʊk/,操作手册,runbook 记录常见故障的处理步骤，让值班人员快速执行。
+on-call rotation 安排工程师轮流值班，确保告警有人及时处理。,on-call rotation,/ˈɑːn kɔːl roʊˈteɪʃən/,值班轮换,on-call rotation 安排工程师轮流值班，确保告警有人及时处理。
+error budget 表示服务允许消耗的不可用时间或失败比例。,error budget,/ˈerər ˈbʌdʒɪt/,错误预算,error budget 表示服务允许消耗的不可用时间或失败比例。
+service level indicator 是直接测量服务质量的实际数值，用于评估目标。,service level indicator,/ˈsɜːrvɪs ˈlevəl ˈɪndəkeɪtər/,服务指标,service level indicator 是直接测量服务质量的实际数值，用于评估目标。
+saturation 表示资源接近上限的程度，是容量告警的重要依据。,saturation,/ˌsætʃəˈreɪʃən/,饱和度,saturation 表示资源接近上限的程度，是容量告警的重要依据。
+golden signal 包括延迟、流量、错误和饱和度四类关键监控信号。,golden signal,/ˈɡoʊldən ˈsɪɡnəl/,黄金信号,golden signal 包括延迟、流量、错误和饱和度四类关键监控信号。
+root cause analysis 追查问题产生的根本原因，而不是只处理表面现象。,root cause analysis,/ruːt kɔːz əˈnæləsɪs/,根因分析,root cause analysis 追查问题产生的根本原因，而不是只处理表面现象。
+capacity planning 根据增长趋势预估未来所需资源，避免临时扩容失败。,capacity planning,/kəˈpæsəti ˈplænɪŋ/,容量规划,capacity planning 根据增长趋势预估未来所需资源，避免临时扩容失败。
+cost optimization 在不影响可靠性的前提下减少云资源浪费。,cost optimization,/kɔːst ˌɑːptɪməˈzeɪʃən/,成本优化,cost optimization 在不影响可靠性的前提下减少云资源浪费。
+cloud migration 把应用和数据从本地环境迁移到云平台。,cloud migration,/klaʊd maɪˈɡreɪʃən/,云迁移,cloud migration 把应用和数据从本地环境迁移到云平台。
+lift and shift 指尽量少改代码，直接迁移到云上运行。,lift and shift,/lɪft ənd ʃɪft/,直接迁移,lift and shift 指尽量少改代码，直接迁移到云上运行。
+hybrid cloud 同时使用本地数据中心和公有云，适合渐进式迁移。,hybrid cloud,/ˈhaɪbrɪd klaʊd/,混合云,hybrid cloud 同时使用本地数据中心和公有云，适合渐进式迁移。
+multi-cloud 同时采用多家云厂商，可以降低锁定风险但也增加复杂度。,multi-cloud,/ˌmʌlti ˈklaʊd/,多云,multi-cloud 同时采用多家云厂商，可以降低锁定风险但也增加复杂度。
+private cloud 只服务单个组织，控制力强但建设和维护成本高。,private cloud,/ˈpraɪvət klaʊd/,私有云,private cloud 只服务单个组织，控制力强但建设和维护成本高。
+public cloud 由云厂商向公众提供资源，弹性强且按使用量计费。,public cloud,/ˈpʌblɪk klaʊd/,公有云,public cloud 由云厂商向公众提供资源，弹性强且按使用量计费。
+cloud region 通常包含多个可用区，服务可以选择部署位置。,cloud region,/klaʊd ˈriːdʒən/,云区域,cloud region 通常包含多个可用区，服务可以选择部署位置。
+fault domain 是可能同时发生故障的一组资源范围。,fault domain,/fɔːlt doʊˈmeɪn/,故障域,fault domain 是可能同时发生故障的一组资源范围。
+update domain 用于分批维护硬件，避免一次性影响所有实例。,update domain,/ˈʌpdeɪt doʊˈmeɪn/,更新域,update domain 用于分批维护硬件，避免一次性影响所有实例。
+managed database 由云服务商负责备份、补丁和故障恢复。,managed database,/ˈmænɪdʒd ˈdeɪtəbeɪs/,托管数据库,managed database 由云服务商负责备份、补丁和故障恢复。
+managed queue 提供可靠的消息投递，应用无需自行维护消息集群。,managed queue,/ˈmænɪdʒd kjuː/,托管队列,managed queue 提供可靠的消息投递，应用无需自行维护消息集群。
+managed cache 提供低延迟缓存服务，并自动处理扩容和故障。,managed cache,/ˈmænɪdʒd kæʃ/,托管缓存,managed cache 提供低延迟缓存服务，并自动处理扩容和故障。
+object lifecycle 定义对象在不同时间自动转档或删除的规则。,object lifecycle,/ˈɑːbdʒekt ˈlaɪfsaɪkəl/,对象生命周期,object lifecycle 定义对象在不同时间自动转档或删除的规则。
+storage tier 根据访问频率选择不同成本和性能的存储层。,storage tier,/ˈstɔːrɪdʒ tɪr/,存储层,storage tier 根据访问频率选择不同成本和性能的存储层。
+cold storage 适合很少访问的数据，成本低但取回时间较长。,cold storage,/koʊld ˈstɔːrɪdʒ/,冷存储,cold storage 适合很少访问的数据，成本低但取回时间较长。
+warm storage 适合偶尔访问的数据，在价格和读取速度之间平衡。,warm storage,/wɔːrm ˈstɔːrɪdʒ/,温存储,warm storage 适合偶尔访问的数据，在价格和读取速度之间平衡。
+web rendering 决定页面内容是在服务器还是浏览器中生成。,web rendering,/web ˈrendərɪŋ/,网页渲染,web rendering 决定页面内容是在服务器还是浏览器中生成。
+server-side rendering 会先在服务器生成 HTML，首屏通常显得更快。,server-side rendering,/ˈsɜːrvər saɪd ˈrendərɪŋ/,服务端渲染,server-side rendering 会先在服务器生成 HTML，首屏通常显得更快。
+client-side rendering 在浏览器中构建界面，交互丰富但首屏可能较慢。,client-side rendering,/ˈklaɪənt saɪd ˈrendərɪŋ/,客户端渲染,client-side rendering 在浏览器中构建界面，交互丰富但首屏可能较慢。
+static site generation 在构建时生成页面，部署后可以直接由 CDN 分发。,static site generation,/ˈstætɪk saɪt ˌdʒenəˈreɪʃən/,静态站点生成,static site generation 在构建时生成页面，部署后可以直接由 CDN 分发。
+hydration 把事件绑定到服务端生成的 HTML 上，让页面恢复交互。,hydration,/haɪˈdreɪʃən/,页面激活,hydration 把事件绑定到服务端生成的 HTML 上，让页面恢复交互。
+progressive web app 结合网页和原生应用体验，可以离线运行并安装。,progressive web app,/prəˈɡresɪv web æp/,渐进式应用,progressive web app 结合网页和原生应用体验，可以离线运行并安装。
+single page application 在首次加载后由前端接管路由，减少整页刷新。,single page application,/ˈsɪŋɡəl peɪdʒ ˌæplɪˈkeɪʃən/,单页应用,single page application 在首次加载后由前端接管路由，减少整页刷新。
+responsive design 让界面根据屏幕尺寸自动调整布局。,responsive design,/rɪˈspɑːnsɪv dɪˈzaɪn/,响应式设计,responsive design 让界面根据屏幕尺寸自动调整布局。
+viewport 表示浏览器当前可见区域，移动端布局会依赖它的尺寸。,viewport,/ˈvjuːpɔːrt/,可视区域,viewport 表示浏览器当前可见区域，移动端布局会依赖它的尺寸。
+flexbox 适合沿一个方向排列元素，并灵活分配剩余空间。,flexbox,/ˈfleksbɑːks/,弹性布局,flexbox 适合沿一个方向排列元素，并灵活分配剩余空间。
+grid layout 可以同时控制行和列，适合构建复杂二维布局。,grid layout,/ɡrɪd ˈleɪaʊt/,网格布局,grid layout 可以同时控制行和列，适合构建复杂二维布局。
+component library 提供可复用界面组件，帮助产品保持统一风格。,component library,/kəmˈpoʊnənt ˈlaɪbreri/,组件库,component library 提供可复用界面组件，帮助产品保持统一风格。
+design system 统一颜色、字体和交互规则，减少团队重复决策。,design system,/dɪˈzaɪn ˈsɪstəm/,设计系统,design system 统一颜色、字体和交互规则，减少团队重复决策。
+wireframe 用简单线条展示页面结构，先确认信息层级。,wireframe,/ˈwaɪərfreɪm/,线框图,wireframe 用简单线条展示页面结构，先确认信息层级。
+prototype 可以模拟真实交互，帮助团队在开发前验证方案。,prototype,/ˈproʊtətaɪp/,原型,prototype 可以模拟真实交互，帮助团队在开发前验证方案。
+user flow 描述用户完成任务时经过的页面和操作步骤。,user flow,/ˈjuːzər floʊ/,用户流程,user flow 描述用户完成任务时经过的页面和操作步骤。
+screen reader 会把界面内容读给视障用户，因此语义结构很重要。,screen reader,/skriːn ˈriːdər/,屏幕阅读器,screen reader 会把界面内容读给视障用户，因此语义结构很重要。
+color contrast 不足会让文字难以辨认，也会影响无障碍体验。,color contrast,/ˈkʌlər ˈkɑːntræst/,颜色对比,color contrast 不足会让文字难以辨认，也会影响无障碍体验。
+keyboard navigation 让用户不依赖鼠标也能完成主要操作。,keyboard navigation,/ˈkiːbɔːrd ˌnævɪˈɡeɪʃən/,键盘导航,keyboard navigation 让用户不依赖鼠标也能完成主要操作。
+form validation 在提交前检查输入格式，并给出清晰错误提示。,form validation,/fɔːrm ˌvælɪˈdeɪʃən/,表单校验,form validation 在提交前检查输入格式，并给出清晰错误提示。
+input mask 限制输入格式，例如电话号码或日期的固定样式。,input mask,/ˈɪnpʊt mæsk/,输入掩码,input mask 限制输入格式，例如电话号码或日期的固定样式。
+autocomplete 根据输入内容提示候选词，可以提高填写效率。,autocomplete,/ˌɔːtoʊkəmˈpliːt/,自动补全,autocomplete 根据输入内容提示候选词，可以提高填写效率。
+pagination 把大量结果分页显示，减少单次加载的数据量。,pagination,/ˌpædʒɪˈneɪʃən/,分页,pagination 把大量结果分页显示，减少单次加载的数据量。
+infinite scroll 在用户接近底部时自动加载更多内容。,infinite scroll,/ɪnˈfɪnət skroʊl/,无限滚动,infinite scroll 在用户接近底部时自动加载更多内容。
+lazy loading 延迟加载暂时看不到的图片或模块，提升首屏速度。,lazy loading,/ˈleɪzi ˈloʊdɪŋ/,延迟加载,lazy loading 延迟加载暂时看不到的图片或模块，提升首屏速度。
+virtual list 只渲染当前可见项目，适合非常长的列表。,virtual list,/ˈvɜːrtʃuəl lɪst/,虚拟列表,virtual list 只渲染当前可见项目，适合非常长的列表。
+drag and drop 让用户通过拖动完成排序、上传或分组。,drag and drop,/dræɡ ənd drɑːp/,拖放,drag and drop 让用户通过拖动完成排序、上传或分组。
+rich text editor 支持加粗、链接和图片等内容，同时生成结构化数据。,rich text editor,/rɪtʃ tekst ˈedɪtər/,富文本编辑器,rich text editor 支持加粗、链接和图片等内容，同时生成结构化数据。
+file upload 要把大文件分块传输，并显示进度和失败重试。,file upload,/faɪl ˈʌploʊd/,文件上传,file upload 要把大文件分块传输，并显示进度和失败重试。
+image optimization 通过压缩和合适尺寸减少图片体积。,image optimization,/ˈɪmɪdʒ ˌɑːptɪməˈzeɪʃən/,图片优化,image optimization 通过压缩和合适尺寸减少图片体积。
+responsive image 根据屏幕和网络条件选择不同分辨率的图片。,responsive image,/rɪˈspɑːnsɪv ˈɪmɪdʒ/,响应式图片,responsive image 根据屏幕和网络条件选择不同分辨率的图片。
+web font 会影响文字外观，但加载过多也会拖慢页面。,web font,/web fɑːnt/,网页字体,web font 会影响文字外观，但加载过多也会拖慢页面。
+icon font 用字体字符显示图标，但现代项目更常用内联 SVG。,icon font,/ˈaɪkɑːn fɑːnt/,图标字体,icon font 用字体字符显示图标，但现代项目更常用内联 SVG。
+SVG 使用矢量描述图形，放大以后仍然清晰且文件通常较小。,SVG,/ˌes viː ˈdʒiː/,矢量图形,SVG 使用矢量描述图形，放大以后仍然清晰且文件通常较小。
+canvas 提供像素级绘图接口，适合图表和实时动画。,canvas,/ˈkænvəs/,画布,canvas 提供像素级绘图接口，适合图表和实时动画。
+WebGL 允许浏览器直接调用图形硬件绘制三维场景。,WebGL,/ˈweb dʒiː el/,网页图形接口,WebGL 允许浏览器直接调用图形硬件绘制三维场景。
+WebAssembly 让其他语言编译出的代码在浏览器中接近原生速度运行。,WebAssembly,/ˈweb əˈsembli/,网页汇编,WebAssembly 让其他语言编译出的代码在浏览器中接近原生速度运行。
+service worker 可以拦截网络请求，为网页提供离线缓存能力。,service worker,/ˈsɜːrvɪs ˈwɜːrkər/,后台脚本,service worker 可以拦截网络请求，为网页提供离线缓存能力。
+offline cache 保存必要资源，让应用在网络中断时仍能打开。,offline cache,/ˈɔːflaɪn kæʃ/,离线缓存,offline cache 保存必要资源，让应用在网络中断时仍能打开。
+push notification 由服务器主动推送到设备，适合提醒即时事件。,push notification,/pʊʃ ˌnoʊtɪfɪˈkeɪʃən/,推送通知,push notification 由服务器主动推送到设备，适合提醒即时事件。
+background sync 会在网络恢复后重试上传或同步任务。,background sync,/ˈbækɡraʊnd sɪŋk/,后台同步,background sync 会在网络恢复后重试上传或同步任务。
+local storage 持久保存少量键值数据，浏览器关闭后仍然存在。,local storage,/ˈloʊkəl ˈstɔːrɪdʒ/,本地存储,local storage 持久保存少量键值数据，浏览器关闭后仍然存在。
+session storage 只在当前标签页会话中保存数据，关闭页面后清空。,session storage,/ˈseʃən ˈstɔːrɪdʒ/,会话存储,session storage 只在当前标签页会话中保存数据，关闭页面后清空。
+IndexedDB 适合保存大量结构化数据，并支持索引查询。,IndexedDB,/ˈɪndekst diː ˈbiː/,浏览器数据库,IndexedDB 适合保存大量结构化数据，并支持索引查询。
+content security policy 限制页面可以加载哪些脚本和资源。,content security policy,/ˈkɑːntent sɪˈkjʊrəti ˈpɑːləsi/,内容安全策略,content security policy 限制页面可以加载哪些脚本和资源。
+cross-site scripting 会把恶意脚本注入网页并影响其他用户。,cross-site scripting,/krɔːs saɪt ˈskrɪptɪŋ/,跨站脚本,cross-site scripting 会把恶意脚本注入网页并影响其他用户。
+cross-site request forgery 诱使已登录用户执行非预期操作，风险很高。,cross-site request forgery,/krɔːs saɪt rɪˈkwest ˈfɔːrdʒəri/,跨站请求伪造,cross-site request forgery 诱使已登录用户执行非预期操作，风险很高。
+SQL injection 利用未过滤输入拼接数据库语句，可能泄露或破坏数据。,SQL injection,/ˌes kjuː ˈel ɪnˈdʒekʃən/,数据库注入,SQL injection 利用未过滤输入拼接数据库语句，可能泄露或破坏数据。
+command injection 让攻击者把恶意命令传入系统执行。,command injection,/kəˈmænd ɪnˈdʒekʃən/,命令注入,command injection 让攻击者把恶意命令传入系统执行。
+path traversal 通过特殊路径访问服务器上不该开放的目录。,path traversal,/pæθ trəˈvɜːrsəl/,路径穿越,path traversal 通过特殊路径访问服务器上不该开放的目录。
+broken access control 会导致用户访问不属于自己的数据或功能。,broken access control,/ˈbroʊkən ˈækses kənˈtroʊl/,访问控制失效,broken access control 会导致用户访问不属于自己的数据或功能。
+insecure deserialization 处理不可信数据时可能触发恶意对象和远程执行。,insecure deserialization,/ˌɪnsɪˈkjʊr ˌdiːˌsɪriələˈzeɪʃən/,不安全解析,insecure deserialization 处理不可信数据时可能触发恶意对象和远程执行。
+dependency scanning 会检查第三方库是否包含已知漏洞。,dependency scanning,/dɪˈpendənsi ˈskænɪŋ/,依赖扫描,dependency scanning 会检查第三方库是否包含已知漏洞。
+secret scanning 在代码和提交历史中查找泄露的密码和令牌。,secret scanning,/ˈsiːkrət ˈskænɪŋ/,密钥扫描,secret scanning 在代码和提交历史中查找泄露的密码和令牌。
+penetration testing 模拟攻击者验证系统防护是否真实有效。,penetration testing,/ˌpenəˈtreɪʃən ˈtestɪŋ/,渗透测试,penetration testing 模拟攻击者验证系统防护是否真实有效。
+vulnerability scan 自动发现已知问题，但仍需要人工确认影响范围。,vulnerability scan,/ˌvʌlnərəˈbɪləti skæn/,漏洞扫描,vulnerability scan 自动发现已知问题，但仍需要人工确认影响范围。
+patch management 负责跟踪和安装安全更新，降低长期暴露风险。,patch management,/pætʃ ˈmænɪdʒmənt/,补丁管理,patch management 负责跟踪和安装安全更新，降低长期暴露风险。
+least privilege 要求用户和程序只拥有完成任务所需的最小权限。,least privilege,/liːst ˈprɪvəlɪdʒ/,最小权限,least privilege 要求用户和程序只拥有完成任务所需的最小权限。
+privilege escalation 指攻击者从普通权限提升到更高权限。,privilege escalation,/ˈprɪvəlɪdʒ ˌeskəˈleɪʃən/,权限提升,privilege escalation 指攻击者从普通权限提升到更高权限。
+sandboxing 把不可信代码限制在隔离环境中运行。,sandboxing,/ˈsændbɑːksɪŋ/,沙箱,sandboxing 把不可信代码限制在隔离环境中运行。
+honeypot 故意暴露诱饵系统，吸引攻击者并记录攻击行为。,honeypot,/ˈhʌnipɑːt/,蜜罐,honeypot 故意暴露诱饵系统，吸引攻击者并记录攻击行为。
+intrusion detection 持续分析流量和日志，发现可疑入侵行为。,intrusion detection,/ɪnˈtruːʒən dɪˈtekʃən/,入侵检测,intrusion detection 持续分析流量和日志，发现可疑入侵行为。
+SIEM 汇集日志和安全事件，帮助团队关联分析并触发告警。,SIEM,/ˌes aɪ iː ˈem/,安全信息管理,SIEM 汇集日志和安全事件，帮助团队关联分析并触发告警。
+SOAR 自动执行安全响应流程，减少人工重复操作。,SOAR,/sɔːr/,安全编排,SOAR 自动执行安全响应流程，减少人工重复操作。
+incident severity 表示安全或故障事件的严重程度，决定响应优先级。,incident severity,/ˈɪnsɪdənt səˈverəti/,事件等级,incident severity 表示安全或故障事件的严重程度，决定响应优先级。
+DDoS mitigation 在网络层和应用层过滤异常流量，保持服务可用。,DDoS mitigation,/ˌdiː diː oʊ ˈes ˌmɪtɪˈɡeɪʃən/,拒绝服务防护,DDoS mitigation 在网络层和应用层过滤异常流量，保持服务可用。
+web application firewall 根据规则拦截常见 Web 攻击请求，保护应用。,web application firewall,/web ˌæplɪˈkeɪʃən ˈfaɪərwɔːl/,应用防火墙,web application firewall 根据规则拦截常见 Web 攻击请求，保护应用。
+bot mitigation 识别自动化流量，并区分正常爬虫和恶意机器人。,bot mitigation,/bɑːt ˌmɪtɪˈɡeɪʃən/,机器人防护,bot mitigation 识别自动化流量，并区分正常爬虫和恶意机器人。
+abuse detection 通过行为模式识别滥用、刷量和恶意内容。,abuse detection,/əˈbjuːs dɪˈtekʃən/,滥用检测,abuse detection 通过行为模式识别滥用、刷量和恶意内容。
+fraud detection 结合规则和模型识别异常交易与欺诈行为。,fraud detection,/frɔːd dɪˈtekʃən/,欺诈检测,fraud detection 结合规则和模型识别异常交易与欺诈行为。
+account takeover 指攻击者控制合法用户账号并冒用身份。,account takeover,/əˈkaʊnt ˈteɪkoʊvər/,账号接管,account takeover 指攻击者控制合法用户账号并冒用身份。
+credential stuffing 使用泄露账号密码批量尝试登录其他网站。,credential stuffing,/krəˈdenʃəl ˈstʌfɪŋ/,撞库,credential stuffing 使用泄露账号密码批量尝试登录其他网站。
+password spraying 用少量常见密码尝试大量账号，降低锁定概率。,password spraying,/ˈpæswɜːrd ˈspreɪɪŋ/,密码喷洒,password spraying 用少量常见密码尝试大量账号，降低锁定概率。
+brute force 通过不断尝试猜测密码或密钥，遇到强策略时成本很高。,brute force,/bruːt fɔːrs/,暴力破解,brute force 通过不断尝试猜测密码或密钥，遇到强策略时成本很高。
+social engineering 利用信任和心理弱点诱导用户泄露敏感信息。,social engineering,/ˈsoʊʃəl ˌendʒɪˈnɪrɪŋ/,社会工程,social engineering 利用信任和心理弱点诱导用户泄露敏感信息。
+ransomware 会加密文件并索要赎金，备份和隔离是重要防线。,ransomware,/ˈrænsəmwer/,勒索软件,ransomware 会加密文件并索要赎金，备份和隔离是重要防线。
+zero-day 指厂商尚未发布补丁的未知漏洞，防护难度很高。,zero-day,/ˈzɪroʊ deɪ/,零日漏洞,zero-day 指厂商尚未发布补丁的未知漏洞，防护难度很高。
+exploit 是利用漏洞执行恶意操作的代码或方法。,exploit,/ɪkˈsplɔɪt/,漏洞利用,exploit 是利用漏洞执行恶意操作的代码或方法。
+payload 是攻击成功以后实际执行的动作或代码。,payload,/ˈpeɪloʊd/,有效载荷,payload 是攻击成功以后实际执行的动作或代码。
+backdoor 绕过正常认证，让攻击者以后可以再次进入系统。,backdoor,/ˈbækdɔːr/,后门,backdoor 绕过正常认证，让攻击者以后可以再次进入系统。
+rootkit 会隐藏自己的进程和文件，使安全人员难以发现。,rootkit,/ˈruːtkɪt/,隐藏程序,rootkit 会隐藏自己的进程和文件，使安全人员难以发现。
+bootkit 会在系统启动早期加载，因此比普通恶意程序更难清理。,bootkit,/ˈbuːtkɪt/,启动恶意程序,bootkit 会在系统启动早期加载，因此比普通恶意程序更难清理。
+logic bomb 平时不会运行，只有满足特定条件才触发破坏行为。,logic bomb,/ˈlɑːdʒɪk bɑːm/,逻辑炸弹,logic bomb 平时不会运行，只有满足特定条件才触发破坏行为。
+access token 代表用户或应用短期访问资源的凭证。,access token,/ˈækses ˈtoʊkən/,访问令牌,access token 代表用户或应用短期访问资源的凭证。
+refresh token 用于在访问令牌过期后获取新的访问权限。,refresh token,/rɪˈfreʃ ˈtoʊkən/,刷新令牌,refresh token 用于在访问令牌过期后获取新的访问权限。
+ID token 携带用户身份声明，通常由身份提供方签名。,ID token,/ˌaɪ ˈdiː ˈtoʊkən/,身份令牌,ID token 携带用户身份声明，通常由身份提供方签名。
+API key 用于识别调用方，但不能像高权限密码一样随意分发。,API key,/ˌeɪ piː ˈaɪ kiː/,接口密钥,API key 用于识别调用方，但不能像高权限密码一样随意分发。
+client secret 必须保存在服务端，不能直接写入前端代码。,client secret,/ˈklaɪənt ˈsiːkrət/,客户端密钥,client secret 必须保存在服务端，不能直接写入前端代码。
