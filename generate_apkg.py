@@ -24,7 +24,7 @@ DECKS_DIR = ROOT_DIR / "decks"
 OUTPUT_DIR = ROOT_DIR / "output"
 
 EXPECTED_HEADER = ["中文句", "英文词", "音标", "中文释义", "完整句"]
-EXPECTED_ROW_COUNT = 15
+EXPECTED_ROW_COUNT = 60
 
 # These IDs must stay fixed so Anki can update the same decks and notes.
 MODEL_ID = 1735689700
@@ -41,17 +41,17 @@ DECK_CONFIGS: Tuple[DeckConfig, ...] = (
     DeckConfig(
         key="computer",
         deck_id=1735689601,
-        deck_name="中文语境嵌词::计算机",
+        deck_name="mixedlanguage::计算机领域用词",
     ),
     DeckConfig(
         key="life",
         deck_id=1735689602,
-        deck_name="中文语境嵌词::生活常用",
+        deck_name="mixedlanguage::生活常用词",
     ),
     DeckConfig(
         key="travel",
         deck_id=1735689603,
-        deck_name="中文语境嵌词::旅游场景",
+        deck_name="mixedlanguage::旅游常用词",
     ),
 )
 

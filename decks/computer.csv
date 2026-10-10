@@ -5,7 +5,7 @@
 这个 monolith 越来越大，团队准备把用户模块拆出去。,monolith,/ˈmɑːnəlɪθ/,单体架构,这个 monolith 越来越大，团队准备把用户模块拆出去。
 先把修复登录问题的改动 merge 到主分支，再安排发布。,merge,/mɝːdʒ/,合并,先把修复登录问题的改动 merge 到主分支，再安排发布。
 新版本需要先 deploy 到测试环境，确认没问题再上线。,deploy,/dɪˈplɔɪ/,部署,新版本需要先 deploy 到测试环境，确认没问题再上线。
-这段代码的 bug 很难复现，我打算加些日志再 debug。,debug,/ˌdiːˈbʌɡ/,调试,这段代码的 bug 很难复现，我打算加些日志再 debug。
+这段代码的问题很难复现，我打算加些日志再 debug。,debug,/ˌdiːˈbʌɡ/,调试,这段代码的问题很难复现，我打算加些日志再 debug。
 热点数据放进 cache 以后，接口响应速度快了不少。,cache,/kæʃ/,缓存,热点数据放进 cache 以后，接口响应速度快了不少。
 完成接口重构后先 commit 一次，再交给同事审查。,commit,/kəˈmɪt/,提交,完成接口重构后先 commit 一次，再交给同事审查。
 这个 branch 已经落后很多了，先同步主分支再继续开发。,branch,/bræntʃ/,分支,这个 branch 已经落后很多了，先同步主分支再继续开发。
@@ -14,3 +14,48 @@
 数据库每天凌晨会自动 backup，不用担心误删数据。,backup,/ˈbækʌp/,备份,数据库每天凌晨会自动 backup，不用担心误删数据。
 这条 query 太慢了，可能需要给订单表加个索引。,query,/ˈkwɪri/,查询,这条 query 太慢了，可能需要给订单表加个索引。
 接口偶尔会 timeout，先检查下游服务是不是卡住了。,timeout,/ˈtaɪmˌaʊt/,超时,接口偶尔会 timeout，先检查下游服务是不是卡住了。
+这段代码要先 compile 成机器码，才能在这台服务器上运行。,compile,/kəmˈpaɪl/,编译,这段代码要先 compile 成机器码，才能在这台服务器上运行。
+这个程序的 runtime 比之前短了很多，优化确实有效果。,runtime,/ˈrʌnˌtaɪm/,运行时,这个程序的 runtime 比之前短了很多，优化确实有效果。
+把应用打包进 container 以后，换台机器部署会省事很多。,container,/kənˈteɪnər/,容器,把应用打包进 container 以后，换台机器部署会省事很多。
+数据库 cluster 昨晚扩容了一次，现在能承受更大的流量。,cluster,/ˈklʌstər/,集群,数据库 cluster 昨晚扩容了一次，现在能承受更大的流量。
+订单 database 突然连不上了，我们正在检查连接池配置。,database,/ˈdeɪtəbeɪs/,数据库,订单 database 突然连不上了，我们正在检查连接池配置。
+给这个字段加上 index 以后，慢查询终于恢复正常了。,index,/ˈɪndeks/,索引,给这个字段加上 index 以后，慢查询终于恢复正常了。
+这次 schema 调整会影响几张表，上线前必须仔细评审。,schema,/ˈskiːmə/,模式,这次 schema 调整会影响几张表，上线前必须仔细评审。
+转账过程必须放在一个 transaction 里，任何一步失败都要回滚。,transaction,/trænˈzækʃən/,事务,转账过程必须放在一个 transaction 里，任何一步失败都要回滚。
+这条 migration 会删除旧字段，执行前记得先备份数据库。,migration,/maɪˈɡreɪʃən/,迁移,这条 migration 会删除旧字段，执行前记得先备份数据库。
+这个 API 返回的数据太多，前端只需要其中的几个字段。,API,/ˌeɪ piː ˈaɪ/,接口,这个 API 返回的数据太多，前端只需要其中的几个字段。
+新的 endpoint 已经上线，客户端可以按文档切换过来。,endpoint,/ˈendpɔɪnt/,端点,新的 endpoint 已经上线，客户端可以按文档切换过来。
+浏览器发出的 request 里少了鉴权头，所以服务端直接拒绝了。,request,/rɪˈkwest/,请求,浏览器发出的 request 里少了鉴权头，所以服务端直接拒绝了。
+接口的 response 格式变了，前端代码也得跟着更新。,response,/rɪˈspɑːns/,响应,接口的 response 格式变了，前端代码也得跟着更新。
+这个 payload 太大了，网关可能会直接拒绝这次请求。,payload,/ˈpeɪloʊd/,载荷,这个 payload 太大了，网关可能会直接拒绝这次请求。
+用户登录后会拿到一个 token，后续请求都要带上它。,token,/ˈtoʊkən/,令牌,用户登录后会拿到一个 token，后续请求都要带上它。
+网站把登录状态存在 cookie 里，清理浏览器数据后就会退出。,cookie,/ˈkʊki/,浏览器数据,网站把登录状态存在 cookie 里，清理浏览器数据后就会退出。
+用户 session 过期了，需要重新登录才能继续操作。,session,/ˈseʃən/,会话,用户 session 过期了，需要重新登录才能继续操作。
+这个服务的 authentication 做得不严，任何人都能拿到管理权限。,authentication,/ɔːˌθentɪˈkeɪʃən/,身份验证,这个服务的 authentication 做得不严，任何人都能拿到管理权限。
+当前账号没有删除数据的 permission，得找管理员开通。,permission,/pərˈmɪʃən/,权限,当前账号没有删除数据的 permission，得找管理员开通。
+给新同事分配只读 role，避免他误改生产环境。,role,/roʊl/,角色,给新同事分配只读 role，避免他误改生产环境。
+新项目已经放到 repository 里了，大家先拉下来再开发。,repository,/rɪˈpɑːzətɔːri/,代码仓库,新项目已经放到 repository 里了，大家先拉下来再开发。
+这个 dependency 版本太旧，升级前要先跑一遍测试。,dependency,/dɪˈpendənsi/,依赖,这个 dependency 版本太旧，升级前要先跑一遍测试。
+我找到一个轻量的 library，可以省很多解析配置文件的代码。,library,/ˈlaɪbreri/,程序库,我找到一个轻量的 library，可以省很多解析配置文件的代码。
+团队决定换一个 framework，原来的代码要逐步迁移。,framework,/ˈfreɪmwɝːk/,框架,团队决定换一个 framework，原来的代码要逐步迁移。
+这个 algorithm 的复杂度太高，数据一多就会变得很慢。,algorithm,/ˈælɡərɪðəm/,算法,这个 algorithm 的复杂度太高，数据一多就会变得很慢。
+全局 variable 很容易被意外修改，最好限制它的作用范围。,variable,/ˈveriəbəl/,变量,全局 variable 很容易被意外修改，最好限制它的作用范围。
+先把这段逻辑抽成一个 function，后面复用会方便很多。,function,/ˈfʌŋkʃən/,函数,先把这段逻辑抽成一个 function，后面复用会方便很多。
+调用这个方法时要传三个 parameter，顺序不能弄错。,parameter,/pəˈræmətər/,参数,调用这个方法时要传三个 parameter，顺序不能弄错。
+程序抛出一个 exception 后没有处理，任务就中途停了。,exception,/ɪkˈsepʃən/,异常,程序抛出一个 exception 后没有处理，任务就中途停了。
+这个 loop 会一直执行，除非满足退出条件。,loop,/luːp/,循环,这个 loop 会一直执行，除非满足退出条件。
+返回结果是一个 array，你可以直接遍历里面的元素。,array,/əˈreɪ/,数组,返回结果是一个 array，你可以直接遍历里面的元素。
+用户输入会被当成 string 处理，计算前要先转换类型。,string,/strɪŋ/,字符串,用户输入会被当成 string 处理，计算前要先转换类型。
+这个配置项是 boolean 类型，不填真就只能填假。,boolean,/ˈbuːliən/,布尔值,这个配置项是 boolean 类型，不填真就只能填假。
+一个 thread 卡住以后，整个任务队列都变慢了。,thread,/θred/,线程,一个 thread 卡住以后，整个任务队列都变慢了。
+这个 process 占用了太多内存，重启服务后终于释放了。,process,/ˈprɑːses/,进程,这个 process 占用了太多内存，重启服务后终于释放了。
+服务器 memory 快用完了，先查一下哪个进程有问题。,memory,/ˈmeməri/,内存,服务器 memory 快用完了，先查一下哪个进程有问题。
+系统 disk 只剩百分之五，赶紧清理旧日志和临时文件。,disk,/dɪsk/,磁盘,系统 disk 只剩百分之五，赶紧清理旧日志和临时文件。
+办公室 network 突然断了，所有在线会议都受到影响。,network,/ˈnetwɝːk/,网络,办公室 network 突然断了，所有在线会议都受到影响。
+抓包工具显示每个 packet 都到达了，但服务端没有回应。,packet,/ˈpækɪt/,数据包,抓包工具显示每个 packet 都到达了，但服务端没有回应。
+跨国访问的 latency 很高，用户会感觉页面特别慢。,latency,/ˈleɪtənsi/,延迟,跨国访问的 latency 很高，用户会感觉页面特别慢。
+高峰期 bandwidth 不够用，视频会议经常变得很卡。,bandwidth,/ˈbændwɪdθ/,带宽,高峰期 bandwidth 不够用，视频会议经常变得很卡。
+敏感数据必须开启 encryption，不能直接明文保存。,encryption,/ɪnˈkrɪpʃən/,加密,敏感数据必须开启 encryption，不能直接明文保存。
+网站的 certificate 过期了，浏览器会提示连接不安全。,certificate,/sərˈtɪfɪkət/,证书,网站的 certificate 过期了，浏览器会提示连接不安全。
+服务出错时先看 log，里面通常会记录具体的异常信息。,log,/lɔːɡ/,日志,服务出错时先看 log，里面通常会记录具体的异常信息。
+安全团队发布了一个 patch，要求所有服务器尽快安装。,patch,/pætʃ/,补丁,安全团队发布了一个 patch，要求所有服务器尽快安装。
