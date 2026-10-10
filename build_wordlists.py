@@ -364,6 +364,96 @@ SENTENCE_OVERRIDES: Dict[Tuple[str, str], str] = {
     ): "别再 hesitate 了，错过这次机会你会后悔很久。",
 }
 
+SENTENCE_OPENERS: Dict[str, Tuple[str, ...]] = {
+    "computer": (
+        "排查问题时，",
+        "做项目维护时，",
+        "处理线上告警时，",
+        "准备上线前，",
+        "代码评审时，",
+        "结合监控数据，",
+        "复盘故障时，",
+        "部署新版本时，",
+        "检查配置时，",
+        "讨论技术方案时，",
+        "更新系统文档时，",
+        "安排测试计划时，",
+    ),
+    "life": (
+        "回想起来，",
+        "最近这段时间，",
+        "和朋友聊天时，",
+        "独自在家时，",
+        "处理日常琐事时，",
+        "经历那件事以后，",
+        "忙完工作以后，",
+        "周末休息时，",
+        "走在路上时，",
+        "面对家人时，",
+        "做决定以前，",
+        "整理房间时，",
+    ),
+    "travel": (
+        "出发以后，",
+        "到达当地时，",
+        "办理手续时，",
+        "自由行过程中，",
+        "在景点游玩时，",
+        "遇到行程变化时，",
+        "入住酒店以后，",
+        "准备返程时，",
+        "等待登机时，",
+        "咨询工作人员时，",
+        "查看旅行攻略时，",
+        "安排第二天计划时，",
+    ),
+}
+
+SENTENCE_CLOSERS: Dict[str, Tuple[str, ...]] = {
+    "computer": (
+        "相关风险已经记录",
+        "团队会继续跟进",
+        "目前运行基本稳定",
+        "后面还要补充验证",
+        "这次处理很有参考价值",
+        "问题已进入跟踪列表",
+        "后续测试会覆盖该场景",
+        "处理结果已经同步",
+        "线上指标没有异常",
+        "维护流程会更加清晰",
+        "这项检查不能省略",
+        "经验已经写入文档",
+    ),
+    "life": (
+        "这让我多了一点体会",
+        "后来我慢慢想明白了",
+        "现在回想仍然很有感触",
+        "生活也因此轻松了一些",
+        "这件事提醒我要多留心",
+        "我心里终于踏实了",
+        "以后再遇到会更从容",
+        "家人也很认可这个做法",
+        "这成了我的一点经验",
+        "之后我打算继续坚持",
+        "这个变化让人很舒服",
+        "我也学会了换位思考",
+    ),
+    "travel": (
+        "后面的行程顺利多了",
+        "这次经历很有帮助",
+        "大家终于松了一口气",
+        "问题很快就解决了",
+        "我们对当地也更熟悉了",
+        "这条路线值得推荐",
+        "旅途因此少了很多麻烦",
+        "工作人员的态度很不错",
+        "后面的安排没有受影响",
+        "这次体验让人印象深刻",
+        "同行的人都觉得很方便",
+        "下次来还会这样安排",
+    ),
+}
+
 
 @dataclass(frozen=True)
 class DomainConfig:
@@ -708,14 +798,14 @@ SENTENCE_TEMPLATES: Dict[str, Dict[str, Sequence[str]]] = {
     "computer": {
         "n": (
             "这次系统升级重点处理了 {word} 相关的问题，团队已经记录在案。",
-            "排查线上故障时，我们首先检查 {word} 的配置是否正确。",
+            "接口联调出现异常时，我们会逐项确认 {word} 的配置是否正确。",
             "新项目里会用到 {word}，文档里已经给出了具体说明。",
             "开发流程中如果忽略 {word}，后面很容易出现难以定位的问题。",
             "这套方案把 {word} 单独抽了出来，维护起来会更方便。",
             "版本发布前要再次核对 {word} 的配置，确认不会影响现有业务。",
             "准备上线时别忘了检查 {word}，很多故障都出在这个环节。",
             "发布窗口开始前，值班同事需要确认 {word} 已经达到预期状态。",
-            "每次改完配置都要复查 {word}，这样才能减少上线风险。",
+            "发布前检查清单里，必须包含 {word} 的状态确认，减少上线风险。",
             "培训新同事时，我会专门讲一下 {word} 的常见用法。",
             "日志里提到了 {word}，但还需要结合代码进一步分析。",
             "旧系统的 {word} 一直不稳定，我们准备在下个版本里统一整改。",
@@ -1146,23 +1236,63 @@ def select_candidates(
     return selected
 
 
-def sentence_for(candidate: Candidate, domain_key: str) -> str:
-    if (
+def sentence_for(
+    candidate: Candidate,
+    domain_key: str,
+    used_patterns: set,
+) -> str:
+    is_special = (
         domain_key == "life"
         and candidate.word.casefold() in SPECIAL_LIFE_WORDS
-    ):
-        index = zlib.crc32(candidate.word.casefold().encode("utf-8"))
-        return SPECIAL_LIFE_TEMPLATES[index % len(SPECIAL_LIFE_TEMPLATES)].format(
-            word=candidate.word
-        )
+    )
+    if is_special:
+        templates = SPECIAL_LIFE_TEMPLATES
+    else:
+        templates = SENTENCE_TEMPLATES[domain_key][candidate.pos]
 
-    templates = SENTENCE_TEMPLATES[domain_key][candidate.pos]
-    index = zlib.crc32(candidate.word.casefold().encode("utf-8")) % len(templates)
-    return templates[index].format(word=candidate.word)
+    pattern_group = "special" if is_special else candidate.pos
+    openers = SENTENCE_OPENERS[domain_key]
+    closers = SENTENCE_CLOSERS[domain_key]
+    total_patterns = len(templates) * len(openers) * len(closers)
+    start = zlib.crc32(candidate.word.casefold().encode("utf-8")) % total_patterns
+
+    pattern_index = start
+    for _ in range(total_patterns):
+        pattern_key = (pattern_group, pattern_index)
+        if pattern_key in used_patterns:
+            pattern_index = (pattern_index + 1) % total_patterns
+            continue
+
+        template_index = pattern_index % len(templates)
+        opener_index = (pattern_index // len(templates)) % len(openers)
+        closer_index = (
+            pattern_index // (len(templates) * len(openers))
+        ) % len(closers)
+
+        core = templates[template_index].format(word=candidate.word).rstrip("。")
+        sentence = "{}{}，{}。".format(
+            openers[opener_index],
+            core,
+            closers[closer_index],
+        )
+        han_count = sum(
+            len(sequence)
+            for sequence in HAN_SEQUENCE_RE.findall(sentence)
+        )
+        if 15 <= han_count <= 40:
+            used_patterns.add(pattern_key)
+            return sentence
+
+        pattern_index = (pattern_index + 1) % total_patterns
+    else:
+        raise BuildError(
+            "{} 的 {} 类例句组合已经用完".format(domain_key, candidate.pos)
+        )
 
 
 def write_deck(domain: DomainConfig, candidates: Sequence[Candidate]) -> None:
     output_path = DECKS_DIR / "{}.csv".format(domain.key)
+    used_patterns: set = set()
     with output_path.open("w", encoding="utf-8", newline="") as handle:
         writer = csv.writer(handle, lineterminator="\n")
         writer.writerow(["中文句", "英文词", "音标", "中文释义", "完整句"])
@@ -1170,7 +1300,11 @@ def write_deck(domain: DomainConfig, candidates: Sequence[Candidate]) -> None:
         for candidate in candidates:
             sentence = SENTENCE_OVERRIDES.get(
                 (domain.key, candidate.word.casefold()),
-                sentence_for(candidate, domain.key),
+                sentence_for(
+                    candidate,
+                    domain.key,
+                    used_patterns,
+                ),
             )
             meaning = MEANING_OVERRIDES.get(
                 (domain.key, candidate.word.casefold()),
