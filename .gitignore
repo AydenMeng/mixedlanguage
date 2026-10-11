@@ -2,3 +2,12 @@ __pycache__/
 *.py[cod]
 .venv/
 output/*.apkg
+!output/computer_ja.apkg
+!output/life_ja.apkg
+!output/travel_ja.apkg
+!output/computer_en_ja.apkg
+!output/life_en_ja.apkg
+!output/travel_en_ja.apkg
+!output/computer_en_zh.apkg
+!output/life_en_zh.apkg
+!output/travel_en_zh.apkg
